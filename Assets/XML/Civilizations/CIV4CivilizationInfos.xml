@@ -1,0 +1,5752 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<!-- advc.303: Not sure where comments are allowed in this file;
+     demonstrably not everywhere. Added NONE entries to the Barbarians
+	 starting at Monument (still called "Obelisk" internally) until
+	 Supermarket.
+	 advc.305: Removed (now allowed) Workboat.
+	 advc.307: Allowed Musketman
+	 Disallowed Frigate, Privateer, Paratrooper, Rifleman, Grenadier,
+	 Spy (kekm.6). -->
+<Civ4CivilizationInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_ROYAL_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_ROYAL_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ROYAL_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ROYAL_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_ROYAL_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUESTRIA_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROYAL_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Canterlot</City>
+				<City>Ponydom</City>
+				<City>Cloudsdale</City>	
+				<City>Manehatton</City>
+				<City>Dodge Junction</City>
+				<City>Las Pegasus</City>
+				<City>Vanhoover</City>	
+				<City>Fillydelphia</City>
+				<City>Baltimare</City>
+				<City>Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Hoofington</City>	
+				<City>Stableside</City>
+				<City>St Petershoof</City>	
+				<City>Stalliongrad</City>	
+				<City>Mareheim</City>
+				<City>Trottingham</City>	
+				<City>Dappleshore</City>	
+				<City>Canterbury</City>
+				<City>Derbyshire</City>	
+				<City>Haliflanks</City>	
+				<City>Detrot</City>
+				<City>Manebourne</City>
+				<City>New Canterlot</City>
+				<City>New Ponydom</City>
+				<City>New Cloudsdale</City>	
+				<City>New Manehatton</City>
+				<City>New Dodge Junction</City>
+				<City>New Las Pegasus</City>
+				<City>New Vanhoover</City>	
+				<City>New Fillydelphia</City>
+				<City>New Baltimare</City>
+				<City>New Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Hoofington</City>	
+				<City>New Stableside</City>
+				<City>New St Petershoof</City>	
+				<City>New Stalliongrad</City>	
+				<City>New Mareheim</City>
+				<City>New Trottingham</City>	
+				<City>New Dappleshore</City>	
+				<City>New Canterbury</City>
+				<City>New Derbyshire</City>	
+				<City>New Haliflanks</City>	
+				<City>New Detrot</City>
+				<City>New Manebourne</City>
+				<City>Old Canterlot</City>
+				<City>Old Ponydom</City>
+				<City>Old Cloudsdale</City>	
+				<City>Old Manehatton</City>
+				<City>Old Dodge Junction</City>
+				<City>Old Las Pegasus</City>
+				<City>Old Vanhoover</City>	
+				<City>Old Fillydelphia</City>
+				<City>Old Baltimare</City>
+				<City>Old Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Hoofington</City>	
+				<City>Old Stableside</City>
+				<City>Old St Petershoof</City>	
+				<City>Old Stalliongrad</City>	
+				<City>Old Mareheim</City>
+				<City>Old Trottingham</City>	
+				<City>Old Dappleshore</City>	
+				<City>Old Canterbury</City>
+				<City>Old Derbyshire</City>	
+				<City>Old Haliflanks</City>	
+				<City>Old Detrot</City>
+				<City>Old Manebourne</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_EQUESTRIA_CASTLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_ROYAL_GUARD</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CELESTIA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LUNA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STARSWIRL</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_EVENINGLOVE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_HARMONY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_DREAM_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_DREAM_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_DREAM_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DREAM_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUESTRIA_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DREAM_REALM</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Dream Realm</City>
+				<City>Dreamalot</City>
+				<City>Dreamdom</City>
+				<City>Dreamdale</City>	
+				<City>Dreamton</City>
+				<City>Dream Junction</City>
+				<City>Le Dreamius</City>
+				<City>Dreamover</City>	
+				<City>Dreamia</City>
+				<City>Dreamdare</City>
+				<City>Dreamiton</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Dreamius</City>	
+				<City>Dreamside</City>
+				<City>St Dreamus</City>	
+				<City>Dreamgrad</City>	
+				<City>Dreamhelm</City>
+				<City>Dreamzion</City>	
+				<City>Dreamshore</City>	
+				<City>Dreambury</City>
+				<City>Dreamshire</City>	
+				<City>Tantabus</City>	
+				<City>Dreamtrot</City>
+				<City>Dreambourne</City>
+				<City>New Dreamalot</City>
+				<City>New Dreamdom</City>
+				<City>New Dreamdale</City>	
+				<City>New Dreamton</City>
+				<City>New Dreamover</City>	
+				<City>New Dreamia</City>
+				<City>New Dreamdare</City>
+				<City>New Dreamiton</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Dreamius</City>	
+				<City>New Dreamside</City>
+				<City>New Dreamgrad</City>	
+				<City>New Dreamhelm</City>
+				<City>New Dreamzion</City>	
+				<City>New Dreamshore</City>	
+				<City>New Dreambury</City>
+				<City>New Dreamshire</City>	
+				<City>New Tantabus</City>	
+				<City>New Dreamtrot</City>
+				<City>New Dreambourne</City>
+				<City>Old Dreamalot</City>
+				<City>Old Dreamdom</City>
+				<City>Old Dreamdale</City>	
+				<City>Old Dreamton</City>
+				<City>Old Dreamover</City>	
+				<City>Old Dreamia</City>
+				<City>Old Dreamdare</City>
+				<City>Old Dreamiton</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Dreamius</City>	
+				<City>Old Dreamside</City>
+				<City>Old Dreamgrad</City>	
+				<City>Old Dreamhelm</City>
+				<City>Old Dreamzion</City>	
+				<City>Old Dreamshore</City>	
+				<City>Old Dreambury</City>
+				<City>Old Dreamshire</City>	
+				<City>Old Tantabus</City>	
+				<City>Old Dreamtrot</City>
+				<City>Old Dreambourne</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_DREAM_CASTLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<UnitType>UNIT_DREAM_SETTLER</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_TANTABUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LULLABY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AURORA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_EMADUSE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SWEETDREAMS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_MIRROR_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_MIRROR_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_MIRROR_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_MIRROR_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUESTRIA_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MIRROR_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Canterlot</City>
+				<City>Ponydom</City>	
+				<City>Manehatton</City>
+				<City>Las Pegasus</City>
+				<City>Vanhoover</City>	
+				<City>Fillydelphia</City>
+				<City>Baltimare</City>
+				<City>Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Hoofington</City>	
+				<City>St Petershoof</City>	
+				<City>Stalliongrad</City>	
+				<City>Trottingham</City>	
+				<City>Dappleshore</City>	
+				<City>Canterbury</City>
+				<City>Derbyshire</City>	
+				<City>Haliflanks</City>	
+				<City>Detrot</City>
+				<City>Manebourne</City>
+				<City>New Canterlot</City>
+				<City>New Ponydom</City>
+				<City>New Manehatton</City>
+				<City>New Las Pegasus</City>
+				<City>New Vanhoover</City>	
+				<City>New Fillydelphia</City>
+				<City>New Baltimare</City>
+				<City>New Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Hoofington</City>	
+				<City>New St Petershoof</City>	
+				<City>New Stalliongrad</City>	
+				<City>New Trottingham</City>	
+				<City>New Dappleshore</City>	
+				<City>New Canterbury</City>
+				<City>New Derbyshire</City>	
+				<City>New Haliflanks</City>	
+				<City>New Detrot</City>
+				<City>New Manebourne</City>
+				<City>Old Canterlot</City>
+				<City>Old Ponydom</City>	
+				<City>Old Manehatton</City>
+				<City>Old Dodge Junction</City>
+				<City>Old Las Pegasus</City>
+				<City>Old Vanhoover</City>	
+				<City>Old Fillydelphia</City>
+				<City>Old Baltimare</City>
+				<City>Old Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Hoofington</City>	
+				<City>Old St Petershoof</City>	
+				<City>Old Stalliongrad</City>	
+				<City>Old Trottingham</City>	
+				<City>Old Dappleshore</City>	
+				<City>Old Canterbury</City>
+				<City>Old Derbyshire</City>	
+				<City>Old Haliflanks</City>	
+				<City>Old Detrot</City>
+				<City>Old Manebourne</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+					<BuildingType>BUILDING_MIRROR_UNIVERSITY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPY</UnitClassType>
+					<UnitType>UNIT_MIRROR_SPY</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_FLASH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_PIXEL</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SUNSET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_GAEA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_WALLFLOWER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LEMON</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_JUNIPER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SOURSWEET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_VV</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DEMONSUNSET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EXPLORER</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_GRIFFON</Type>
+			<Description>TXT_KEY_CIV_GRIFFON_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_GRIFFON_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_GRIFFON_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_GRIFFON_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_GRIFFON_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GRIFFON</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_GRIFFON</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable><!--XANA: Marked Playable For AI-->
+			<Cities>
+				<City>Gryphus</City>
+				<City>Talos</City>
+				<City>Eagleland</City>
+				<City>Asgard</City>
+				<City>Pisa</City>
+				<City>Shirdalia</City>
+				<City>Griphosia</City>
+				<City>Griffondale</City>
+				<City>Keruvia</City>
+				<City>Gryphonville</City>	
+				<City>Petoria</City>
+				<City>Griffingrad</City>
+				<City>New Gryphus</City>
+				<City>New Talos</City>
+				<City>New Eagleland</City>
+				<City>New Asgard</City>
+				<City>New Pisa</City>
+				<City>New Shirdalia</City>
+				<City>New Griphosia</City>
+				<City>New Griffondale</City>
+				<City>New Keruvia</City>
+				<City>New Gryphonville</City>	
+				<City>New Petoria</City>
+				<City>New Griffingrad</City>
+				<City>Old Gryphus</City>
+				<City>Old Talos</City>
+				<City>Old Eagleland</City>
+				<City>Old Asgard</City>
+				<City>Old Pisa</City>
+				<City>Old Shirdalia</City>
+				<City>Old Griphosia</City>
+				<City>Old Griffondale</City>
+				<City>Old Keruvia</City>
+				<City>Old Gryphonville</City>	
+				<City>Old Petoria</City>
+				<City>Old Griffingrad</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+					<BuildingType>BUILDING_GRIFFON_MARKET</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
+					<UnitType>UNIT_GRIFFON_CHARIOT</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_GILDA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>	
+		<CivilizationInfo>
+			<Type>CIVILIZATION_BUFFALO</Type>
+			<Description>TXT_KEY_CIV_BUFFALO_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_BUFFALO_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_BUFFALO_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_BUFFALO_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BUFFALO_BROWN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_BUFFALO</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BUFFALO</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable><!--XANA: Marked Playable For AI-->
+			<Cities>
+				<City>Buffalo</City>
+				<City>Siox</City>
+				<City>Colterado Springs</City>
+				<City>Wisent</City>
+				<City>Bisontown</City>
+				<City>Bovinia</City>
+				<City>Gaurshire</City>
+				<City>Buffaloville</City>
+				<City>Bovinland</City>
+				<City>West Ungulata</City>
+				<City>M.Bison</City>
+				<City>St Buffalo</City>
+				<City>Dernacht</City>
+				<City>Wisentdale</City>
+				<City>New Siox</City>
+				<City>New Colterado Springs</City>
+				<City>New Wisent</City>
+				<City>New Bisontown</City>
+				<City>New Bovinia</City>
+				<City>New Gaurshire</City>
+				<City>New Buffaloville</City>
+				<City>New Bovinland</City>
+				<City>New West Ungulata</City>
+				<City>New M.Bison</City>
+				<City>New St Buffalo</City>
+				<City>New Dernacht</City>
+				<City>New Wisentdale</City>
+				<City>Old Siox</City>
+				<City>Old Colterado Springs</City>
+				<City>Old Wisent</City>
+				<City>Old Bisontown</City>
+				<City>Old Bovinia</City>
+				<City>Old Gaurshire</City>
+				<City>Old Buffaloville</City>
+				<City>Old Bovinland</City>
+				<City>Old West Ungulata</City>
+				<City>Old M.Bison</City>
+				<City>Old St Buffalo</City>
+				<City>Old Dernacht</City>
+				<City>Old Wisentdale</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>BUILDING_BUFFALO_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_BUFFALO_ARCHER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_STRONGHEART</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_CHANGELING</Type>
+			<Description>TXT_KEY_CIV_CHANGELING_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_CHANGELING_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CHANGELING_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_CHANGELING_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_CHANGELING_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CHANGELING</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_CHANGELING</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Hive</City>
+				<City>Nest</City>
+				<City>Badlands</City>
+				<City>Vespoidia</City>
+				<City>New Apocrita</City>
+				<City>South Formicid</City>
+				<City>Hymenoptera</City>
+				<City>Vespatown</City>
+				<City>Apocrita</City>
+				<City>Infelin</City>					
+				<City>Harpactorinae</City>
+				<City>Hexapoda</City>
+				<City>Ifestdon</City>	
+				<City>New Vespoidia</City>
+				<City>New Hymenoptera</City>
+				<City>New Vespatown</City>
+				<City>Old Apocrita</City>
+				<City>New Infelin</City>					
+				<City>New Harpactorinae</City>
+				<City>New Hexapoda</City>
+				<City>New Ifestdon</City>
+				<City>Old Vespoidia</City>
+				<City>Old Hymenoptera</City>
+				<City>Old Vespatown</City>
+				<City>Old Infelin</City>					
+				<City>Old Harpactorinae</City>
+				<City>Old Hexapoda</City>
+				<City>Old Ifestdon</City>				
+				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PUBLIC_TRANSPORTATION</BuildingClassType>
+					<BuildingType>BUILDING_CHANGELING_TRANSPORTATION</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPY</UnitClassType>
+					<UnitType>UNIT_INFILTRATOR</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CHRYSALIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_THORAX</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_THINGPONY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>	
+		<CivilizationInfo>
+			<Type>CIVILIZATION_EARTH</Type>
+			<Description>TXT_KEY_CIV_EARTH_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EARTH_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EARTH_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EARTH_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EARTH_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_EARTH</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Dirtville</City>
+				<City>Earth</City>				
+				<City>EP City</City>
+				<City>Ponyshire</City>
+				<City>Soilton</City>
+				<City>Dustworth</City>				
+				<City>Minerapolis</City>
+				<City>Loesslanding</City>
+				<City>Celeryburg</City>
+				<City>Beantown</City>				
+				<City>Stalkington</City>
+				<City>Florasworth</City>
+				<City>Vegstantonople</City>
+				<City>Earthville</City>
+				<City>New Dirtville</City>				
+				<City>New EP City</City>
+				<City>New Ponyshire</City>
+				<City>New Soilton</City>
+				<City>New Dustworth</City>				
+				<City>New Minerapolis</City>
+				<City>New Loesslanding</City>
+				<City>New Celeryburg</City>
+				<City>New Beantown</City>				
+				<City>New Stalkington</City>
+				<City>New Florasworth</City>
+				<City>New Vegstantonople</City>
+				<City>New Earthville</City>
+				<City>Old Dirtville</City>			
+				<City>Old EP City</City>
+				<City>Old Ponyshire</City>
+				<City>Old Soilton</City>
+				<City>Old Dustworth</City>				
+				<City>Old Minerapolis</City>
+				<City>Old Loesslanding</City>
+				<City>Old Celeryburg</City>
+				<City>Old Beantown</City>				
+				<City>Old Stalkington</City>
+				<City>Old Florasworth</City>
+				<City>Old Vegstantonople</City>
+				<City>Old Earthville</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SUPERMARKET</BuildingClassType>
+					<BuildingType>BUILDING_EARTH_SUPERMARKET</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+					<UnitType>UNIT_FARMER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_PUDDINGHEAD</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MARSHMALLOW</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_FREE_REPUBLIC</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_UNICORN</Type>
+			<Description>TXT_KEY_CIV_UNICORN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_UNICORN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_UNICORN_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_UNICORN_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_UNICORN_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_UNICORN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_UNICORN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Unicornia</City>
+				<City>Spiralton</City>
+				<City>Unicornburg</City>
+				<City>Re'emton</City>
+				<City>Unicornland</City>				
+				<City>Narwhashire</City>
+				<City>Chicorngo</City>
+				<City>Qilin Kong</City>
+				<City>Unicornton</City>
+				<City>Unicore</City>
+				<City>Nuelona</City>				
+				<City>Unicornton</City>
+				<City>Unicornburg</City>
+				<City>New Unicornia</City>
+				<City>New Spiralton</City>
+				<City>New Unicornburg</City>
+				<City>New Re'emton</City>
+				<City>New Unicornland</City>				
+				<City>New Narwhashire</City>
+				<City>New Chicorngo</City>
+				<City>New Qilin Kong</City>
+				<City>New Unicornton</City>
+				<City>New Unicore</City>
+				<City>New Nuelona</City>				
+				<City>New Unicornton</City>
+				<City>New Unicornburg</City>
+				<City>Old Unicornia</City>
+				<City>Old Spiralton</City>
+				<City>Old Unicornburg</City>
+				<City>Old Re'emton</City>
+				<City>Old Unicornland</City>				
+				<City>Old Narwhashire</City>
+				<City>Old Chicorngo</City>
+				<City>Old Qilin Kong</City>
+				<City>Old Unicornton</City>
+				<City>Old Unicore</City>
+				<City>Old Nuelona</City>				
+				<City>Old Unicornton</City>
+				<City>Old Unicornburg</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+					<BuildingType>BUILDING_UNICORN_UNIVERSITY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_UNICORN_MUSKETMAN</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_PLATINUM</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BLACKWING</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CLOUDY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_ELITEPONY</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>	
+		<CivilizationInfo>
+			<Type>CIVILIZATION_PEGASUS</Type>
+			<Description>TXT_KEY_CIV_PEGASUS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_PEGASUS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_PEGASUS_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_PEGASUS_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_PEGASUS_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_PEGASUS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Pegasopolis</City>
+				<City>Brisk</City>
+				<City>Aurora</City>
+				<City>Vaporia</City>
+				<City>Aerieanis</City>
+				<City>Aurora</City>
+				<City>Uaraia</City>
+				<City>Breezeburg</City>
+				<City>St Hurricane</City>
+				<City>Cumulonimbus</City>
+				<City>Incusland</City>
+				<City>Typhoon</City>	
+				<City>New Pegasopolis</City>
+				<City>New Brisk</City>
+				<City>New Aurora</City>
+				<City>New Vaporia</City>
+				<City>New Aerieanis</City>
+				<City>New Aurora</City>
+				<City>New Uaraia</City>
+				<City>New Breezeburg</City>
+				<City>New Hurricane</City>
+				<City>New Incusland</City>
+				<City>Old Pegasopolis</City>
+				<City>Old Brisk</City>
+				<City>Old Aurora</City>
+				<City>Old Vaporia</City>
+				<City>Old Aerieanis</City>
+				<City>Old Aurora</City>
+				<City>Old Uaraia</City>
+				<City>Old Breezeburg</City>
+				<City>Old Hurricane</City>
+				<City>Old Incusland</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+					<BuildingType>BUILDING_PEGASUS_FACTORY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_PEGASUS_HORSE_ARCHER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_HURRICANE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CLEARSKIES</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_BATPONY</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_CRYSTAL</Type>
+			<Description>TXT_KEY_CIV_CRYSTAL_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_CRYSTAL_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CRYSTAL_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_CRYSTAL_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_CRYSTAL_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CRYSTAL</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Crystal Empire</City>
+				<City>Quartz</City>
+				<City>Amethyst</City>
+				<City>Opal</City>
+				<City>Turquoise</City>
+				<City>Bauxite</City>
+				<City>Serpentine</City>
+				<City>Rhodochrosite</City>
+				<City>Almandine</City>	
+				<City>Sillimanite</City>
+				<City>Fluorite</City>
+				<City>Limestone</City>
+				<City>Geode</City>
+				<City>Agate</City>	
+				<City>Tourmaline</City>
+				<City>Babingtonite</City>
+				<City>New Crystal Empire</City>
+				<City>New Quartz</City>
+				<City>New Amethyst</City>
+				<City>New Opal</City>
+				<City>New Turquoise</City>
+				<City>New Bauxite</City>
+				<City>New Serpentine</City>
+				<City>New Rhodochrosite</City>
+				<City>New Almandine</City>	
+				<City>New Sillimanite</City>
+				<City>New Fluorite</City>
+				<City>New Limestone</City>
+				<City>New Geode</City>
+				<City>New Agate</City>	
+				<City>New Tourmaline</City>
+				<City>New Babingtonite</City>
+				<City>Old Crystal Empire</City>
+				<City>Old Quartz</City>
+				<City>Old Amethyst</City>
+				<City>Old Opal</City>
+				<City>Old Turquoise</City>
+				<City>Old Bauxite</City>
+				<City>Old Serpentine</City>
+				<City>Old Rhodochrosite</City>
+				<City>Old Almandine</City>	
+				<City>Old Sillimanite</City>
+				<City>Old Fluorite</City>
+				<City>Old Limestone</City>
+				<City>Old Geode</City>
+				<City>Old Agate</City>	
+				<City>Old Tourmaline</City>
+				<City>Old Babingtonite</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+					<BuildingType>BUILDING_CRYSTAL_COLOSSEUM</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_CRYSTAL_PIKEMAN</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_SOMBRA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_NEW_CRYSTAL</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_NEW_CRYSTAL</Type>
+			<Description>TXT_KEY_CIV_NEW_CRYSTAL_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_NEW_CRYSTAL_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CRYSTAL_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_CRYSTAL_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_CRYSTAL_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_NEW_CRYSTAL</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Crystal Empire</City>
+				<City>Quartz</City>
+				<City>Amethyst</City>
+				<City>Opal</City>
+				<City>Turquoise</City>
+				<City>Bauxite</City>
+				<City>Serpentine</City>
+				<City>Rhodochrosite</City>
+				<City>Almandine</City>	
+				<City>Sillimanite</City>
+				<City>Fluorite</City>
+				<City>Limestone</City>
+				<City>Geode</City>
+				<City>Agate</City>	
+				<City>Tourmaline</City>
+				<City>Babingtonite</City>
+				<City>New Crystal Empire</City>
+				<City>New Quartz</City>
+				<City>New Amethyst</City>
+				<City>New Opal</City>
+				<City>New Turquoise</City>
+				<City>New Bauxite</City>
+				<City>New Serpentine</City>
+				<City>New Rhodochrosite</City>
+				<City>New Almandine</City>	
+				<City>New Sillimanite</City>
+				<City>New Fluorite</City>
+				<City>New Limestone</City>
+				<City>New Geode</City>
+				<City>New Agate</City>	
+				<City>New Tourmaline</City>
+				<City>New Babingtonite</City>
+				<City>Old Crystal Empire</City>
+				<City>Old Quartz</City>
+				<City>Old Amethyst</City>
+				<City>Old Opal</City>
+				<City>Old Turquoise</City>
+				<City>Old Bauxite</City>
+				<City>Old Serpentine</City>
+				<City>Old Rhodochrosite</City>
+				<City>Old Almandine</City>	
+				<City>Old Sillimanite</City>
+				<City>Old Fluorite</City>
+				<City>Old Limestone</City>
+				<City>Old Geode</City>
+				<City>Old Agate</City>	
+				<City>Old Tourmaline</City>
+				<City>Old Babingtonite</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+					<BuildingType>BUILDING_CRYSTAL_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_NEW_CRYSTAL_PIKEMAN</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CADANCE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SHININGARMOR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_CRYSTAL</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_MUFFINLAND</Type>
+			<Description>TXT_KEY_CIV_MUFFINLAND_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_MUFFINLAND_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_MUFFINLAND_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_CRYSTAL_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MUFFINLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Muffinland</City>
+				<City>Sugar</City>
+				<City>Sweets</City>
+				<City>Baking</City>
+				<City>Muffins</City>
+				<City>Derpyville</City>
+				<City>Sweet Treats</City>
+				<City>Chocolate</City>
+				<City>Vanilia</City>	
+				<City>Sprinkles</City>
+				<City>Swirls</City>
+				<City>Strawberry</City>
+				<City>Blueberry</City>
+				<City>New Muffinland</City>
+				<City>New Sugar</City>
+				<City>New Sweets</City>
+				<City>New Baking</City>
+				<City>New Muffins</City>
+				<City>New Derpyville</City>
+				<City>Old Muffinland</City>
+				<City>Old Derpyville</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<BuildingType>BUILDING_MUFFIN_GRANARY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<UnitType>UNIT_MUFFIN_SETTLER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_DERPY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_COMMUNIST</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>	
+		<CivilizationInfo>
+			<Type>CIVILIZATION_DISCORD</Type>
+			<Description>TXT_KEY_CIV_DISCORD_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_DISCORD_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DISCORD_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_DISCORD_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DISCORD_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DISCORD</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Chaos Capital</City>
+				<City>Discordville</City>
+				<City>Discordburg</City>								
+				<City>Confusion</City>
+				<City>Turmoil</City>
+				<City>Discordia</City>				
+				<City>St Discord</City>	
+				<City>Los Discord</City>				
+				<City>Strife</City>
+				<City>Quarrel</City>
+				<City>Discordgrad</City>
+				<City>Discordton</City>		
+				<City>Disunity</City>
+				<City>Squabble</City>
+				<City>Discordon</City>
+				<City>New Discordia</City>
+				<City>Old Discordia</City>
+				<City>New Discordville</City>
+				<City>New Discordburg</City>											
+				<City>Los Discordos</City>				
+				<City>New Discordgrad</City>
+				<City>New Discordton</City>		
+				<City>New Disunity</City>
+				<City>New Discordon</City>
+				<City>Old Discordville</City>
+				<City>Old Discordburg</City>								
+				<City>Old Discordgrad</City>
+				<City>Old Discordton</City>		
+				<City>Old Disunity</City>
+				<City>Old Discordon</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>BUILDING_DISCORD_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
+					<UnitType>UNIT_DISCORD_CANNON</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_DISCORD</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SCREWBALL</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FLUTTERQUIET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>	
+		<CivilizationInfo>
+			<Type>CIVILIZATION_TIREK</Type>
+			<Description>TXT_KEY_CIV_TIREK_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TIREK_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TIREK_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_TIREK_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_TIREK_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_TIREK</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Tartarus</City>
+				<City>Nether</City>
+				<City>Elysium</City>
+				<City>Inferno</City>
+				<City>Tormentgrad</City>
+				<City>Limboville</City>
+				<City>Hades</City>
+				<City>Sheol</City>
+				<City>Friedhof</City>
+				<City>Pontus</City>
+				<City>Gimokodan</City>
+				<City>Kalichi</City>	
+				<City>Naraka</City>
+				<City>Hetgwauge</City>
+				<City>New Elysium</City>
+				<City>New Tormentgrad</City>
+				<City>New Limboville</City>
+				<City>New Hades</City>
+				<City>New Sheol</City>
+				<City>New Friedhof</City>
+				<City>New Pontus</City>
+				<City>New Gimokodan</City>
+				<City>New Kalichi</City>	
+				<City>New Naraka</City>
+				<City>New Hetgwauge</City>
+				<City>Old Tormentgrad</City>
+				<City>Old Limboville</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>BUILDING_DARK_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_TIREK_SWORDSMAN</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_TIREK</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CG</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_GROGAR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DARKMATTER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_SHADOW</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_FIRE_REALM</Type>
+			<Description>TXT_KEY_CIV_FIRE_REALM_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_FIRE_REALM_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FIRE_REALM_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_FIRE_REALM_SPECIAL_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_FIRE_REALM</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_UNICORN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Fire Realm</City>
+				<City>Eternal Flame</City>
+				<City>Eternal Fury</City>
+				<City>Fury</City>
+				<City>Blazing Fury</City>
+				<City>Blazing</City>
+				<City>Burning</City>
+				<City>Ashdale</City>
+				<City>Nether</City>
+				<City>Elysium</City>
+				<City>Inferno</City>
+				<City>Ash</City>
+				<City>Limboville</City>
+				<City>Hades</City>
+				<City>Sheol</City>
+				<City>Friedhof</City>
+				<City>Pontus</City>
+				<City>Gimokodan</City>
+				<City>Kalichi</City>	
+				<City>Naraka</City>
+				<City>Hetgwauge</City>
+				<City>New Elysium</City>
+				<City>New Tormentgrad</City>
+				<City>New Limboville</City>
+				<City>New Hades</City>
+				<City>New Sheol</City>
+				<City>New Friedhof</City>
+				<City>New Pontus</City>
+				<City>New Gimokodan</City>
+				<City>New Kalichi</City>	
+				<City>New Naraka</City>
+				<City>New Hetgwauge</City>
+				<City>Old Tormentgrad</City>
+				<City>Old Limboville</City>
+				<City>Flameville</City>
+				<City>Nightton</City>
+				<City>Red Flame</City>
+				<City>Blue Flame</City>
+				<City>White Flame</City>
+				<City>Black Flame</City>
+				<City>Red Fire</City>
+				<City>Blue Fire</City>
+				<City>White Fire</City>
+				<City>Black Fire</City>				
+				<City>Flamingdale</City>
+				<City>Fire Gorge</City>
+				<City>Le Fire</City>
+				<City>De Fire</City>
+				<City>Ashton</City>
+				<City>Fire City</City>
+				<City>Dark City</City>
+				<City>New Flameville</City>
+				<City>New Ashton</City>
+				<City>New Flamingdale</City>
+				<City>New Fire City</City>
+				<City>New Dark City</City>
+				<City>Old Fireville</City>
+				<City>Old Ashton</City>
+				<City>Old Flamingdale</City>
+				<City>Old Fire City</City>
+				<City>Old Dark City</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+					<BuildingType>BUILDING_FIRE_BARRACKS</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_FIRE_KNIGHT</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_FURY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_RUBYAURA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_RAGE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_SEAPONY</Type>
+			<Description>TXT_KEY_CIV_SEAPONY_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SEAPONY_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SEAPONY_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_SEAPONY_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_SEAPONY_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SEAPONY</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SEAPONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Aquastria</City>
+				<City>Ponyseidon</City>
+				<City>Atlantis</City>				
+				<City>Neptune</City>
+				<City>Etruscan</City>
+				<City>Pylos</City>
+				<City>Nethuns</City>	
+				<City>Rhea</City>
+				<City>Cronos</City>
+				<City>Triton</City>	
+				<City>Thera</City>	
+				<City>Belus</City>
+				<City>Polyphemus</City>	
+				<City>Neptunus Equester</City>
+				<City>New Aquastria</City>
+				<City>New Ponyseidon</City>
+				<City>New Atlantis</City>				
+				<City>New Neptune</City>
+				<City>New Etruscan</City>
+				<City>New Pylos</City>
+				<City>New Nethuns</City>	
+				<City>New Rhea</City>
+				<City>New Cronos</City>
+				<City>New Triton</City>	
+				<City>New Thera</City>	
+				<City>New Belus</City>
+				<City>New Polyphemus</City>
+				<City>Old Aquastria</City>
+				<City>Old Ponyseidon</City>
+				<City>Old Atlantis</City>				
+				<City>Old Neptune</City>
+				<City>Old Etruscan</City>
+				<City>Old Pylos</City>
+				<City>Old Nethuns</City>	
+				<City>Old Rhea</City>
+				<City>Old Cronos</City>
+				<City>Old Triton</City>	
+				<City>Old Thera</City>	
+				<City>Old Belus</City>
+				<City>Old Polyphemus</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_SEAPONY_LIGHTHOUSE</BuildingType>
+				</Building>
+			</Buildings>				
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
+					<UnitType>UNIT_SEAPONY_GALLEY</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_SEAPONY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SAPPHIREBLUE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_SIREN</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_SEAPONY_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_SEAPONY_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_SIREN</Type>
+			<Description>TXT_KEY_CIV_SIREN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SIREN_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SIREN_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_SEAPONY_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_SEAPONY_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SIREN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SEAPONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Aquastria</City>
+				<City>Ponyseidon</City>
+				<City>Atlantis</City>				
+				<City>Neptune</City>
+				<City>Etruscan</City>
+				<City>Pylos</City>
+				<City>Nethuns</City>	
+				<City>Rhea</City>
+				<City>Cronos</City>
+				<City>Triton</City>	
+				<City>Thera</City>	
+				<City>Belus</City>
+				<City>Polyphemus</City>	
+				<City>Neptunus Equester</City>
+				<City>New Aquastria</City>
+				<City>New Ponyseidon</City>
+				<City>New Atlantis</City>				
+				<City>New Neptune</City>
+				<City>New Etruscan</City>
+				<City>New Pylos</City>
+				<City>New Nethuns</City>	
+				<City>New Rhea</City>
+				<City>New Cronos</City>
+				<City>New Triton</City>	
+				<City>New Thera</City>	
+				<City>New Belus</City>
+				<City>New Polyphemus</City>
+				<City>Old Aquastria</City>
+				<City>Old Ponyseidon</City>
+				<City>Old Atlantis</City>				
+				<City>Old Neptune</City>
+				<City>Old Etruscan</City>
+				<City>Old Pylos</City>
+				<City>Old Nethuns</City>	
+				<City>Old Rhea</City>
+				<City>Old Cronos</City>
+				<City>Old Triton</City>	
+				<City>Old Thera</City>	
+				<City>Old Belus</City>
+				<City>Old Polyphemus</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingType>BUILDING_SIREN_THEATRE</BuildingType>
+				</Building>
+			</Buildings>				
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
+					<UnitType>UNIT_SIREN_SHIP</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_ADAGIO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ARIA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SONATA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_SEAPONY</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>		
+		<CivilizationInfo>
+			<Type>CIVILIZATION_MINOR</Type>
+			<Description>TXT_KEY_CIV_MINOR_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_MINOR_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_MINOR_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_MINOR_PEDIA</Civilopedia>
+			<!-- advc.002i: was WHITE (clashes with another civilization) -->
+			<DefaultPlayerColor>PLAYERCOLOR_BLACK_AND_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
+			<bPlayable>0</bPlayable>
+			<bAIPlayable>0</bAIPlayable>
+			<Cities>
+				<City>Everfree</City>
+				<City>Mt Dragon</City>			
+				<City>Marelin</City>
+				<City>Hufgrund</City>
+				<City>Flankfurt</City>
+				<City>Haflingen</City>
+				<City>Le Manes</City>
+				<City>Coat D' Azore</City>
+				<City>Guadeloope</City>
+				<City>Gazelle</City>
+				<City>Steebs</City>
+				<City>Coltro</City>
+				<City>Amarezon</City>
+				<City>Concordia</City>
+				<City>Equadoe</City>
+				<City>Elksburg</City>
+				<City>Fawntaine</City>
+				<City>Seaddle</City>
+				<City>Estagna</City>
+				<City>Himallama</City>
+				<City>Silverline</City>
+				<City>Cowpenhagen</City>
+				<City>Thatchholm</City>
+				<City>Grazezeld</City>
+				<City>Yoketo</City>
+				<City>Inuyuma</City>
+				<City>Hong Prong</City>
+				<City>Shanghay</City>
+				<City>Pandiwon</City>
+				<City>Be'Xian</City>
+				<City>Guoxia Shin</City>
+				<City>Ottapaw</City>
+				<City>Vanchewver</City>
+				<City>Quebark City</City>
+				<City>Pawland</City>
+				<City>Sibearia</City>
+				<City>Pretuskria</City>
+				<City>Erymanthus</City>
+				<City>Suidaenia</City>
+				<City>Gallopfrey</City>
+				<City>Rhineland</City>
+				<City>Spotsa</City>
+				<City>New Marelin</City>
+				<City>New Hufgrund</City>
+				<City>New Flankfurt</City>
+				<City>New Haflingen</City>
+				<City>New Guadeloope</City>
+				<City>New Gazelle</City>
+				<City>New Steebs</City>
+				<City>New Coltro</City>
+				<City>New Amarezon</City>
+				<City>New Concordia</City>
+				<City>New Equadoe</City>
+				<City>New Elksburg</City>
+				<City>New Fawntaine</City>
+				<City>New Seaddle</City>
+				<City>New Estagna</City>
+				<City>New Himallama</City>
+				<City>New Silverline</City>
+				<City>New Cowpenhagen</City>
+				<City>New Thatchholm</City>
+				<City>New Grazezeld</City>
+				<City>New Yoketo</City>
+				<City>New Inuyuma</City>
+				<City>New Hong Prong</City>
+				<City>New Shanghay</City>
+				<City>New Pandiwon</City>
+				<City>New Be'Xian</City>
+				<City>New Guoxia Shin</City>
+				<City>New Ottapaw</City>
+				<City>New Vanchewver</City>
+				<City>New Quebark City</City>
+				<City>New Pawland</City>
+				<City>New Sibearia</City>
+				<City>New Pretuskria</City>
+				<City>New Erymanthus</City>
+				<City>New Suidaenia</City>
+				<City>New Gallopfrey</City>
+				<City>New Rhineland</City>
+				<City>New Spotsa</City>
+				<City>Old Marelin</City>
+				<City>Old Hufgrund</City>
+				<City>Old Flankfurt</City>
+				<City>Old Haflingen</City>
+				<City>Old Guadeloope</City>
+				<City>Old Gazelle</City>
+				<City>Old Steebs</City>
+				<City>Old Coltro</City>
+				<City>Old Amarezon</City>
+				<City>Old Concordia</City>
+				<City>Old Equadoe</City>
+				<City>Old Elksburg</City>
+				<City>Old Fawntaine</City>
+				<City>Old Seaddle</City>
+				<City>Old Estagna</City>
+				<City>Old Himallama</City>
+				<City>Old Silverline</City>
+				<City>Old Cowpenhagen</City>
+				<City>Old Thatchholm</City>
+				<City>Old Grazezeld</City>
+				<City>Old Yoketo</City>
+				<City>Old Inuyuma</City>
+				<City>Old Hong Prong</City>
+				<City>Old Shanghay</City>
+				<City>Old Pandiwon</City>
+				<City>Old Be'Xian</City>
+				<City>Old Guoxia Shin</City>
+				<City>Old Ottapaw</City>
+				<City>Old Vanchewver</City>
+				<City>Old Pawland</City>
+				<City>Old Sibearia</City>
+				<City>Old Pretuskria</City>
+				<City>Old Erymanthus</City>
+				<City>Old Suidaenia</City>
+				<City>Old Gallopfrey</City>
+				<City>Old Rhineland</City>
+				<City>Old Spotsa</City>
+			</Cities>
+			<Buildings/>
+			<Units/>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_BARBARIAN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound/>
+			<CivilizationActionSound/>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_TWILIGHT</Type>
+			<Description>TXT_KEY_CIV_TWILIGHT_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TWILIGHT_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TWILIGHT_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_TWILIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_TWILIGHT</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_UNICORN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equusville</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Equus</City>
+				<City>Equestridale</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Twilightville</City>	
+				<City>Whitetail Mountains</City>
+				<City>Twilight</City>	
+				<City>Sparkleton</City>	
+				<City>Twiville</City>
+				<City>Magicton</City>	
+				<City>Elements of Harmony</City>	
+				<City>Magic</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magicville</City>
+				<City>New Ponyville</City>
+				<City>New Ponyvilla</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Twilightville</City>	
+				<City>Redtail Mountains</City>
+				<City>New Twilight</City>	
+				<City>New Sparkleton</City>	
+				<City>New Twiville</City>
+				<City>New Magicton</City>	
+				<City>New Magicville</City>
+				<City>Old Ponyville</City>
+				<City>Old Ponyvilla</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Twilightville</City>	
+				<City>Bluetail Mountains</City>	
+				<City>Old Sparkleton</City>	
+				<City>Old Twiville</City>
+				<City>Old Magicton</City>	
+				<City>Old Magicville</City>	
+				<City>Orangetail Mountains</City>
+				<City>Purpletail Mountains</City>
+				<City>Blacktail Mountains</City>
+				<City>Greytail Mountains</City>
+				<City>Silvertail Mountains</City>			
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_HARMONY_CASTLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_ICBM</UnitClassType>
+					<UnitType>UNIT_HARMONY_MISSILE</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_TWILIGHT</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_RARITY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FLUTTERSHY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_RAINBOWDASH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_APPLEJACK</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_PINKIE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SPIKE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_YANDERESHY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LUSTERDAWN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_ROYAL_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_THUNDER</Type>
+			<Description>TXT_KEY_CIV_THUNDER_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_THUNDER_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_THUNDER_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_THUNDER</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Storm King Castle</City>
+				<City>Storm King City</City>
+				<City>Tempest City</City>
+				<City>Shadowville</City>	
+				<City>Thunder Town</City>
+				<City>Storm Gorge</City>
+				<City>Storm Kingville</City>
+				<City>Mt Thunder</City>
+				<City>Stormburg</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Stormy Mountains</City>
+				<City>New SK City</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Stormville</City>	
+				<City>Thunderstorm Mountains</City>
+				<City>Thunder</City>	
+				<City>New Storm Town</City>	
+				<City>Tempest</City>
+				<City>New Shadowburg</City>
+				<City>Old SK City</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Stormville</City>	
+				<City>Blacktail Mountains</City>	
+				<City>Charred</City>	
+				<City>Klugetown</City>
+				<City>Old Stormburg</City>	
+				<City>Tempest Mountains</City>
+				<City>Shadow Mountains</City>
+				<City>Storm Mountains</City>
+				<City>Storm City</City>
+				<City>Storm Town</City>			
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_THUNDER_CASTLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_TACTICAL_NUKE</UnitClassType>
+					<UnitType>UNIT_THUNDER_NUKE</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_STORMKING</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_TEMPEST</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_DRAGON</Type>
+			<Description>TXT_KEY_CIV_DRAGON_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_DRAGON_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DRAGON_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_TIREK_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DRAGON</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Dragon Mountain</City>
+				<City>Dragon Ridge</City>
+				<City>Dragon City</City>
+				<City>Dragonville</City>	
+				<City>Dragon Town</City>
+				<City>Dragon Gorge</City>
+				<City>Dragon</City>
+				<City>Mt Dragon</City>
+				<City>Dragonburg</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Whitetail Mountains</City>
+				<City>New Dragon</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Dragonville</City>	
+				<City>Redtail Mountains</City>
+				<City>Ember</City>	
+				<City>New Dragon Town</City>	
+				<City>Garble</City>
+				<City>New Dragonburg</City>
+				<City>Old Dragon</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Dragonville</City>	
+				<City>Bluetail Mountains</City>	
+				<City>Old Amber</City>	
+				<City>Old Dragon Town</City>
+				<City>Old Dragonburg</City>	
+				<City>Orangetail Mountains</City>
+				<City>Purpletail Mountains</City>
+				<City>Blacktail Mountains</City>
+				<City>Greytail Mountains</City>
+				<City>Silvertail Mountains</City>			
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>BUILDING_DRAGON_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+					<UnitType>UNIT_ARMORED_PONY</UnitType>
+				</Unit>		
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_EMBER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_GARBLE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_VIRTUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_EQUALIST</Type>
+			<Description>TXT_KEY_CIV_EQUALIST_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EQUALIST_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EQUALIST_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUALIST_MIDDLE_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_EQUALIST</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Our Town</City>
+				<City>Starville</City>
+				<City>Equestrian Countryside</City>	
+				<City>The Town</City>
+				<City>Equal Junction</City>
+				<City>Equalis</City>
+				<City>Starburg</City>	
+				<City>Star</City>
+				<City>Equals</City>
+				<City>Equality</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Equal</City>	
+				<City>Glimmer</City>
+				<City>Starlight</City>	
+				<City>Glimmerdale</City>	
+				<City>Shareville</City>
+				<City>Shareton</City>	
+				<City>Shareshire</City>	
+				<City>Northton</City>
+				<City>Southton</City>	
+				<City>Westton</City>	
+				<City>Easton</City>
+				<City>Centerville</City>
+				<City>New Starville</City>
+				<City>New Town</City>
+				<City>New Equalis</City>
+				<City>New Starburg</City>	
+				<City>New Star</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Equals</City>	
+				<City>New Equal</City>
+				<City>New Glimmerdale</City>	
+				<City>New Shareville</City>
+				<City>New Sharedon</City>	
+				<City>New Shareshire</City>	
+				<City>New Northton</City>
+				<City>New Southton</City>	
+				<City>New Westton</City>	
+				<City>New Easton</City>
+				<City>New Centerville</City>
+				<City>Old Starville</City>
+				<City>Old Town</City>
+				<City>Old Equalis</City>
+				<City>Old Starburg</City>	
+				<City>Old Star</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Equals</City>	
+				<City>Old Equal</City>	
+				<City>Old Glimmerdale</City>	
+				<City>Old Shareville</City>
+				<City>Old Sharedon</City>	
+				<City>Old Shareshire</City>	
+				<City>Old Northton</City>
+				<City>Old Southton</City>	
+				<City>Old Westton</City>	
+				<City>Old Easton</City>
+				<City>Old Centerville</City>								
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_EQUALITY_COURTHOUSE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_EQUALITY_SWORDSMAN</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_STARLIGHT</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SNOWFALL</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_EQUALIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_IKVAALIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_COMMUNIST</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_NIGHT_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_NIGHT_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_NIGHT_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_NIGHT_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_NIGHT_EQUESTRIA_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_NIGHT_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Nightville</City>
+				<City>Nighton</City>
+				<City>Dark Night</City>	
+				<City>Nightingdale</City>
+				<City>Night Sky</City>
+				<City>Night</City>
+				<City>Eternal Night</City>	
+				<City>Low Light</City>
+				<City>Nighttime</City>
+				<City>Dark City</City>
+				<City>New Nightville</City>
+				<City>New Night</City>
+				<City>New Nightingdale</City>
+				<City>New Night City</City>
+				<City>New Dark City</City>
+				<City>Old Nightville</City>
+				<City>Old Nightton</City>
+				<City>Old Nightingdale</City>
+				<City>Old Night City</City>
+				<City>Old Dark City</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+					<BuildingType>BUILDING_BLACK_LIBRARY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_DARK_MAGIC_SWORDSMAN</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_TRIXIE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MIDNIGHT</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STRAWBERRY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SAFFRON</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DEMONSUNSET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DARKMATTER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LOPUTU</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_TARALICIOUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STORMY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_TSUMETAI</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_CRYSTAL</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_DNIGHT_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_DNIGHT_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_DNIGHT_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DNIGHT_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_NIGHT_EQUESTRIA_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DNIGHT_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Nightville</City>
+				<City>Nighton</City>
+				<City>Dark Night</City>	
+				<City>Nightingdale</City>
+				<City>Night Sky</City>
+				<City>Night</City>
+				<City>Eternal Night</City>	
+				<City>Low Light</City>
+				<City>Nighttime</City>
+				<City>Dark City</City>
+				<City>New Nightville</City>
+				<City>New Night</City>
+				<City>New Nightingdale</City>
+				<City>New Night City</City>
+				<City>New Dark City</City>
+				<City>Old Nightville</City>
+				<City>Old Nightton</City>
+				<City>Old Nightingdale</City>
+				<City>Old Night City</City>
+				<City>Midnight</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
+					<BuildingType>BUILDING_ENIGHT_JAIL</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_ENIGHT_MUSKETMAN</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_NMM</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_NR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_NERATH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_DDAY_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_DDAY_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_DDAY_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_DDAY_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DDAY_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DAY_EQUESTRIA_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DDAY_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Dayville</City>
+				<City>Dayton</City>
+				<City>Dark Days</City>	
+				<City>Brightness</City>
+				<City>Sun Gorge</City>
+				<City>Day</City>
+				<City>Eternal Day</City>	
+				<City>Brightville</City>
+				<City>Bright</City>
+				<City>Bright Sky</City>
+				<City>New Dayville</City>
+				<City>New Dayton</City>	
+				<City>New Brightville</City>
+				<City>Burns</City>
+				<City>New Burns</City>
+				<City>New Brightton</City>
+				<City>Old Dayville</City>
+				<City>Old Dayton</City>	
+				<City>Old Brightton</City>
+				<City>High Noon</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_EDAY_STABLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_DAYBREAKER_KNIGHT</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_DAYBREAKER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AQASHA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_DNIGHT_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_EQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DAY_EQUESTRIA_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_EQUESTRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equus</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Foaledo</City>
+				<City>San Franciscolt</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Seaddle</City>	
+				<City>Whinneapolis</City>
+				<City>Manechester</City>	
+				<City>Coltlumbus</City>	
+				<City>Cincinneighti</City>
+				<City>Indianeighpolis</City>	
+				<City>Elements of Harmony</City>	
+				<City>Albaneigh</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magic</City>
+				<City>New Ponyville</City>
+				<City>Neighton</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Manenila</City>	
+				<City>Mareton</City>
+				<City>Marerogate</City>	
+				<City>Cambraya</City>	
+				<City>Doneighgal</City>
+				<City>Ullafoal</City>	
+				<City>Yacoltsk</City>
+				<City>Old Ponyville</City>
+				<City>Cake Town</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Mareseilles</City>	
+				<City>Rubicon</City>	
+				<City>San Ferneighdo</City>	
+				<City>Yocoltsuka</City>
+				<City>Copeneighgen</City>	
+				<City>Old Magic</City>	
+				<City>Chicacolt</City>
+				<City>Marewaukee</City>
+				<City>Damarescus</City>
+				<City>Neighjing</City>
+				<City>Manebridge</City>
+				<City>Maregdeburg</City>
+				<City>Hooferville</City>
+				<City>Maresaw</City>	
+				<City>Bangcolt</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+					<BuildingType>BUILDING_EQUESTRIA_BANK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_EQUESTRIA_WARRIOR</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_RAINDROPS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ANGEL</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_VAPOR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MINUETTE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MM</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CHEERILEE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BONBON</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AMETHYSTSTAR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_TWINKLESHINE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SUNNYSKIES</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FLITTER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_WILDFIRE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STRAWBERRY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CG</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_KERFUFFLE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_COCO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AUTUMN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BAYBREEZE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CUTENOTE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LILYLACE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_HONEYDEW</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SWEETTREAT</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_CHRONO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_ADVOCATE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_BP</Type>
+			<Description>TXT_KEY_CIV_BP_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_BP_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_BP_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BP_MIDDLE_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_BP</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>0</bPlayable><!--XANA: Useful/Playable for AI Only - No Human Player Use-->
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Internet</City>
+				<City>Webton</City>
+				<City>Internetville</City>	
+				<City>Webville</City>
+				<City>Connnected</City>
+				<City>Disconnected</City>
+				<City>Searchton</City>	
+				<City>Searchville</City>
+				<City>Computerville</City>
+				<City>Computerton</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Secureton</City>
+				<City>Networkton</City>
+				<City>Networkville</City>	
+				<City>Collective Knowledge</City>
+				<City>Hybrid</City>
+				<City>New Hybrid</City>
+				<City>New Secureton</City>
+				<City>Secureus</City>
+				<City>New Secureus</City>	
+				<City>Securiton</City>
+				<City>Secureville</City>
+				<City>Antivirus</City>
+				<City>Antispyware</City>
+				<City>Tor</City>
+				<City>Firefox</City>	
+				<City>Pale Moon</City>
+				<City>Safari</City>
+				<City>Opera</City>
+				<City>Chrome</City>	
+				<City>IE</City>
+				<City>Internet Explorer</City>
+				<City>Antimalware</City>
+				<City>Security</City>
+				<City>Ivy</City>
+				<City>Chromia</City>	
+				<City>Browser</City>
+				<City>Browser Ponies</City>
+				<City>Browserton</City>
+				<City>Blogville</City>	
+				<City>Blogton</City>
+				<City>Antiransomware</City>
+				<City>Anitadware</City>
+				<City>Helpful</City>
+				<City>Protective</City>
+				<City>Browseria</City>
+				<City>Browserius</City>
+				<City>New Browserius</City>
+				<City>New Browseria</City>			
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+					<BuildingType>BUILDING_BP_FACTORY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+					<UnitType>UNIT_BROWSER_PONY</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CBP</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_OBP</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_IEBP</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FFBP</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_SB</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_BATPONY</Type>
+			<Description>TXT_KEY_CIV_BATPONY_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_BATPONY_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_BATPONY_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BATPONY_DARK_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_BATPONY</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Vampire City</City>
+				<City>Vampire Town</City>
+				<City>Vampire Village</City>
+				<City>Vampiria</City>
+				<City>Vampirion</City>
+				<City>Vampirius</City>
+				<City>Batponyton</City>
+				<City>Batburg</City>
+				<City>Flutterland</City>
+				<City>Shytopolis</City>
+				<City>Batdom</City>
+				<City>Batpony Gorge</City>
+				<City>Vampiriton</City>	
+				<City>New Vampire City</City>
+				<City>New Vampiria</City>
+				<City>New Vampirion</City>
+				<City>New Vampirius</City>
+				<City>New Batponyton</City>
+				<City>New Batburg</City>
+				<City>New Flutterland</City>
+				<City>New Shytopolis</City>
+				<City>New Batdom</City>
+				<City>New Vampiriton</City>
+				<City>Old Vampiria</City>
+				<City>Old Vampirion</City>
+				<City>Old Vampirius</City>
+				<City>Old Batponyton</City>
+				<City>Old Batburg</City>
+				<City>Old Flutterland</City>
+				<City>Old Shytopolis</City>
+				<City>Old Batdom</City>
+				<City>Old Vampiriton</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+					<BuildingType>BUILDING_BATPONY_MARKET</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_NIGHT_GUARD</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_FLUTTERBAT</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_STAR_HEAVEN</Type>
+			<Description>TXT_KEY_CIV_STAR_HEAVEN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_STAR_HEAVEN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_STAR_HEAVEN_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_STAR_HEAVEN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Star Heaven Empire</City>
+				<City>Astronomer's Town</City>
+				<City>Starborn Valley</City>
+				<City>Starry City</City>
+				<City>Night Skyius</City>
+				<City>Astronomer's City</City>
+				<City>Starton</City>
+				<City>Starburg</City>
+				<City>Starstorm City</City>
+				<City>Startopolis</City>
+				<City>Moongaze City</City>
+				<City>Star Haven</City>
+				<City>Stardom</City>	
+				<City>New Star City</City>
+				<City>New Star Haven</City>
+				<City>New Starry City</City>
+				<City>Dark Night</City>
+				<City>New Starton</City>
+				<City>New Starburg</City>
+				<City>New Moongaze City</City>
+				<City>New Startopolis</City>
+				<City>New Starstorm City</City>
+				<City>Sky</City>
+				<City>Moon</City>
+				<City>Starborn Valley</City>
+				<City>Old Stardom</City>
+				<City>Old Starton</City>
+				<City>Old Starburg</City>
+				<City>Old Star City</City>
+				<City>Old Startopolis</City>
+				<City>Old Stardom</City>
+				<City>New Moon</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
+					<BuildingType>BUILDING_STAR_HEAVEN_AIRPORT</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+					<UnitType>UNIT_STAR_HEAVEN_MODERN_ARMOR</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_MOONGAZE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STARSTORM</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DECA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_OCTAVIA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_THINGPONY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STELLARSPARK</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SOLAIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AEQUILIBRIUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_GAEA</Type>
+			<Description>TXT_KEY_CIV_GAEA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_GAEA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_GAEA_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_GAEA_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GAEA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Everfree</City>
+				<City>Mt Everfree</City>			
+				<City>Marelin</City>
+				<City>Hufgrund</City>
+				<City>Flankfurt</City>
+				<City>Haflingen</City>
+				<City>Le Manes</City>
+				<City>Coat D' Azore</City>
+				<City>Guadeloope</City>
+				<City>Gazelle</City>
+				<City>Steebs</City>
+				<City>Coltro</City>
+				<City>Amarezon</City>
+				<City>Concordia</City>
+				<City>Equadoe</City>
+				<City>Elksburg</City>
+				<City>Fawntaine</City>
+				<City>Seaddle</City>
+				<City>Estagna</City>
+				<City>Himallama</City>
+				<City>Silverline</City>
+				<City>Everline</City>
+				<City>Thatchholm</City>
+				<City>Grazezeld</City>
+				<City>Yoketo</City>
+				<City>Inuyuma</City>
+				<City>Hong Prong</City>
+				<City>Shanghay</City>
+				<City>Pandiwon</City>
+				<City>Be'Xian</City>
+				<City>Guoxia Shin</City>
+				<City>Ottapaw</City>
+				<City>Vanchewver</City>
+				<City>Quebark City</City>
+				<City>Pawland</City>
+				<City>Sibearia</City>
+				<City>Pretuskria</City>
+				<City>Erymanthus</City>
+				<City>Suidaenia</City>
+				<City>Gallopfrey</City>
+				<City>Rhineland</City>
+				<City>Spotsa</City>
+				<City>New Everfree</City>
+				<City>New Marelin</City>
+				<City>New Hufgrund</City>
+				<City>New Flankfurt</City>
+				<City>New Haflingen</City>
+				<City>New Guadeloope</City>
+				<City>New Gazelle</City>
+				<City>New Steebs</City>
+				<City>New Coltro</City>
+				<City>New Amarezon</City>
+				<City>New Concordia</City>
+				<City>New Equadoe</City>
+				<City>New Elksburg</City>
+				<City>New Fawntaine</City>
+				<City>New Seaddle</City>
+				<City>New Estagna</City>
+				<City>New Himallama</City>
+				<City>New Silverline</City>
+				<City>New Everline</City>
+				<City>New Thatchholm</City>
+				<City>New Grazezeld</City>
+				<City>New Yoketo</City>
+				<City>New Inuyuma</City>
+				<City>New Hong Prong</City>
+				<City>New Shanghay</City>
+				<City>New Pandiwon</City>
+				<City>New Be'Xian</City>
+				<City>New Guoxia Shin</City>
+				<City>New Ottapaw</City>
+				<City>New Vanchewver</City>
+				<City>New Quebark City</City>
+				<City>New Pawland</City>
+				<City>New Sibearia</City>
+				<City>New Pretuskria</City>
+				<City>New Erymanthus</City>
+				<City>New Suidaenia</City>
+				<City>New Gallopfrey</City>
+				<City>New Rhineland</City>
+				<City>New Spotsa</City>
+				<City>Old Marelin</City>
+				<City>Old Hufgrund</City>
+				<City>Old Flankfurt</City>
+				<City>Old Haflingen</City>
+				<City>Old Guadeloope</City>
+				<City>Old Gazelle</City>
+				<City>Old Steebs</City>
+				<City>Old Coltro</City>
+				<City>Old Amarezon</City>
+				<City>Old Concordia</City>
+				<City>Old Equadoe</City>
+				<City>Old Elksburg</City>
+				<City>Old Fawntaine</City>
+				<City>Old Seaddle</City>
+				<City>Old Estagna</City>
+				<City>Old Himallama</City>
+				<City>Old Silverline</City>
+				<City>Old Everline</City>
+				<City>Old Thatchholm</City>
+				<City>Old Grazezeld</City>
+				<City>Old Yoketo</City>
+				<City>Old Inuyuma</City>
+				<City>Old Hong Prong</City>
+				<City>Old Shanghay</City>
+				<City>Old Pandiwon</City>
+				<City>Old Be'Xian</City>
+				<City>Old Guoxia Shin</City>
+				<City>Old Ottapaw</City>
+				<City>Old Vanchewver</City>
+				<City>Old Pawland</City>
+				<City>Old Sibearia</City>
+				<City>Old Pretuskria</City>
+				<City>Old Erymanthus</City>
+				<City>Old Suidaenia</City>
+				<City>Old Gallopfrey</City>
+				<City>Old Rhineland</City>
+				<City>Old Spotsa</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<BuildingType>BUILDING_GAEA_GRANARY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_FOREST_ARCHER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_GAEA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MTS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MFS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+		<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+		<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_SB</Type>
+			<Description>TXT_KEY_CIV_SB_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SB_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SB_ADJECTIVE</Adjective>
+			<Civilopedia>No entry.</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_SB_DARK_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SB</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Robot Ponies</City>
+				<City>City 01</City>
+				<City>City 02</City>
+				<City>City 03</City>	
+				<City>City 04</City>
+				<City>City 05</City>
+				<City>City 06</City>
+				<City>City 07</City>	
+				<City>City 08</City>
+				<City>City 09</City>
+				<City>City 10</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>City 11</City>
+				<City>City 12</City>
+				<City>City 13</City>	
+				<City>City 14</City>
+				<City>City 15</City>
+				<City>City 16</City>
+				<City>City 17</City>
+				<City>City 18</City>
+				<City>City 19</City>	
+				<City>City 20</City>
+				<City>City 21</City>
+				<City>City 22</City>
+				<City>City 23</City>
+				<City>City 24</City>
+				<City>City 25</City>	
+				<City>City 26</City>
+				<City>City 27</City>
+				<City>City 28</City>
+				<City>City 29</City>	
+				<City>City 30</City>
+				<City>City 31</City>
+				<City>City 32</City>
+				<City>City 33</City>
+				<City>City 34</City>
+				<City>City 35</City>	
+				<City>City 36</City>
+				<City>City 37</City>
+				<City>City 38</City>
+				<City>City 39</City>	
+				<City>City 40</City>
+				<City>City 41</City>
+				<City>City 42</City>
+				<City>City 43</City>
+				<City>City 44</City>
+				<City>City 45</City>
+				<City>City 46</City>
+				<City>City 47</City>
+				<City>City 48</City>
+				<City>City 49</City>
+				<City>City 50</City>		
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+					<BuildingType>BUILDING_SB_FACTORY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+					<UnitType>UNIT_ROBOT_PONY</UnitType>
+				</Unit>			
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_SB</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_WIRLY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SM3000</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_ADVOCATE</Type>
+			<Description>TXT_KEY_CIV_ADVOCATE_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ADVOCATE_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ADVOCATE_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ADVOCATE</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equus</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Foaledo</City>
+				<City>San Franciscolt</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Seaddle</City>	
+				<City>Whinneapolis</City>
+				<City>Manechester</City>	
+				<City>Coltlumbus</City>	
+				<City>Cincinneighti</City>
+				<City>Indianeighpolis</City>	
+				<City>Elements of Harmony</City>	
+				<City>Albaneigh</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magic</City>
+				<City>New Ponyville</City>
+				<City>Neighton</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Manenila</City>	
+				<City>Mareton</City>
+				<City>Marerogate</City>	
+				<City>Cambraya</City>	
+				<City>Doneighgal</City>
+				<City>Ullafoal</City>	
+				<City>Yacoltsk</City>
+				<City>Old Ponyville</City>
+				<City>Cake Town</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Mareseilles</City>	
+				<City>Rubicon</City>	
+				<City>San Ferneighdo</City>	
+				<City>Yocoltsuka</City>
+				<City>Copeneighgen</City>	
+				<City>Old Magic</City>	
+				<City>Chicacolt</City>
+				<City>Marewaukee</City>
+				<City>Damarescus</City>
+				<City>Neighjing</City>
+				<City>Manebridge</City>
+				<City>Maregdeburg</City>
+				<City>Hooferville</City>
+				<City>Maresaw</City>	
+				<City>Bangcolt</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_HUNTING_STABLE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_HUNTING_ARCHER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_LYRA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_FREE_REPUBLIC</Type>
+			<Description>TXT_KEY_CIV_FREE_REPUBLIC_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_FREE_REPUBLIC_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FREE_REPUBLIC_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_FREE_REPUBLIC</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Coltucky</City>
+				<City>Ponyville</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equus</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Foaledo</City>
+				<City>San Franciscolt</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Seaddle</City>	
+				<City>Whinneapolis</City>
+				<City>Manechester</City>	
+				<City>Coltlumbus</City>	
+				<City>Cincinneighti</City>
+				<City>Indianeighpolis</City>	
+				<City>Elements of Harmony</City>	
+				<City>Albaneigh</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magic</City>
+				<City>New Ponyville</City>
+				<City>Neighton</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Manenila</City>	
+				<City>Mareton</City>
+				<City>Marerogate</City>	
+				<City>Cambraya</City>	
+				<City>Doneighgal</City>
+				<City>Ullafoal</City>	
+				<City>Yacoltsk</City>
+				<City>Old Ponyville</City>
+				<City>Cake Town</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Mareseilles</City>	
+				<City>Rubicon</City>	
+				<City>San Ferneighdo</City>	
+				<City>Yocoltsuka</City>
+				<City>Copeneighgen</City>	
+				<City>Old Magic</City>	
+				<City>Chicacolt</City>
+				<City>Marewaukee</City>
+				<City>Damarescus</City>
+				<City>Neighjing</City>
+				<City>Manebridge</City>
+				<City>Maregdeburg</City>
+				<City>Hooferville</City>
+				<City>Maresaw</City>	
+				<City>Bangcolt</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+					<BuildingType>BUILDING_LF_FACTORY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MOBILE_ARTILLERY</UnitClassType>
+					<UnitType>UNIT_PARTISAN_ARTILLERY</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_LF</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MC</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_KARYS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_RUSA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_FRITTER</Type>
+			<Description>TXT_KEY_CIV_FRITTER_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_FRITTER_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FRITTER_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_FRITTER</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equus</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Foaledo</City>
+				<City>San Franciscolt</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Seaddle</City>	
+				<City>Whinneapolis</City>
+				<City>Manechester</City>	
+				<City>Coltlumbus</City>	
+				<City>Cincinneighti</City>
+				<City>Indianeighpolis</City>	
+				<City>Elements of Harmony</City>	
+				<City>Albaneigh</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magic</City>
+				<City>New Ponyville</City>
+				<City>Neighton</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Manenila</City>	
+				<City>Mareton</City>
+				<City>Marerogate</City>	
+				<City>Cambraya</City>	
+				<City>Doneighgal</City>
+				<City>Ullafoal</City>	
+				<City>Yacoltsk</City>
+				<City>Old Ponyville</City>
+				<City>Cake Town</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Mareseilles</City>	
+				<City>Rubicon</City>	
+				<City>San Ferneighdo</City>	
+				<City>Yocoltsuka</City>
+				<City>Copeneighgen</City>	
+				<City>Old Magic</City>	
+				<City>Chicacolt</City>
+				<City>Marewaukee</City>
+				<City>Damarescus</City>
+				<City>Neighjing</City>
+				<City>Manebridge</City>
+				<City>Maregdeburg</City>
+				<City>Hooferville</City>
+				<City>Maresaw</City>	
+				<City>Bangcolt</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<BuildingType>BUILDING_FRITTER_GRANARY</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_FRITTER_KNIGHT</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_LAVENDERF</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_SHADOW</Type>
+			<Description>TXT_KEY_CIV_SHADOW_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SHADOW_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SHADOW_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SHADOW</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_UNICORN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Misty</City>
+				<City>Shadowton</City>
+				<City>Shadow City</City>	
+				<City>Shadowy Town</City>
+				<City>Shadowville</City>
+				<City>Shadow</City>
+				<City>Eternal Darkness</City>	
+				<City>Silver Shadow</City>
+				<City>Shadowy City</City>
+				<City>Shadow Town</City>
+				<City>New Shadowville</City>
+				<City>New Shadowton</City>
+				<City>New Shadow City</City>
+				<City>New Shadow Town</City>
+				<City>New Shadow Village</City>
+				<City>Old Shadowville</City>
+				<City>Old Shadowton</City>
+				<City>Old Shadow City</City>
+				<City>Old Shadowy City</City>
+				<City>Old Shadow Village</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>BUILDING_SHADOW_OBELISK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_BLACK_KNIGHT</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_MYSTICISM</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_TWIVINE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_UHANE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SHADOWPONY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MALLUMA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_PIMEDASUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_EXPLORER</Type>
+			<Description>TXT_KEY_CIV_EXPLORER_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EXPLORER_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EXPLORER_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_EXPLORER</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PEGASUS</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Equestria</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Equus</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Foaledo</City>
+				<City>San Franciscolt</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Seaddle</City>	
+				<City>Whinneapolis</City>
+				<City>Manechester</City>	
+				<City>Coltlumbus</City>	
+				<City>Cincinneighti</City>
+				<City>Indianeighpolis</City>	
+				<City>Elements of Harmony</City>	
+				<City>Albaneigh</City>
+				<City>Laughter</City>	
+				<City>Loyalty</City>	
+				<City>Honesty</City>
+				<City>Generosity</City>
+				<City>Kindness</City>
+				<City>Magic</City>
+				<City>New Ponyville</City>
+				<City>Neighton</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Manenila</City>	
+				<City>Mareton</City>
+				<City>Marerogate</City>	
+				<City>Cambraya</City>	
+				<City>Doneighgal</City>
+				<City>Ullafoal</City>	
+				<City>Yacoltsk</City>
+				<City>Old Ponyville</City>
+				<City>Cake Town</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Mareseilles</City>	
+				<City>Rubicon</City>	
+				<City>San Ferneighdo</City>	
+				<City>Yocoltsuka</City>
+				<City>Copeneighgen</City>	
+				<City>Old Magic</City>	
+				<City>Chicacolt</City>
+				<City>Marewaukee</City>
+				<City>Damarescus</City>
+				<City>Neighjing</City>
+				<City>Manebridge</City>
+				<City>Maregdeburg</City>
+				<City>Hooferville</City>
+				<City>Maresaw</City>	
+				<City>Bangcolt</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+					<BuildingType>BUILDING_EXPLORER_WALLS</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXPLORER</UnitClassType>
+					<UnitType>UNIT_AKYEARLING_EXPLORER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_DARINGDO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_ELITEPONY</Type>
+			<Description>TXT_KEY_CIV_ELITEPONY_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ELITEPONY_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ELITEPONY_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ELITEPONY</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Canterlot</City>
+				<City>Ponydom</City>
+				<City>Cloudsdale</City>	
+				<City>Manehatton</City>
+				<City>Dodge Junction</City>
+				<City>Las Pegasus</City>
+				<City>Vanhoover</City>	
+				<City>Fillydelphia</City>
+				<City>Baltimare</City>
+				<City>Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Hoofington</City>	
+				<City>Stableside</City>
+				<City>St Petershoof</City>	
+				<City>Stalliongrad</City>	
+				<City>Mareheim</City>
+				<City>Trottingham</City>	
+				<City>Dappleshore</City>	
+				<City>Canterbury</City>
+				<City>Derbyshire</City>	
+				<City>Haliflanks</City>	
+				<City>Detrot</City>
+				<City>Manebourne</City>
+				<City>New Canterlot</City>
+				<City>New Ponydom</City>
+				<City>New Cloudsdale</City>	
+				<City>New Manehatton</City>
+				<City>New Dodge Junction</City>
+				<City>New Las Pegasus</City>
+				<City>New Vanhoover</City>	
+				<City>New Fillydelphia</City>
+				<City>New Baltimare</City>
+				<City>New Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Hoofington</City>	
+				<City>New Stableside</City>
+				<City>New St Petershoof</City>	
+				<City>New Stalliongrad</City>	
+				<City>New Mareheim</City>
+				<City>New Trottingham</City>	
+				<City>New Dappleshore</City>	
+				<City>New Canterbury</City>
+				<City>New Derbyshire</City>	
+				<City>New Haliflanks</City>	
+				<City>New Detrot</City>
+				<City>New Manebourne</City>
+				<City>Old Canterlot</City>
+				<City>Old Ponydom</City>
+				<City>Old Cloudsdale</City>	
+				<City>Old Manehatton</City>
+				<City>Old Dodge Junction</City>
+				<City>Old Las Pegasus</City>
+				<City>Old Vanhoover</City>	
+				<City>Old Fillydelphia</City>
+				<City>Old Baltimare</City>
+				<City>Old Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Hoofington</City>	
+				<City>Old Stableside</City>
+				<City>Old St Petershoof</City>	
+				<City>Old Stalliongrad</City>	
+				<City>Old Mareheim</City>
+				<City>Old Trottingham</City>	
+				<City>Old Dappleshore</City>	
+				<City>Old Canterbury</City>
+				<City>Old Derbyshire</City>	
+				<City>Old Haliflanks</City>	
+				<City>Old Detrot</City>
+				<City>Old Manebourne</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+					<BuildingType>BUILDING_RICH_BANK</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<UnitType>UNIT_MERCENARY</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_AMETHYST</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SAPPHIRE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_UPPERCRUST</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FLEUR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ORCHIDBREEZE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FILTHYRICH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_FREE_REPUBLIC</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_ROSELUCK</Type>
+			<Description>TXT_KEY_CIV_ROSELUCK_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ROSELUCK_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ROSELUCK_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUESTRIA_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROSELUCK</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_UNICORN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Ponyville</City>
+				<City>Ponyvilla</City>
+				<City>Flower Fields</City>	
+				<City>Equestrian Town</City>
+				<City>Equestrian Gorge</City>
+				<City>Le Equestria</City>
+				<City>Equusburg</City>	
+				<City>Equestrian City</City>
+				<City>Flower Field</City>
+				<City>Equestridale</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Flowerville</City>	
+				<City>Flower Mountain</City>
+				<City>Rose</City>	
+				<City>Luckton</City>	
+				<City>Roseville</City>
+				<City>Roseluck</City>	
+				<City>Flower Power</City>	
+				<City>Magic</City>
+				<City>Cute</City>	
+				<City>Adorable</City>	
+				<City>Sweets</City>
+				<City>Pollen</City>
+				<City>Rose Village</City>
+				<City>Posie</City>
+				<City>New Posieville</City>
+				<City>New Flowerville</City>
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Luckville</City>	
+				<City>Redtail Mountains</City>
+				<City>New Roseluck</City>	
+				<City>New Roseville</City>	
+				<City>New Luckville</City>
+				<City>New Roseton</City>	
+				<City>New Dandilion</City>
+				<City>Dandilion</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+					<BuildingType>BUILDING_FLOWER_HOSPITAL</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_FLOWER_ARCHER</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_ROSELUCK</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ARIANI</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_PEACHY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_COMMUNIST</Type>
+			<Description>TXT_KEY_CIV_COMMUNIST_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_COMMUNIST_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_COMMUNIST_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_COMMUNIST</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>St Petershoof</City>
+				<City>Ponydom</City>
+				<City>Cloudsdale</City>	
+				<City>Manehatton</City>
+				<City>Dodge Junction</City>
+				<City>Las Pegasus</City>
+				<City>Vanhoover</City>	
+				<City>Fillydelphia</City>
+				<City>Baltimare</City>
+				<City>Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Hoofington</City>	
+				<City>Stableside</City>
+				<City>Canterlot</City>	
+				<City>Stalliongrad</City>	
+				<City>Mareheim</City>
+				<City>Trottingham</City>	
+				<City>Dappleshore</City>	
+				<City>Canterbury</City>
+				<City>Derbyshire</City>	
+				<City>Haliflanks</City>	
+				<City>Detrot</City>
+				<City>Manebourne</City>
+				<City>New Canterlot</City>
+				<City>New Ponydom</City>
+				<City>New Cloudsdale</City>	
+				<City>New Manehatton</City>
+				<City>New Dodge Junction</City>
+				<City>New Las Pegasus</City>
+				<City>New Vanhoover</City>	
+				<City>New Fillydelphia</City>
+				<City>New Baltimare</City>
+				<City>New Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>New Hoofington</City>	
+				<City>New Stableside</City>
+				<City>New St Petershoof</City>	
+				<City>New Stalliongrad</City>	
+				<City>New Mareheim</City>
+				<City>New Trottingham</City>	
+				<City>New Dappleshore</City>	
+				<City>New Canterbury</City>
+				<City>New Derbyshire</City>	
+				<City>New Haliflanks</City>	
+				<City>New Detrot</City>
+				<City>New Manebourne</City>
+				<City>Old Canterlot</City>
+				<City>Old Ponydom</City>
+				<City>Old Cloudsdale</City>	
+				<City>Old Manehatton</City>
+				<City>Old Dodge Junction</City>
+				<City>Old Las Pegasus</City>
+				<City>Old Vanhoover</City>	
+				<City>Old Fillydelphia</City>
+				<City>Old Baltimare</City>
+				<City>Old Appleloosa</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Old Hoofington</City>	
+				<City>Old Stableside</City>
+				<City>Old St Petershoof</City>	
+				<City>Old Stalliongrad</City>	
+				<City>Old Mareheim</City>
+				<City>Old Trottingham</City>	
+				<City>Old Dappleshore</City>	
+				<City>Old Canterbury</City>
+				<City>Old Derbyshire</City>	
+				<City>Old Haliflanks</City>	
+				<City>Old Detrot</City>
+				<City>Old Manebourne</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+					<BuildingType>BUILDING_COMMUNIST_BARRACKS</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<UnitType>UNIT_COMMUNIST_RIFLEMAN</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_AGRICULTURE</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_MINING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_MARUSSIA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ARIANI</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>CIVILIZATION_EQUALIST</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_RUSA</Type>
+			<Description>TXT_KEY_CIV_RUSA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_RUSA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_RUSA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_RUSA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_PONY</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Rusa Imperio</City>
+				<City>Imperio</City>
+				<City>Rusodale</City>	
+				<City>Imperius</City>
+				<City>Imperia</City>
+				<City>Las Imperia</City>
+				<City>Ruso</City>	
+				<City>Rusio</City>
+				<City>Imperial Military Union</City>
+				<City>Imperial</City>	
+<!--move these on down if we can't find city names for the other civs-->
+				<City>Ruso Imperium</City>	
+				<City>Rus</City>
+				<City>Rusko Carstvo</City>	
+				<City>Imperi Rus</City>	
+				<City>Eluosi</City>
+				<City>Vene Imperius</City>	
+				<City>Rusuli</City>	
+				<City>Rosiki</City>
+				<City>Rasiyana</City>	
+				<City>Roshia</City>	
+				<City>Rossiyskaya</City>
+				<City>Ryska Valde</City>				
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<BuildingType>BUILDING_RUSA_PALACE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>UNIT_RUSA_INFANTRY</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_FISHING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_RUSA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SECRET</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MQ9</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_BARBARIAN</Type>
+			<Description>TXT_KEY_CIV_BARBARIAN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_BARBARIAN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_BARBARIAN_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BLACK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_BARBARIAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
+			<bPlayable>0</bPlayable>
+			<bAIPlayable>0</bAIPlayable>
+			<Cities>
+				<City>Everfree</City>
+				<City>Mt Dragon</City>			
+				<City>Marelin</City>
+				<City>Hufgrund</City>
+				<City>Flankfurt</City>
+				<City>Haflingen</City>
+				<City>Le Manes</City>
+				<City>Coat D' Azore</City>
+				<City>Guadeloope</City>
+				<City>Gazelle</City>
+				<City>Steebs</City>
+				<City>Coltro</City>
+				<City>Amarezon</City>
+				<City>Concordia</City>
+				<City>Equadoe</City>
+				<City>Elksburg</City>
+				<City>Fawntaine</City>
+				<City>Seaddle</City>
+				<City>Estagna</City>
+				<City>Himallama</City>
+				<City>Silverline</City>
+				<City>Cowpenhagen</City>
+				<City>Thatchholm</City>
+				<City>Grazezeld</City>
+				<City>Yoketo</City>
+				<City>Inuyuma</City>
+				<City>Hong Prong</City>
+				<City>Shanghay</City>
+				<City>Pandiwon</City>
+				<City>Be'Xian</City>
+				<City>Guoxia Shin</City>
+				<City>Ottapaw</City>
+				<City>Vanchewver</City>
+				<City>Quebark City</City>
+				<City>Pawland</City>
+				<City>Sibearia</City>
+				<City>Pretuskria</City>
+				<City>Erymanthus</City>
+				<City>Suidaenia</City>
+				<City>Gallopfrey</City>
+				<City>Rhineland</City>
+				<City>Spotsa</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GREAT_PALACE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_VERSAILLES</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CUSTOM_HOUSE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_DRYDOCK</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LEVEE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NATIONAL_SECURITY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_INDUSTRIAL_PARK</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PUBLIC_TRANSPORTATION</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COAL_PLANT</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_RECYCLING_CENTER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BOMB_SHELTER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SUPERMARKET</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NATIONAL_SECURITY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JEWISH_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JEWISH_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JEWISH_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JEWISH_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ISLAMIC_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ISLAMIC_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ISLAMIC_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ISLAMIC_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HINDU_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HINDU_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HINDU_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HINDU_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BUDDHIST_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BUDDHIST_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BUDDHIST_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BUDDHIST_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_TAOIST_TEMPLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_TAOIST_MONASTERY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_TAOIST_SHRINE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GLOBE_THEATRE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_WALL_STREET</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_IRON_WORKS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MT_RUSHMORE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NATIONAL_PARK</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MOAI_STATUES</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_RED_CROSS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SCOTLAND_YARD</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_WEST_POINT</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GREAT_LIBRARY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ORACLE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STONEHENGE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PARTHENON</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ANGKOR_WAT</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HAGIA_SOPHIA</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CHICHEN_ITZA</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SISTINE_CHAPEL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SPIRAL_MINARET</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_NOTRE_DAME</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_TAJ_MAHAL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_KREMLIN</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_EIFFEL_TOWER</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STATUE_OF_LIBERTY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BROADWAY</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ROCKNROLL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HOLLYWOOD</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GREAT_DAM</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PENTAGON</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_UNITED_NATIONS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SPACE_ELEVATOR</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COLOSSUS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HANGING_GARDEN</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PYRAMID</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GREAT_WALL</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SANKORE</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_ARTEMIS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CRISTO_REDENTOR</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SHWEDAGON_PAYA</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MAUSOLEUM_OF_MAUSSOLLOS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STATUE_OF_ZEUS</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXPLORER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_JEWISH_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHRISTIAN_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ISLAMIC_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HINDU_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BUDDHIST_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CONFUCIAN_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TAOIST_MISSIONARY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_1</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_2</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_3</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_4</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_5</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_6</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXECUTIVE_7</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WAR_ELEPHANT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CUIRASSIER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_AT_INFANTRY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SAM_INFANTRY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TANK</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GUNSHIP</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MACHINE_GUN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARTILLERY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MOBILE_ARTILLERY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GALLEON</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SHIP_OF_THE_LINE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TRANSPORT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_STEALTH_DESTROYER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ATTACK_SUBMARINE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_AIRSHIP</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GUIDED_MISSILE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TACTICAL_NUKE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ICBM</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PROPHET</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ENGINEER</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GREAT_SPY</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses/>
+			<FreeBuildingClasses/>
+			<FreeTechs/>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_BARBARIAN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound/>
+			<CivilizationActionSound/>
+		</CivilizationInfo>	
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

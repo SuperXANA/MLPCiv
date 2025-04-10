@@ -1,0 +1,4319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Custom Definitions -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Custom Leader Definitions -->
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CELESTIA</Tag>
+		<English>
+			<Text>Princess Celestia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Celestia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Celestia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Celestia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Celestia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TWILIGHT</Tag>
+		<English>
+			<Text>Twilight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Twilight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Twilight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Twilight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Twilight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUNA</Tag>
+		<English>
+			<Text>Princess Luna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Luna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Luna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Luna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Luna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DISCORD</Tag>
+		<English>Discord</English>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		<French>
+			<Text>Discord</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Discord</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Discord</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Discord</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GILDA</Tag>
+		<English>
+			<Text>Gilda</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Gilda</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Gilda</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Gilda</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Gilda</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STRONGHEART</Tag>
+		<English>
+			<Text>Little Strongheart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Little Strongheart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Little Strongheart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Little Strongheart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Little Strongheart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHRYSALIS</Tag>
+		<English>
+			<Text>Queen Chrysalis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Queen Chrysalis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Queen Chrysalis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Queen Chrysalis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Queen Chrysalis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PUDDINGHEAD</Tag>
+		<English>
+			<Text>Chancellor Puddinghead</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Chancellor Puddinghead</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chancellor Puddinghead</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chancellor Puddinghead</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chancellor Puddinghead</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PLATINUM</Tag>
+		<English>
+			<Text>Princess Platinum</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Platinum</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Platinum</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Platinum</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Platinum</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HURRICANE</Tag>
+		<English>Commander Hurricane</English>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		<French>
+			<Text>Commander Hurricane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Commander Hurricane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Commander Hurricane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Commander Hurricane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SOMBRA</Tag>
+		<English>King Sombra</English>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		<French>
+			<Text>King Sombra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>King Sombra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>King Sombra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>King Sombra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CADANCE</Tag>
+		<English>
+			<Text>Princess Cadance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Cadance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Cadance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Cadance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Cadance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TIREK</Tag>
+		<English>Lord Tirek</English>
+		<French>
+			<Text>Lord Tirek</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lord Tirek</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lord Tirek</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lord Tirek</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEAPONY</Tag>
+		<English>
+			<Text>Kelpaquatis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Kelpaquatis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kelpaquatis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Kelpaquatis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kelpaquatis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STARLIGHT</Tag>
+		<English>
+`			<Text>Starlight Glimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Starlight Glimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Starlight Glimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Starlight Glimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Starlight Glimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NMM</Tag>
+		<English>
+			<Text>Nightmare Moon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Nightmare Moon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nightmare Moon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nightmare Moon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nightmare Moon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CBP</Tag>
+		<English>
+			<Text>Chromia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Chromia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chromia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chromia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chromia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DAYBREAKER</Tag>
+		<English>
+			<Text>Daybreaker</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Daybreaker</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Daybreaker</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Daybreaker</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Daybreaker</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DERPY</Tag>
+		<English>
+			<Text>Derpy Hooves</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Derpy Hooves</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Derpy Hooves</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Derpy Hooves</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Derpy Hooves</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MIDNIGHT</Tag>
+		<English>
+			<Text>Midnight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Midnight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Midnight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Midnight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Midnight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ADAGIO</Tag>
+		<English>
+			<Text>Adagio Dazzle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Adagio Dazzle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Adagio Dazzle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Adagio Dazzle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Adagio Dazzle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUNSET</Tag>
+		<English>
+			<Text>Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TANTABUS</Tag>
+		<English>
+`			<Text>Tantabus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Tantabus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tantabus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tantabus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tantabus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TRIXIE</Tag>
+		<English>
+			<Text>Trixie Lulamoon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Trixie Lulamoon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Trixie Lulamoon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trixie Lulamoon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Trixie Lulamoon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FURY</Tag>
+		<English>
+			<Text>Scarlet Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Scarlet Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Scarlet Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Scarlet Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Scarlet Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LYRA</Tag>
+		<English>
+			<Text>Lyra Heartstrings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Lyra Heartstrings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lyra Heartstrings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lyra Heartstrings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lyra Heartstrings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MOONGAZE</Tag>
+		<English>
+			<Text>Moongaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Moongaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Moongaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Moongaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Moongaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ROSELUCK</Tag>
+		<English>
+			<Text>Roseluck</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Roseluck</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Roseluck</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Roseluck</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Roseluck</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAINDROPS</Tag>
+		<English>
+			<Text>Sunshower Raindrops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+			</English>
+		<French>
+			<Text>Sunshower Raindrops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sunshower Raindrops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sunshower Raindrops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sunshower Raindrops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLUTTERBAT</Tag>
+		<English>
+			<Text>Flutterbat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Flutterbat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flutterbat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Flutterbat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flutterbat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GAEA</Tag>
+		<English>
+			<Text>Gaea Everfree</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Gaea Everfree</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Gaea Everfree</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Gaea Everfree</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Gaea Everfree</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TWIVINE</Tag>
+		<English>
+			<Text>Twivine Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Twivine Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Twivine Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Twivine Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Twivine Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SNOWFALL</Tag>
+		<English>
+			<Text>Snowfall Frost</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Snowfall Frost</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Snowfall Frost</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Snowfall Frost</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Snowfall Frost</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LILYLACE</Tag>
+		<English>
+			<Text>Lily Lace</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Lily Lace</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lily Lace</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lily Lace</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lily Lace</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LAVENDERF</Tag>
+		<English>
+			<Text>Lavender Fritter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Lavender Fritter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lavender Fritter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lavender Fritter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lavender Fritter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ANGEL</Tag>
+		<English>
+			<Text>Angel Wings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Angel Wings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Angel Wings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Angel Wings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Angel Wings</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AMETHYST</Tag>
+		<English>
+			<Text>Amethyst Gleam</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Amethyst Gleam</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Amethyst Gleam</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Amethyst Gleam</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Amethyst Gleam</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAPPHIRE</Tag>
+		<English>
+			<Text>Sapphire Shores</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sapphire Shores</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sapphire Shores</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sapphire Shores</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sapphire Shores</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UHANE</Tag>
+		<English>
+			<Text>Uhane Makuahine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Uhane Makuahine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Uhane Makuahine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Uhane Makuahine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Uhane Makuahine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLASH</Tag>
+		<English>
+			<Text>Flash Sentry</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Flash Sentry</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flash Sentry</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Flash Sentry</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flash Sentry</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VAPOR</Tag>
+		<English>
+			<Text>Vapor Trail</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Vapor Trail</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Vapor Trail</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Vapor Trail</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Vapor Trail</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BONBON</Tag>
+		<English>
+			<Text>Sweetie Drops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sweetie Drops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sweetie Drops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sweetie Drops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sweetie Drops</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NR</Tag>
+		<English>
+			<Text>Nightmare Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Nightmare Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nightmare Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nightmare Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nightmare Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SB</Tag>
+		<English>
+			<Text>SweetieBot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>SweetieBot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>SweetieBot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>SweetieBot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>SweetieBot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHEERILEE</Tag>
+		<English>
+			<Text>Cheerilee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Cheerilee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cheerilee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cheerilee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cheerilee</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MM</Tag>
+		<English>
+			<Text>Mayor Mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Mayor Mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mayor Mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mayor Mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mayor Mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PIXEL</Tag>
+		<English>
+			<Text>Pixel Pizzaz</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Pixel Pizzaz</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pixel Pizzaz</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pixel Pizzaz</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pixel Pizzaz</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UPPERCRUST</Tag>
+		<English>
+			<Text>Upper Crust</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Upper Crust</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Upper Crust</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Upper Crust</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Upper Crust</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RUBYAURA</Tag>
+		<English>
+			<Text>Ruby Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Ruby Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ruby Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ruby Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ruby Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RARITY</Tag>
+		<English>
+			<Text>Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLUTTERSHY</Tag>
+		<English>
+			<Text>Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAINBOWDASH</Tag>
+		<English>
+			<Text>Rainbow Dash</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Rainbow Dash</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Rainbow Dash</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Rainbow Dash</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rainbow Dash</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_APPLEJACK</Tag>
+		<English>
+			<Text>Applejack</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Applejack</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Applejack</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Applejack</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Applejack</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PINKIE</Tag>
+		<English>
+			<Text>Pinkie Pie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Pinkie Pie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pinkie Pie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pinkie Pie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pinkie Pie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINUETTE</Tag>
+		<English>
+			<Text>Minuette</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Minuette</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Minuette</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Minuette</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Minuette</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LEMON</Tag>
+		<English>
+			<Text>Lemon Zest</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Lemon Zest</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lemon Zest</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lemon Zest</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lemon Zest</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STARSTORM</Tag>
+		<English>
+			<Text>Starstorm Slumber</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Starstorm Slumber</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Starstorm Slumber</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Starstorm Slumber</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Starstorm Slumber</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_OBP</Tag>
+		<English>
+			<Text>Opera</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Opera</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Opera</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Opera</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Opera</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LULLABY</Tag>
+		<English>
+			<Text>Lullaby Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Lullaby Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lullaby Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lullaby Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lullaby Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WALLFLOWER</Tag>
+		<English>
+			<Text>Wallflower Blush</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Wallflower Blush</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Wallflower Blush</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Wallflower Blush</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Wallflower Blush</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAPPHIREBLUE</Tag>
+		<English>
+			<Text>Sapphire Blue</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sapphire Blue</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sapphire Blue</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sapphire Blue</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sapphire Blue</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FH</Tag>
+		<English>
+			<Text>Flurry Heart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Flurry Heart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flurry Heart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Flurry Heart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flurry Heart</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SPIKE</Tag>
+		<English>
+			<Text>Spike</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Spike</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Spike</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Spike</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Spike</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EMBER</Tag>
+		<English>
+			<Text>Dragon Lord Ember</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Dragon Lord Ember</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Dragon Lord Ember</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Dragon Lord Ember</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Dragon Lord Ember</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHADOWPONY</Tag>
+		<English>
+			<Text>Stygian</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Stygian</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Stygian</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Stygian</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Stygian</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STARSWIRL</Tag>
+		<English>
+			<Text>Star Swirl the Bearded</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Star Swirl the Bearded</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Star Swirl the Bearded</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Star Swirl the Bearded</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Star Swirl the Bearded</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AMETHYSTSTAR</Tag>
+		<English>
+			<Text>Amethyst Star</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Amethyst Star</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Amethyst Star</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Amethyst Star</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Amethyst Star</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WIRLY</Tag>
+		<English>
+			<Text>Wirly</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Wirly</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Wirly</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Wirly</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Wirly</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SCREWBALL</Tag>
+		<English>
+			<Text>Screwball</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Screwball</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Screwball</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Screwball</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Screwball</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LF</Tag>
+		<English>
+			<Text>Blank Check</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Blank Check</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Blank Check</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Blank Check</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Blank Check</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MARUSSIA</Tag>
+		<English>
+			<Text>Marussia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Marussia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Marussia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Marussia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Marussia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAGE</Tag>
+		<English>
+			<Text>Crimson Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Crimson Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Crimson Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Crimson Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Crimson Aura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ARIA</Tag>
+		<English>
+			<Text>Aria Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Aria Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Aria Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Aria Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aria Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DARINGDO</Tag>
+		<English>
+			<Text>Daring Do</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Daring Do</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Daring Do</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Daring Do</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Daring Do</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLEUR</Tag>
+		<English>
+			<Text>Fleur de Lis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Fleur de Lis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Fleur de Lis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fleur de Lis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Fleur de Lis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JUNIPER</Tag>
+		<English>
+			<Text>Juniper Montage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Juniper Montage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Juniper Montage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Juniper Montage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Juniper Montage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SONATA</Tag>
+		<English>
+			<Text>Sonata Dusk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sonata Dusk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sonata Dusk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sonata Dusk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sonata Dusk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUNNYSKIES</Tag>
+		<English>
+			<Text>Sunny Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sunny Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sunny Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sunny Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sunny Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THORAX</Tag>
+		<English>
+			<Text>King Thorax</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>King Thorax</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>King Thorax</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>King Thorax</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>King Thorax</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TWINKLESHINE</Tag>
+		<English>
+			<Text>Twinkleshine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Twinkleshine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Twinkleshine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Twinkleshine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Twinkleshine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GARBLE</Tag>
+		<English>
+			<Text>Garble</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Garble</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Garble</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Garble</Text>
+			<Gender>Male</Gender>>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Garble</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TEMPEST</Tag>
+		<English>
+			<Text>Tempest Shadow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Tempest Shadow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tempest Shadow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tempest Shadow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tempest Shadow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STORMKING</Tag>
+		<English>
+			<Text>Storm King</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Storm King</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Storm King</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Storm King</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Storm King</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLITTER</Tag>
+		<English>
+			<Text>Flitter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Flitter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flitter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Flitter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flitter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SOURSWEET</Tag>
+		<English>
+			<Text>Sour Sweet</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sour Sweet</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sour Sweet</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sour Sweet</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sour Sweet</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FILTHYRICH</Tag>
+		<English>
+			<Text>Filthy Rich</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Filthy Rich</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Filthy Rich</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Filthy Rich</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Filthy Rich</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ORCHIDBREEZE</Tag>
+		<English>
+			<Text>Orchid Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Orchid Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Orchid Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Orchid Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Orchid Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RUSA</Tag>
+		<English>
+			<Text>Rusa Imperio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Rusa Imperio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Rusa Imperio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Rusa Imperio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rusa Imperio</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SOLAIS</Tag>
+		<English>
+			<Text>Solais a Tuath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Solais a Tuath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Solais a Tuath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Solais a Tuath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Solais a Tuath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VV</Tag>
+		<English>
+			<Text>Vignette Valencia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Vignette Valencia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Vignette Valencia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Vignette Valencia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Vignette Valencia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BLOSSOMFORTH</Tag>
+		<English>
+			<Text>Blossomforth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Blossomforth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Blossomforth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Blossomforth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Blossomforth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WILDFIRE</Tag>
+		<English>
+			<Text>Wildfire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Wildfire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Wildfire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Wildfire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Wildfire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STRAWBERRY</Tag>
+		<English>
+			<Text>Strawberry Sunrise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Strawberry Sunrise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Strawberry Sunrise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Strawberry Sunrise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Strawberry Sunrise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ARIANI</Tag>
+		<English>
+			<Text>Ariani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Ariani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ariani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ariani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ariani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHININGARMOR</Tag>
+		<English>
+			<Text>Shining Armor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Shining Armor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Shining Armor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Shining Armor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Shining Armor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SECRET</Tag>
+		<English>
+			<Text>Misi Rahsia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Misi Rahsia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Misi Rahsia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Misi Rahsia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Misi Rahsia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_IEBP</Tag>
+		<English>
+			<Text>Interreta Esploristo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Interreta Esploristo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Interreta Esploristo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Interreta Esploristo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Interreta Esploristo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FFBP</Tag>
+		<English>
+			<Text>Firefox</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Firefox</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Firefox</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Firefox</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Firefox</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAFFRON</Tag>
+		<English>
+			<Text>Saffron Soul</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Saffron Soul</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Saffron Soul</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Saffron Soul</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Saffron Soul</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DECA</Tag>
+		<English>
+			<Text>#deca.mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>#deca.mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>#deca.mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>#deca.mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>#deca.mare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ER</Tag>
+		<English>
+			<Text>Evil Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Evil Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Evil Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Evil Rarity</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Evil Rarity</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BLACKWING</Tag>
+		<English>Commander Blackwing</English>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		<French>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MALLUMA</Tag>
+		<English>
+			<Text>Malluma</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Malluma</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Malluma</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Malluma</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Malluma</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MC</Tag>
+		<English>
+			<Text>Misila Celo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Misila Celo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Misila Celo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Misila Celo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Misila Celo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MTS</Tag>
+		<English>
+			<Text>Meanlight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Meanlight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Meanlight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Meanlight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Meanlight Sparkle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CG</Tag>
+		<English>
+			<Text>Cozy Glow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Cozy Glow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cozy Glow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cozy Glow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cozy Glow</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MFS</Tag>
+		<English>
+			<Text>Evil Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Evil Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Evil Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Evil Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Evil Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KERFUFFLE</Tag>
+		<English>
+			<Text>Kerfuffle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Kerfuffle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kerfuffle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Kerfuffle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kerfuffle</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MQ9</Tag>
+		<English>
+			<Text>Senfina Zono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Senfina Zono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Senfina Zono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Senfina Zono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Senfina Zono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CLOUDY</Tag>
+		<English>
+			<Text>Cloudy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Cloudy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cloudy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cloudy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cloudy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EQUALIS</Tag>
+		<English>
+			<Text>Equalis de Ophiuchus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Equalis de Ophiuchus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Equalis de Ophiuchus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Equalis de Ophiuchus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Equalis de Ophiuchus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_OCTAVIA</Tag>
+		<English>
+			<Text>Octavia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Octavia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Octavia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Octavia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Octavia</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_THINGPONY</Tag>
+		<English>
+			<Text>Mothetsi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Mothetsi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mothetsi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mothetsi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mothetsi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DEMONSUNSET</Tag>
+		<English>
+			<Text>Demon Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Demon Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Demon Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Demon Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Demon Sunset Shimmer</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_COCO</Tag>
+		<English>
+			<Text>Coco Pommel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Coco Pommel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Coco Pommel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Coco Pommel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Coco Pommel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GROGAR</Tag>
+		<English>
+			<Text>King Grogar</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>King Grogar</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>King Grogar</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>King Grogar</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>King Grogar</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AQASHA</Tag>
+		<English>
+			<Text>Aqasha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Aqasha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Aqasha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Aqasha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aqasha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NERATH</Tag>
+		<English>
+			<Text>Nerath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Nerath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nerath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nerath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nerath</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KARYS</Tag>
+		<English>
+			<Text>Karys Skydo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Karys Skydo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karys Skydo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Karys Skydo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Karys Skydo</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YANDERESHY</Tag>
+		<English>
+			<Text>Flutterrage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Flutterrage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flutterrage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Flutterrage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Flutterrage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AUTUMN</Tag>
+		<English>
+			<Text>Autumn Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Autumn Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Autumn Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Autumn Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Autumn Blaze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DARKMATTER</Tag>
+		<English>
+			<Text>Princess Dark Matter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Dark Matter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Dark Matter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Dark Matter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Dark Matter</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STELLARSPARK</Tag>
+		<English>
+			<Text>Stellar Spark</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Stellar Spark</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Stellar Spark</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Stellar Spark</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Stellar Spark</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BAYBREEZE</Tag>
+		<English>
+			<Text>Bay Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Bay Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bay Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Bay Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Bay Breeze</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AURORA</Tag>
+		<English>
+			<Text>Aurora Borealis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Aurora Borealis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Aurora Borealis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Aurora Borealis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aurora Borealis</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LOPUTU</Tag>
+		<English>
+			<Text>Loputu Edevus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Loputu Edevus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Loputu Edevus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Loputu Edevus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Loputu Edevus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CUTENOTE</Tag>
+		<English>
+			<Text>Cute Note</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Cute Note</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cute Note</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cute Note</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Cute Note</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TARALICIOUS</Tag>
+		<English>
+			<Text>Dark Taralicious</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Dark Taralicious</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Dark Taralicious</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Dark Taralicious</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Dark Taralicious</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_IKVAALIS</Tag>
+		<English>
+			<Text>Ikvaalis di Sarpenteriyas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Ikvaalis di Sarpenteriyas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ikvaalis di Sarpenteriyas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ikvaalis di Sarpenteriyas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ikvaalis di Sarpenteriyas</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STORMY</Tag>
+		<English>
+			<Text>Stormy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Stormy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Stormy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Stormy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Stormy Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VIRTUS</Tag>
+		<English>
+			<Text>Virtus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Virtus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Virtus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Virtus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Virtus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SM3000</Tag>
+		<English>
+			<Text>Sweetie M3000</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sweetie M3000</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sweetie M3000</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sweetie M3000</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sweetie M3000</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EMADUSE</Tag>
+		<English>
+			<Text>Emaduse Unistus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Emaduse Unistus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Emaduse Unistus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Emaduse Unistus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Emaduse Unistus</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PIMEDASUS</Tag>
+		<English>
+			<Text>Pimedasus Helendav</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Pimedasus Helendav</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pimedasus Helendav</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pimedasus Helendav</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pimedasus Helendav</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HONEYDEW</Tag>
+		<English>
+			<Text>Honeydew Harmony</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Honeydew Harmony</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Honeydew Harmony</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Honeydew Harmony</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Honeydew Harmony</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EVENINGLOVE</Tag>
+		<English>
+			<Text>Evening Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Evening Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Evening Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Evening Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Evening Love</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HARMONY</Tag>
+		<English>
+			<Text>Harmonic Resonance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Harmonic Resonance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Harmonic Resonance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Harmonic Resonance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Harmonic Resonance</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SWEETTREAT</Tag>
+		<English>
+`			<Text>Sweet Treat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sweet Treat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sweet Treat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sweet Treat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sweet Treat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TSUMETAI</Tag>
+		<English>
+			<Text>Tsumetai Houseki</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Tsumetai Houseki</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tsumetai Houseki</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tsumetai Houseki</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tsumetai Houseki</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLUTTERQUIET</Tag>
+		<English>
+			<Text>Princess Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Fluttershy</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MARSHMALLOW</Tag>
+		<English>
+			<Text>Marshmallow Cookie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Marshmallow Cookie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Marshmallow Cookie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Marshmallow Cookie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Marshmallow Cookie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHRONO</Tag>
+		<English>
+			<Text>Princess Chrono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Princess Chrono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Princess Chrono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Princess Chrono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Princess Chrono</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PEACHY</Tag>
+		<English>
+			<Text>Peachy Meadows</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Peachy Meadows</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Peachy Meadows</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Peachy Meadows</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Peachy Meadows</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CLEARSKIES</Tag>
+		<English>
+			<Text>Clear Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Clear Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Clear Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Clear Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Clear Skies</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SWEETDREAMS</Tag>
+		<English>
+			<Text>Sweet Dreams</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Sweet Dreams</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sweet Dreams</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sweet Dreams</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sweet Dreams</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUSTERDAWN</Tag>
+		<English>
+			<Text>Luster Dawn</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Luster Dawn</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Luster Dawn</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Luster Dawn</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Luster Dawn</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AEQUILIBRIUS</Tag>
+		<English>
+			<Text>Aequilibrius zi Sempiterna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+		<French>
+			<Text>Aequilibrius zi Sempiterna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Aequilibrius zi Sempiterna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Aequilibrius zi Sempiterna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aequilibrius zi Sempiterna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<!-- Unique Buildings -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EQUESTRIA_CASTLE</Tag>
+		<English>Equestrian Castle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRIFFON_MARKET</Tag>
+		<English>Foreign Market</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUFFALO_MONUMENT</Tag>
+		<English>Pedestal</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHANGELING_TRANSPORTATION</Tag>
+		<English>Changeling Caves</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EARTH_SUPERMARKET</Tag>
+		<English>Trader's Market</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNICORN_UNIVERSITY</Tag>
+		<English>School for Gifted Unicorns</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PEGASUS_FACTORY</Tag>
+		<English>Weather Factory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRYSTAL_COLOSSEUM</Tag>
+		<English>Crystal Arena</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DISCORD_MONUMENT</Tag>
+		<English>Chaos Throne</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DARK_MONUMENT</Tag>
+		<English>Alicorn Amulet Monument</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SEAPONY_LIGHTHOUSE</Tag>
+		<English>Seapony Gathering Post</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BP_FACTORY</Tag>
+		<English>AI Supercomputer</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SB_FACTORY</Tag>
+		<English>Robotic Factory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BATPONY_MARKET</Tag>
+		<English>Apple Market</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAEA_GRANARY</Tag>
+		<English>Bountiful Forest</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRYSTAL_MONUMENT</Tag>
+		<English>Crystal Heart Monument</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUFFIN_GRANARY</Tag>
+		<English>Muffin Storage</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MIRROR_UNIVERSITY</Tag>
+		<English>Magic University</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIREN_THEATRE</Tag>
+		<English>Magic Theatre</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DREAM_CASTLE</Tag>
+		<English>Magic Castle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIRE_BARRACKS</Tag>
+		<English>Armory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARMONY_CASTLE</Tag>
+		<English>Chateau Sparkle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THUNDER_CASTLE</Tag>
+		<English>Citadel</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DRAGON_MONUMENT</Tag>
+		<English>Dragon Lord Statue</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STAR_HEAVEN_AIRPORT</Tag>
+		<English>Pegasus Device</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BLACK_LIBRARY</Tag>
+		<English>Forbidden Archives</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EQUALITY_COURTHOUSE</Tag>
+		<English>Cutie Mark Vault</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EDAY_STABLE</Tag>
+		<English>War Stable</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENIGHT_JAIL</Tag>
+		<English>Dungeon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HUNTING_STABLE</Tag>
+		<English>Large Stable</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LF_FACTORY</Tag>
+		<English>War Factory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FRITTER_GRANARY</Tag>
+		<English>Large Granary</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHADOW_MONUMENT</Tag>
+		<English>Obelisk</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EQUESTRIA_BANK</Tag>
+		<English>Government Bank</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EXPLORER_WALLS</Tag>
+		<English>Fortified Walls</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RICH_BANK</Tag>
+		<English>Rich Pony's Bank</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FLOWER_HOSPITAL</Tag>
+		<English>Large Hospital</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COMMUNIST_BARRACKS</Tag>
+		<English>Training Camp</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RUSA_PALACE</Tag>
+		<English>Rusa Imperio's Palace</English>
+	</TEXT>
+	<!-- Unique Leader Civilopedia Entries -->
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GENERIC_PEDIA</Tag>
+		<English>[H1]Leader Name[\H1]
+	[BOLD]Leader Title of the Named Empire[\BOLD]
+	[BOLD]Lived: [\BOLD] 1234 - 5678
+		[PARAGRAPH:2][BOLD]Background:[\BOLD]
+[TAB]Describe most important accomplishment here. 
+[PARAGRAPH:1]Describe leader personality here.
+[PARAGRAPH:1]Describe third paragraph here. 
+[PARAGRAPH:1]Describe fourth paragraph here. 
+[PARAGRAPH:1]Describe fifth paragraph here. 
+[PARAGRAPH:1]Describe sixth paragraph here. 
+[PARAGRAPH:1]Describe seventh paragraph here. 
+[PARAGRAPH:1]Describe ending paragraph here.</English>
+	</TEXT>
+	<TEXT>
+	<Tag>TXT_KEY_LEADER_TANTABUS_S5_E13_INFO</Tag> <!-- Basis: MLP: FiM Season 5, Episode 13 -->
+		<English>[H1]Tantabus[\H1]
+	[BOLD]Anathema of the Dream Realm[\BOLD]
+	[BOLD]Lived: [\BOLD] Luna's Return, Year 1 - ????
+		[PARAGRAPH:2][BOLD]Background:[\BOLD]
+[TAB]The Tantabus is a tupla - a kind of spiritual/mental-world being - created by Princess Luna shortly after her Reunification with her sister, Celestia.
+[PARAGRAPH:1]Luna, feeling immense guilt for her near-victory as Nightmare Moon, intended for Tantabus to ensure her atonement through the suffering of nightmares, each and every night. 
+[PARAGRAPH:1]At first, Tantabus is successful in its mission to punish Luna with endless nightmares. Perhaps too successful...
+[PARAGRAPH:1]In one such nightmare, where Luna-as-Nightmare-Moon is seemingly defeated and rescued by the Elements, Tantabus learns of the existance of other ponies besides its creator, including Twilight Sparkle and her friends, the Elements of Harmony.
+[PARAGRAPH:1]As it learns more about the world from Luna's memories, Tantabus easily assimilates Luna's ability to dream-walk. The energy being, single-mindedly following its directive, reshapes the pleasant dreamscapes of Twilight and her friends into terrible nightmares as it grows in power.
+[PARAGRAPH:1]Twilight and her friends contact Luna about the bete noir of their nightmares, and the princess uses her powerful magic to bring everypony together to stop Tantabus from escaping the dream realm and turning all of Equestria into a living nightmare.
+[PARAGRAPH:1]Working together alongside the citizens of Ponyville, Twilight and her friends banish the tupla and Luna's feelings of guilt that empowered it, sealing the energy being inside the realm of dreams for all time.
+[PARAGRAPH:1]...Or did they?
+[PARAGRAPH:1]Eventually, the princesses decide to retire and pass on their abilities to the newest Equestrian Princess, Twilight Sparkle.
+[PARAGRAPH:1]Seemingly forgotten, Tantabus continued to grow and learn from her interactions with Princess Celestia, the Elements, and the ponies of Equestria. The Alicorn of Dreams, now fully-reformed, sought a new goal to devote herself to.
+[PARAGRAPH:1]One fateful day, when the Elements became as legends within history and the forces of darkness and disharmony were once more at their most powerful, Tantabus broke free from the magic seal...
+[PARAGRAPH:1]And with its new-found freedom in the realm of dreams, what shall Tantabus do now?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LULLABY_HC_INFO</Tag> <!-- Basis: Head-canon created from Lati9s' comment on the DeviantArt drawing "Lullaby Love Cutie Mark" by MoongazePonies -->
+		<English>[H1]Lullaby Love[\H1]
+	[BOLD]Protector of the Dream Realm[\BOLD]
+	[BOLD]Lived: [\BOLD] Age of Chaos - ????
+		[PARAGRAPH:2][BOLD]Background:[\BOLD]
+[TAB]Describe most important accomplishment here. 
+[PARAGRAPH:1]Describe leader personality here.
+[PARAGRAPH:1]Describe third paragraph here. 
+[PARAGRAPH:1]Describe fourth paragraph here. 
+[PARAGRAPH:1]Describe fifth paragraph here. 
+[PARAGRAPH:1]Describe sixth paragraph here. 
+[PARAGRAPH:1]Describe seventh paragraph here. 
+[PARAGRAPH:1]Describe ending paragraph here.</English>
+	</TEXT>
+</Civ4GameText>
