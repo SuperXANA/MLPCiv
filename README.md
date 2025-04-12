@@ -1,12 +1,12 @@
 MLP Civilization is Magic (MLPCiv)
 
-A fanstasy mod brining the magic of harmony and friendship to the infinite realities of Civilization IV: Beyond the Sword!
+A fantasy mod bringing the magic of harmony and friendship to the infinite realities of Civilization IV: Beyond the Sword!
 
 # What is it?
 This is a modification to the popular 2007 PC video game to incorporate fantasy elements, including characters from alternative universes and the powers of magic, into Civilization.
 Go forth and conquer your world!
 
-This game mod is a work-in-progress since 2017. I've merged in an expansive AI mod called AdvCiv by f1rpo.
+This game mod is a work-in-progress since 2017. I've merged in an expansive AI mod called AdvCiv by f1rpo, currently utilizing verion 1.12.
 
 # Who can you play as?
 Specifically, you can explore the history of main characters like Fluttershy or even fan-favorite background ponies like Lyra Heartstrings! 
@@ -22,6 +22,8 @@ I love Civilization IV, it's one of my favorite video games ever. I wanted a mod
 So I decided to base a mod on clanky4's MLP Civilization is Magic mod and develop my own wonderous game mod myself.
 
 # Credits
--f1rpo - AdvCiv mod for AI development
--clanky4 - MLP Civilization is Magic mod for historical basis
--2K Games and Firaix - Civilization IV for video game creation
+f1rpo - AdvCiv mod for AI development
+
+clanky4 - MLP Civilization is Magic mod for historical basis
+
+2K Games and Firaix - Civilization IV for video game creation
