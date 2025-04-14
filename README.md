@@ -26,4 +26,4 @@ f1rpo - AdvCiv mod for AI development
 
 clanky4 - MLP Civilization is Magic mod for historical basis
 
-2K Games and Firaix - Civilization IV for video game creation
+2K Games and Firais - Civilization IV for video game creation
