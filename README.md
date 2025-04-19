@@ -8,14 +8,15 @@ Go forth and conquer your world!
 
 This game mod is a work-in-progress since 2017. I've merged in an expansive AI mod called AdvCiv by f1rpo, currently utilizing verion 1.12.
 
+This repository only contains updates for the game mod itself and does not represent the full version of MLP Civilization is Magic.
+You must have previously downloaded the complete version of this mod-mod by SuperXANA in order to utilize these files.
+
 # Who can you play as?
 Specifically, you can explore the history of main characters like Fluttershy or even fan-favorite background ponies like Lyra Heartstrings! 
 Or, change the course of time with ponies hailing from worlds similar to Equestria but with crucial differences... 
 
 For exmaple, what if Twilight Sparkle became possessed by evil, demonic forces? What if King Sombra conquered the lands of Equestria?
 What if the Conversion Beureau descended upon the world to remake it in their image?
-
-Just download and play, explore the universe you create in Civilization IV!
 
 # Why did you create this?
 I love Civilization IV, it's one of my favorite video games ever. I wanted a mod similar to Fall From Heaven II with elements of magic and a world teeming with dark, exciting high-fantasy. However I found none that suited my interest in characters from fictional media...
