@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Game Text - MLP Diplomacy (Leader Specfic) -->
 <Civ4GameText xmlns="http://www.firaxis.com">
-<!--AEQUILIBRIUS ZI SEMPITERNA, ETERNAL GODDESS OF BALANCE-->
+<!--AEQUILIBEIUS ZE AETERNUM, ETERNAL GODDESS OF BALANCE-->
 <!--First Contact-->
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AEQUILIBRIUS</Tag>

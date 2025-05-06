@@ -1386,7 +1386,7 @@
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
-		<LeaderHeadInfo><!--AEQUILIBRIUS ZI SEMPITERNA, ETERNAL GODDESS OF BALANCE (ALTERNATIVE PERSONALITY OF PIMEDASUS HELENDAV)-->
+		<LeaderHeadInfo><!--AEQUILIBEIUS ZE AETERNUM, ETERNAL GODDESS OF BALANCE (ALTERNATIVE PERSONALITY OF PIMEDASUS HELENDAV)-->
 			<Type>LEADER_AEQUILIBRIUS</Type>  <!-- MANA KNOWLEDGE: LIFE, LVL 1 & HARMONY, LVL 2 & COSMOS, LVL 3 -->
 			<Description>TXT_KEY_LEADER_AEQUILIBRIUS</Description>
 			<Civilopedia>TXT_KEY_LEADER_GENERIC_PEDIA</Civilopedia>
@@ -1451,7 +1451,7 @@
 			<FavoriteCivic>CIVIC_THEOCRACY</FavoriteCivic>
 			<FavoriteReligion>RELIGION_HARMONY</FavoriteReligion>
 			<!--<FavoriteTechnology>TECH_ORDERS_FROM_HEAVEN</FavoriteTechnology>-->
-			<!--<HatedCivic>CIVIC_PACIFISM/HatedCivic>-->
+			<!--<HatedCivic>CIVIC_PACIFISM</HatedCivic>-->
 			<!--<HatedReligion>RELIGION_LIGHT_MAGIC</HatedReligion>-->
 			<Traits>
 				<Trait>
