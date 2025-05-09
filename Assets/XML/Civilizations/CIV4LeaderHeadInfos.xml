@@ -1572,66 +1572,84 @@
 					<iWeightModifier>30</iWeightModifier>
 				</ImprovementWeightModifier>
 			</ImprovementWeightModifiers>
-			<DiplomacyIntroMusicPeace/>
+			<DiplomacyIntroMusicPeace>
+				<DiploMusicPeaceEra>
+					<EraType>ERA_ANCIENT</EraType>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_INTRO1</DiploScriptId>
+				</DiploMusicPeaceEra>
+				<DiploMusicPeaceEra>
+					<EraType>ERA_INDUSTRIAL</EraType>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_INTRO2</DiploScriptId>
+				</DiploMusicPeaceEra>
+			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS1</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS1</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS1</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS2</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS2</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS3</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS3</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
-			<DiplomacyIntroMusicWar/>
+			<DiplomacyIntroMusicWar>
+				<DiploMusicWarEra>
+					<EraType>ERA_ANCIENT</EraType>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_INTRO_WAR1</DiploScriptId>
+				</DiploMusicWarEra>
+				<DiploMusicWarEra>
+					<EraType>ERA_INDUSTRIAL</EraType>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_INTRO_WAR2</DiploScriptId>
+				</DiploMusicWarEra>
+			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR1</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR1</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR1</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR2</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR2</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR3</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_AEQUILIBRIUS_WAR3</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
