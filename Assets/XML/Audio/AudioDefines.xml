@@ -2177,8 +2177,50 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_AEQUILIBRIUS</SoundID>
+			<SoundID>DIPLO_AEQUILIBRIUS_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy IV - Arranged - Golbez ~Clad in Darkness~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Land of Eikons ~Reprise~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered Differently - Legacy</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy IV - Golbez ~Clad in Darkness~ Orchestral Cover</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS1</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Remixed - Omen ~Opening Theme~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Will of the Goddess</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS3</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Enter the Oratrix ~Drake's Breath~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3507,8 +3549,22 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_AEQUILIBRIUS_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Remixed - Omen ~Opening Theme~</Filename>
+			<SoundID>DIPLO_AEQUILIBRIUS_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasty XIV - Reorchestrated - The Final Day</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XV - Reorchestrated - Apocalypsis Noctis</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AEQUILIBRIUS_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XV - Reorchestrated - Apocalypsis Noctis</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
