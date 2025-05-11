@@ -102,7 +102,7 @@
 			<!--<HatedReligion>NONE</HatedReligion>-->
 			<Traits/>
 			<Flavors/>
-			<!--<BonusDiplomacyModifiers/>-->
+			<!--<BonusAttitudeChanges/>-->
 			<ContactRands/>
 			<ContactDelays/>
 			<MemoryDecays/>
@@ -281,7 +281,7 @@
 			<!--<HatedReligion>NONE</HatedReligion>-->
 			<Traits/>
 			<Flavors/>
-			<!--<BonusDiplomacyModifiers/>-->
+			<!--<BonusAttitudeChanges/>-->
 			<!-- Most of the ContactRands should be set individually.
 				 The schema doesn't ensure this, so I do it in the DLL by
 				 verifying that none remain at -1. -->
@@ -938,12 +938,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -1202,20 +1202,20 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -1469,16 +1469,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -2675,16 +2675,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -2916,20 +2916,20 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -3420,12 +3420,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -3677,12 +3677,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -3928,16 +3928,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -4420,12 +4420,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -4655,12 +4655,12 @@
 					<FlavorType>FLAVOR_CULTURE</FlavorType>
 					<iFlavor>2</iFlavor>
 				</Flavor>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			</Flavors>
 			<ContactRands>
 				<ContactRand>
@@ -4899,12 +4899,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -5391,12 +5391,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -5626,12 +5626,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -5866,12 +5866,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -6135,12 +6135,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -6371,12 +6371,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -6616,16 +6616,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -7115,12 +7115,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -7374,12 +7374,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_EARTH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -7617,12 +7617,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -7861,16 +7861,16 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -8120,16 +8120,16 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -8379,12 +8379,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -8631,16 +8631,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_EARTH</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -8869,12 +8869,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -9147,12 +9147,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -9387,12 +9387,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -9632,12 +9632,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -9895,12 +9895,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -10140,12 +10140,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -10371,12 +10371,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -11071,12 +11071,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -11309,12 +11309,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -11565,12 +11565,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -11804,12 +11804,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -12283,12 +12283,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -12543,12 +12543,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_EARTH</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -12779,12 +12779,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -13014,12 +13014,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -13250,12 +13250,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -13500,12 +13500,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -13745,16 +13745,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -14234,12 +14234,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -14472,16 +14472,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -14720,12 +14720,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -14959,12 +14959,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -15203,12 +15203,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -15439,12 +15439,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -16599,12 +16599,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -16839,12 +16839,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -17316,12 +17316,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -17591,12 +17591,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -18060,12 +18060,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -18775,12 +18775,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -19012,12 +19012,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -19261,12 +19261,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -20235,12 +20235,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -20467,12 +20467,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -20712,16 +20712,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -20953,16 +20953,16 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -21440,12 +21440,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -22148,12 +22148,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -22389,12 +22389,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -22655,12 +22655,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -23152,12 +23152,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -23400,20 +23400,20 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -23664,12 +23664,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -23906,12 +23906,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -24143,12 +24143,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -24395,20 +24395,20 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -24643,12 +24643,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -24887,12 +24887,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -25132,12 +25132,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -25369,12 +25369,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_EARTH</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -26077,12 +26077,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -26327,12 +26327,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -26571,12 +26571,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_WATER</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -27289,12 +27289,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -27533,12 +27533,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_AIR</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -27818,12 +27818,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -28058,12 +28058,12 @@
 					<iFlavor>5</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_COSMOS</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -28309,16 +28309,16 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -28582,12 +28582,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -29074,12 +29074,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -29318,12 +29318,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -29570,12 +29570,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -29806,12 +29806,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -30038,12 +30038,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -31177,12 +31177,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -31423,12 +31423,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -31900,20 +31900,20 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -32184,16 +32184,16 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-				<BonusDiplomacyModifier>
+				</BonusAttitudeChange>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -33151,12 +33151,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -33615,12 +33615,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_FIRE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -33851,12 +33851,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_ICE</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -34109,12 +34109,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_HARMONY</BonusType>
 					<iAttitudeChange>1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -34812,12 +34812,12 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_LIFE</BonusType>
 					<iAttitudeChange>2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -35071,12 +35071,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_CHAOS</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -35766,12 +35766,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_DEATH</BonusType>
 					<iAttitudeChange>-1</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
@@ -36018,12 +36018,12 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<!--<BonusDiplomacyModifiers>
-				<BonusDiplomacyModifier>
+			<!--<BonusAttitudeChanges>
+				<BonusAttitudeChange>
 					<BonusType>BONUS_MANA_MIND</BonusType>
 					<iAttitudeChange>-2</iAttitudeChange>
-				</BonusDiplomacyModifier>
-			</BonusDiplomacyModifiers>-->
+				</BonusAttitudeChange>
+			</BonusAttitudeChanges>-->
 			<ContactRands>
 				<ContactRand>
 					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
