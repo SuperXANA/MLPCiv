@@ -907,10 +907,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -1169,9 +1169,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -1440,8 +1440,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -1705,10 +1705,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>NONE</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -1940,8 +1940,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -2168,10 +2168,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -2412,7 +2412,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -2648,7 +2648,7 @@
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -3147,9 +3147,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -3391,7 +3391,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -3642,8 +3642,8 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
@@ -3897,10 +3897,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -4142,9 +4142,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>NONE</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -4385,8 +4385,8 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
@@ -4622,9 +4622,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -4865,10 +4865,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>NONE</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -5111,7 +5111,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -5360,9 +5360,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -5592,8 +5592,8 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
@@ -5832,7 +5832,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -6105,10 +6105,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -6337,10 +6337,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -6585,9 +6585,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -6849,10 +6849,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -7084,10 +7084,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -7340,9 +7340,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>NONE</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -7587,9 +7587,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>NONE</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -7828,9 +7828,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -8087,9 +8087,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -8344,10 +8344,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -8602,8 +8602,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -8840,7 +8840,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -9114,9 +9114,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -9355,7 +9355,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
@@ -9601,10 +9601,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>NONE</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -9867,8 +9867,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -10110,9 +10110,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_PLEASED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
@@ -10343,7 +10343,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -10573,9 +10573,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -10808,7 +10808,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -11038,8 +11038,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -11274,10 +11274,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -11531,10 +11531,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -11770,9 +11770,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -12014,10 +12014,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -12252,10 +12252,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -12509,10 +12509,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -12750,9 +12750,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -12985,9 +12985,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -13217,8 +13217,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
@@ -13469,10 +13469,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -13714,9 +13714,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
@@ -13970,8 +13970,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -14204,10 +14204,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -14442,9 +14442,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -14686,10 +14686,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -15174,8 +15174,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -15409,10 +15409,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -15636,9 +15636,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -15869,9 +15869,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -16094,9 +16094,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -16328,9 +16328,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -16569,10 +16569,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -16810,8 +16810,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
@@ -17059,10 +17059,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -17288,7 +17288,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -17560,10 +17560,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -17796,10 +17796,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -18030,10 +18030,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -18261,9 +18261,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -18492,9 +18492,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -18742,8 +18742,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -18982,10 +18982,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>NONE</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -19233,8 +19233,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -19472,9 +19472,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -19715,10 +19715,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -19951,8 +19951,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -20205,10 +20205,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -20439,8 +20439,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -20685,7 +20685,7 @@
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -20920,9 +20920,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -21176,9 +21176,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -21410,10 +21410,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -21890,8 +21890,8 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
@@ -22117,9 +22117,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -22358,9 +22358,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
@@ -22625,9 +22625,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>NONE</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>NONE</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -22893,10 +22893,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -23119,9 +23119,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -23366,8 +23366,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -23634,9 +23634,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -23876,10 +23876,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -24115,8 +24115,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -24363,8 +24363,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -24615,8 +24615,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -24853,10 +24853,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>NONE</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -25104,8 +25104,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -25339,10 +25339,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -25579,10 +25579,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -25809,8 +25809,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -26297,10 +26297,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -26541,9 +26541,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
@@ -26797,7 +26797,7 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
@@ -27024,9 +27024,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -27259,10 +27259,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -27498,10 +27498,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>NONE</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -27784,8 +27784,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -28029,8 +28029,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>NONE</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -28278,10 +28278,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -28548,8 +28548,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FURIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -28818,10 +28818,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -29039,9 +29039,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -29284,10 +29284,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -29540,9 +29540,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -29774,8 +29774,8 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -30008,10 +30008,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -30251,7 +30251,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -30466,9 +30466,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</ConvertReligionRefuseAttitudeThreshold>
@@ -30703,9 +30703,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
@@ -30922,7 +30922,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -31146,10 +31146,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>NONE</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -31389,10 +31389,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -31637,10 +31637,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -31869,7 +31869,7 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
@@ -32149,9 +32149,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>NONE</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>NONE</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -32406,10 +32406,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -32644,10 +32644,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -32877,8 +32877,8 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
@@ -33117,10 +33117,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -33352,10 +33352,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -33581,10 +33581,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -33822,9 +33822,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -34316,9 +34316,9 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -34549,10 +34549,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
@@ -34783,7 +34783,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -35039,7 +35039,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -35278,7 +35278,7 @@
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -35507,8 +35507,8 @@
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
 			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_FRIENDLY</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_PLEASED</ConvertReligionRefuseAttitudeThreshold>
@@ -35731,10 +35731,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -35983,9 +35983,9 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingRefuseAttitudeThreshold>
 			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
@@ -36227,10 +36227,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarThemRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
 			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
@@ -36457,10 +36457,10 @@
 			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
 			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
 			<MapRefuseAttitudeThreshold>ATTITUDE_FURIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
+			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_FURIOUS</DeclareWarRefuseAttitudeThreshold>
 			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingThemRefuseAttitudeThreshold>
+			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
+			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
 			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
 			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
 			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_FURIOUS</OpenBordersRefuseAttitudeThreshold>
