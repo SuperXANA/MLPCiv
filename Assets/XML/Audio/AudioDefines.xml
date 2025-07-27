@@ -2185,7 +2185,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_INTRO2</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Land of Eikons ~Reprise~</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - The State of the Realm</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2220,7 +2220,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS3</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy VI - Dancing Mad - Orchestral Arrangement CUT</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasty VI - Dancing Mad Orchestral Arrangement CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3550,7 +3550,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Dread Castle Dazbog ~Anon Becomes a Mountain~</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy XV - Magna Insomnia</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
