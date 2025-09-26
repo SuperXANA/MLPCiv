@@ -427,10 +427,6 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_FLASH</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
 					<LeaderName>LEADER_PIXEL</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
@@ -1103,10 +1099,6 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
 					<LeaderName>LEADER_CLEARSKIES</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
@@ -1640,6 +1632,10 @@
 				</Leader>
 				<Leader>
 					<LeaderName>LEADER_DARKMATTER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ULTIMATEDARKMATTER</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -2769,6 +2765,10 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
+					<LeaderName>LEADER_ULTIMATEDARKMATTER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
 					<LeaderName>LEADER_LOPUTU</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
@@ -2878,6 +2878,10 @@
 					<LeaderName>LEADER_NERATH</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
+				<Leader>
+					<LeaderName>LEADER_NAEGISSA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
 			</Leaders>
 			<DerivativeCiv>CIVILIZATION_DDAY_EQUESTRIA</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
@@ -2966,6 +2970,10 @@
 				</Leader>
 				<Leader>
 					<LeaderName>LEADER_AQASHA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AYZAT</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -3116,19 +3124,11 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_TWINKLESHINE</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
 					<LeaderName>LEADER_SUNNYSKIES</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
 					<LeaderName>LEADER_FLITTER</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
@@ -3507,10 +3507,6 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_BLOSSOMFORTH</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
 					<LeaderName>LEADER_DECA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
@@ -3850,6 +3846,10 @@
 				</Leader>
 				<Leader>
 					<LeaderName>LEADER_SM3000</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ODESSA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -4574,7 +4574,7 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_SAPPHIRE</LeaderName>
+					<LeaderName>LEADER_ODESSA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>

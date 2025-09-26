@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--QUEEN DARK MATTER-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ULTIMATEDARKMATTER</Tag>
+		<English>Hello darling! I'm [OUR_NAME] of the [OUR_EMPIRE]. I hope we can work together and enjoy our time here in this strange world. What do you say?</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Hmph, as if talking would solve our diplomacy issues. You haven't shown yourself to be very trustworthy. You can try again after I've had time to cool off.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Yeah, right. You want peace only so you can backstab me like so many of [OUR_EMPIRE]'s supposed 'elites' and 'nobles'. Not this time!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>It seems your honesty has shown through once again, [CT_NAME]. I will continue to watch any developments in peacetime, of course. Now, you certainly have other issues to attend to, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, how are you? Good to see you! Is there something I can help you with?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>You have a lot of nerve showing up after how you've behaved towards me thus far. You better not be planning something truly underhoof...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Everypony will surely come out to my shows NOW, [CT_NAME]. All thanks to these little magic weapons of mine. Hahaha!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, I'm so glad to see you! Would you be willing to part with such a small tribute? I think we could make this parternship work if you can help me out now...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, could you possibly offer me a small tribute?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, how are you doing? I hope this isn't a bad time... I would be quite happy with you if you could possibly agree to provide this tribute! What's your answer?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, would you be willing to part with such a small offering? Our parternship is important to you, is it not?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_2</Tag>
+		<English>I hope this isn't a bad time, Darling. Might you be willing to offer my great empire a small donation?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_3</Tag>
+		<English>Darling, I would like to request a small donation from your great empire. Surely you can spare a few resources to bolster our partnership?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, do you think you could accept this deal? I noticed that you are in need of help, so please allow me to give this to you!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_2</Tag>
+		<English>Darling, I'm so glad to see you! Would you like this trade deal I have for you? I think we could make this parternship work after all...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_3</Tag>
+		<English>Darling, how are you doing? I'd like to help you with this, please. I would be quite happy if you would take my offer!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Well, darling, what about this deal? I'm sure this will catch your attention...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Darling, I'm ready to enter into a peace treaty now. How much is ending our hostilities worth to you?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Hello darling, why don't we make a deal? I'm sure you're interested in this...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_ULTIMATEDARKMATTER_1</Tag>
+		<English>Hello darling, I'm thinking of cancelling this deal. However, you should be willing to renegotiate it, right? How much is this worth to you?</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_ULTIMATEDARKMATTER</Tag>
+		<English>The diplomatic penalty for your unacceptable actions is war, [CT_NAME]. We will no longer tolerate your unwelcome influence and dangerous decisions! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

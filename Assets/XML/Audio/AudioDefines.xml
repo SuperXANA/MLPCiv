@@ -427,8 +427,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_SAPPHIRE</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - The Ancient Mage-Dragon</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Fates - Coming Demise CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -464,6 +471,13 @@
 		<SoundData>
 			<SoundID>DIPLO_UHANE3</SoundID>
 			<Filename>Sounds/Diplomacy/Touhou Orchestral - Illusionary Joururi</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_NAEGISSA</SoundID>
+			<Filename>Sounds/Diplomacy/Naegissa, High-Priestess of Nerath</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -840,8 +854,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWINKLESHINE</SoundID>
-			<Filename>Sounds/Diplomacy/Love_Conquers_All OT</Filename>
+			<SoundID>DIPLO_ODESSA</SoundID>
+			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x95</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -931,13 +945,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_FLASH</SoundID>
-			<Filename>Sounds/Diplomacy/My Past is not Today IT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_VAPOR</SoundID>
 			<Filename>Sounds/Diplomacy/Lyra Theme FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -1022,15 +1029,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_BLOSSOMFORTH1</SoundID>
-			<Filename>Sounds/Diplomacy/Opus 289 - We Are Not Alone - Dark Ambient Alien Invasion Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_BLOSSOMFORTH2</SoundID>
-			<Filename>Sounds/Diplomacy/Mobile Suit Gundam 00 A Wakening of the Trailblazer - Memory of Planet~Sympathy</Filename>
+			<SoundID>DIPLO_AYZAT</SoundID>
+			<Filename>Sounds/Diplomacy/Ayzat, High-Priestess of Aqasha</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1344,6 +1344,13 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_MQ9_INTRO_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Mobile Suit Gundam 00 A Wakening of the Trailblazer - ELS~Impregnability</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_MQ91</SoundID>
 			<Filename>Sounds/Diplomacy/Ace Combat 4 - Preval</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -1449,8 +1456,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_THINGPONY_INTRO</SoundID>
+			<SoundID>DIPLO_THINGPONY_INTRO1</SoundID>
 			<Filename>Sounds/Diplomacy/Mobile Suit Gundam 00 A Wakening of the Trailblazer - High Technology</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_THINGPONY_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Mobile Suit Gundam 00 A Wakening of the Trailblazer - Memory of Planet~Sympathy</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2485,6 +2499,20 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered - From The Darkness</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Reorchestrated - Lost Heart</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_UHANE_WAR1</SoundID>
 			<Filename>Sounds/Diplomacy/Touhou Orchestral_Symphonic - Spiritual Border of Life CUT</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -2501,6 +2529,13 @@
 		<SoundData>
 			<SoundID>DIPLO_UHANE_WAR3</SoundID>
 			<Filename>Sounds/Diplomacy/Touhou Orchestral - Septette for the Unknown CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_NAEGISSA_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Crystallized, The Whispers In Your Mind</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2627,6 +2662,13 @@
 		<SoundData>
 			<SoundID>DIPLO_FIREREALM_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/One Final War - Orchestral Version FIXED</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ODESSA_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x96</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2779,15 +2821,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_BLOSSOMFORTH_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Organ 108 - Triumph of Prince Mordred - Mysterious Ominous Organ Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_BLOSSOMFORTH_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Mobile Suit Gundam 00 A Wakening of the Trailblazer - ELS~Impregnability</Filename>
+			<SoundID>DIPLO_AYZAT_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Molten, An Army of Fire and Gold</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

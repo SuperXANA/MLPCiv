@@ -303,9 +303,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_SAPPHIRE</Type>
-			<Button>Art/LeaderHeads/static/sapphire_button.dds</Button>
-			<NIF>art/LeaderHeads/static/sapphire.dds</NIF>
+			<Type>ART_DEF_LEADER_ULTIMATEDARKMATTER</Type>
+			<Button>Art/LeaderHeads/static/ultimatedarkmatter_button.dds</Button>
+			<NIF>art/LeaderHeads/static/ultimatedarkmatter.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -319,9 +319,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_FLASH</Type>
-			<Button>Art/LeaderHeads/static/flash_button.dds</Button>
-			<NIF>art/LeaderHeads/static/flash.dds</NIF>
+			<Type>ART_DEF_LEADER_NAEGISSA</Type>
+			<Button>Art/LeaderHeads/static/naegissa_button.dds</Button>
+			<NIF>art/LeaderHeads/static/naegissa.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -647,9 +647,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_TWINKLESHINE</Type>
-			<Button>Art/LeaderHeads/static/twinkleshine_button.dds</Button>
-			<NIF>art/LeaderHeads/static/twinkleshine.dds</NIF>
+			<Type>ART_DEF_LEADER_ODESSA</Type>
+			<Button>Art/LeaderHeads/static/odessa_button.dds</Button>
+			<NIF>art/LeaderHeads/static/odessa.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -735,9 +735,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_BLOSSOMFORTH</Type>
-			<Button>Art/LeaderHeads/static/blossomforth_button.dds</Button>
-			<NIF>art/LeaderHeads/static/blossomforth.dds</NIF>
+			<Type>ART_DEF_LEADER_AYZAT</Type>
+			<Button>Art/LeaderHeads/static/ayzat_button.dds</Button>
+			<NIF>art/LeaderHeads/static/ayzat.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

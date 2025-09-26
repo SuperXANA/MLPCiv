@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--NAEGISSA-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_NAEGISSA</Tag>
+		<English>Hey buddy! I'm [OUR_NAME], you know -- from [OUR_EMPIRE]. Do you know of my good friend Twilight Sparkle?</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_NAEGISSA_1</Tag>
+		<English>Yeah, right! Bullies and jerks like you don't get to talk to me. Leave me alone!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_NAEGISSA_1</Tag>
+		<English>No way, that's not happening anytime soon. You need to be taught a lesson: Stop bullying my friends!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_NAEGISSA_1</Tag>
+		<English>Good. I'm glad we see eye-to-eye on this, [CT_NAME]. There's no need for a pointless conflict between us.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_NAEGISSA_1</Tag>
+		<English>Hey buddy, how goes the whole 'planning a civilization' thing? Do you want something?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_NAEGISSA_1</Tag>
+		<English>You have a lot of guts showing up in my face, [CT_NAME], after all we've been through! What do YOU want?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_NAEGISSA_1</Tag>
+		<English>Dude, like, these nuclear weapons are totally hard-core. Maybe these beauties will get Princess Twilight Sparkle to come and visit me now!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_NAEGISSA_1</Tag>
+		<English>Pal, I could really use this tribute. What do you say to this deal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_NAEGISSA_1</Tag>
+		<English>Buddy, I would really appreciate it if you could be a real pal and accept this request!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_NAEGISSA_1</Tag>
+		<English>[CT_NAME], accepting this deal would be a good idea if you want to keep our friendship going. What's your answer?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_1</Tag>
+		<English>Buddy, I would really appreciate it if you could be a pal and accept this small request!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_2</Tag>
+		<English>Pal, I could really use a small donation! What do you think of my small request, eh?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_3</Tag>
+		<English>[CT_NAME], please accept my small request! Surely, you wouldn't mind helping me out... Come on, don't leave a friend hanging!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_1</Tag>
+		<English>Think you could really make use of this, [CT_NAME]? I'm always glad to give a buddy a boost!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_2</Tag>
+		<English>Pal, I think you should have this. It ought to help you out quite a bit!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_3</Tag>
+		<English>Need some help, buddy? I think you'll like what I have to share with you...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_NAEGISSA_1</Tag>
+		<English>Why don't you take this deal, buddy? This is the best I can do for the moment.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_NAEGISSA_1</Tag>
+		<English>Are you finally ready to stop all this fighting, 'pal'?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_NAEGISSA_1</Tag>
+		<English>Hey buddy! Let's do some trading! Are you up for this offer?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_NAEGISSA_1</Tag>
+		<English>Hey pal, sorry about this. I don't think this deal is good for either of us anymore. We could always get a new trade going, if you're not ready to cancel this deal yet...</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_NAEGISSA</Tag>
+		<English>I will not tolerate your harmful behavior any longer, [CT_NAME] -- bullies like you must be stopped! Your reign of terror will soon end forever! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

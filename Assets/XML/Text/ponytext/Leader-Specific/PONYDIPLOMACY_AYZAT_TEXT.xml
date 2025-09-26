@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--AYZAT-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AYZAT</Tag>
+		<English>Hello there, I'm [OUR_NAME]! I'd love to be your friend and show you all my favorite hobbies! I look forward to spreading peace and harmony between our nations!</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_AYZAT_1</Tag>
+		<English>Sorry, [CT_NAME]. I don't think you and I can really work together right now, with how our interests are just not lining up. How about we give it another shot after we've had time to rethink our diplomatic situations?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_AYZAT_1</Tag>
+		<English>Sorry, [CT_NAME], I don't feel up to signing any peace deals right now. Try again later, okay?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_AYZAT_1</Tag>
+		<English>I am so happy we can stay at peace [CT_NAME]! Now, how about I show you some of my favorite hobbies, hmm?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AYZAT_1</Tag>
+		<English>Hello, Friend [CT_NAME]! Have you found any information that you want to bring to my attention now?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AYZAT_1</Tag>
+		<English>[CT_NAME], hello! What can I do for you?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_AYZAT_1</Tag>
+		<English>When this little competition is over, how about I show you some of my favorite hobbies, hmm? Or do you want to see my nuclear weapons up close and personal this time? ...Haha, I'm joking! Not about the hobbies, though.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AYZAT_1</Tag>
+		<English>I would like to ask for tribute from your ponies, [CT_NAME]. I'm sure there's nothing wrong with my little request, after all you are my friend, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AYZAT_1</Tag>
+		<English>[CT_NAME], might you be willing to part with this tiny tribute? I might not be so voracious for tributes next time, if you were to help me now!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AYZAT_1</Tag>
+		<English>[CT_NAME], this little tribute will play a big part in ensuring we keep everything peaceful between us. Surely you can bear to part with such a small resource request, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_1</Tag>
+		<English>[CT_NAME], my friend, might you be willing to part with this small gift?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_2</Tag>
+		<English>[CT_NAME], this little donation will play a big part in ensuring we keep everything peaceful between us. Surely you can spare a simple resource, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_3</Tag>
+		<English>I would like to ask for a small tribute from your little ponies, [CT_NAME]. I'm sure there's nothing wrong with my request, after all you are my friend, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_1</Tag>
+		<English>I am sure you could use something like this, right [CT_NAME]? Do not worry, I am most happy to help you anytime!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_2</Tag>
+		<English>[CT_NAME], my friend, allow me to allevate your pressing concerns with this small bit of assistance!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_3</Tag>
+		<English>In the name of friendship and harmony, [CT_NAME], I'd like to give you a small gift! If you accept this donation, we will be equals, isn't that great?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_AYZAT_1</Tag>
+		<English>Very well. Is this deal reasonable enough for you, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_AYZAT_1</Tag>
+		<English>I am ready to negotiate a peace treaty with you, [CT_NAME]. How about it, hmm?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_AYZAT_1</Tag>
+		<English>I am ready to negotiate a trade agreement with you, [CT_NAME]. My proposal is as follows. Now, do we have a deal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_AYZAT_1</Tag>
+		<English>Sorry [CT_NAME], my friend, but I am not interested in maintaining this trade agreement any longer. Let me know if you have any further deals ready for me, okay?</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_AYZAT</Tag>
+		<English>[CT_NAME], it is time you and your ponies assimilated into my wonderful civilization. No one shall be left behind! Soon all of you won't have to worry about anything else ever again... ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

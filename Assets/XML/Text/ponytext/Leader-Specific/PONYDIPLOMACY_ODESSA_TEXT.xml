@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--ODESSA EVENSONG-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ODESSA</Tag>
+		<English>Hello [CT_NAME]! I am [OUR_NAME] of the wonderful Equestrian Empire. I'm always glad to make all sorts of new friends, and I can't wait for you to meet my other buddies too! I look forward to a harmonious and overall GOOD time with you in the future...</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ODESSA_1</Tag>
+		<English>Sorry [CT_NAME], but I don't want to talk to you right now. Your past behavior has shown me that you are not as trustworthy as you would appear. It's okay, I understand you've made your decision.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ODESSA_1</Tag>
+		<English>I won't agree to any peace treaty right now, [CT_NAME]. You won't get away from me that easily!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_ODESSA_1</Tag>
+		<English>Very good, [CT_NAME]. I knew I could count on you to do the right thing. Our civilizations will go grow closer together in these peaceful times!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ODESSA_1</Tag>
+		<English>Hello [CT_NAME]. Is there anything I can do for you, my friend?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], what a shock... Things must be serious, if you are coming to me for help! What could you possibly want this time?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_ODESSA_1</Tag>
+		<English>With these nuclear weapons, I will reign supreme over those stuffy Canterlot nobles! How do you like me now, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ODESSA_1</Tag>
+		<English>[CT_NAME], my friend, might I ask for your assistance at this important time? Sharing is caring, you know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ODESSA_1</Tag>
+		<English>[CT_NAME], certainly you'll be able to assist us in our crucial situation? You know it's the right thing to do...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ODESSA_1</Tag>
+		<English>[CT_NAME], my friend, will you be able to provide assistance to us at this crucial time? You are quite important to us as an ally, you know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], my friend, will you be able to provide assistance to us at this crucial time? You are quite important to us as an ally, you know!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_2</Tag>
+		<English>CT_NAME], my friend, might I ask for your assistance at this important time? Sharing is caring, you know, and I am sure you care a lot, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_3</Tag>
+		<English>[CT_NAME], certainly you'll be able to assist us in our critical situation? It's the right thing to do, you know!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], my friend, might I be able to offer assistance to your smaller civilization? Sharing is caring, you know!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_2</Tag>
+		<English>[CT_NAME], certainly we'll be able to assist you in this crucial situation? If you really need this, we will be glad to ally ourselves with you...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_3</Tag>
+		<English>[CT_NAME], my friend, may I provide assistance to you at this crucial time? You are quite important to us as an ally, you know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_ODESSA_1</Tag>
+		<English>Very well, [CT_NAME]. This is the best offer I can think of at the moment. Will you take it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], are you ready to put this conflict behind us and accept a peace treaty?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], I believe a trade deal will be very good for us both. Would you be willing to accept this generous proposal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_ODESSA_1</Tag>
+		<English>[CT_NAME], I would like to inform you that I intend to cancel this deal. I see no further reason why this deal should continue, unless you have other plans...</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_ODESSA</Tag>
+		<English>You have disappointed me for the last time, [CT_NAME]. Bad behavior like yours will not be tolerated any longer! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

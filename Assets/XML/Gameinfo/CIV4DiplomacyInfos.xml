@@ -557,28 +557,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SAPPHIRE</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ULTIMATEDARKMATTER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SAPPHIRE</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ULTIMATEDARKMATTER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -599,14 +599,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_FLASH</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_NAEGISSA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1159,14 +1159,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_TWINKLESHINE</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ODESSA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1313,14 +1313,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_BLOSSOMFORTH</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_AYZAT</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2749,28 +2749,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SAPPHIRE</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ULTIMATEDARKMATTER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SAPPHIRE</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ULTIMATEDARKMATTER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2791,14 +2791,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_FLASH</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_NAEGISSA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3351,14 +3351,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_TWINKLESHINE</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ODESSA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3505,14 +3505,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_BLOSSOMFORTH</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_AYZAT</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4841,14 +4841,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4869,14 +4869,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5429,14 +5429,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5583,14 +5583,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6936,14 +6936,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6964,14 +6964,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7524,14 +7524,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7678,14 +7678,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9016,14 +9016,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9044,14 +9044,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9659,14 +9659,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9809,18 +9809,18 @@
 						<Text>AI_DIPLO_NO_PEACE_LEADER_VV_1</Text>
 					</DiplomacyText>
 				</Response>
-<Response>
+				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11763,7 +11763,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11783,7 +11783,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11817,7 +11817,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11837,7 +11837,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12897,7 +12897,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12917,7 +12917,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -13194,7 +13194,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -13214,7 +13214,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15621,7 +15621,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15637,7 +15637,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15667,7 +15667,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15683,7 +15683,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16587,7 +16587,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16603,7 +16603,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16840,7 +16840,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16856,7 +16856,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>				
 				<Response>
@@ -18944,14 +18944,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -18972,14 +18972,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19532,14 +19532,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19686,14 +19686,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21080,14 +21080,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21108,14 +21108,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21668,14 +21668,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21822,14 +21822,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23247,16 +23247,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23279,16 +23279,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23919,16 +23919,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -24095,16 +24095,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25563,14 +25563,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25591,14 +25591,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26151,14 +26151,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26305,14 +26305,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27704,14 +27704,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27732,14 +27732,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28292,14 +28292,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28446,14 +28446,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30055,16 +30055,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SAPPHIRE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ULTIMATEDARKMATTER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30087,16 +30087,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLASH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NAEGISSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30727,16 +30727,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_TWINKLESHINE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ODESSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30903,16 +30903,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_BLOSSOMFORTH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AYZAT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32481,16 +32481,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SAPPHIRE_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SAPPHIRE_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SAPPHIRE_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ULTIMATEDARKMATTER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32513,16 +32513,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLASH_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLASH_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLASH_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NAEGISSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33153,16 +33153,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_TWINKLESHINE_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_TWINKLESHINE_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_TWINKLESHINE_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ODESSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33329,16 +33329,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_BLOSSOMFORTH_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_BLOSSOMFORTH_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_BLOSSOMFORTH_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AYZAT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35050,7 +35050,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35062,7 +35062,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35088,7 +35088,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35100,7 +35100,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_FLASH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35848,7 +35848,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35860,7 +35860,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -36057,7 +36057,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -36069,7 +36069,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -37866,7 +37866,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37878,7 +37878,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -37904,7 +37904,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37916,7 +37916,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_FLASH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38664,7 +38664,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38676,7 +38676,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38873,7 +38873,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38885,7 +38885,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40687,7 +40687,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40699,7 +40699,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40725,7 +40725,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40737,7 +40737,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_FLASH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41485,7 +41485,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41497,7 +41497,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41694,7 +41694,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41706,7 +41706,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43603,28 +43603,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_SAPPHIRE_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_ULTIMATEDARKMATTER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43645,14 +43645,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_FLASH_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_NAEGISSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44205,14 +44205,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_TWINKLESHINE_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_ODESSA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44359,14 +44359,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_BLOSSOMFORTH_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_AYZAT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45815,16 +45815,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SAPPHIRE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SAPPHIRE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SAPPHIRE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ULTIMATEDARKMATTER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45847,16 +45847,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLASH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLASH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLASH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NAEGISSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46487,16 +46487,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_TWINKLESHINE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_TWINKLESHINE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_TWINKLESHINE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ODESSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46663,16 +46663,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_BLOSSOMFORTH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_BLOSSOMFORTH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_BLOSSOMFORTH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AYZAT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48198,16 +48198,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SAPPHIRE</LeaderType>
+							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SAPPHIRE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SAPPHIRE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SAPPHIRE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ULTIMATEDARKMATTER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48230,16 +48230,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FLASH</LeaderType>
+							<LeaderType>LEADER_NAEGISSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLASH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLASH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLASH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NAEGISSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48870,16 +48870,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_TWINKLESHINE</LeaderType>
+							<LeaderType>LEADER_ODESSA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_TWINKLESHINE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_TWINKLESHINE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_TWINKLESHINE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ODESSA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -49046,16 +49046,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_BLOSSOMFORTH</LeaderType>
+							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_BLOSSOMFORTH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_BLOSSOMFORTH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_BLOSSOMFORTH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AYZAT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>

@@ -1032,29 +1032,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_SAPPHIRE</Tag>
+		<Tag>TXT_KEY_LEADER_ULTIMATEDARKMATTER</Tag>
 		<English>
-			<Text>Sapphire Shores</Text>
+			<Text>Queen Dark Matter</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Sapphire Shores</Text>
+			<Text>Queen Dark Matter</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Sapphire Shores</Text>
+			<Text>Queen Dark Matter</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Sapphire Shores</Text>
+			<Text>Queen Dark Matter</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Sapphire Shores</Text>
+			<Text>Queen Dark Matter</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1088,30 +1088,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_FLASH</Tag>
+		<Tag>TXT_KEY_LEADER_NAEGISSA</Tag>
 		<English>
-			<Text>Flash Sentry</Text>
-			<Gender>Male</Gender>
+			<Text>Naegissa</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Flash Sentry</Text>
-			<Gender>Male</Gender>
+			<Text>Naegissa</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Flash Sentry</Text>
-			<Gender>Male</Gender>
+			<Text>Naegissa</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Flash Sentry</Text>
-			<Gender>Male</Gender>
+			<Text>Naegissa</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Flash Sentry</Text>
-			<Gender>Male</Gender>
+			<Text>Naegissa</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
@@ -2208,29 +2208,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_TWINKLESHINE</Tag>
+		<Tag>TXT_KEY_LEADER_ODESSA</Tag>
 		<English>
-			<Text>Twinkleshine</Text>
+			<Text>Odessa Evensong</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Twinkleshine</Text>
+			<Text>Odessa Evensong</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Twinkleshine</Text>
+			<Text>Odessa Evensong</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Twinkleshine</Text>
+			<Text>Odessa Evensong</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Twinkleshine</Text>
+			<Text>Odessa Evensong</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -2516,29 +2516,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_BLOSSOMFORTH</Tag>
+		<Tag>TXT_KEY_LEADER_AYZAT</Tag>
 		<English>
-			<Text>Blossomforth</Text>
+			<Text>Ayzat</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Blossomforth</Text>
+			<Text>Ayzat</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Blossomforth</Text>
+			<Text>Ayzat</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Blossomforth</Text>
+			<Text>Ayzat</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Blossomforth</Text>
+			<Text>Ayzat</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
