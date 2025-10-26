@@ -25463,7 +25463,12 @@
 					<iWeightModifier>30</iWeightModifier>
 				</ImprovementWeightModifier>
 			</ImprovementWeightModifiers>
-			<DiplomacyIntroMusicPeace/>
+			<DiplomacyIntroMusicPeace>
+				<DiploMusicPeaceEra>
+					<EraType>ERA_ANCIENT</EraType>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_INTRO</DiploScriptId>
+				</DiploMusicPeaceEra>
+			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
@@ -25479,7 +25484,7 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER1</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER2</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
@@ -25487,11 +25492,11 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER3</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER3</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar/>
@@ -25510,7 +25515,7 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR1</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR2</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
@@ -25518,11 +25523,11 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR3</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR3</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>

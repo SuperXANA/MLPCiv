@@ -1398,6 +1398,29 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
+		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER_INTRO</ScriptID>
+		<SoundID>DIPLO_ULTIMATEDARKMATTER_INTRO</SoundID>
+		<SoundType>GAME_MUSIC</SoundType>
+		<iMinVolume>70</iMinVolume>
+		<iMaxVolume>70</iMaxVolume>
+		<iPitchChangeDown>0</iPitchChangeDown>
+		<iPitchChangeUp>0</iPitchChangeUp>
+		<iMinLeftPan>-1</iMinLeftPan>
+		<iMaxLeftPan>-1</iMaxLeftPan>
+		<iMinRightPan>-1</iMinRightPan>
+		<iMaxRightPan>-1</iMaxRightPan>
+		<bLooping>0</bLooping>
+		<iMinTimeDelay>0</iMinTimeDelay>
+		<iMaxTimeDelay>0</iMaxTimeDelay>
+		<bTaperForSoundtracks>0</bTaperForSoundtracks>
+		<iLengthOfSound>0</iLengthOfSound>
+		<fMinDryLevel>1.0</fMinDryLevel>
+		<fMaxDryLevel>1.0</fMaxDryLevel>
+		<fMinWetLevel>0.0</fMinWetLevel>
+		<fMaxWetLevel>0.0</fMaxWetLevel>
+		<iNotPlayPercent>0</iNotPlayPercent>
+	</Script2DSound>
+	<Script2DSound>
 		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER1</ScriptID>
 		<SoundID>DIPLO_ULTIMATEDARKMATTER1</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
@@ -1423,6 +1446,29 @@
 	<Script2DSound>
 		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER2</ScriptID>
 		<SoundID>DIPLO_ULTIMATEDARKMATTER2</SoundID>
+		<SoundType>GAME_MUSIC</SoundType>
+		<iMinVolume>70</iMinVolume>
+		<iMaxVolume>70</iMaxVolume>
+		<iPitchChangeDown>0</iPitchChangeDown>
+		<iPitchChangeUp>0</iPitchChangeUp>
+		<iMinLeftPan>-1</iMinLeftPan>
+		<iMaxLeftPan>-1</iMaxLeftPan>
+		<iMinRightPan>-1</iMinRightPan>
+		<iMaxRightPan>-1</iMaxRightPan>
+		<bLooping>1</bLooping>
+		<iMinTimeDelay>0</iMinTimeDelay>
+		<iMaxTimeDelay>0</iMaxTimeDelay>
+		<bTaperForSoundtracks>0</bTaperForSoundtracks>
+		<iLengthOfSound>0</iLengthOfSound>
+		<fMinDryLevel>1.0</fMinDryLevel>
+		<fMaxDryLevel>1.0</fMaxDryLevel>
+		<fMinWetLevel>0.0</fMinWetLevel>
+		<fMaxWetLevel>0.0</fMaxWetLevel>
+		<iNotPlayPercent>0</iNotPlayPercent>
+	</Script2DSound>
+	<Script2DSound>
+		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER3</ScriptID>
+		<SoundID>DIPLO_ULTIMATEDARKMATTER3</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
 		<iMinVolume>70</iMinVolume>
 		<iMaxVolume>70</iMaxVolume>
@@ -3379,8 +3425,8 @@
 		<ScriptID>AS2D_DIPLO_AYZAT</ScriptID>
 		<SoundID>DIPLO_AYZAT</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
-		<iMinVolume>70</iMinVolume>
-		<iMaxVolume>70</iMaxVolume>
+		<iMinVolume>90</iMinVolume>
+		<iMaxVolume>90</iMaxVolume>
 		<iPitchChangeDown>0</iPitchChangeDown>
 		<iPitchChangeUp>0</iPitchChangeUp>
 		<iMinLeftPan>-1</iMinLeftPan>
@@ -8185,6 +8231,29 @@
 	<Script2DSound>
 		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR2</ScriptID>
 		<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR2</SoundID>
+		<SoundType>GAME_MUSIC</SoundType>
+		<iMinVolume>70</iMinVolume>
+		<iMaxVolume>70</iMaxVolume>
+		<iPitchChangeDown>0</iPitchChangeDown>
+		<iPitchChangeUp>0</iPitchChangeUp>
+		<iMinLeftPan>-1</iMinLeftPan>
+		<iMaxLeftPan>-1</iMaxLeftPan>
+		<iMinRightPan>-1</iMinRightPan>
+		<iMaxRightPan>-1</iMaxRightPan>
+		<bLooping>1</bLooping>
+		<iMinTimeDelay>0</iMinTimeDelay>
+		<iMaxTimeDelay>0</iMaxTimeDelay>
+		<bTaperForSoundtracks>0</bTaperForSoundtracks>
+		<iLengthOfSound>0</iLengthOfSound>
+		<fMinDryLevel>1.0</fMinDryLevel>
+		<fMaxDryLevel>1.0</fMaxDryLevel>
+		<fMinWetLevel>0.0</fMinWetLevel>
+		<fMaxWetLevel>0.0</fMaxWetLevel>
+		<iNotPlayPercent>0</iNotPlayPercent>
+	</Script2DSound>
+	<Script2DSound>
+		<ScriptID>AS2D_DIPLO_ULTIMATEDARKMATTER_WAR3</ScriptID>
+		<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR3</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
 		<iMinVolume>70</iMinVolume>
 		<iMaxVolume>70</iMaxVolume>
