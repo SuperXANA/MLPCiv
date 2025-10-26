@@ -427,8 +427,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER_INTRO</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Remastered - Legendary Inheritance</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_ULTIMATEDARKMATTER1</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - The Ancient Mage-Dragon</Filename>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Garden of Violent Clouds</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -436,6 +443,13 @@
 		<SoundData>
 			<SoundID>DIPLO_ULTIMATEDARKMATTER2</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Fates - Coming Demise CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER3</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Garreg Mach Cathedral CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2192,14 +2206,14 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_INTRO1</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy IV - Arranged - Golbez ~Clad in Darkness~</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy IV - Golbez, Clad in Darkness - Symphonic Remaster</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_INTRO2</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy XVI - The State of the Realm</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Land of Eikons ~Reprise~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2234,7 +2248,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS3</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasty VI - Dancing Mad Orchestral Arrangement CUT</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy VI - Dancing Mad Orchestral Arrangement CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2500,14 +2514,21 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered - From The Darkness</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered - From the Darkness</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Reorchestrated - Lost Heart</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade Remastered - Everything into the Dark</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy VI - Dancing Mad OT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3599,7 +3620,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_WAR3</SoundID>
-			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath CUT</Filename>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath SLOW CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
