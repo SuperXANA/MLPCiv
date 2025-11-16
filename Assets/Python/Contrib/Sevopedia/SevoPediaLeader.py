@@ -97,14 +97,12 @@ class SevoPediaLeader:
 	# advc.001 (from Taurus): Static for use by SevoPediaMain; body cut from placeTraits.
 	@staticmethod
 	def getCiv(iLeader):
-		iNumCivs = 0
+		iLeaderCiv = -1
 		for iCiv in range(gc.getNumCivilizationInfos()):
 			if gc.getCivilizationInfo(iCiv).isLeaders(iLeader):
-				iNumCivs += 1
 				iLeaderCiv = iCiv
+				break
 		# <advc.001> (No functional change here)
-		if iNumCivs != 1:
-			return -1
 		return iLeaderCiv # </advc.001>
 
 
