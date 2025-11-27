@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--PRINCESS AMORE-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AMORE</Tag>
+		<English>Hiya! I am [OUR_NAME] of [OUR_EMPIRE]'s Wonderbolts. I hope you're having a fun time here in this odd place! Want to partner up with me?</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_AMORE_1</Tag>
+		<English>No way! We're not talking until things have cooled off. Come back later.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_AMORE_1</Tag>
+		<English>No. We're not making peace for a while. I've decided that I need to show you just what we Wonderbolts can do in times of war!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_AMORE_1</Tag>
+		<English>I take it that you've made a decision to avoid pointless conflicts? Very good, [CT_NAME]... Now, you certainly have other things to check up on, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AMORE_1</Tag>
+		<English>Hey there, [CT_NAME]! How are things going for you? Me, I'm having a lot of fun! Is there something that you want me to help you with?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AMORE_1</Tag>
+		<English>Sorry, but I'm pretty busy with my plans today. What do you want?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_AMORE_1</Tag>
+		<English>Wonderbolts locked and loaded -- this time with nuclear power! How do you like me and my little friends now, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AMORE_1</Tag>
+		<English>Hi! Do you think you could tribute me this, [CT_NAME]? I could really use the help!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AMORE_1</Tag>
+		<English>[CT_NAME], can you help me with this? I'd really appreciate it!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AMORE_1</Tag>
+		<English>[CT_NAME], here's the request I'm making of you today. It is best for you to accept it! Please?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_1</Tag>
+		<English>[CT_NAME], here's the request I'm making of you today. Please consider it, okay?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_2</Tag>
+		<English>[CT_NAME], could you spare a moment of your time to help me with this? I'd really appreciate it, buddy!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_3</Tag>
+		<English>Hi! Do you think you could provide some much-needed aid to my little ponies, [CT_NAME]? I could really use the help!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AMORE_1</Tag>
+		<English>[CT_NAME], will you accept this tribute? Maybe it's a good idea for you to take this deal, if you need help.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AMORE_2</Tag>
+		<English>Hi! Do you need some assistance, [CT_NAME]? I'm sure this tribute would be very useful for you...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_AMORE_3</Tag>
+		<English>Hi! Could I trade you this, [CT_NAME]? I bet you would really appreciate the help, my friend! I know I'd be grateful...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_AMORE_1</Tag>
+		<English>[CT_NAME], I'd appreciate it if you would consider this deal.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_AMORE_1</Tag>
+		<English>Hi [CT_NAME]! I'm willing to agree to a peace treaty now. Here is my suggested offer. Do you accept my propsal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_AMORE_1</Tag>
+		<English>Hi [CT_NAME]! I'm willing to offer a new trade deal! Do you accept my propsal, or should we renegotiate it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_AMORE_1</Tag>
+		<English>Hi [CT_NAME]! I'm ready to cancel this deal. Do you have something else ready to give me, though? The deal may still be worth it...</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_AMORE</Tag>
+		<English>Your disloyal behavior worries me greatly, [CT_NAME]. I really hope it's not true, but my friends tell me you never meant to befriend us after all... It seems I'll just have to show you the error of your ways! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

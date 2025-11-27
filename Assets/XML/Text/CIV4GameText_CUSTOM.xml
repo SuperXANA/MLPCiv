@@ -362,27 +362,27 @@
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SEAPONY</Tag>
 		<English>
-			<Text>Kelpaquatis</Text>
+			<Text>Queen Novo</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Kelpaquatis</Text>
+			<Text>Queen Novo</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Kelpaquatis</Text>
+			<Text>Queen Novo</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Kelpaquatis</Text>
+			<Text>Queen Novo</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Kelpaquatis</Text>
+			<Text>Queen Novo</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -948,57 +948,57 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_LAVENDERF</Tag>
+		<Tag>TXT_KEY_LEADER_LILYVALLEY</Tag>
 		<English>
-			<Text>Lavender Fritter</Text>
+			<Text>Lily Valley</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Lavender Fritter</Text>
+			<Text>Lily Valley</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Lavender Fritter</Text>
+			<Text>Lily Valley</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Lavender Fritter</Text>
+			<Text>Lily Valley</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Lavender Fritter</Text>
+			<Text>Lily Valley</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_ANGEL</Tag>
+		<Tag>TXT_KEY_LEADER_MAJESTY</Tag>
 		<English>
-			<Text>Angel Wings</Text>
+			<Text>Queen Majesty</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Angel Wings</Text>
+			<Text>Queen Majesty</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Angel Wings</Text>
+			<Text>Queen Majesty</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Angel Wings</Text>
+			<Text>Queen Majesty</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Angel Wings</Text>
+			<Text>Queen Majesty</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1116,29 +1116,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_VAPOR</Tag>
+		<Tag>TXT_KEY_LEADER_AMORE</Tag>
 		<English>
-			<Text>Vapor Trail</Text>
+			<Text>Princess Amore</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Vapor Trail</Text>
+			<Text>Princess Amore</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Vapor Trail</Text>
+			<Text>Princess Amore</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Vapor Trail</Text>
+			<Text>Princess Amore</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Vapor Trail</Text>
+			<Text>Princess Amore</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -2376,30 +2376,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_FILTHYRICH</Tag>
+		<Tag>TXT_KEY_LEADER_DIAMONDTIARA</Tag>
 		<English>
-			<Text>Filthy Rich</Text>
-			<Gender>Male</Gender>
+			<Text>Diamond Tiara</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Filthy Rich</Text>
-			<Gender>Male</Gender>
+			<Text>Diamond Tiara</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Filthy Rich</Text>
-			<Gender>Male</Gender>
+			<Text>Diamond Tiara</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Filthy Rich</Text>
-			<Gender>Male</Gender>
+			<Text>Diamond Tiara</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Filthy Rich</Text>
-			<Gender>Male</Gender>
+			<Text>Diamond Tiara</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>

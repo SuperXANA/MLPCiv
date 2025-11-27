@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--DIAMOND TIARA-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DIAMONDTIARA</Tag>
+		<English>Hello, [OUR_NAME] of the [OUR_EMPIRE] at your service. A fellow world leader is always welcome at my base of operations, of course! I hope we will have many profitable business ventures together, [CT_NAME].</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Your common sense for diplomacy is lacking, [CT_NAME]. I do not think we have anything to gain from your business proposals at this time.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_DIAMONDTIARA_1</Tag>
+		<English>I do not think we have anything to gain from calling off this hostile takeover at this time, [CT_NAME].</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Fantastic decision, [CT_NAME]! This will certainly allow us to strike some lucrative business deals, don't you agree?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Hello, [CT_NAME]! What business do you have with us today?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Ah, [CT_NAME]. I have little time for political games, so let's TRY to have a fair and balanced proposal, got it?  What business do you have with us today?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_DIAMONDTIARA_1</Tag>
+		<English>I bet I could make lots of bits selling off these nuclear weapons, [CT_NAME]. Or maybe I'll just keep them for myself. I haven't decided as of yet.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_DIAMONDTIARA_1</Tag>
+		<English>Ah, [CT_NAME]. Could I interest you in sharing the wealth and aiding my empire? Any good business transaction starts with a little political support, you know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_DIAMONDTIARA_1</Tag>
+		<English>Hello, [CT_NAME]! Could I interest you in this business proposal? Your political support is invaluable to me, so please be sure to consider my proposal carefully.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_DIAMONDTIARA_1</Tag>
+		<English>Greetings [CT_NAME], would this business transaction be of any interest to you? I'm sure somepony of your business acumen would understand the value of this deal...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Greetings [CT_NAME], would this business transaction be of any interest to you?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_2</Tag>
+		<English>Hello, [CT_NAME]! Could I interest you in this business proposal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_3</Tag>
+		<English>Ah, [CT_NAME]. Could I interest you in sharing the wealth that you have collected? Just a small bit will do!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Ah, [CT_NAME]. Could I offer you some assistance in your current situation? Any good business transaction starts with a little political support, you know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_2</Tag>
+		<English>Hello, [CT_NAME]! Could I interest you in this fair and balanced business proposal? Your political support is invaluable to me, so please be sure to consider my proposal carefully.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_3</Tag>
+		<English>Greetings [CT_NAME], would this business transaction be of any interest to you? I'm sure somepony with your level of political awareness would understand the value of this deal...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_DIAMONDTIARA_1</Tag>
+		<English>I'm sure somepony with your political wisdom, [CT_NAME], will understand the value of this deal...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Now wait just a minute, [CT_NAME]! What're you doing to my [OUR_BEST_UNIT]?[NEWLINE]That unit cost me a lot of gold! Why don't we end it with a nice peace treaty?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_DIAMONDTIARA_1</Tag>
+		<English>Greetings [CT_NAME]! Can I interest you in this fair and balanced business proposal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_DIAMONDTIARA_1</Tag>
+		<English>I no longer believe this buiness deal to be fair and balanced, [CT_NAME]. Are you willing to negotiate a new offer, or should I cancel this trade contract?</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_DIAMONDTIARA</Tag>
+		<English>I will no longer tolerate your underhanded back-stabbing and dishonesty, [CT_NAME]. Your ponies clearly need a more effective leader to guide them. Our business parternship is therefore ended, immediately. ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

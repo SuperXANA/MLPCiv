@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--LILY VALLEY-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LILYVALLEY</Tag>
+		<English>Oh, how nice to meet you! I am [OUR_NAME] from the [OUR_EMPIRE]. I love sweet things, and I hope we can get along and be good friends, [CT_NAME]! Care for some of my delicious food to mark this occasion?</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_LILYVALLEY_1</Tag>
+		<English>Hi, [CT_NAME]. Sorry, but I don't wanna talk right now. Try again later, okay?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_LILYVALLEY_1</Tag>
+		<English>Sorry, [CT_NAME], but you need to learn your lesson: Don't disrespect the Apple family! We will be talking more about this later, after I arrive at your Palace.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_LILYVALLEY_1</Tag>
+		<English>Great, [CT_NAME]! I am happy we have agreed to peace between our ponies. Will there be anything else today?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LILYVALLEY_1</Tag>
+		<English>Hiya, [CT_NAME]! How you doing today? Anything I can do to help out?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LILYVALLEY_1</Tag>
+		<English>[CT_NAME], I'm kinda busy right now. What is it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_LILYVALLEY_1</Tag>
+		<English>The power of these magical weapons will ensure I will never be forgotten in the books of history! How do you like me now, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LILYVALLEY_1</Tag>
+		<English>Heya, [CT_NAME]! Care to spare a small tribute to my cause?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LILYVALLEY_1</Tag>
+		<English>[CT_NAME], how are you doing? Care to share this tribute with me? I'm sure I can make it worthwhile for your great nation!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LILYVALLEY_1</Tag>
+		<English>Can you possibly share this with me, [CT_NAME]? I really need this tribute! Please?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_1</Tag>
+		<English>Don't trust [OUR_WORST_ENEMY], [CT_NAME]! My rival leader is definitely not a believer in the magic of friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_2</Tag>
+		<English>Don't trust that rival [OUR_WORST_ENEMY], [CT_NAME]! They are an evil-doer fighting against harmony and friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_3</Tag>
+		<English>That false friend [OUR_WORST_ENEMY] is not one to put your trust in, [CT_NAME]! Their plans oppose the very ideas of harmony and friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_1</Tag>
+		<English>You really shouldn't support that rival leader [OUR_WORST_ENEMY], [CT_NAME]. They are a villain fighting against harmony and friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_2</Tag>
+		<English>Please don't support [OUR_WORST_ENEMY], [CT_NAME]! That false friend is definitely not a believer in the magic of friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_3</Tag>
+		<English>My rival leader [OUR_WORST_ENEMY] opposes the magic of friendship! You should stop supporting that false friend, [CT_NAME], before it is too late!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_1</Tag>
+		<English>My little ponies could use a boost, [CT_NAME]. Will you consider donating this to my cause?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_2</Tag>
+		<English>The caretaker's cause is very important, [CT_NAME]. Surely you can understand why I need this help immediately, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_3</Tag>
+		<English>[CT_NAME], I could use a small voluntary tribute right about now. Will you provide a small donation to my worthwhile cause?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_1</Tag>
+		<English>Do you need some help, [CT_NAME]? I bet you could use this tribute, my friend!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_2</Tag>
+		<English>How are you today, [CT_NAME]? Do you need any help? I have something that may interest you... Will you accept my gift?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_3</Tag>
+		<English>Hi [CT_NAME]! How are things with you, buddy? I hope everything is alright! I think you might like this tribute I have for you...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_LILYVALLEY_1</Tag>
+		<English>I think you might like this new deal, [CT_NAME]... How about it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_LILYVALLEY_1</Tag>
+		<English>[CT_NAME], I'm ready to end this conflict right now and make a peace treaty with you. Are you interested?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_LILYVALLEY_1</Tag>
+		<English>I think you'll love this deal, [CT_NAME]! Are you willing to accept it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_LILYVALLEY_1</Tag>
+		<English>Sorry, [CT_NAME], but I'm ready to end this deal. Of course, you could always offer me another trade in exchange... Are you willing to renegotiate our current agreement?</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_LILYVALLEY</Tag>
+		<English>You have disappointed me for the last time, [CT_NAME]. Clearly, your ponies need a more attentive and compassionate leader, like me of course! You'll soon be free to do whatever you want, isn't that great? ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

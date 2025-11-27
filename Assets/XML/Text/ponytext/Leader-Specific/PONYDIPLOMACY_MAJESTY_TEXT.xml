@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--QUEEEN MAJESTY-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MAJESTY</Tag>
+		<English>Oh my, you're [CT_NAME]! I'm [OUR_NAME] and I'm happy to meet you! I hope we can be good friends and all live in peace and harmony!</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MAJESTY_1</Tag>
+		<English>Sorry, but I don't feel like chatting right now, [CT_NAME]. Don't forget to try again later, alright?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_MAJESTY_1</Tag>
+		<English>Sorry, [CT_NAME], but we've had one too many disagreements on very important matters. We can't make peace just yet.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_MAJESTY_1</Tag>
+		<English>Alright, I'm willing to overlook our differences and maintain the peace. Thanks again, [CT_NAME], for being willing to listen to reason!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MAJESTY_1</Tag>
+		<English>Hi [CT_NAME]! Seeing you really brigtens up my day! What do you wanna chat about?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MAJESTY_1</Tag>
+		<English>[CT_NAME], sorry, but I don't have a lot of time to chat right now. Tell me what you want, and I'll see if there's anything I can do!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_MAJESTY_1</Tag>
+		<English>These super-powerful magic weapons will surely protect my friends and allies. I hope I can count you as one of that small number of ponies, [CT_NAME].</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MAJESTY_1</Tag>
+		<English>I could really use this tribute, [CT_NAME]. What do you say to sharing it with me?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MAJESTY_1</Tag>
+		<English>Hiya, [CT_NAME]! Could you see if this trade is to your liking? I would really like you a lot more if you could give this to me!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MAJESTY_1</Tag>
+		<English>[CT_NAME], sorry to bother you when you're busy... I just wanna see if you could tribute this to me, please. How about it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_1</Tag>
+		<English>Could I ask you to share your precious resources with me? I'm sure I will be a big help to you, if you could just give this to me now!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_2</Tag>
+		<English>Could I ask you for a small donation, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_3</Tag>
+		<English>The peace-loving [OUR_EMPIRE] needs a small donation, [CT_NAME]. Will you accept this request?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_1</Tag>
+		<English>Hello [CT_NAME]! Because of your current situation, I think you should have a look at this trade deal... Would you be willing to accept this tribute?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_2</Tag>
+		<English>Hiya, [CT_NAME]! Could you see if this trade is to your liking? I would really like it a lot if you were to accept my help...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_3</Tag>
+		<English>[CT_NAME], sorry to bother you when you're busy... I really think you could use this offer of assistance! Will this tribute help you, my friend?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_MAJESTY_1</Tag>
+		<English>Wanna try this deal now, [CT_NAME]? I think you'll like this one...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_MAJESTY_1</Tag>
+		<English>Sorry to bother you, [CT_NAME], but I'm ready to end this war of attrition! I'd really appreciate it a lot if you were to accept my peace offering...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_MAJESTY_1</Tag>
+		<English>Would you like to sign a trade deal, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_MAJESTY_1</Tag>
+		<English>[CT_NAME], I'd like to talk about our trade deals today. I'm ready to cancel this one, with your permission of course. If it works better for you, we could always renegotiate it....</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_MAJESTY</Tag>
+		<English>I'm so disappointed in you, [CT_NAME]. Did my offer of frienship mean nothing to you? I can't just ignore when my friends start worrying... Clearly, you must be stopped! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

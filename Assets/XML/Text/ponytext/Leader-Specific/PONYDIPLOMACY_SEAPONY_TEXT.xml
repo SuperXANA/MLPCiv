@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--QUEEN NOVO-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SEAPONY</Tag>
+		<English>Hello! I am [OUR_NAME] of [OUR_EMPIRE]! I always enjoy making new friends, and hope you'll be my friend too! May we all live in peace for a thousand years!</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SEAPONY_1</Tag>
+		<English>No, I don't want to talk to you right now. After what you've done, I need some time alone... Please go away, [CT_NAME].</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_SEAPONY_1</Tag>
+		<English>I don't feel that making peace is such a good idea right now. Perhaps later, but not at this time, sorry!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_SEAPONY_1</Tag>
+		<English>Yay! I'm happy that we agree warfare isn't everything, [CT_NAME]! I don't like fighting, anyway.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SEAPONY_1</Tag>
+		<English>[CT_NAME]! Glad to see you again! What can we Seaponies do for you?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SEAPONY_1</Tag>
+		<English>[CT_NAME]! What do you think you're doing here? This better be good...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_SEAPONY_1</Tag>
+		<English>Lots of magical energy makes for super-powerful weapons to protect my little friends! What do you think of me now, [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SEAPONY_1</Tag>
+		<English>I do need this little tribute, my friend [CT_NAME]... Perhaps the Seaponies could do something for you in the future, if you lent this to me now?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SEAPONY_1</Tag>
+		<English>I really think you should give this to me soon, [CT_NAME]. This'll certainly solidify our friendship and prove we look out for each other! Don't you want to be my friend?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SEAPONY_1</Tag>
+		<English>I think it would be best if you gave this to us, [CT_NAME]. We may be a peaceful civilization, but that doesn't mean we are weak... If you won't help us Seaponies now, we may cast you aside in the future!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SEAPONY_1</Tag>
+		<English>Do not trust [OUR_WORST_ENEMY] -- they are disrupting the peaceful and quiet life of the Seaponies with their villianous actions!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SEAPONY_2</Tag>
+		<English>Do not trust [OUR_WORST_ENEMY] -- they disrupt the harmony and solitude of the Seaponies with brutual diplomatic waves.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SEAPONY_3</Tag>
+		<English>Do not trust [OUR_WORST_ENEMY], for they disrupt the natural world with ravenous exploitation. Be wary [CT_NAME], or they may abuse you too!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SEAPONY_1</Tag>
+		<English>That villain [OUR_WORST_ENEMY] abuses our peace and harmony for their own gain, [CT_NAME]. You should not trust them or you'll end up cast aside when you least expect it...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SEAPONY_2</Tag>
+		<English>You should not trade with [OUR_WORST_ENEMY], [CT_NAME], as they will surely cast you aside when you least expect it...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SEAPONY_3</Tag>
+		<English>That villain [OUR_WORST_ENEMY] casts aside friends and acquaintances alike in their mad quest for power, [CT_NAME]. We suggest you cast them aside before you are drowned under a tide of maniupation.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SEAPONY_1</Tag>
+		<English>Your help will certainly solidify our friendship and prove we look out for each other! Don't you want to be my friend?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SEAPONY_2</Tag>
+		<English>I could definitely use this little bit of help, my friend [CT_NAME]... Perhaps the Seaponies could do something for you in the future, if you let me borrow this now?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SEAPONY_3</Tag>
+		<English>Every little bit of help is worth it, [CT_NAME]. Care to give us some, or should we go elsewhere?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SEAPONY_1</Tag>
+		<English>[CT_NAME]! I hope you are okay over there, my friend... I'm really worried about you! Will you accept my help, please?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SEAPONY_2</Tag>
+		<English>[CT_NAME], you look like somepony in need of some help... I don't want you to fall behind us and end up crashing against the waves, you know! Maybe you could work with this -- it should help you, right?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SEAPONY_3</Tag>
+		<English>How are you doing over there, [CT_NAME]? I'd like to help you by giving this to you, my friend... Please, go right ahead and take it!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_SEAPONY_1</Tag>
+		<English>Well, [CT_NAME], what's your opinion on this deal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_SEAPONY_1</Tag>
+		<English>Are you ready to stop the fighting, [CT_NAME]? I don't know about you, but getting my hooves dirty is not on the agenda for this year!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_SEAPONY_1</Tag>
+		<English>Hey, [CT_NAME]! What's your opinion on this deal? I really think if you accept this offer, it'll help us both...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_SEAPONY_1</Tag>
+		<English>Hi, [CT_NAME]! I'm really sorry, but I would like to cancel this deal as soon as possible. Things have changed since then, you know... Maybe you'll be interested in a new deal now?</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_SEAPONY</Tag>
+		<English>It's time to stop this unacceptable behavior, [CT_NAME]. I will be the one to show you the error of your ways! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

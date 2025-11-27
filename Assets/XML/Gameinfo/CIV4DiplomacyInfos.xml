@@ -515,28 +515,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_LAVENDERF</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_LILYVALLEY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ANGEL</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_MAJESTY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -613,14 +613,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_VAPOR</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_AMORE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1243,14 +1243,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_FILTHYRICH</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_DIAMONDTIARA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2707,28 +2707,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_LAVENDERF</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_LILYVALLEY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ANGEL</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MAJESTY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2805,14 +2805,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_VAPOR</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_AMORE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3435,14 +3435,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_FILTHYRICH</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_DIAMONDTIARA</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4799,28 +4799,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4883,14 +4883,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5513,14 +5513,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6894,28 +6894,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6978,14 +6978,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7608,14 +7608,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -8974,28 +8974,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9058,14 +9058,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9743,14 +9743,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11682,7 +11682,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11702,14 +11702,14 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11729,7 +11729,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11844,7 +11844,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11864,7 +11864,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -13059,7 +13059,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -13079,7 +13079,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15552,7 +15552,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15568,14 +15568,14 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15591,7 +15591,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15690,7 +15690,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15706,7 +15706,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16725,7 +16725,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16741,7 +16741,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -18902,28 +18902,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -18986,14 +18986,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19616,14 +19616,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21038,28 +21038,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21122,14 +21122,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21752,14 +21752,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23199,32 +23199,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23295,16 +23295,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -24015,16 +24015,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25521,28 +25521,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25605,14 +25605,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26235,14 +26235,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27662,28 +27662,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27746,14 +27746,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28376,14 +28376,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30007,32 +30007,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LAVENDERF_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_LILYVALLEY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_ANGEL_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MAJESTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30103,16 +30103,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VAPOR_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMORE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30823,16 +30823,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_FILTHYRICH_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_DIAMONDTIARA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32433,32 +32433,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LAVENDERF_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LAVENDERF_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LAVENDERF_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LILYVALLEY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ANGEL_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ANGEL_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ANGEL_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MAJESTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32529,16 +32529,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VAPOR_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VAPOR_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VAPOR_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMORE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33249,16 +33249,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FILTHYRICH_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FILTHYRICH_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FILTHYRICH_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_DIAMONDTIARA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -34993,7 +34993,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35012,7 +35012,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35107,7 +35107,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35962,7 +35962,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37809,7 +37809,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37828,7 +37828,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37923,7 +37923,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38778,7 +38778,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40630,7 +40630,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40649,7 +40649,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40744,7 +40744,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41599,7 +41599,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -43561,28 +43561,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_LAVENDERF_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_LILYVALLEY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_ANGEL_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_MAJESTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43659,14 +43659,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_VAPOR_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_AMORE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44289,14 +44289,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_FILTHYRICH_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_DIAMONDTIARA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45767,32 +45767,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LAVENDERF_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LAVENDERF_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LAVENDERF_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LILYVALLEY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ANGEL_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ANGEL_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ANGEL_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MAJESTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45863,16 +45863,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VAPOR_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VAPOR_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VAPOR_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMORE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46583,16 +46583,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FILTHYRICH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FILTHYRICH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FILTHYRICH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_DIAMONDTIARA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48150,32 +48150,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LAVENDERF</LeaderType>
+							<LeaderType>LEADER_LILYVALLEY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LAVENDERF_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LAVENDERF_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LAVENDERF_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LILYVALLEY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ANGEL</LeaderType>
+							<LeaderType>LEADER_MAJESTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ANGEL_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ANGEL_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ANGEL_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MAJESTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48246,16 +48246,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VAPOR</LeaderType>
+							<LeaderType>LEADER_AMORE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VAPOR_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VAPOR_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VAPOR_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMORE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48966,16 +48966,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FILTHYRICH</LeaderType>
+							<LeaderType>LEADER_DIAMONDTIARA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FILTHYRICH_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FILTHYRICH_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FILTHYRICH_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_DIAMONDTIARA_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>

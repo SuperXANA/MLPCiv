@@ -406,15 +406,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_LAVENDERF</SoundID>
+			<SoundID>DIPLO_LILYVALLEY</SoundID>
 			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_ANGEL</SoundID>
-			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
+			<SoundID>DIPLO_MAJESTY</SoundID>
+			<Filename>Sounds/Diplomacy/My Little Pony Friendship is Magic - You'll Play Your Part CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -910,8 +910,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_FILTHYRICH</SoundID>
-			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
+			<SoundID>DIPLO_DIAMONDTIARA</SoundID>
+			<Filename>Sounds/Diplomacy/Yu-Gi-Oh The Duelists of the Roses - Seto's Ambition</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -959,8 +959,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_VAPOR</SoundID>
-			<Filename>Sounds/Diplomacy/Lyra Theme FIXED</Filename>
+			<SoundID>DIPLO_AMORE</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Remastered - Nyna, Forlorn Princess</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2529,6 +2529,13 @@
 		<SoundData>
 			<SoundID>DIPLO_ULTIMATEDARKMATTER_WAR3</SoundID>
 			<Filename>Sounds/Diplomacy/Final Fantasy VI - Dancing Mad OT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_MAJESTY_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Heavensbound ~Reverie~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

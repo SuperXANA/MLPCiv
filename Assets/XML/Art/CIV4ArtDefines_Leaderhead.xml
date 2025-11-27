@@ -279,17 +279,17 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_LAVENDERF</Type>
-			<Button>Art/LeaderHeads/static/lavenderfritter_button.dds</Button>
-			<NIF>art/LeaderHeads/static/lavenderfritter.dds</NIF>
+			<Type>ART_DEF_LEADER_LILYVALLEY</Type>
+			<Button>Art/LeaderHeads/static/lilyvalley_button.dds</Button>
+			<NIF>art/LeaderHeads/static/lilyvalley.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_ANGEL</Type>
-			<Button>Art/LeaderHeads/static/angel_button.dds</Button>
-			<NIF>art/LeaderHeads/static/angel.dds</NIF>
+			<Type>ART_DEF_LEADER_MAJESTY</Type>
+			<Button>Art/LeaderHeads/static/majesty_button.dds</Button>
+			<NIF>art/LeaderHeads/static/majesty.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -327,9 +327,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_VAPOR</Type>
-			<Button>Art/LeaderHeads/static/vapor_button.dds</Button>
-			<NIF>art/LeaderHeads/static/vapor.dds</NIF>
+			<Type>ART_DEF_LEADER_AMORE</Type>
+			<Button>Art/LeaderHeads/static/amore_button.dds</Button>
+			<NIF>art/LeaderHeads/static/amore.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -695,9 +695,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_FILTHYRICH</Type>
-			<Button>Art/LeaderHeads/static/filthyrich_button.dds</Button>
-			<NIF>art/LeaderHeads/static/filthyrich.dds</NIF>
+			<Type>ART_DEF_LEADER_DIAMONDTIARA</Type>
+			<Button>Art/LeaderHeads/static/diamondtiara_button.dds</Button>
+			<NIF>art/LeaderHeads/static/diamondtiara.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

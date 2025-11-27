@@ -160,6 +160,10 @@
 					<LeaderName>LEADER_HARMONY</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MAJESTY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
 			</Leaders>
 			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
@@ -1214,6 +1218,10 @@
 			<Leaders>
 				<Leader>
 					<LeaderName>LEADER_SOMBRA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AMORE</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -3096,14 +3104,6 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_ANGEL</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_VAPOR</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
 					<LeaderName>LEADER_MINUETTE</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
@@ -4104,125 +4104,6 @@
 			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
 		<CivilizationInfo>
-			<Type>CIVILIZATION_FRITTER</Type>
-			<Description>TXT_KEY_CIV_FRITTER_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_FRITTER_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_FRITTER_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_DESC</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_GREEN</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_FRITTER</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<UnitArtStyleType>UNIT_ARTSTYLE_EARTH</UnitArtStyleType>
-			<bPlayable>1</bPlayable>
-			<bAIPlayable>1</bAIPlayable>
-			<Cities>
-				<City>Ponyville</City>
-				<City>Ponyvilla</City>
-				<City>Equestria</City>	
-				<City>Equestrian Town</City>
-				<City>Equestrian Gorge</City>
-				<City>Equus</City>
-				<City>Equusburg</City>	
-				<City>Equestrian City</City>
-				<City>Foaledo</City>
-				<City>San Franciscolt</City>	
-<!--move these on down if we can't find city names for the other civs-->
-				<City>Seaddle</City>	
-				<City>Whinneapolis</City>
-				<City>Manechester</City>	
-				<City>Coltlumbus</City>	
-				<City>Cincinneighti</City>
-				<City>Indianeighpolis</City>	
-				<City>Elements of Harmony</City>	
-				<City>Albaneigh</City>
-				<City>Laughter</City>	
-				<City>Loyalty</City>	
-				<City>Honesty</City>
-				<City>Generosity</City>
-				<City>Kindness</City>
-				<City>Magic</City>
-				<City>New Ponyville</City>
-				<City>Neighton</City>
-<!--move these on down if we can't find city names for the other civs-->
-				<City>Manenila</City>	
-				<City>Mareton</City>
-				<City>Marerogate</City>	
-				<City>Cambraya</City>	
-				<City>Doneighgal</City>
-				<City>Ullafoal</City>	
-				<City>Yacoltsk</City>
-				<City>Old Ponyville</City>
-				<City>Cake Town</City>
-<!--move these on down if we can't find city names for the other civs-->
-				<City>Mareseilles</City>	
-				<City>Rubicon</City>	
-				<City>San Ferneighdo</City>	
-				<City>Yocoltsuka</City>
-				<City>Copeneighgen</City>	
-				<City>Old Magic</City>	
-				<City>Chicacolt</City>
-				<City>Marewaukee</City>
-				<City>Damarescus</City>
-				<City>Neighjing</City>
-				<City>Manebridge</City>
-				<City>Maregdeburg</City>
-				<City>Hooferville</City>
-				<City>Maresaw</City>	
-				<City>Bangcolt</City>
-			</Cities>
-			<Buildings>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
-					<BuildingType>BUILDING_FRITTER_GRANARY</BuildingType>
-				</Building>
-			</Buildings>
-			<Units>
-				<Unit>
-					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
-					<UnitType>UNIT_FRITTER_KNIGHT</UnitType>
-				</Unit>
-			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
-			<FreeBuildingClasses>
-				<FreeBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-					<bFreeBuildingClass>1</bFreeBuildingClass>
-				</FreeBuildingClass>
-			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
-			<DisableTechs/>
-			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-			</InitialCivics>
-			<Leaders>
-				<Leader>
-					<LeaderName>LEADER_LAVENDERF</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-			</Leaders>
-			<DerivativeCiv>CIVILIZATION_EQUESTRIA</DerivativeCiv>
-			<CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
-			<CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
-		</CivilizationInfo>
-		<CivilizationInfo>
 			<Type>CIVILIZATION_SHADOW</Type>
 			<Description>TXT_KEY_CIV_SHADOW_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_SHADOW_SHORT_DESC</ShortDescription>
@@ -4590,7 +4471,7 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
-					<LeaderName>LEADER_FILTHYRICH</LeaderName>
+					<LeaderName>LEADER_DIAMONDTIARA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -4701,6 +4582,10 @@
 				</Leader>
 				<Leader>
 					<LeaderName>LEADER_PEACHY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LILYVALLEY</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
