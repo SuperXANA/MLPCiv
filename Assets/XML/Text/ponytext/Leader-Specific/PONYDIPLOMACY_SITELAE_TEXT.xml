@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--SERENIAUS E CELIS AETHR-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SITELAE</Tag>
+		<English>Hi. I'm [OUR_NAME], ruler of [OUR_EMPIRE]. I hope we can work peacefully together in a mutual parternship. Right, [CT_NAME]?</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SITELAE_1</Tag>
+		<English>I thought you wanted to be friends with me. I guess that I was wrong...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_SITELAE_1</Tag>
+		<English>I am NOT interested in making up with you right now. Go away!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_SITELAE_1</Tag>
+		<English>Yes, [CT_NAME], I agree that we have no reason to fight. Thank you!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SITELAE_1</Tag>
+		<English>Hey there! Do you need something?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SITELAE_1</Tag>
+		<English>What could it possibly be now? This better be a good use of my time!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_SITELAE_1</Tag>
+		<English>Hahaha! Don't get on my bad side anymore, [CT_NAME]. You wouldn't like the results... Does not my stockpile of nuclear weapons scare you, hmm?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SITELAE_1</Tag>
+		<English>Hello! I would like you to provide me this small tribute, please.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SITELAE_1</Tag>
+		<English>Hey there, friend! I need to borrow this from you. It's for my most recent plan... Will you accept my request?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SITELAE_1</Tag>
+		<English>Giving me this tribute will show me that I can trust you. Are you willing to work with me?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_1</Tag>
+		<English>Giving me this gift will show me that you like me as a friend. Are you willing to accept my small request?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_2</Tag>
+		<English>Hello! I would like you to provide me this small gift, please.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_3</Tag>
+		<English>Greetings! I would like you to provide me a little 'donation', please.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_1</Tag>
+		<English>Accepting this tribute will show me that I can trust you, [CT_NAME]. Are you willing to work with me?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_2</Tag>
+		<English>[CT_NAME], let's work together! I think cooperation is a great idea, do you agree? Will you take this as proof of my trustworthiness?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_3</Tag>
+		<English>I think accepting this trade offer is a good idea, [CT_NAME]... I'm ready to help you with whatever you need, of course! My friend, here is your tribute to celebrate our friendship!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_SITELAE_1</Tag>
+		<English>Alright, let's see if THIS deal is acceptable to you, [CT_NAME]. How about it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_SITELAE_1</Tag>
+		<English>I'm ready to discuss the terms of a peace treaty, [CT_NAME]. Here's what I have in mind. How much is stopping our conflict worth to you?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_SITELAE_1</Tag>
+		<English>I'd like to make a deal with you, [CT_NAME]! How much are you willing to pay for this?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_SITELAE_1</Tag>
+		<English>I don't want to be a party to this deal anymore, [CT_NAME]. Not unless you can offer me something better, of course...</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_SITELAE</Tag>
+		<English>I thought you were my friend, [CT_NAME]! After recent events, I can no longer ignore your dishonesty! I am so very disappointed in you... It's time we confronted this problem, right now! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - MLP Diplomacy (Leader Specfic) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!--KING COBALT, GOOD VERSION OF KING SOMBRA-->
+<!--First Contact-->
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_COBALT</Tag>
+		<English>Yo, dude! I'm [OUR_NAME]! Glad to meet you, [CT_NAME]! Do you love music and culture just as much as I do? We'll be fast friends if we can get along...</English>
+	</TEXT>
+<!--Diplomatic Responses-->
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_COBALT_1</Tag>
+		<English>Dude, that isn't happenin' anytime soon. Not after the stunt you pulled... Talk about bein' uncool! I need you to stay away for a little while, okay?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_LEADER_COBALT_1</Tag>
+		<English>Alright, dude. I'm glad to hear you will respect our differences. Keeping the peace between us is the best plan ever!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_COBALT_1</Tag>
+		<English>Dude, no way. Nothin' doin'! I'm pretty ticked off at your uncool behavior... You're seriously crashing my party here. Leave!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_COBALT_1</Tag>
+		<English>Dude, how's everything goin' for you? Feels like we haven't talked in forever, you know! Do you need some help or do you just wanna chat with me?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_COBALT_1</Tag>
+		<English>Dude, like, this better be a good use of my time... Otherwise, you should make like a drum and beat it!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_LEADER_COBALT_1</Tag>
+		<English>Dude, like, these nuclear weapons sure are ultra-powerful. Hurt my friends and you'll get a very close and personal look at them, got that [CT_NAME]?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_COBALT_1</Tag>
+		<English>Dude, I could really use your help here! Whatcha say to giving this to me, like, right now? I can totally pay you back later, ya know...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_COBALT_1</Tag>
+		<English>Dude, how ya holding up? Me, I'm sorta in a bind here... I hope you can help me out! I think this'll help both of us get what we want, you know. Maybe I can help you out in the future, huh?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_COBALT_1</Tag>
+		<English>Dude, I sure would appreciate it if someone trusthworthy could help a girl out... I haven't been able to keep up with the latest trends, unfortunately! How's about ya bring me up to speed with this trade deal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_COBALT_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_COBALT_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_LEADER_COBALT_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_COBALT_1</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_COBALT_2</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_COBALT_3</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_COBALT_1</Tag>
+		<English>Dude, I would really appreciate it if someone trusthworthy could help a girl out ASAP...</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_COBALT_2</Tag>
+		<English>Dude, I could really use your help here! Whatcha say to giving me a gift, like, ASAP?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ASK_FOR_HELP_LEADER_COBALT_1</Tag>
+		<English>Dude, can I ask you for a bit of assistance in my time of need? Please consider my little request, ASAP!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_COBALT_1</Tag>
+		<English>Dude, I see that you appear to be in a bit of a bind right now... I'll be glad to help you out, buddy! This way, we can both get what we want, you know!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_COBALT_2</Tag>
+		<English>Dude, it's not cool to have your friends worrying about you. Friends don't let their friends down, you know! Why don't you accept this gift? I'm sure it'll really help you.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_LEADER_COBALT_3</Tag>
+		<English>I hope you'll like this tribute, [CT_NAME]. As your good friend, I'm always happy to help you out! Will you take this?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_LEADER_COBALT_1</Tag>
+		<English>This is my final offer, dude. It's the best I can do right now!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_LEADER_COBALT_1</Tag>
+		<English>I wanna end this conflict, dude... It's really put me in a bind here! Do you think this is a good enough peace deal?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_DEAL_LEADER_COBALT_1</Tag>
+		<English>Here's a deal you might like, dude. How about it?</English>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CANCEL_DEAL_LEADER_COBALT_1</Tag>
+		<English>Sorry, dude! I no longer want this deal anymore, so I'm gonna stop it now. If you still need this trade, feel free to show me another offer.</English>
+	</TEXT>
+<!--Declarations of War-->
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_LEADER_COBALT</Tag>
+		<English>Dude, totally not cool! You need to stop right now. My friends and I will not let you get away with this! ([OUR_NAME] declares war!)</English>
+	</TEXT>
+</Civ4GameText>

@@ -375,9 +375,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_PIXEL</Type>
-			<Button>Art/LeaderHeads/static/pixel_button.dds</Button>
-			<NIF>art/LeaderHeads/static/pixel.dds</NIF>
+			<Type>ART_DEF_LEADER_SITELAE</Type>
+			<Button>Art/LeaderHeads/static/solais_ascension_button.dds</Button>
+			<NIF>art/LeaderHeads/static/solais_ascension.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -455,9 +455,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_LEMON</Type>
-			<Button>Art/LeaderHeads/static/lemon_button.dds</Button>
-			<NIF>art/LeaderHeads/static/lemon.dds</NIF>
+			<Type>ART_DEF_LEADER_COBALT</Type>
+			<Button>Art/LeaderHeads/static/cobalt_button.dds</Button>
+			<NIF>art/LeaderHeads/static/cobalt.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -1184,8 +1184,8 @@
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_AEQUILIBRIUS</Type>
-			<Button>Art/LeaderHeads/static/goddess_twilight_button.dds</Button>
-			<NIF>art/LeaderHeads/static/goddess_twilight.dds</NIF>
+			<Button>Art/LeaderHeads/static/pimedasus_ascension_button.dds</Button>
+			<NIF>art/LeaderHeads/static/pimedasus_ascension.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

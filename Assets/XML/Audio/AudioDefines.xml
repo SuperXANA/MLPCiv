@@ -518,8 +518,50 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_PIXEL</SoundID>
-			<Filename>Sounds/Diplomacy/My Past is not Today IT</Filename>
+			<SoundID>DIPLO_SITELAE_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral - White Lotus Prophecy ~Distant Phantasm~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral - The Emotional Mind of the Cosmos</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Between Heaven and Earth ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem New Mystery of the Emblem - Gotoh, White Sage</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE2</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral Remix - The Holy Boundary of a Fantasy World</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE3</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral - Fires of Hokkai CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -597,13 +639,6 @@
 		<SoundData>
 			<SoundID>DIPLO_MINUETTE</SoundID>
 			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_LEMON</SoundID>
-			<Filename>Sounds/Diplomacy/Lyra Theme FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2206,7 +2241,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_INTRO1</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy IV - Golbez, Clad in Darkness - Symphonic Remaster</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy IV - Golbez ~Clad in Darkness~ Organ Arrangement</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3628,6 +3663,27 @@
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS_WAR3</SoundID>
 			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath SLOW CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral - Old Battlefield of the Gods ~Suwa Foughten Field~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Arranged - Path of the Divine Generals</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_SITELAE_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Orchestral - Eastern Judgement in the Sixtieth Year ~Inescapable Fate of The Future~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

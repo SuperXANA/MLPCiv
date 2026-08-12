@@ -1284,29 +1284,28 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_PIXEL</Tag>
+		<Tag>TXT_KEY_LEADER_SITELAE</Tag>
 		<English>
-			<Text>Pixel Pizzaz</Text>
+			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Pixel Pizzaz</Text>
+			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Pixel Pizzaz</Text>
+			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Pixel Pizzaz</Text>
+			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Pixel Pizzaz</Text>
+			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1536,30 +1535,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_LEMON</Tag>
+		<Tag>TXT_KEY_LEADER_COBALT</Tag>
 		<English>
-			<Text>Lemon Zest</Text>
-			<Gender>Female</Gender>
+			<Text>King Cobalt</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Lemon Zest</Text>
-			<Gender>Female</Gender>
+			<Text>King Cobalt</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Lemon Zest</Text>
-			<Gender>Female</Gender>
+			<Text>King Cobalt</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Lemon Zest</Text>
-			<Gender>Female</Gender>
+			<Text>King Cobalt</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Lemon Zest</Text>
-			<Gender>Female</Gender>
+			<Text>King Cobalt</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>

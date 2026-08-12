@@ -697,14 +697,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_PIXEL</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SITELAE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2889,14 +2889,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_PIXEL</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SITELAE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4967,14 +4967,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7062,14 +7062,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9142,14 +9142,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12006,7 +12006,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12026,7 +12026,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15828,7 +15828,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15844,7 +15844,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19070,14 +19070,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21206,14 +21206,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23391,16 +23391,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25689,14 +25689,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27830,14 +27830,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30199,16 +30199,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIXEL_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SITELAE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32625,16 +32625,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIXEL_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIXEL_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIXEL_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SITELAE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35221,7 +35221,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35233,7 +35233,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PIXEL_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38037,7 +38037,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38049,7 +38049,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PIXEL_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40858,7 +40858,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40870,7 +40870,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PIXEL_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43743,14 +43743,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_PIXEL_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_SITELAE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45959,16 +45959,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIXEL_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIXEL_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIXEL_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SITELAE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48342,16 +48342,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_PIXEL</LeaderType>
+							<LeaderType>LEADER_SITELAE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIXEL_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIXEL_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIXEL_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SITELAE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
