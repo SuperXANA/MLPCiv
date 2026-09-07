@@ -20170,31 +20170,31 @@
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR1</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR1</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR1</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_NR_WAR</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_NR_WAR</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_NR_WAR</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_NR_WAR2</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_NR_WAR</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -20369,62 +20369,62 @@
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ALTREALITY_12</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar/>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WIRLY_WAR</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_GEN4_12</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>

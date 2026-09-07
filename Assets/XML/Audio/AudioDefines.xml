@@ -14,14 +14,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWILIGHT1</SoundID>
+			<SoundID>DIPLO_GEN4_1</SoundID>
 			<Filename>Sounds/Diplomacy/Princess Twilight Theme FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWILIGHT2</SoundID>
+			<SoundID>DIPLO_TWILIGHT</SoundID>
 			<Filename>Sounds/Diplomacy/Hopeful Wish of Reincarnation - Touhou Folk_Choir - Fires of Hokkai</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -84,14 +84,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_UNICORN</SoundID>
+			<SoundID>DIPLO_GEN4_4</SoundID>
 			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_PEGASUS</SoundID>
+			<SoundID>DIPLO_GEN4_2</SoundID>
 			<Filename>Sounds/Diplomacy/Pegasopolis OT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -105,7 +105,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_CADANCE</SoundID>
+			<SoundID>DIPLO_GEN4_3</SoundID>
 			<Filename>Sounds/Diplomacy/Love_Conquers_All OT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -147,7 +147,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_NMM_INTRO</SoundID>
+			<SoundID>DIPLO_GEN4_12</SoundID>
 			<Filename>Sounds/Diplomacy/Night Queen IT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -203,7 +203,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_MIDNIGHT_INTRO</SoundID>
+			<SoundID>DIPLO_ALTREALITY_1</SoundID>
 			<Filename>Sounds/Diplomacy/Mystic River - Dark Baroque Church Pipe Organ Music</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -308,21 +308,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_MOONGAZE</SoundID>
-			<Filename>Sounds/Diplomacy/Vampire Knight Guilty - Main Theme CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_ROSELUCK</SoundID>
+			<SoundID>DIPLO_GEN4_6</SoundID>
 			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_RAINDROPS</SoundID>
+			<SoundID>DIPLO_GEN4_7</SoundID>
 			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -343,28 +336,28 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWIVINE_INTRO</SoundID>
+			<SoundID>DIPLO_ALTREALITY_2</SoundID>
 			<Filename>Sounds/Diplomacy/Naegissa, High-Priestess of Nerath</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWIVINE1</SoundID>
+			<SoundID>DIPLO_ALTREALITY_3</SoundID>
 			<Filename>Sounds/Diplomacy/Dark Taralicious - Evil Tara Strong Theme FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWIVINE2</SoundID>
+			<SoundID>DIPLO_TWIVINE1</SoundID>
 			<Filename>Sounds/Diplomacy/Praise Nerath, Goddess of Nightmares</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TWIVINE3</SoundID>
+			<SoundID>DIPLO_TWIVINE2</SoundID>
 			<Filename>Sounds/Diplomacy/Dark Crystal Duel - King Sombra Boss Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -399,29 +392,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_LILYLACE</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_LILYVALLEY</SoundID>
-			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_MAJESTY</SoundID>
 			<Filename>Sounds/Diplomacy/My Little Pony Friendship is Magic - You'll Play Your Part CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_AMETHYST</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -490,85 +462,50 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_NAEGISSA</SoundID>
-			<Filename>Sounds/Diplomacy/Naegissa, High-Priestess of Nerath</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SB</SoundID>
-			<Filename>Sounds/Diplomacy/DATA Instrumental Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_CHEERILEE</SoundID>
-			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MM</SoundID>
-			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - White Lotus Prophecy ~Distant Phantasm~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - History Unveiled</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO2</SoundID>
-			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath CUT</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Renastered - Ray of Hope</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - The Emotional Mind of the Cosmos</Filename>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Light and Darkness of Balance</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Between Heaven and Earth ~Rain~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - Dragon's Gate II</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE1</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem New Mystery of the Emblem - Gotoh, White Sage</Filename>
+			<Filename>Sounds/Diplomacy/Touhou Cinematic_Orchestral - Emotional Skyscraper ~Cosmic Mind~ CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE2</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral Remix - The Holy Boundary of a Fantasy World</Filename>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Garden of Violent Clouds</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE3</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Fires of Hokkai CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_UPPERCRUST</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
+			<Filename>Sounds/Diplomacy/Decision of the Enma - Touhou Unplugged_Classic Judgment in the 60th Year SLOW</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -595,27 +532,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_RARITY</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_FLUTTERSHY</SoundID>
-			<Filename>Sounds/Diplomacy/Princess Twilight Theme FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_RAINBOWDASH</SoundID>
-			<Filename>Sounds/Diplomacy/Pegasopolis OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_APPLEJACK_INTRO</SoundID>
 			<Filename>Sounds/Diplomacy/Ace Combat Zero - Epilogue -Near The Border-</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -625,20 +541,6 @@
 		<SoundData>
 			<SoundID>DIPLO_APPLEJACK</SoundID>
 			<Filename>Sounds/Diplomacy/Ace Combat Zero - Contact</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_PINKIE</SoundID>
-			<Filename>Sounds/Diplomacy/Princess Twilight Theme FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MINUETTE</SoundID>
-			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -658,7 +560,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_OBP</SoundID>
+			<SoundID>DIPLO_BROWSER_PONY</SoundID>
 			<Filename>Sounds/Diplomacy/TRON Legacy - Encom Part II FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -700,13 +602,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_WALLFLOWER</SoundID>
-			<Filename>Sounds/Diplomacy/My Past is not Today IT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_SAPPHIREBLUE</SoundID>
 			<Filename>Sounds/Diplomacy/Motto To-Love-Ru - Rito he no Omoi</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -714,28 +609,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_FH</SoundID>
-			<Filename>Sounds/Diplomacy/Love_Conquers_All OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SPIKE</SoundID>
-			<Filename>Sounds/Diplomacy/Princess Twilight Theme FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_EMBER</SoundID>
+			<SoundID>DIPLO_GEN4_5</SoundID>
 			<Filename>Sounds/Diplomacy/Dragons Of The South</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_SHADOWPONY</SoundID>
+			<SoundID>DIPLO_GEN4_8</SoundID>
 			<Filename>Sounds/Diplomacy/Castle Mane-ia - The Pony of Shadows</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -744,20 +625,6 @@
 		<SoundData>
 			<SoundID>DIPLO_STARSWIRL</SoundID>
 			<Filename>Sounds/Diplomacy/Star Swirl the Bearded - Sorcery</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_AMETHYSTSTAR</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_WIRLY</SoundID>
-			<Filename>Sounds/Diplomacy/TRON Legacy - Encom Part II FIXED</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -840,27 +707,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_FLEUR</SoundID>
-			<Filename>Sounds/Diplomacy/Becoming Popular</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_JUNIPER1</SoundID>
-			<Filename>Sounds/Diplomacy/Juniper Montage Boss Battle Theme - Phase 1</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_JUNIPER2</SoundID>
-			<Filename>Sounds/Diplomacy/Juniper Montage Boss Battle Theme - Phase 2</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_SUNNYSKIES_INTRO</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Reorchestrated - Farewell CUT</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -896,22 +742,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_THORAX</SoundID>
-			<Filename>Sounds/Diplomacy/Love_Conquers_All OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_ODESSA</SoundID>
+			<SoundID>DIPLO_ALTREALITY_4</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x95</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_GARBLE</SoundID>
-			<Filename>Sounds/Diplomacy/Dragons Of the South</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -924,7 +756,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_STORMKING</SoundID>
+			<SoundID>DIPLO_GEN4_9</SoundID>
 			<Filename>Sounds/Diplomacy/Temporas Requiem IT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -938,14 +770,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_SOURSWEET</SoundID>
-			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_DIAMONDTIARA</SoundID>
+			<SoundID>DIPLO_ALTREALITY_5</SoundID>
 			<Filename>Sounds/Diplomacy/Yu-Gi-Oh The Duelists of the Roses - Seto's Ambition</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -994,28 +819,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_AMORE</SoundID>
+			<SoundID>DIPLO_ALTREALITY_6</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Remastered - Nyna, Forlorn Princess</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_BONBON</SoundID>
-			<Filename>Sounds/Diplomacy/Trixie Battle Theme</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_NR1</SoundID>
-			<Filename>Sounds/Diplomacy/Castle Mane-ia - The Pony of Shadows</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_NR2</SoundID>
+			<SoundID>DIPLO_NR</SoundID>
 			<Filename>Sounds/Diplomacy/Dark Generosity - Nightmare Rarity Boss Battle Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -1071,22 +882,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_VV</SoundID>
-			<Filename>Sounds/Diplomacy/Call Upon the Seaponies OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_AYZAT</SoundID>
+			<SoundID>DIPLO_ALTREALITY_7</SoundID>
 			<Filename>Sounds/Diplomacy/Ayzat, High-Priestess of Aqasha</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_WILDFIRE</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Awakening - Champion</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1162,13 +959,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_IEBP</SoundID>
-			<Filename>Sounds/Diplomacy/TRON Legacy - Encom Part II FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_FFBP_INTRO</SoundID>
 			<Filename>Sounds/Diplomacy/TRON Legacy - Solar Surfer</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -1232,13 +1022,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_ER</SoundID>
-			<Filename>Sounds/Diplomacy/Temporas Requiem IT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_BLACKWING_INTRO</SoundID>
 			<Filename>Sounds/Diplomacy/Naruto Shippuden Naltimate Accel 2 - Those in the Everlasting Darkness</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -1255,34 +1038,6 @@
 		<SoundData>
 			<SoundID>DIPLO_BLACKWING2</SoundID>
 			<Filename>Sounds/Diplomacy/Naruto Shippuden Movie 6 Road to Ninja - Behind The Mask</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA_INTRO</SoundID>
-			<Filename>Sounds/Diplomacy/Bayonetta 2 - ST11-1 Vigrid A</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA1</SoundID>
-			<Filename>Sounds/Diplomacy/Bayonetta 2 - Masked Lumen Sage and Prophet</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA2</SoundID>
-			<Filename>Sounds/Diplomacy/Bayonetta 2 - ST04 Noatun - Church</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA3</SoundID>
-			<Filename>Sounds/Diplomacy/NieR Automata - Mourning</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1332,13 +1087,6 @@
 		<SoundData>
 			<SoundID>DIPLO_MTS2</SoundID>
 			<Filename>Sounds/Diplomacy/Ace Combat 6 - The Valley of Kings</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_CG</SoundID>
-			<Filename>Sounds/Diplomacy/Temporas Requiem IT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1548,28 +1296,14 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_DEMONSUNSET1</SoundID>
-			<Filename>Sounds/Diplomacy/Mystic River - Dark Baroque Church Pipe Organ Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_DEMONSUNSET2</SoundID>
 			<Filename>Sounds/Diplomacy/Prismriver Orchestra - Thunderclouds of Magical Power</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_DEMONSUNSET3</SoundID>
+			<SoundID>DIPLO_DEMONSUNSET2</SoundID>
 			<Filename>Sounds/Diplomacy/Satan - Touhou Unplugged_Classic 666</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_COCO_INTRO</SoundID>
-			<Filename>Sounds/Diplomacy/Roseluck Theme</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1589,14 +1323,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_AQASHA_INTRO</SoundID>
+			<SoundID>DIPLO_ALTREALITY_8</SoundID>
 			<Filename>Sounds/Diplomacy/Sun of the Night VIP</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_NERATH_INTRO</SoundID>
+			<SoundID>DIPLO_ALTREALITY_9</SoundID>
 			<Filename>Sounds/Diplomacy/Night Queen VIP</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -1654,13 +1388,6 @@
 		<SoundData>
 			<SoundID>DIPLO_YANDERESHY_INTRO</SoundID>
 			<Filename>Sounds/Diplomacy/Yu-Gi-Oh The Duelists of the Roses - The Perfect Rule CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_YANDERESHY</SoundID>
-			<Filename>Sounds/Diplomacy/Yu-Gi-Oh The Duelists of the Roses - Seto's Ambition</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1813,14 +1540,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_TARALICIOUS1</SoundID>
-			<Filename>Sounds/Diplomacy/Ayzat, High-Priestess of Aqasha</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_TARALICIOUS2</SoundID>
+			<SoundID>DIPLO_TARALICIOUS</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Genealogy of the Holy War - Remastered - Towards The Light</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -1912,20 +1632,13 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SM30001</SoundID>
-			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x95</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SM30002</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0xB3</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_SM30003</SoundID>
+			<SoundID>DIPLO_SM30002</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0xAF</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -2156,13 +1869,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_PEACHY</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Remastered - Nyna, Forlorn Princess</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_CLEARSKIES</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Remastered - Pieces of Hope</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -2283,7 +1989,126 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_AEQUILIBRIUS3</SoundID>
-			<Filename>Sounds/Diplomacy/Final Fantasy VI - Remixed - Dancing Mad Ultimate Final Boss Theme CUT</Filename>
+			<Filename>Sounds/Diplomacy/Final Fantasy VI - Dancing Mad for Organ</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Genealogy of the Holy War - Reorchestrated - Emperor Arvis</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Pathetic Creatures CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Puppet Master</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy IX - Reorchestrated - Dark Messenger</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Gazing at Sirius</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE2</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Imperial Dynamics</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE3</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Dwellings of the Ancient Gods ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Choir_Dark Symphonic - Dream of Reaper CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XV - The Niflheim Empire</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Remastered - Shadow Approaches</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Twilight of the Gods</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - Showdown in Dolhr Keep</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Engage - Falling Wings</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT3</SoundID>
+			<Filename>Sounds/Diplomacy/Kirby 64 The Crystal Shards - Zero Two Battle with Lyrics CUT SLOW</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_INTRO</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - To The End of The Journey of Shining Stars</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_INTRO_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Preparations ~Reunion~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Sun-Light Pierces and Flows</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2373,14 +2198,14 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_CRYSTAL_WAR1</SoundID>
+			<SoundID>DIPLO_GEN4_10</SoundID>
 			<Filename>Sounds/Diplomacy/From Shadow Unto Crystal OT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_CRYSTAL_WAR2</SoundID>
+			<SoundID>DIPLO_GEN4_11</SoundID>
 			<Filename>Sounds/Diplomacy/Shadow King - Sombra</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -2417,20 +2242,6 @@
 		<SoundData>
 			<SoundID>DIPLO_TIREK_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Tartarus</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_NMM_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Night Queen VIP</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SOLAR_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Sun of the Night VIP</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2541,7 +2352,7 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_OBP_WAR</SoundID>
+			<SoundID>DIPLO_BROWSER_PONY_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/TRON Legacy - Round One CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -2625,50 +2436,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_WALLFLOWER_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Corrupted Princess of Friendship FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_FH_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/From Shadow Unto Crystal OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SPIKE_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Dragons Of The South</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_EMBER_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/From Shadow Unto Crystal OT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_SHADOWPONY_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Bayonetta Bloody Fate - Narihibiku Pipe Organ CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_STARSWIRL_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/The Pillars of Equestria IT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_WIRLY_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/TRON Legacy - Round One CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2730,15 +2499,8 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_ODESSA_WAR</SoundID>
+			<SoundID>DIPLO_ALTREALITY_10</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x96</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_GARBLE_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Shadow King - Sombra</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2800,22 +2562,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_NR_WAR1</SoundID>
+			<SoundID>DIPLO_ALTREALITY_12</SoundID>
 			<Filename>Sounds/Diplomacy/Opus 187 - Fall Winds - Moody Melancholic Organ Music</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_NR_WAR2</SoundID>
+			<SoundID>DIPLO_NR_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Opus 182 - Resurrection - Dark Baroque Church Organ Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MOONGAZE_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Opus 145 - Passacaglia In F Minor - J.S Bach Style CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2891,13 +2646,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_WILDFIRE_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Genealogy of the Holy War - Remastered - When the Rush Comes</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>DIPLO_STRAWBERRY_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem Thracia 776 - Remastered - Meeting Raydrik</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -2907,13 +2655,6 @@
 		<SoundData>
 			<SoundID>DIPLO_ARIANI_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Fire Emblem New Mystery of the Emblem - Holy War</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SHININGARMOR_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Awakening - Storm Clouds (Ablaze) CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2935,20 +2676,6 @@
 		<SoundData>
 			<SoundID>DIPLO_SECRET_WAR3</SoundID>
 			<Filename>Sounds/Diplomacy/Ace Combat 4 - Aquila</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_IEBP_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/TRON Legacy - Round One CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_FFBP_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/TRON Legacy - Round One CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -2989,43 +2716,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_ER_WAR</SoundID>
-			<Filename>Sounds/Diplomacy/Dark Taralicious - Evil Tara Strong Theme FIXED</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_BLACKWING_WAR1</SoundID>
+			<SoundID>DIPLO_ALTREALITY_11</SoundID>
 			<Filename>Sounds/Diplomacy/Opus 282 - The Revenge of Duke Hermeien - Epic Choir Music</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_BLACKWING_WAR2</SoundID>
+			<SoundID>DIPLO_BLACKWING_WAR</SoundID>
 			<Filename>Sounds/Diplomacy/Organ 89 - Interstellar Dreadnoughts - Ominous Organ Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Bayonetta 1+2 One of A Kind CUSTOM CUT</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Bayonetta 2 - ST02 Noatun - Chaos Ruins</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_MALLUMA_WAR3</SoundID>
-			<Filename>Sounds/Diplomacy/NieR Automata - Dark Colossus - Kaiju</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3200,20 +2899,13 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_DEMONSUNSET_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Opus 282 - The Revenge of Duke Hermeien - Epic Choir Music</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_DEMONSUNSET_WAR2</SoundID>
 			<Filename>Sounds/Diplomacy/Samuele Birolini - Memento Mori</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_DEMONSUNSET_WAR3</SoundID>
+			<SoundID>DIPLO_DEMONSUNSET_WAR2</SoundID>
 			<Filename>Sounds/Diplomacy/Samuele Birolini - Prepare to Die</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -3438,20 +3130,13 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SM3000_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x96</Filename>
-			<LoadType>STREAMED</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>DIPLO_SM3000_WAR2</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0x41</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>DIPLO_SM3000_WAR3</SoundID>
+			<SoundID>DIPLO_SM3000_WAR2</SoundID>
 			<Filename>Sounds/Diplomacy/Super Smash Bros 20XX - Level Music 0xBF</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
@@ -3669,21 +3354,70 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Old Battlefield of the Gods ~Suwa Foughten Field~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered - Treasured Memories</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Arranged - Path of the Divine Generals</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem Awakening - Champion ~Ablaze~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR3</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Eastern Judgement in the Sixtieth Year ~Inescapable Fate of The Future~</Filename>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath SLOW CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - The Apex of the World ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Dead Beat</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Roar of Dominion ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - A Mighty Host Appears</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - Calamity Bringer Nergal</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Kirby Air Raiders - Incomplete Zero Two Battle with Lyrics CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - A Star in the Morning Sky</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -3708,7 +3442,7 @@
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
-		</SoundData>		
+		</SoundData>
 		<SoundData>
 			<SoundID>SND_ERROR</SoundID>
 			<Filename>Sounds/Error</Filename>
