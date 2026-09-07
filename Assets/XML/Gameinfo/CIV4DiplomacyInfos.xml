@@ -809,20 +809,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_LEMON</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2959,20 +2945,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_LEMON</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4989,20 +4961,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7048,20 +7006,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -9080,20 +9024,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12006,33 +11936,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15721,29 +15624,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -18822,20 +18702,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -20896,20 +20762,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_OFFER_PEACE_LEADER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23055,22 +22907,6 @@
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_1</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_2</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25295,20 +25131,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -27388,20 +27210,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -29731,22 +29539,6 @@
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_1</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_2</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_MINUETTE_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_LEMON_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32109,22 +31901,6 @@
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MINUETTE_1</Text>
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MINUETTE_2</Text>
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MINUETTE_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LEMON_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LEMON_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_LEMON_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -34683,25 +34459,6 @@
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MINUETTE_1</Text>
 					</DiplomacyText>
 				</Response>	
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
@@ -37440,25 +37197,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40204,25 +39942,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MINUETTE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LEMON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -42998,20 +42717,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_LEMON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_STARSTORM</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -45182,22 +44887,6 @@
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MINUETTE_1</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MINUETTE_2</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MINUETTE_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LEMON_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LEMON_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_LEMON_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -47517,22 +47206,6 @@
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MINUETTE_1</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MINUETTE_2</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MINUETTE_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LEMON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LEMON_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LEMON_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_LEMON_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
