@@ -91,9 +91,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_DISCORD</Tag>
-		<English>Discord</English>
+		<English>
+			<Text>Discord</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
+		</English>
 		<French>
 			<Text>Discord</Text>
 			<Gender>Male</Gender>
@@ -257,9 +259,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_HURRICANE</Tag>
-		<English>Commander Hurricane</English>
+		<English>
+			<Text>Commander Hurricane</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
+		</English>
 		<French>
 			<Text>Commander Hurricane</Text>
 			<Gender>Male</Gender>
@@ -283,9 +287,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SOMBRA</Tag>
-		<English>King Sombra</English>
+		<English>
+			<Text>King Sombra</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
+		</English>
 		<French>
 			<Text>King Sombra</Text>
 			<Gender>Male</Gender>
@@ -337,7 +343,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_TIREK</Tag>
-		<English>Lord Tirek</English>
+		<English>
+			<Text>Lord Tirek</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
 		<French>
 			<Text>Lord Tirek</Text>
 			<Gender>Male</Gender>
@@ -645,7 +655,7 @@
 			<Text>Trixie Lulamoon</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
 			<Text>Trixie Lulamoon</Text>
 			<Gender>Female</Gender>
@@ -673,7 +683,7 @@
 			<Text>Scarlet Aura</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
 			<Text>Scarlet Aura</Text>
 			<Gender>Female</Gender>
@@ -701,7 +711,7 @@
 			<Text>Lyra Heartstrings</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
 			<Text>Lyra Heartstrings</Text>
 			<Gender>Female</Gender>
@@ -724,29 +734,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_MOONGAZE</Tag>
+		<Tag>TXT_KEY_LEADER_AMAI</Tag>
 		<English>
-			<Text>Moongaze</Text>
+			<Text>Amai Espirito</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
-			<Text>Moongaze</Text>
+			<Text>Amai Espirito</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Moongaze</Text>
+			<Text>Amai Espirito</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Moongaze</Text>
+			<Text>Amai Espirito</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Moongaze</Text>
+			<Text>Amai Espirito</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -757,7 +767,7 @@
 			<Text>Roseluck</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
 			<Text>Roseluck</Text>
 			<Gender>Female</Gender>
@@ -785,7 +795,7 @@
 			<Text>Sunshower Raindrops</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-			</English>
+		</English>
 		<French>
 			<Text>Sunshower Raindrops</Text>
 			<Gender>Female</Gender>
@@ -1004,29 +1014,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_AMETHYST</Tag>
+		<Tag>TXT_KEY_LEADER_OPALINE</Tag>
 		<English>
-			<Text>Amethyst Gleam</Text>
+			<Text>Opaline Arcana</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Amethyst Gleam</Text>
+			<Text>Opaline Arcana</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Amethyst Gleam</Text>
+			<Text>Opaline Arcana</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Amethyst Gleam</Text>
+			<Text>Opaline Arcana</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Amethyst Gleam</Text>
+			<Text>Opaline Arcana</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1200,29 +1210,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_SB</Tag>
+		<Tag>TXT_KEY_LEADER_MISTY</Tag>
 		<English>
-			<Text>SweetieBot</Text>
+			<Text>Misty Brightdawn</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>SweetieBot</Text>
+			<Text>Misty Brightdawn</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>SweetieBot</Text>
+			<Text>Misty Brightdawn</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>SweetieBot</Text>
+			<Text>Misty Brightdawn</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>SweetieBot</Text>
+			<Text>Misty Brightdawn</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1305,35 +1315,36 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
+		<Spanish>
 			<Text>Sitelae Astralues Aether</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_UPPERCRUST</Tag>
+		<Tag>TXT_KEY_LEADER_NYX</Tag>
 		<English>
-			<Text>Upper Crust</Text>
+			<Text>Nyx Sparkle</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Upper Crust</Text>
+			<Text>Nyx Sparkle</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Upper Crust</Text>
+			<Text>Nyx Sparkle</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Upper Crust</Text>
+			<Text>Nyx Sparkle</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Upper Crust</Text>
+			<Text>Nyx Sparkle</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1647,29 +1658,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_WALLFLOWER</Tag>
+		<Tag>TXT_KEY_LEADER_HAVEN</Tag>
 		<English>
-			<Text>Wallflower Blush</Text>
+			<Text>Queen Haven</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Wallflower Blush</Text>
+			<Text>Queen Haven</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Wallflower Blush</Text>
+			<Text>Queen Haven</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Wallflower Blush</Text>
+			<Text>Queen Haven</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Wallflower Blush</Text>
+			<Text>Queen Haven</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1843,57 +1854,57 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_AMETHYSTSTAR</Tag>
+		<Tag>TXT_KEY_LEADER_PIPP</Tag>
 		<English>
-			<Text>Amethyst Star</Text>
+			<Text>Princess Philomena Petals</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Amethyst Star</Text>
+			<Text>Princess Philomena Petals</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Amethyst Star</Text>
+			<Text>Princess Philomena Petals</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Amethyst Star</Text>
+			<Text>Princess Philomena Petals</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Amethyst Star</Text>
+			<Text>Princess Philomena Petals</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_WIRLY</Tag>
+		<Tag>TXT_KEY_LEADER_ZIPP</Tag>
 		<English>
-			<Text>Wirly</Text>
+			<Text>Princess Zephyrina Storm</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Wirly</Text>
+			<Text>Princess Zephyrina Storm</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Wirly</Text>
+			<Text>Princess Zephyrina Storm</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Wirly</Text>
+			<Text>Princess Zephyrina Storm</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Wirly</Text>
+			<Text>Princess Zephyrina Storm</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -2095,29 +2106,29 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_JUNIPER</Tag>
+		<Tag>TXT_KEY_LEADER_SUNNY</Tag>
 		<English>
-			<Text>Juniper Montage</Text>
+			<Text>Sunny Starscout</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Juniper Montage</Text>
+			<Text>Sunny Starscout</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Juniper Montage</Text>
+			<Text>Sunny Starscout</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Juniper Montage</Text>
+			<Text>Sunny Starscout</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Juniper Montage</Text>
+			<Text>Sunny Starscout</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -2347,34 +2358,6 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_SOURSWEET</Tag>
-		<English>
-			<Text>Sour Sweet</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</English>
-		<French>
-			<Text>Sour Sweet</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sour Sweet</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sour Sweet</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sour Sweet</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_LEADER_DIAMONDTIARA</Tag>
 		<English>
 			<Text>Diamond Tiara</Text>
@@ -2487,30 +2470,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_VV</Tag>
+		<Tag>TXT_KEY_LEADER_ZT</Tag>
 		<English>
-			<Text>Vignette Valencia</Text>
-			<Gender>Female</Gender>
+			<Text>Nul-Marluk, Lord of Void</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Vignette Valencia</Text>
-			<Gender>Female</Gender>
+			<Text>Nul-Marluk, Lord of Void</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Vignette Valencia</Text>
-			<Gender>Female</Gender>
+			<Text>Nul-Marluk, Lord of Void</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Vignette Valencia</Text>
-			<Gender>Female</Gender>
+			<Text>Nul-Marluk, Lord of Void</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Vignette Valencia</Text>
-			<Gender>Female</Gender>
+			<Text>Nul-Marluk, Lord of Void</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
@@ -2538,34 +2521,6 @@
 		</Italian>
 		<Spanish>
 			<Text>Ayzat</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_LEADER_WILDFIRE</Tag>
-		<English>
-			<Text>Wildfire</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</English>
-		<French>
-			<Text>Wildfire</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wildfire</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wildfire</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wildfire</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -2824,55 +2779,29 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_BLACKWING</Tag>
-		<English>Commander Blackwing</English>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		<French>
-			<Text>Commander Blackwing</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Commander Blackwing</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Commander Blackwing</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Commander Blackwing</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_LEADER_MALLUMA</Tag>
 		<English>
-			<Text>Malluma</Text>
-			<Gender>Female</Gender>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Malluma</Text>
-			<Gender>Female</Gender>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Malluma</Text>
-			<Gender>Female</Gender>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Malluma</Text>
-			<Gender>Female</Gender>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Malluma</Text>
-			<Gender>Female</Gender>
+			<Text>Commander Blackwing</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
@@ -3831,27 +3760,27 @@
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SWEETTREAT</Tag>
 		<English>
-`			<Text>Sweet Treat</Text>
+`			<Text>Sweet Slumber</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>Sweet Treat</Text>
+			<Text>Sweet Slumber</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Sweet Treat</Text>
+			<Text>Sweet Slumber</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Sweet Treat</Text>
+			<Text>Sweet Slumber</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Sweet Treat</Text>
+			<Text>Sweet Slumber</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>

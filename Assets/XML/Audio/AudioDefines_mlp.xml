@@ -463,49 +463,49 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - White Lotus Prophecy ~Distant Phantasm~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - History Unveiled</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO2</SoundID>
-			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath CUT</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Renastered - Ray of Hope</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - The Emotional Mind of the Cosmos</Filename>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Light and Darkness of Balance</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_INTRO_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Between Heaven and Earth ~Rain~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - Dragon's Gate II</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE1</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem New Mystery of the Emblem - Gotoh, White Sage</Filename>
+			<Filename>Sounds/Diplomacy/Touhou Cinematic_Orchestral - Emotional Skyscraper ~Cosmic Mind~ CUT</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE2</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral Remix - The Holy Boundary of a Fantasy World</Filename>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Garden of Violent Clouds</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE3</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Fires of Hokkai CUT</Filename>
+			<Filename>Sounds/Diplomacy/Decision of the Enma - Touhou Unplugged_Classic Judgment in the 60th Year SLOW</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -1995,6 +1995,125 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Genealogy of the Holy War - Reorchestrated - Emperor Arvis</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XVI - Pathetic Creatures CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Origins - The Puppet Master</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy IX - Reorchestrated - Dark Messenger</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Gazing at Sirius</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE2</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Imperial Dynamics</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE3</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Dwellings of the Ancient Gods ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO1</SoundID>
+			<Filename>Sounds/Diplomacy/Touhou Choir_Dark Symphonic - Dream of Reaper CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO2</SoundID>
+			<Filename>Sounds/Diplomacy/Final Fantasy XV - The Niflheim Empire</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Remastered - Shadow Approaches</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_INTRO_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Twilight of the Gods</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - Showdown in Dolhr Keep</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Engage - Falling Wings</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT3</SoundID>
+			<Filename>Sounds/Diplomacy/Kirby 64 The Crystal Shards - Zero Two Battle with Lyrics CUT SLOW</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_INTRO</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - To The End of The Journey of Shining Stars</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_INTRO_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Echoes Shadows of Valentia - Preparations ~Reunion~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Sun-Light Pierces & Flows</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_BARBARIAN</SoundID>
 			<Filename>Sounds/Diplomacy/Naruto Shippuden Movie 6 Road to Ninja - Dark Side</Filename>
 			<LoadType>STREAMED</LoadType>
@@ -3235,21 +3354,70 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR1</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Old Battlefield of the Gods ~Suwa Foughten Field~</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Sacred Stones - Remastered - Treasured Memories</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR2</SoundID>
-			<Filename>Sounds/Diplomacy/Fire Emblem The Binding Blade - Arranged - Path of the Divine Generals</Filename>
+			<Filename>Sounds/Diplomacy/Fire Emblem Awakening - Champion ~Ablaze~</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
 			<SoundID>DIPLO_SITELAE_WAR3</SoundID>
-			<Filename>Sounds/Diplomacy/Touhou Orchestral - Eastern Judgement in the Sixtieth Year ~Inescapable Fate of The Future~</Filename>
+			<Filename>Sounds/Diplomacy/Alternate Equestria - The Primordial Sacrifical Oath SLOW CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - The Apex of the World ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Baten Kaitos Eternal Wings and the Lost Ocean - Dead Beat</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_OPALINE_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - Roar of Dominion ~Rain~</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR1</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Shadow Dragon - Reorchestrated - A Mighty Host Appears</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR2</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem The Blazing Blade - Remastered - Calamity Bringer Nergal</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_ZT_WAR3</SoundID>
+			<Filename>Sounds/Diplomacy/Kirby Air Raiders - Incomplete Zero Two Battle with Lyrics CUT</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_GEN5_WAR</SoundID>
+			<Filename>Sounds/Diplomacy/Fire Emblem Three Houses - A Star in the Morning Sky</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

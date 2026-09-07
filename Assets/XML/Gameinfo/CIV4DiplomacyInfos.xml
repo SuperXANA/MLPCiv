@@ -403,14 +403,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_MOONGAZE</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ZIPP</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -543,20 +543,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_AMETHYST</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -655,14 +641,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SB</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SUNNY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -711,14 +697,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_UPPERCRUST</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_HAVEN</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -879,14 +865,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_WALLFLOWER</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_PIPP</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -977,28 +963,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_AMETHYSTSTAR</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_MISTY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_WIRLY</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_NYX</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1097,20 +1083,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DECLARE_WAR_LEADER_FLEUR</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_JUNIPER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1229,14 +1201,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_SOURSWEET</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_OPALINE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1299,20 +1271,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_VV</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1327,14 +1285,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_WILDFIRE</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_AMAI</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1481,14 +1439,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DECLARE_WAR_LEADER_MALLUMA</Text>
+						<Text>AI_DIPLO_DECLARE_WAR_LEADER_ZT</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2595,14 +2553,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MOONGAZE</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ZIPP</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2735,20 +2693,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_AMETHYST</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2847,14 +2791,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SB</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SUNNY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2903,14 +2847,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_UPPERCRUST</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_HAVEN</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3071,14 +3015,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_WALLFLOWER</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_PIPP</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3169,28 +3113,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_AMETHYSTSTAR</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MISTY</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_WIRLY</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_NYX</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3289,20 +3233,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_FLEUR</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_JUNIPER</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3421,14 +3351,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SOURSWEET</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_OPALINE</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3491,20 +3421,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_VV</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3519,14 +3435,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_WILDFIRE</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_AMAI</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3673,14 +3589,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MALLUMA</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ZT</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4687,14 +4603,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MOONGAZE_1_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ZIPP_1_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4827,20 +4743,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4925,14 +4827,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4981,14 +4883,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5149,14 +5051,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5247,28 +5149,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5367,20 +5269,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5499,14 +5387,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5569,20 +5457,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -5597,14 +5471,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5751,14 +5625,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6782,14 +6656,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6922,20 +6796,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7020,14 +6880,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7076,14 +6936,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7244,14 +7104,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7342,28 +7202,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7462,20 +7322,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_PEACE_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7594,14 +7440,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7664,20 +7510,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7692,14 +7524,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7846,14 +7678,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_PEACE_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_PEACE_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -8862,14 +8694,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9002,20 +8834,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -9100,14 +8918,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9156,14 +8974,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9379,14 +9197,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9477,28 +9295,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9597,20 +9415,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9729,14 +9533,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9799,20 +9603,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -9827,14 +9617,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -9981,14 +9771,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_NO_PEACE_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11466,7 +11256,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11486,7 +11276,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -11736,33 +11526,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -11925,7 +11688,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -11945,7 +11708,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12033,7 +11796,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12053,7 +11816,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12357,7 +12120,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12377,7 +12140,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12546,7 +12309,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12566,14 +12329,14 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -12593,7 +12356,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -12783,33 +12546,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -13032,7 +12768,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -13052,7 +12788,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -13167,33 +12903,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -13221,7 +12930,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -13241,7 +12950,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -13518,7 +13227,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -13538,7 +13247,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15368,7 +15077,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15384,7 +15093,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15598,29 +15307,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -15759,7 +15445,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15775,7 +15461,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -15851,7 +15537,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -15867,7 +15553,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16127,7 +15813,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16143,7 +15829,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16288,7 +15974,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16304,14 +15990,14 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16327,7 +16013,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16489,29 +16175,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16702,7 +16365,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16718,7 +16381,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -16817,29 +16480,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -16863,7 +16503,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -16879,7 +16519,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>				
 				<Response>
@@ -17116,7 +16756,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -17132,7 +16772,7 @@
 					</Attitudes>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -18790,14 +18430,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -18930,20 +18570,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -19028,14 +18654,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19084,14 +18710,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19252,14 +18878,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19350,28 +18976,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19470,20 +19096,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19602,14 +19214,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19672,42 +19284,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_AYZAT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AYZAT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -19854,14 +19438,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_TRY_THIS_DEAL_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -20926,14 +20510,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21066,20 +20650,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -21164,14 +20734,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21220,14 +20790,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21388,14 +20958,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21486,28 +21056,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21606,20 +21176,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_OFFER_PEACE_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21738,14 +21294,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21808,20 +21364,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -21836,14 +21378,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -21990,14 +21532,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_PEACE_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_OFFER_PEACE_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23071,16 +22613,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23231,22 +22773,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -23343,16 +22869,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23407,16 +22933,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23599,16 +23125,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23711,32 +23237,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23849,22 +23375,6 @@
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_1</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_2</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -23999,16 +23509,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -24079,22 +23589,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -24111,16 +23605,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -24287,16 +23781,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25409,14 +24903,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25549,20 +25043,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -25647,14 +25127,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25703,14 +25183,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25871,14 +25351,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -25969,28 +25449,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26089,20 +25569,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_OFFER_DEAL_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26221,14 +25687,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26291,20 +25757,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -26319,14 +25771,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -26473,14 +25925,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_OFFER_DEAL_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_OFFER_DEAL_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27550,14 +27002,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27690,20 +27142,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -27788,14 +27226,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -27844,14 +27282,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28012,14 +27450,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28110,28 +27548,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28230,20 +27668,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28362,14 +27786,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28432,20 +27856,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -28460,14 +27870,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -28614,14 +28024,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_CANCEL_DEAL_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -29879,16 +29289,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MOONGAZE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30039,22 +29449,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYST_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -30151,16 +29545,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SB_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_SUNNY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30215,16 +29609,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_UPPERCRUST_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_HAVEN_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30407,16 +29801,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WALLFLOWER_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_PIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30519,32 +29913,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMETHYSTSTAR_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_MISTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WIRLY_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_NYX_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30657,22 +30051,6 @@
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_1</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_2</Text>
 						<Text>AI_DIPLO_GIVE_HELP_LEADER_FLEUR_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_JUNIPER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30807,16 +30185,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_SOURSWEET_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_OPALINE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -30887,22 +30265,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_VV_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -30919,16 +30281,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_WILDFIRE_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_AMAI_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -31095,16 +30457,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_1</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_2</Text>
-						<Text>AI_DIPLO_GIVE_HELP_LEADER_MALLUMA_3</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_1</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_2</Text>
+						<Text>AI_DIPLO_GIVE_HELP_LEADER_ZT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32305,16 +31667,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MOONGAZE_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MOONGAZE_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MOONGAZE_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZIPP_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZIPP_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32465,22 +31827,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYST_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYST_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYST_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -32577,16 +31923,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SB_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SB_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SB_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SUNNY_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SUNNY_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SUNNY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32641,16 +31987,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_UPPERCRUST_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_UPPERCRUST_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_UPPERCRUST_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_HAVEN_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_HAVEN_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_HAVEN_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32833,16 +32179,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WALLFLOWER_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WALLFLOWER_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WALLFLOWER_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIPP_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIPP_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_PIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -32945,32 +32291,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYSTSTAR_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYSTSTAR_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMETHYSTSTAR_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MISTY_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MISTY_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MISTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WIRLY_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WIRLY_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WIRLY_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NYX_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NYX_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_NYX_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33083,22 +32429,6 @@
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLEUR_1</Text>
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLEUR_2</Text>
 						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_FLEUR_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_JUNIPER_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_JUNIPER_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_JUNIPER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33233,16 +32563,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SOURSWEET_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SOURSWEET_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_SOURSWEET_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_OPALINE_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_OPALINE_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_OPALINE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33313,22 +32643,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VV_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VV_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_VV_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -33345,16 +32659,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WILDFIRE_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WILDFIRE_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_WILDFIRE_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMAI_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMAI_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_AMAI_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -33521,16 +32835,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MALLUMA_1</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MALLUMA_2</Text>
-						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_MALLUMA_3</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZT_1</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZT_2</Text>
+						<Text>AI_DIPLO_ASK_FOR_HELP_LEADER_ZT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -34841,7 +34155,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -34853,7 +34167,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35031,25 +34345,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -35164,7 +34459,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35176,7 +34471,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SB_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35240,7 +34535,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35252,7 +34547,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35468,7 +34763,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35480,7 +34775,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35601,7 +34896,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35613,14 +34908,14 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35632,7 +34927,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WIRLY_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35766,25 +35061,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -35943,7 +35219,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -35955,7 +35231,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -36038,25 +35314,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -36076,7 +35333,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -36088,7 +35345,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -36285,7 +35542,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -36297,7 +35554,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -37657,7 +36914,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37669,7 +36926,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -37847,25 +37104,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -37980,7 +37218,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -37992,7 +37230,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SB_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38056,7 +37294,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38068,7 +37306,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38284,7 +37522,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38296,7 +37534,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38417,7 +37655,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38429,14 +37667,14 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38448,7 +37686,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WIRLY_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38582,25 +37820,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38759,7 +37978,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38771,7 +37990,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -38854,25 +38073,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -38892,7 +38092,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -38904,7 +38104,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -39101,7 +38301,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -39113,7 +38313,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MALLUMA_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40478,7 +39678,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40490,7 +39690,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40668,25 +39868,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -40801,7 +39982,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40813,7 +39994,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SB_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -40877,7 +40058,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -40889,7 +40070,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41105,7 +40286,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41117,7 +40298,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41238,7 +40419,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41250,14 +40431,14 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41269,7 +40450,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WIRLY_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41403,25 +40584,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41580,7 +40742,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41592,7 +40754,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41675,25 +40837,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -41713,7 +40856,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41725,7 +40868,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -41922,7 +41065,7 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
@@ -41934,7 +41077,7 @@
 						</DiplomacyPower>
 					</DiplomacyPowers>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43449,14 +42592,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_MOONGAZE_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_ZIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43589,20 +42732,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_AMETHYST_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -43701,14 +42830,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_SB_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_SUNNY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43757,14 +42886,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_UPPERCRUST_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_HAVEN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -43925,14 +43054,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_WALLFLOWER_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_PIPP_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44023,28 +43152,28 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_AMETHYSTSTAR_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_MISTY_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_WIRLY_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_NYX_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44143,20 +43272,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NUKES_LEADER_FLEUR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_JUNIPER_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44275,14 +43390,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_SOURSWEET_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_OPALINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44345,20 +43460,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_VV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -44373,14 +43474,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_WILDFIRE_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_AMAI_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -44527,14 +43628,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_NUKES_LEADER_MALLUMA_1</Text>
+						<Text>AI_DIPLO_NUKES_LEADER_ZT_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45639,16 +44740,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MOONGAZE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MOONGAZE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MOONGAZE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZIPP_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZIPP_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45799,22 +44900,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYST_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYST_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYST_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -45911,16 +44996,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SB_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SB_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SB_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SUNNY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SUNNY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SUNNY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -45975,16 +45060,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_UPPERCRUST_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_UPPERCRUST_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_UPPERCRUST_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_HAVEN_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_HAVEN_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_HAVEN_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46167,16 +45252,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WALLFLOWER_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WALLFLOWER_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WALLFLOWER_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIPP_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIPP_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_PIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46279,32 +45364,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYSTSTAR_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYSTSTAR_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMETHYSTSTAR_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MISTY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MISTY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MISTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WIRLY_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WIRLY_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WIRLY_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NYX_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NYX_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_NYX_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46417,22 +45502,6 @@
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLEUR_1</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLEUR_2</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_LEADER_FLEUR_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_JUNIPER_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_JUNIPER_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_JUNIPER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46567,16 +45636,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SOURSWEET_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SOURSWEET_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_SOURSWEET_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_OPALINE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_OPALINE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_OPALINE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46647,22 +45716,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VV_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VV_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_VV_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -46679,16 +45732,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WILDFIRE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WILDFIRE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_WILDFIRE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMAI_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMAI_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_AMAI_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -46855,16 +45908,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MALLUMA_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MALLUMA_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_LEADER_MALLUMA_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZT_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZT_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_LEADER_ZT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48022,16 +47075,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MOONGAZE</LeaderType>
+							<LeaderType>LEADER_ZIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MOONGAZE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MOONGAZE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MOONGAZE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZIPP_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZIPP_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48182,22 +47235,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYST</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYST_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYST_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYST_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ULTIMATEDARKMATTER</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -48294,16 +47331,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SB</LeaderType>
+							<LeaderType>LEADER_SUNNY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SB_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SB_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SB_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SUNNY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SUNNY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SUNNY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48358,16 +47395,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_UPPERCRUST</LeaderType>
+							<LeaderType>LEADER_HAVEN</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_UPPERCRUST_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_UPPERCRUST_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_UPPERCRUST_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_HAVEN_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_HAVEN_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_HAVEN_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48550,16 +47587,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WALLFLOWER</LeaderType>
+							<LeaderType>LEADER_PIPP</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WALLFLOWER_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WALLFLOWER_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WALLFLOWER_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIPP_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIPP_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_PIPP_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48662,32 +47699,32 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_AMETHYSTSTAR</LeaderType>
+							<LeaderType>LEADER_MISTY</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYSTSTAR_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYSTSTAR_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMETHYSTSTAR_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MISTY_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MISTY_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MISTY_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WIRLY</LeaderType>
+							<LeaderType>LEADER_NYX</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WIRLY_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WIRLY_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WIRLY_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NYX_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NYX_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_NYX_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48800,22 +47837,6 @@
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLEUR_1</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLEUR_2</Text>
 						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_FLEUR_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JUNIPER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_JUNIPER_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_JUNIPER_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_JUNIPER_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -48950,16 +47971,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SOURSWEET</LeaderType>
+							<LeaderType>LEADER_OPALINE</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SOURSWEET_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SOURSWEET_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_SOURSWEET_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_OPALINE_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_OPALINE_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_OPALINE_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -49030,22 +48051,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_VV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VV_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VV_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_VV_3</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AYZAT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -49062,16 +48067,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_WILDFIRE</LeaderType>
+							<LeaderType>LEADER_AMAI</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WILDFIRE_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WILDFIRE_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_WILDFIRE_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMAI_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMAI_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_AMAI_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -49238,16 +48243,16 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_MALLUMA</LeaderType>
+							<LeaderType>LEADER_ZT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MALLUMA_1</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MALLUMA_2</Text>
-						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_MALLUMA_3</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZT_1</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZT_2</Text>
+						<Text>AI_DIPLO_WORST_ENEMY_TRADING_LEADER_ZT_3</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>

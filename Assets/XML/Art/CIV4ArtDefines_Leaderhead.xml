@@ -215,9 +215,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_MOONGAZE</Type>
-			<Button>Art/LeaderHeads/static/moongaze_button.dds</Button>
-			<NIF>art/LeaderHeads/static/moongaze.dds</NIF>
+			<Type>ART_DEF_LEADER_ZIPP</Type>
+			<Button>Art/LeaderHeads/static/zipp_button.dds</Button>
+			<NIF>art/LeaderHeads/static/zipp.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -295,9 +295,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_AMETHYST</Type>
-			<Button>Art/LeaderHeads/static/amethyst_button.dds</Button>
-			<NIF>art/LeaderHeads/static/amethyst.dds</NIF>
+			<Type>ART_DEF_LEADER_OPALINE</Type>
+			<Button>Art/LeaderHeads/static/opaline_button.dds</Button>
+			<NIF>art/LeaderHeads/static/opaline.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -351,9 +351,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_SB</Type>
-			<Button>Art/LeaderHeads/static/sweetiebot_button.dds</Button>
-			<NIF>art/LeaderHeads/static/sweetiebot.dds</NIF>
+			<Type>ART_DEF_LEADER_MISTY</Type>
+			<Button>Art/LeaderHeads/static/misty_button.dds</Button>
+			<NIF>art/LeaderHeads/static/misty.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -383,9 +383,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_UPPERCRUST</Type>
-			<Button>Art/LeaderHeads/static/uppercrust_button.dds</Button>
-			<NIF>art/LeaderHeads/static/uppercrust.dds</NIF>
+			<Type>ART_DEF_LEADER_PIPP</Type>
+			<Button>Art/LeaderHeads/static/pipp_button.dds</Button>
+			<NIF>art/LeaderHeads/static/pipp.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -487,14 +487,6 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_WALLFLOWER</Type>
-			<Button>Art/LeaderHeads/static/wallflower_button.dds</Button>
-			<NIF>art/LeaderHeads/static/wallflower.dds</NIF>
-			<KFM></KFM>
-			<NoShaderNIF></NoShaderNIF>
-			<BackgroundKFM></BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_SAPPHIREBLUE</Type>
 			<Button>Art/LeaderHeads/static/sapphire_seapony_button.dds</Button>
 			<NIF>art/LeaderHeads/static/sapphire_seapony.dds</NIF>
@@ -543,17 +535,17 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_AMETHYSTSTAR</Type>
-			<Button>Art/LeaderHeads/static/amethyststar_button.dds</Button>
-			<NIF>art/LeaderHeads/static/amethyststar.dds</NIF>
+			<Type>ART_DEF_LEADER_ZT</Type>
+			<Button>Art/LeaderHeads/static/zerotwo_button.dds</Button>
+			<NIF>art/LeaderHeads/static/zerotwo.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_WIRLY</Type>
-			<Button>Art/LeaderHeads/static/wirly_button.dds</Button>
-			<NIF>art/LeaderHeads/static/wirly.dds</NIF>
+			<Type>ART_DEF_LEADER_AMAI</Type>
+			<Button>Art/LeaderHeads/static/amai_button.dds</Button>
+			<NIF>art/LeaderHeads/static/amai.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -610,14 +602,6 @@
 			<Type>ART_DEF_LEADER_FLEUR</Type>
 			<Button>Art/LeaderHeads/static/fleur_button.dds</Button>
 			<NIF>art/LeaderHeads/static/fleur.dds</NIF>
-			<KFM></KFM>
-			<NoShaderNIF></NoShaderNIF>
-			<BackgroundKFM></BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_JUNIPER</Type>
-			<Button>Art/LeaderHeads/static/juniper_button.dds</Button>
-			<NIF>art/LeaderHeads/static/juniper.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -687,9 +671,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_SOURSWEET</Type>
-			<Button>Art/LeaderHeads/static/soursweet_button.dds</Button>
-			<NIF>art/LeaderHeads/static/soursweet.dds</NIF>
+			<Type>ART_DEF_LEADER_HAVEN</Type>
+			<Button>Art/LeaderHeads/static/haven_button.dds</Button>
+			<NIF>art/LeaderHeads/static/haven.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -727,14 +711,6 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_VV</Type>
-			<Button>Art/LeaderHeads/static/vignette_button.dds</Button>
-			<NIF>art/LeaderHeads/static/vignette.dds</NIF>
-			<KFM></KFM>
-			<NoShaderNIF></NoShaderNIF>
-			<BackgroundKFM></BackgroundKFM>
-		</LeaderheadArtInfo>
-		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_AYZAT</Type>
 			<Button>Art/LeaderHeads/static/ayzat_button.dds</Button>
 			<NIF>art/LeaderHeads/static/ayzat.dds</NIF>
@@ -743,9 +719,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_WILDFIRE</Type>
-			<Button>Art/LeaderHeads/static/wildfire_button.dds</Button>
-			<NIF>art/LeaderHeads/static/wildfire.dds</NIF>
+			<Type>ART_DEF_LEADER_SUNNY</Type>
+			<Button>Art/LeaderHeads/static/sunny_button.dds</Button>
+			<NIF>art/LeaderHeads/static/sunny.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
@@ -831,9 +807,9 @@
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_MALLUMA</Type>
-			<Button>Art/LeaderHeads/static/malluma_button.dds</Button>
-			<NIF>art/LeaderHeads/static/malluma.dds</NIF>
+			<Type>ART_DEF_LEADER_NYX</Type>
+			<Button>Art/LeaderHeads/static/nyx_button.dds</Button>
+			<NIF>art/LeaderHeads/static/nyx.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
