@@ -22096,7 +22096,7 @@
 		<LeaderHeadInfo><!--PIMEDASUS HELENDAV, IMMORTAL SORCERESS-SOVEREIGN OF THE SUPREME DARKNESS [OC]-->
 			<Type>LEADER_PIMEDASUS</Type> <!-- MANA KNOWLEDGE: DEATH, LVL 3 & HARMONY, LVL 1 & COSMOS, LVL 2 -->
 			<Description>TXT_KEY_LEADER_PIMEDASUS</Description>
-			<Civilopedia>TXT_KEY_LEADER_GENERIC_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_LEADER_PIMEDASUS_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_LEADER_PIMEDASUS</ArtDefineTag>
 			<iWonderConstructRand>0</iWonderConstructRand>
 			<iBaseAttitude>-2</iBaseAttitude>
