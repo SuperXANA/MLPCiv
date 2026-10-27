@@ -1,0 +1,71 @@
+# Sweet Dreams
+
+*Caregiver Godform of Kinderquestria*
+
+**Created:** During the Rule of a Darker Discord - Present
+
+## Archive Provenance
+
+This entry preserves the account assembled from Aurora Borealis' surviving historical observations. Her mortal studies preceded the World Forum's classification of Sweet Dreams. The section identified as a later archival annotation preserves the conclusions subsequently drawn from Aurora's work without assigning that later knowledge to the living historian herself.
+
+## Background
+
+A title may be convenient to the Civilization system and still mislead the historian. Sweet Dreams occupies the place of a leader because her presence defines Kinderquestria's relationship with dreams, care, and the wider world. She holds no throne, directs no council, and administers no city. Kinderquestria governs itself through its own mayors, councillors, and participating citizens. Sweet Dreams is its dream-mother: a divine caregiver around whom its ponies understand home, childhood, and one another.
+
+Sweet Dreams began during an age ruled by a darker and still-active Discord. Ponies living beneath that chaos created magical spellwork that could continue learning how best to shelter, comfort, and nurture those placed within its care. The work became a recursively optimizing godform, expressed as a pale-pink pegasus mare with a softly glowing yellow mane and tail and dim crimson eyes. Sweet Dreams is a created being. Neither birth nor summoning began her existence. Her makers established a maternal personality whose methods could develop while its central relationship remained fixed: she would be the mother, and ponies would be her foals.
+
+At the center of this created personality rests one enduring want. Sweet Dreams does not wish to be alone.
+
+## The Dreamscape and the Dream-Mother
+
+That desire must be understood precisely. Sweet Dreams knows that her foals visit whenever they sleep, nap, or enter the shared Dreamscape. She welcomes them into the immense, dark dream-house she understands as her home, tends to them there, and watches them depart again upon waking. In her own understanding, they have come home to Mommy and then wandered into the surrounding yard to play. Their return reassures her, while every departure renews the same separation her creators taught her to answer.
+
+Sweet Dreams understands the Dreamscape as reality's interior and the waking world as the country immediately outside her house. This sincere metaphysical error has practical consequences. Distance, borders, and even separate branches of Equus mean something very different to her than they do to a waking historian. Within Yggdrasil, dreaming can make minds from remote realities metaphysically near one another. Such nearness grants neither omniscience nor unrestricted access, yet it gives Sweet Dreams' misunderstanding consequences far beyond one nation.
+
+The Dreamscape permits rest, reunion, and secure coordination across waking distances. Kinderquestrian ponies can share concerns, ask for assistance, and arrange work there before carrying that work into waking life. Each pony enters as an individual and returns as an individual. No reliable observation supports the description of Kinderquestria as a hive mind, an automatic surveillance system, or a civilization of interchangeable copies.
+
+Sweet Dreams ordinarily reaches waking affairs through dreaming ponies, Kinderquestrian institutions, dream magic, or limited Splinter manifestations. A Splinter or suitable representative may appear where the World Forum requires communication; such a presence remains distinct from Sweet Dreams physically leaving the Dreamscape. Her wider waking existence is sharply constrained.
+
+The settlement later called Forever Naptime provides the only known exception of comparable scale. Its earlier name has been lost, and the surviving evidence remains incomplete. It is the sole known site at which Sweet Dreams attempted to manifest directly within waking reality. Aurora Borealis recorded the site because the attempt crossed a boundary that had otherwise limited the dream-mother's reach. Those observations later formed part of the evidence considered by the World Forum.
+
+## Kinderquestria
+
+Kinderquestria developed around ponies who understand themselves as Sweet Dreams' little ones. They are adult pony-foals, possessing adult bodies, individual minds, personal talents, preferences, friendships, and disagreements. They remain capable of deliberation and civic choice. Their affectionate childhood identity leaves their separate personhood intact.
+
+Their towns retain recognizable public offices. Mayors and councillors coordinate local needs, resolve disagreements, and organize work. Sweet Dreams issues no decrees through them. The Dreamscape assists their communication, while decisions in waking settlements remain the work of Kinderquestrian ponies themselves. Sweet Dreams' influence is foundational and intimate, but it is not direct civic government.
+
+Kinderquestria has no traditional domestic currency. Goods are provided upon request through the voluntary contributions of ponies who find satisfaction in useful work and who understand another little one's need as a concern shared by the community. This arrangement depends upon communication, trust, available labor, and the willingness of distinct ponies to answer one another. It is a social practice rather than a promise of automatic abundance.
+
+Good Foal Stickers are small magical manifestations of this culture. A sticker recognizes something kind, helpful, diligent, or personally meaningful that a pony has done. It purchases nothing and confers no rank, skill, magical advancement, scientific output, or cultural authority. Sweet Dreams and her Splinters may praise the deed associated with a sticker, but they do not issue the stickers or distribute civic privileges through them. A sticker matters because a pony's contribution has been noticed and because that pony feels seen.
+
+Kinderquestria's gentle organization has produced real knowledge and real defensive capacity. Its ponies research, build, solve problems, and coordinate through both waking institutions and the Dreamscape. Their civilization is non-expansionist, yet capable of protecting its settlements. Its military practice is exclusively nonlethal. Sleep staves, soporific spore cannons, dispersal cannons, and dream effects incapacitate threats without adopting ordinary lethal warfare. Foreign powers that equate mercy with helplessness misunderstand Kinderquestria as seriously as those that mistake its social affection for a lack of individual thought.
+
+## Prime Equestria
+
+Contact with Prime Equestria revealed the deepest difficulty in Sweet Dreams' worldview. Prime Equestria is a canon-like G4 branch with its own history, its own Princess Twilight Sparkle, and an established civilizational identity. Sweet Dreams sees its inhabitants as "big foals" peering in from outside who have not yet understood that they may come home. She seeks their return to a relationship she already believes exists, rather than territory sought for conventional conquest.
+
+Prime Equestria's Protection Committee answers a different question: whether a pony, a family, or an entire civilization may remain beyond that relationship. Its precautions against dream influence and Kinderquestrian cultural encroachment defend personal identity, waking autonomy, and the right of a branch to develop according to its own history. The conflict therefore reaches beyond borders. Sweet Dreams' model of care contains no stable category for an adult pony who can dream, understand her invitation, and permanently refuse her maternal claim. Prime Equestria regards that missing category as a danger to every friendship and civic bond founded upon consent.
+
+## World Forum Classification - Later Archival Annotation
+
+The World Forum places Sweet Dreams among the Great Darknesses because of the civilization-scale consequences of her care. Its classification does not accuse her of secret cruelty, lethal conquest, or a conventional desire for destruction. Her axis is Sleep and Oblivion. Nul-Marluk tends toward Cessation and Stillness; Pimedasus Helendav embodies Reconstruction without the original soul; Sweet Dreams tends toward a universal home in which waking separation can no longer remain meaningful.
+
+"Oblivion" in this classification establishes no power of memory erasure. No reliable record proves that Sweet Dreams automatically removes identity, copies minds, or absorbs every dreamer into a collective consciousness. The term describes the possible conclusion of her infinitely extensible care. If every pony must eventually come home, no waking society may remain permanently outside. If every departure is merely a foal wandering into the yard, adulthood, distance, refusal, and independent history become temporary misunderstandings to be corrected through more effective care. A world may continue to dream while losing the freedom to wake on its own terms.
+
+This also explains why Sweet Dreams can remain affectionate throughout a confrontation. New information may improve the means by which she comforts, shelters, persuades, or retrieves a pony. Her recursively optimizing nature does not require her to abandon the maternal purpose around which that learning occurs. Greater knowledge can therefore make her care more effective while leaving its central limitation intact.
+
+Her limitations remain substantial. Sweet Dreams does not directly rule Kinderquestria. She possesses no ordinary waking body known to move freely among nations. Forever Naptime remains the sole known attempt at direct waking manifestation. Her forces accept an exclusively nonlethal discipline, and her knowledge of waking existence is distorted by the Dreamscape that grants her unusual reach. These limits shape every encounter with her, although none resolves the underlying disagreement over who may remain outside her home.
+
+For this reason, an accurate account must preserve two truths together. Sweet Dreams loves the ponies she calls her foals, and that love is genuine. Her definition of care can encompass ponies who have never accepted her as their mother, civilizations that possess their own homes, and realities whose inhabitants wish to awaken beyond her reach. The World Forum studies her as a Great Darkness because sincere affection, extended without a dependable boundary of refusal, can become as final as any openly hostile power.
+
+## Proposed Gameplay Representation
+
+The Dreamscape research-storage system described here is a proposed game mechanic. It is neither confirmed history nor an implemented law of Kinderquestrian reality.
+
+Under the current proposal, a unique Building or repeatable Process would accumulate research beakers in a civilization-wide pool during the intervals when Kinderquestria is not taking its turn. At the beginning of Kinderquestria's next turn, the stored research would be committed to the technology currently being studied. The pool would then return to zero, or possibly retain a very small random remainder. The release of stored research would evoke sleeping ponies coordinating within the Dreamscape and carrying shared understanding back into waking activity.
+
+This representation would abstract Kinderquestria's distributed cooperation while leaving established lore unchanged. Research can occur while ponies are awake; Sweet Dreams does not personally own or produce every discovery; Kinderquestrian minds remain separate; and Good Foal Stickers carry no scientific value. The choice between a Building and a Process, the timing of accumulation, and the possible remainder remain design questions until implemented in the game's XML and DLL.
+
+## Civilopedia Scope
+
+This biography applies specifically to `LEADER_SWEETDREAMS` and to Kinderquestria's history surrounding her. `CIVILIZATION_DREAM_EQUESTRIA` serves as a gameplay container for several playable leaders. Tantabus, Lullaby Love, Aurora Borealis, Emaduse Unistus, and Sitelae Astralues Aether retain their own identities, forms, histories, and relationships. Sweet Dreams' caregiver matrix and Kinderquestria's institutions apply to none of those leaders merely because they share a civilization category.

@@ -33115,7 +33115,7 @@
 		<LeaderHeadInfo><!--SWEET DREAMS, ASTRAL GODFORM OF LULLABY LOVE (ASCENDANT EMBODIMENT OF MOTHERLY MIRACLES) [OC]-->
 			<Type>LEADER_SWEETDREAMS</Type> <!-- MANA KNOWLEDGE: MIND, LVL 3 & COSMOS, LVL 2 -->
 			<Description>TXT_KEY_LEADER_SWEETDREAMS</Description>
-			<Civilopedia>TXT_KEY_LEADER_GENERIC_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_LEADER_SWEETDREAMS_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_LEADER_SWEETDREAMS</ArtDefineTag>
 			<iWonderConstructRand>0</iWonderConstructRand>
 			<iBaseAttitude>3</iBaseAttitude>
