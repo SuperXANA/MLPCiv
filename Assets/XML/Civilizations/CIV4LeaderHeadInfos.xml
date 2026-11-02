@@ -128,18 +128,18 @@
 					<EraType>ERA_RENAISSANCE</EraType>
 					<DiploScriptId>AS2D_DIPLO_BARBARIAN</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicWarEra>
+				<DiploMusicPeaceEra>
 					<EraType>ERA_INDUSTRIAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_BARBARIAN</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
+				</DiploMusicPeaceEra>
+				<DiploMusicPeaceEra>
 					<EraType>ERA_MODERN</EraType>
 					<DiploScriptId>AS2D_DIPLO_BARBARIAN</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
+				</DiploMusicPeaceEra>
+				<DiploMusicPeaceEra>
 					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_BARBARIAN</DiploScriptId>
-				</DiploMusicWarEra>
+				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar/>
 			<DiplomacyMusicWar>
@@ -19965,14 +19965,13 @@
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
 		<LeaderHeadInfo><!--NIGHTMARE RARITY, EVIL ALTER EGO OF RARITY [OC]-->
-			<Type>LEADER_NR</Type> <!-- MANA KNOWLEDGE: MIND, LVL 1 -->
-			<Description>TXT_KEY_LEADER_NR</Description>
+			<Type>LEADER_MW</Type> <!-- MANA KNOWLEDGE: MIND, LVL 1 -->
+			<Description>TXT_KEY_LEADER_MW</Description>
 			<Civilopedia>TXT_KEY_LEADER_GENERIC_PEDIA</Civilopedia>
-			<ArtDefineTag>ART_DEF_LEADER_NR</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_LEADER_MW</ArtDefineTag>
 			<iWonderConstructRand>20</iWonderConstructRand>
-			<iBaseAttitude>1</iBaseAttitude>
-			<iBasePeaceWeight>3</iBasePeaceWeight>
-			<iPeaceWeightRand>4</iPeaceWeightRand>
+			<iBaseAttitude>2</iBaseAttitude>
+			<iBasePeaceWeight>6</iBasePeaceWeight>
 			<iWarmongerRespect>0</iWarmongerRespect>
 			<iEspionageWeight>115</iEspionageWeight>
 			<iRefuseToTalkWarThreshold>8</iRefuseToTalkWarThreshold>
