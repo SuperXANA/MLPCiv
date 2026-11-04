@@ -6398,13 +6398,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_COMBAT</SoundID>
-			<Filename>Sounds/Combat</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>SND_REVOLTSTART</SoundID>
 			<Filename>Sounds/RevolutionStart</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
@@ -7184,13 +7177,6 @@
 		<SoundData>
 			<SoundID>SND_CBMN_ATTK_VOX</SoundID>
 			<Filename>Sounds/Units/CbmnAttkVox</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_CBMN_DIE_VOX</SoundID>
-			<Filename>Sounds/Units/CbmnDieVox</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -13197,6 +13183,20 @@
 		<SoundData>
 			<SoundID>SND_protectron_active</SoundID>
 			<Filename>Sounds/units/protectron_active</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>SND_AMB_SUPERNOVA_BLAST</SoundID>
+			<Filename>Sounds/Ambient/SupernovaBlast</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>SND_THEIRALLIANCE</SoundID>
+			<Filename>Sounds/TheirAlliance</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
