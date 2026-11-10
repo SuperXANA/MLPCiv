@@ -1,4 +1,6 @@
-# Equus source validation — November 2, 2026
+# Equus source validation
+
+Offline results recorded November 2, 2026. Gameplay evidence recorded November 8, 2026.
 
 ## Source and scope
 
@@ -28,7 +30,7 @@ The installed instrumented script's Git blob SHA is
 | Error and logging behavior | PASS in test doubles | Injected generation errors retain their exception object and produce enabled tracebacks; disabled logging is silent; broken output sinks leave generation unchanged; output-size mismatch is reported without rewriting the result |
 | Python 2.4.6 execution | PASS — seven sizes, 21 pipelines | `python2.4 tests/check_python24.py` actually parses/imports/runs the baseline, off and on versions, including features and RNG trace comparisons |
 | Independent source review | PASS | No geography edits, extra RNG draws, map writes by diagnostics, or post-2.4 script dependencies found |
-| Civilization IV runtime | **NOT RUN** | No map-selection, real DLL/XML/feature utility, geographic screenshot, native log routing or save/reload result is claimed |
+| Civilization IV basic generation | **PASS (one documented run)** | The [in-game screenshot](https://github.com/SuperXANA/MLPCiv/blob/fa4ef9cf62814c3ef8151d99924c87aac9b89b18/docs/equus.png) in the [November 8 gameplay commit](https://github.com/SuperXANA/MLPCiv/commit/fa4ef9cf62814c3ef8151d99924c87aac9b89b18) shows the generated map at turn 0 |
 
 Both harnesses supply deterministic test doubles for `CvPythonExtensions` and
 `CvMapGeneratorUtil.FeatureGenerator`. Their RNG is a small repeatable stand-in,
@@ -42,10 +44,11 @@ patch level or Windows extension bindings. The script uses Python 2.4 syntax
 and existing built-ins/standard-library modules; its diagnostic imports are
 limited to `sys` and `traceback` when enabled.
 
-## Runtime gate
+## Runtime follow-up
 
-Follow [Equus runtime verification](Equus_Runtime_Verification.md) in the
-Windows game installation. Record map discovery, successful playable generation,
-geographic plausibility, multiple map sizes/options, native log files, and a
-fresh-game save/reload followed by another turn. All remain pending until real
-game evidence is available. No DLL build is needed for this Python-only change.
+The playtest report describes a successful first attempt with no error
+messages displayed. See [Equus runtime verification](Equus_Runtime_Verification.md)
+for the evidence and remaining checks. Native diagnostic log collection,
+comprehensive geography and starting-position review, size and option
+coverage, and save/reload remain **NOT RUN**. The offline results above apply
+to the pinned integration and its fixture.

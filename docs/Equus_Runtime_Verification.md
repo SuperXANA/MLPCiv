@@ -89,7 +89,20 @@ arrays precede subsequent DLL processing and map normalization; the feature
 summary follows Equus's feature pass. They are not a promise that every count
 will equal the final playable map after all game callbacks run.
 
-## Runtime procedure — pending execution
+## November 8, 2026 gameplay evidence
+
+| Runtime check | Status | Evidence and scope |
+| --- | --- | --- |
+| Basic in-game generation | **PASS (one documented run)** | The [screenshot](https://github.com/SuperXANA/MLPCiv/blob/fa4ef9cf62814c3ef8151d99924c87aac9b89b18/docs/equus.png) shows the Civ IV map at turn 0 (4000 BC), with a selected unit, terrain, coastline, and minimap. The [gameplay commit](https://github.com/SuperXANA/MLPCiv/commit/fa4ef9cf62814c3ef8151d99924c87aac9b89b18) identifies it as a successful Equus test. |
+| First attempt and visible errors | **REPORTED** | The playtester reported that the first random game generated successfully and displayed no error messages. |
+| Custom Game discovery and selection | **NOT RUN** | A separate menu check has yet to be documented. |
+| Comprehensive geography and starting positions | **NOT RUN** | The screenshot captures one local view and a minimap. The atlas checklist below still needs a full review. |
+| Map sizes, wrap, variation, and sea level | **NOT RUN** | The settings and seed for the pictured run were unrecorded. |
+| Diagnostic callbacks and native log collection | **NOT RUN** | The installed script hash, DLL identity, diagnostic setting, and Windows Python logs were unrecorded. |
+| Same-seed diagnostics on/off comparison | **NOT RUN** | The offline equivalence results are recorded in [source validation](Equus_Source_Validation.md). |
+| Save/reload and subsequent turn | **NOT RUN** | A save, reload, and turn advance still need to be captured. |
+
+## Runtime procedure for automated verification
 
 This procedure must be run in Civilization IV. Standalone Python checks cannot
 verify discovery in Custom Game, the embedded extension API, XML IDs, the
@@ -97,8 +110,8 @@ game's feature generator, starting positions, or saving/loading.
 
 Before each run, record the integration commit, installed script hash, mod and
 DLL build identity, world-size selection, wrap, variation, sea level, player
-count, and seed if the test setup exposes it. Archive the logs before another
-launch can replace them. For scripted collection over SSH, copy the Windows
+count, and seed if the test setup exposes it. Record whether diagnostics are
+enabled. Archive the logs before another launch can replace them. For scripted collection over SSH, copy the Windows
 game profile's logs to a per-run directory on the controller after generation.
 Keep successful and failed runs with their settings and screenshots.
 
@@ -167,20 +180,17 @@ Use this evidence record for each run:
 | Commit / installed script hash / DLL identity | |
 | Size / actual width × height / options / sea level / seed if available | |
 | Equus listed and selected | PASS / FAIL / NOT RUN |
-| Generation reached playable turn; stages completed | PASS / FAIL / NOT RUN |
+| Generation reached playable turn | PASS / FAIL / NOT RUN |
+| Diagnostics setting / native log collection / callback completion | Setting and PASS / FAIL / NOT RUN |
+| Size and option checks for this configuration | PASS / FAIL / NOT RUN |
+| Same-seed diagnostics comparison | PASS / FAIL / NOT RUN |
 | Geographic overview and starting-position review | PASS / FAIL / NOT RUN |
 | Log archive and screenshot filenames | |
 | Fresh-game save/reload and subsequent turn | PASS / FAIL / NOT RUN |
 | Error details / last completed stage | |
 
-## Validation boundary
+## Offline validation
 
-The accompanying source checks use a deterministic Civ API test double and an
-exact fixture of the authored map. They check dimensions, array sizes, options,
-and that diagnostics preserve outputs and RNG call order. Python syntax and
-host execution results belong in the integration validation report. They do
-not establish that the map has executed in Civilization IV.
-
-**Current runtime status: NOT RUN.** Discovery, generation, geography, native
-log-file routing, and fresh-game save/reload remain open until the above
-procedure produces evidence from the Windows runtime.
+[Equus source validation](Equus_Source_Validation.md) records the standalone
+Python results. The harnesses use deterministic Civ API test doubles to check
+dimensions, array sizes, options, output equivalence, and RNG call order.
