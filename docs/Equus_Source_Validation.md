@@ -1,8 +1,10 @@
 # Equus source validation
 
-Offline results for the two-world script, recorded November 22, 2026. Earlier
-results (November 2) and gameplay evidence (November 8) describe the previous,
-Known World only revision.
+Offline results for the two-world script with sea room, recorded November 22,
+2026. Earlier results (November 2) and gameplay evidence (November 8) describe
+the Known World only revision; the first two-world revision
+([`0ccf816`](https://github.com/SuperXANA/MLPCiv/commit/0ccf8161a782cef84f34ce18dd528e7947a2f50b))
+was generated in the game once, before sea room existed.
 
 ## Source and scope
 
@@ -21,12 +23,15 @@ Known World only revision.
   links, traced from the "Equestria... and Beyond" world picture, with their
   own plot, terrain and feature code. Coasts were measured from the picture's
   pixels and then simplified to within about a third of a Huge plot; ranges
-  and biomes were placed by eye against the picture.
+  and biomes were placed by eye against the picture. One departure from the
+  picture is deliberate: `_X_SEA_ROOM` moves the Celestial Sea's two shores
+  apart by `.015` of the map's width each, after the first in-game run found
+  that sea too narrow for ships.
 
 The pinned test fixture is byte-identical to that commit's original script:
 Git blob SHA `395fa96ba5193b9483bc24cdfac8687fe4f9766d`.
 The installed script's Git blob SHA is
-`25cc87a570766f92e73b70180abb702c58299a53`.
+`59f9f53bcf21684585310370be575744029dfc99`.
 
 Facts about the engine were read from the
 [SuperXANA/AdvCiv](https://github.com/SuperXANA/AdvCiv) fork at
@@ -42,7 +47,7 @@ both generators override.
 
 | Check | Result | Evidence and scope |
 | --- | --- | --- |
-| Host suite, Python 3.13.18 | PASS — 19 tests | `python3 tests/check_equus.py` (18 without a 2.4 interpreter; the nineteenth is skipped) |
+| Host suite, Python 3.13.18 | PASS — 20 tests | `python3 tests/check_equus.py` (19 without a 2.4 interpreter; the twentieth is skipped) |
 | Known World preservation | PASS | Every original top-level definition has the same AST except the six named above; all other additions are the diagnostics or belong to the Expanded world |
 | Known World output/RNG equivalence | PASS in test doubles — 23 configurations | Exact plot arrays, terrain arrays, feature states, callback return and complete RNG argument/result traces match the pinned original, with diagnostics off and on, with the third option present and absent. All seven sizes, all nine wrap/variation pairs on Duel, all nine sea-level/variation pairs on Standard. It draws none of the Expanded world's random numbers |
 | Expanded generation | PASS in test doubles — 23 configurations | The same matrix: array sizes and value domains, untouched water terrain, diagnostics off/on identical, only its own RNG labels, land share between 45% and 72% |
@@ -50,6 +55,7 @@ both generators override.
 | Expanded climate | PASS on Huge | Saddle Arabia, the Bone Dry Desert and Breezewood are desert; Antleria is snow; the Fields of Forever are grass; Zebrica and Amarezonia carry jungle; no jungle in Saddle Arabia; the southern rim is snow or tundra |
 | Pack ice | PASS | Ice only on water, only within 4% of the top edge or beyond 84% south, never on a sea lane |
 | Sea level and variation | PASS | Low, normal and high sea give strictly more to less land; Subtle and Lively differ from Standard |
+| Sea room | PASS | On Huge, open water across the Celestial Sea lane at six latitudes beside Griffonstone averages 4.3 plots more than with `extra` set to 0 (8, 5, 3, 5, 7, 12 plots become 14, 9, 7, 10, 10, 16); the move never folds the picture and reverses exactly; an `extra` of 0 and an empty table give the same map; nothing moves north of latitude .165, so Trottingham Bridge is untouched |
 | Table sanity | PASS | Shore latitudes strictly increase, west never exceeds east, ovals have positive radii, no ridge segment has zero length (it would divide by zero) |
 | Dimensions/options | PASS | Both size tables, save-load sentinel, larger world-index fallback, three options with their labels and defaults, invalid stored-choice fallback to the Known World |
 | Diagnostics, errors and logging | PASS in captured streams/test doubles | As before, now for both worlds: exact summaries, no warning/error output on normal runs, injected errors keep their exception object, broken output sinks leave generation unchanged |
@@ -57,7 +63,7 @@ both generators override.
 | Python 2.4 against Python 3 | PASS — 14 maps | `EQUUS_PYTHON24=... python3 tests/check_equus.py`: a checksum over each map's plots, terrain, features and RNG results is identical under both interpreters, for both worlds at all seven sizes. The host harness also gives `/` its Python 2.4 meaning and counts integer/integer divisions in the script: none occur |
 | Python 2.4 speed | Measured | An XXL Expanded world took about 0.4 s of CPU for its three passes; the Known World XXL about 0.25 s |
 | Wider geography sweep | PASS — 2,016 worlds | Run once during development, not part of the suite: all seven sizes, three variations, three sea levels, sixteen seeds, both bridge settings |
-| Civilization IV generation | **NOT RUN for this revision** | The [November 8 screenshot](https://github.com/SuperXANA/MLPCiv/blob/fa4ef9cf62814c3ef8151d99924c87aac9b89b18/docs/equus.png) shows the previous revision's Known World. Neither world of this revision has been generated in the game |
+| Civilization IV generation | **NOT RUN for this revision** | The [November 8 screenshot](https://github.com/SuperXANA/MLPCiv/blob/fa4ef9cf62814c3ef8151d99924c87aac9b89b18/docs/equus.png) shows the Known World only revision. The playtester generated the Expanded world of `0ccf816` once on November 22 ([runtime evidence](Equus_Runtime_Verification.md)). Neither world of this revision, with sea room, has been generated in the game |
 
 Both harnesses supply deterministic test doubles for `CvPythonExtensions` and
 `CvMapGeneratorUtil.FeatureGenerator`. Their RNG is a small repeatable stand-in,
@@ -78,9 +84,12 @@ API that the Known World, already seen running in the game, does not call.
 
 * Trees, rivers, lakes added by the DLL, resources, starting positions and
   normalization are the game's own and are unseen here.
-* About 58% of the map is land at normal sea level, where a Fractal map has
+* About 57% of the map is land at normal sea level, where a Fractal map has
   roughly 30%. Low sea level raises that to about two-thirds. A given world size
   therefore holds about twice the usual territory.
+* Sea room is a fraction of the map's width, so it adds nearly two plots a
+  side on Huge but about half a plot on Duel, where the sea lanes still do
+  most of the work. It widens seas that run north-south only.
 * With the default causeways the Frozen North is an inland sea, and all three
   mainlands form a single land area. Set `EXPANDED_BRIDGES_ARE_LAND = False`
   for three mainlands that need boats.
@@ -92,7 +101,7 @@ API that the Known World, already seen running in the game, does not call.
 ## Runtime follow-up
 
 See [Equus runtime verification](Equus_Runtime_Verification.md) for the
-in-game procedure, the expected dimensions of both worlds and the Expanded
-geography checklist. Custom Game discovery of the third option, generation of
-both worlds, native diagnostic log collection, starting-position review, size
-and option coverage, and save/reload all remain **NOT RUN** for this revision.
+in-game procedure, the November 22 evidence, the expected dimensions of both
+worlds and the Expanded geography checklist. Generation of both worlds, native
+diagnostic log collection, starting-position review, size and option coverage,
+and save/reload all remain **NOT RUN** for this revision.

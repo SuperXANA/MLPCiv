@@ -983,6 +983,30 @@ _X_BRIDGES = (
       (.455,.200))),
     (((.500,.250), (.490,.285), (.490,.360)),           # Griffonstone rail trestle
      ((.440,.312), (.502,.312))))
+# The sea down the middle of the world, from below Trottingham to the Crystal
+# Sea, as an (x, v) path that keeps to open water. It is a sea lane, and it is
+# the line along which _X_SEA_ROOM parts the two shores.
+_X_CELESTIAL_SEA = (
+    (.465,.165), (.455,.200), (.445,.250), (.440,.300), (.437,.360),
+    (.436,.450), (.438,.520), (.430,.600), (.420,.660), (.422,.760),
+    (.428,.840), (.430,.910))
+# Sea room. As drawn, the Celestial Sea is seven plots across on a Huge map
+# beside Griffonstone, and Bermuldy and Trotaway Islands fill half of that.
+# Each row here opens a sea that runs north-south, like parting a curtain:
+# everything west of its line moves west and everything east of it moves east,
+# with new sea between, and the land farther off is squeezed a little to make
+# the room. Nothing is cut away, so capes and isles keep their shapes.
+#   extra   sea added on EACH side, as a fraction of the map's width.
+#           .0085 is one plot on a Huge map and .017 is two; the same fraction
+#           is about one plot on Standard and half a plot on Duel.
+#   rigid   within this distance of the line, land moves in one piece.
+#   fade    the squeeze has died away at this distance from the line.
+#   line    the (x, v) path, north to south. The widening eases in and out
+#           over the first and last _X_SEA_ROOM_EASE of its length.
+# Set extra to 0 (or empty the table) for the sea exactly as the picture has it.
+_X_SEA_ROOM_EASE = .06
+_X_SEA_ROOM = (
+    (.015, .085, .210, _X_CELESTIAL_SEA),)
 # Sea lanes that must stay open at every map size, as (x, v) paths. Without
 # them a Duel grid would weld Equestria, Ponyland and Zebrica together, and
 # seal bays whose mouths are narrower than one plot. Pack ice never forms on
@@ -990,9 +1014,7 @@ _X_BRIDGES = (
 _X_STRAITS = (
     ((.004,.200), (.004,.935)),                         # North to South Luna Ocean
     ((.996,.300), (.996,.860)),                         # Sparkling Sea, round Horsetrailia's cape
-    ((.455,.200), (.445,.250), (.440,.300), (.437,.360), (.436,.450),
-     (.438,.520), (.430,.600), (.420,.660), (.422,.760), (.428,.840),
-     (.430,.910)),                                      # Celestial Sea to Crystal Sea
+    _X_CELESTIAL_SEA,                                   # Celestial Sea to Crystal Sea
     ((.502,.312), (.560,.311), (.600,.303), (.660,.300), (.688,.332),
      (.705,.352), (.727,.352), (.733,.375), (.745,.398), (.760,.416),
      (.770,.445), (.776,.500), (.772,.530), (.750,.560), (.752,.580),
@@ -1272,6 +1294,69 @@ def _shore(rows, x, v, sea_shift):
     return not low_sea
 
 
+def _sea_room_at(south):
+    # The seas being opened at one latitude, as (line x, extra, rigid, fade).
+    seas = []
+    for extra, rigid, fade, line in _X_SEA_ROOM:
+        if extra <= 0.0 or south <= line[0][1] or south >= line[-1][1]:
+            continue
+        for i in range(1, len(line)):
+            if south <= line[i][1]:
+                ax, av = line[i - 1]
+                bx, bv = line[i]
+                ease = min(1.0, (south - line[0][1]) / _X_SEA_ROOM_EASE,
+                           (line[-1][1] - south) / _X_SEA_ROOM_EASE)
+                seas.append((ax + (bx - ax) * (south - av) / (bv - av),
+                             extra * ease, rigid, fade))
+                break
+    return seas
+
+
+def _to_atlas(east, seas):
+    # Which x of the picture shows at map position `east`? None means the
+    # plot lies in a strip of new sea. Beside the strip the map shows the
+    # picture moved over by `extra`; from `rigid` out to `fade` the move
+    # shrinks to nothing, which is where the land gets squeezed. The slope of
+    # that shrinking is far below 1, so the picture is never folded over.
+    for centre, extra, rigid, fade in seas:
+        distance = abs(east - centre)
+        if distance < extra:
+            return None
+        if distance < rigid:
+            move = extra
+        elif distance < fade:
+            move = extra * (fade - distance) / (fade - rigid)
+        else:
+            continue
+        if east > centre:
+            east = east - move
+        else:
+            east = east + move
+    return east
+
+
+def _to_map(x, seas):
+    # The reverse of _to_atlas(): where on the map a point of the picture is
+    # drawn. Sea lanes, land links and island cores are placed with it, so
+    # that they move with the shores they belong to. A point on the line
+    # itself stays put: the line is the middle of the new sea.
+    for centre, extra, rigid, fade in seas:
+        distance = abs(x - centre)
+        if distance < .000001 or distance >= fade:
+            continue
+        if distance < rigid - extra:
+            move = extra
+        else:
+            # Solve d - extra * (fade - d) / (fade - rigid) = distance for d.
+            slope = extra / (fade - rigid)
+            move = (distance + slope * fade) / (1.0 + slope) - distance
+        if x > centre:
+            x = x + move
+        else:
+            x = x - move
+    return x
+
+
 def _trace(cells, path, width, height, orthogonal):
     # Add every plot that an (x, v) path passes through to the set `cells`.
     # A sea lane must also be continuous edge to edge. Where two of its water
@@ -1284,8 +1369,9 @@ def _trace(cells, path, width, height, orthogonal):
         steps = int(4 * max(abs(bx - ax) * width, abs(bv - av) * height)) + 1
         for step in range(steps + 1):
             t = step / float(steps)
-            x = int((ax + (bx - ax) * t) * width)
-            y = int((1.0 - (av + (bv - av) * t)) * height)
+            v = av + (bv - av) * t
+            x = int(_to_map(ax + (bx - ax) * t, _sea_room_at(v)) * width)
+            y = int((1.0 - v) * height)
             x, y = max(0, min(width - 1, x)), max(0, min(height - 1, y))
             if orthogonal and last is not None and last[0] != x and last[1] != y:
                 cells.add((x, last[1]))
@@ -1342,10 +1428,12 @@ def _expanded_crest(buckets, x, v):
 def _expanded_plot_types(width, height, variation, sea_shift):
     # Each plot is decided in this order:
     #   1. causeways and sea lanes, which are the same at every map size;
-    #   2. the shore tables, read at a position nudged by seeded noise, so
+    #   2. sea room: plots in a strip of new sea are water, and every other
+    #      plot learns which x of the picture it shows (`home`);
+    #   3. the shore tables, read at that position nudged by seeded noise, so
     #      that a whole bay or cape shifts together from game to game;
-    #   3. small isles, then lakes;
-    #   4. relief: the nearest range's crest, rolling uplands, and one die.
+    #   4. small isles, then lakes;
+    #   5. relief: the nearest range's crest, rolling uplands, and one die.
     warp_x = _noise_grid(30, 21, "Equus expanded coast east-west")
     warp_v = _noise_grid(31, 20, "Equus expanded coast north-south")
     uplands = _noise_grid(43, 29, "Equus expanded rolling uplands")
@@ -1354,10 +1442,9 @@ def _expanded_plot_types(width, height, variation, sea_shift):
     ridges = _expanded_ridges()
     channels, causeways = _fixed_plots(width, height)
     cores = set()
-    for cx, cv in _X_CORES:
-        cores.add((int(cx * width), int((1.0 - cv) * height)))
-    for cx, cv, rx, rv in _X_ISLES:
-        cores.add((int(cx * width), int((1.0 - cv) * height)))
+    for cx, cv in _X_CORES + tuple([isle[:2] for isle in _X_ISLES]):
+        cores.add((int(_to_map(cx, _sea_room_at(cv)) * width),
+                   int((1.0 - cv) * height)))
     # This picture holds a whole world where the Known World's holds one
     # continent, so a coast wanders about half as far across it: a little over
     # one plot on a Huge map. v moves farther in fractions to match x on the
@@ -1367,15 +1454,17 @@ def _expanded_plot_types(width, height, variation, sea_shift):
     plots = []
     for y in range(height):
         south = 1.0 - (y + 0.5) / height
+        seas = _sea_room_at(south)
         for x in range(width):
             east = (x + 0.5) / width
             if (x, y) in causeways:
                 plots.append(PlotTypes.PLOT_LAND)  # level ground: never a peak
                 continue
-            if (x, y) in channels:
+            home = _to_atlas(east, seas)
+            if (x, y) in channels or home is None:
                 plots.append(PlotTypes.PLOT_OCEAN)
                 continue
-            atlas_x = east + reach_x * _noise(warp_x, east, south)
+            atlas_x = home + reach_x * _noise(warp_x, east, south)
             atlas_v = south + reach_v * _noise(warp_v, east, south)
             land = (x, y) in cores or _shore(coast, atlas_x, atlas_v, sea_shift)
             if not land:
@@ -1384,7 +1473,7 @@ def _expanded_plot_types(width, height, variation, sea_shift):
                 for cx, cv, rx, rv in _X_ISLES:
                     rx = max(rx - sea_shift * .30, .75 / width)
                     rv = max(rv - sea_shift * .30 * _X_ASPECT, .75 / height)
-                    if _in_oval((east + atlas_x) * .5, (south + atlas_v) * .5, cx, cv, rx, rv):
+                    if _in_oval((home + atlas_x) * .5, (south + atlas_v) * .5, cx, cv, rx, rv):
                         land = True
                         break
             if land and (x, y) not in cores and _in_biome(atlas_x, atlas_v, _X_LAKES):
@@ -1392,7 +1481,7 @@ def _expanded_plot_types(width, height, variation, sea_shift):
             if not land:
                 plots.append(PlotTypes.PLOT_OCEAN)
                 continue
-            if _in_biome(east, south, _X_BASINS):
+            if _in_biome(home, south, _X_BASINS):
                 plots.append(PlotTypes.PLOT_LAND)
                 continue
             crest = _expanded_crest(ridges, atlas_x, atlas_v)
@@ -1461,13 +1550,17 @@ def _expanded_terrain_types():
     result = []
     for y in range(height):
         south = 1.0 - (y + 0.5) / height
+        seas = _sea_room_at(south)
         for x in range(width):
             plot = m.plot(x, y)
             if plot.isWater():
                 result.append(plot.getTerrainType())  # Keep shallow/deep water from the DLL.
                 continue
             east = (x + 0.5) / width
-            u = east + amplitude * _noise(drift_x, east, south)
+            home = _to_atlas(east, seas)
+            if home is None:
+                home = east  # a causeway laid across new sea
+            u = home + amplitude * _noise(drift_x, east, south)
             v = south + amplitude * _X_ASPECT * _noise(drift_y, east, south)
             key = _expanded_land_terrain(u, v, _noise(patches, east, south), plot.isPeak())
             result.append(terrain[key])
@@ -1495,6 +1588,14 @@ class ExpandedFeatureGenerator(EquusFeatureGenerator):
         EquusFeatureGenerator.__init__(self)
         self.lanes = _fixed_plots(self.iGridW, self.iGridH)[0]
 
+    def home(self, x, south):
+        # The picture's x for this plot, as the plot and terrain passes saw it.
+        east = (x + 0.5) / self.iGridW
+        home = _to_atlas(east, _sea_room_at(south))
+        if home is None:
+            return east
+        return home
+
     def addIceAtPlot(self, plot, x, y, south):
         if not plot.isWater() or plot.isLake() or (x, y) in self.lanes:
             return
@@ -1510,7 +1611,7 @@ class ExpandedFeatureGenerator(EquusFeatureGenerator):
                 plot.setFeatureType(self.featureIce, -1)
 
     def addJunglesAtPlot(self, plot, x, y, south):
-        east = (x + 0.5) / self.iGridW
+        east = self.home(x, south)
         if (_in_biome(east, south, _X_WET_WOODS) and
                 self.jungles.getHeight(x, y) >= self.wetJungle and
                 plot.canHaveFeature(self.featureJungle)):
@@ -1519,7 +1620,7 @@ class ExpandedFeatureGenerator(EquusFeatureGenerator):
     def addForestsAtPlot(self, plot, x, y, south):
         if not plot.canHaveFeature(self.featureForest):
             return
-        east = (x + 0.5) / self.iGridW
+        east = self.home(x, south)
         threshold = self.openForest
         if _in_biome(east, south, _X_WOODLANDS) or _in_biome(east, south, _X_WET_WOODS):
             threshold = self.denseForest

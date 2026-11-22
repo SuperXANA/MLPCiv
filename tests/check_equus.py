@@ -322,6 +322,11 @@ ISLANDS = ("Agarica", "Mount Aris", "Storm King's Realm")
 STEPS = ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1))
 
 
+def on_map(module, place):
+    """A place of the picture, moved as the script's sea room moves it."""
+    return (module._to_map(place[0], module._sea_room_at(place[1])), place[1])
+
+
 def nearest(plots, width, height, place, land):
     """The plot at a place, or a neighbour of it, that is land (or water)."""
     x0 = min(width - 1, int(place[0] * width))
@@ -361,8 +366,10 @@ def beside(spot, plots):
 
 def geography_problems(world_size, variation, sea, seed, bridges_are_land):
     """Generate one Expanded world and list everything wrong with its layout."""
+    loaded = []
     def tweak(module):
         module.EXPANDED_BRIDGES_ARE_LAND = bridges_are_land
+        loaded.append(module)
     cells = EXPANDED_SIZES[world_size]
     width, height = cells[0] * 4, cells[1] * 4
     result = generate(INSTALLED, world_size, (0, variation, EXPANDED), sea, seed, tweak=tweak)
@@ -370,11 +377,11 @@ def geography_problems(world_size, variation, sea, seed, bridges_are_land):
     problems = []
     spot, water = {}, {}
     for name, place in PLACES.items():
-        spot[name] = nearest(plots, width, height, place, True)
+        spot[name] = nearest(plots, width, height, on_map(loaded[0], place), True)
         if spot[name] is None:
             problems.append("no land at " + name)
     for name, place in SEAS.items():
-        water[name] = nearest(plots, width, height, place, False)
+        water[name] = nearest(plots, width, height, on_map(loaded[0], place), False)
         if water[name] is None:
             problems.append("no water at " + name)
     if problems:
@@ -443,7 +450,8 @@ class EquusChecks(unittest.TestCase):
                        "_diagnostic_stage"}
         expansion = {"ATLAS_WORLD", "KNOWN_WORLD", "EXPANDED_WORLD", "_GRID_SIZES",
                      "EXPANDED_BRIDGES_ARE_LAND", "_expanded", "_coast_rows", "_on_land",
-                     "_shore", "_trace", "_fixed_plots", "_expanded_ridges",
+                     "_shore", "_sea_room_at", "_to_atlas", "_to_map", "_trace",
+                     "_fixed_plots", "_expanded_ridges",
                      "_expanded_crest", "_expanded_plot_types", "_expanded_land_terrain",
                      "_expanded_terrain_types", "_floe_line", "ExpandedFeatureGenerator"}
         def key(node):
@@ -632,6 +640,11 @@ class EquusChecks(unittest.TestCase):
             self.assertTrue(0 < radius < .05 and 0 < strength <= 1)
             for first, second in zip(path, path[1:]):
                 self.assertNotEqual(first, second, "a zero-length ridge divides by zero")
+        for extra, rigid, fade, line in module._X_SEA_ROOM:
+            self.assertTrue(0 <= extra < rigid < fade < .5)
+            self.assertLess(extra / (fade - rigid), .5, "the squeeze must stay gentle")
+            self.assertTrue(all(first[1] < second[1] for first, second in zip(line, line[1:])),
+                            "a sea-room line runs from north to south")
         paths = list(module._X_STRAITS) + list(module._X_LAND_LINKS)
         for causeway, channel in module._X_BRIDGES:
             paths += [causeway, channel]
@@ -639,6 +652,56 @@ class EquusChecks(unittest.TestCase):
             self.assertGreaterEqual(len(path), 2)
             for east, south in path:
                 self.assertTrue(0 <= east <= 1 and 0 <= south <= 1, path)
+
+    def test_sea_room_parts_the_shores(self):
+        """_X_SEA_ROOM widens the Celestial Sea by twice its `extra`, moves the
+        picture without folding it, and can be switched off."""
+        module = Environment().load(INSTALLED)
+        extra, rigid, fade, line = module._X_SEA_ROOM[0]
+        self.assertIs(line, module._X_CELESTIAL_SEA)
+        self.assertIn(line, module._X_STRAITS)
+        self.assertEqual(module._sea_room_at(.10), [])    # Trottingham Bridge is left alone
+        self.assertEqual(module._sea_room_at(.95), [])
+        seas = module._sea_room_at(.45)
+        centre = seas[0][0]
+        self.assertAlmostEqual(seas[0][1], extra)
+        self.assertIsNone(module._to_atlas(centre + extra * .5, seas))
+        self.assertAlmostEqual(module._to_atlas(centre + .05, seas), centre + .05 - extra)
+        self.assertAlmostEqual(module._to_atlas(centre - .05, seas), centre - .05 + extra)
+        self.assertEqual(module._to_atlas(centre + fade + .01, seas), centre + fade + .01)
+        self.assertEqual(module._to_map(centre, seas), centre)
+        previous = None
+        for step in range(1, 1000):
+            east = step / 1000.0
+            home = module._to_atlas(east, seas)
+            if home is None or abs(home - centre) < .000001:
+                continue  # new sea: every point of it shows the line itself
+            self.assertAlmostEqual(module._to_map(home, seas), east, places=9)
+            if previous is not None:
+                self.assertGreater(home, previous)  # never folded
+            previous = home
+        def open_water(tweak):
+            cells = EXPANDED_SIZES[5]
+            width, height = cells[0] * 4, cells[1] * 4
+            plots = generate(INSTALLED, 5, (0, 1, EXPANDED), tweak=tweak)[0]
+            total = 0
+            for south in (.26, .33, .41, .45, .49, .53):
+                y = int((1 - south) * height)
+                x = west = east = int(module._sea_room_at(south)[0][0] * width)
+                self.assertEqual(plots[y * width + x], 0)
+                while west > 0 and plots[y * width + west - 1] == 0:
+                    west -= 1
+                while east < width - 1 and plots[y * width + east + 1] == 0:
+                    east += 1
+                total += east - west + 1
+            return total / 6.0
+        def as_drawn(module):
+            module._X_SEA_ROOM = ((0.0, rigid, fade, line),)
+        self.assertEqual(generate(INSTALLED, 5, (0, 1, EXPANDED), tweak=as_drawn)[0],
+                         generate(INSTALLED, 5, (0, 1, EXPANDED),
+                                  tweak=lambda module: setattr(module, "_X_SEA_ROOM", ()))[0])
+        gained = open_water(None) - open_water(as_drawn)
+        self.assertTrue(2 * extra * 120 - 1 < gained < 2 * extra * 120 + 1.5, gained)
 
     def test_expanded_geography(self):
         """Seas divide and necks join alike from Duel to XXL, at every variation
@@ -662,9 +725,11 @@ class EquusChecks(unittest.TestCase):
             east, south, east_radius, south_radius = getattr(module, table)[row]
             found = []
             for y in range(height):
+                seas = module._sea_room_at(1 - (y + .5) / height)
                 for x in range(width):
-                    if plots[y * width + x] and module._in_oval(
-                            (x + .5) / width, 1 - (y + .5) / height,
+                    home = module._to_atlas((x + .5) / width, seas)
+                    if plots[y * width + x] and home is not None and module._in_oval(
+                            home, 1 - (y + .5) / height,
                             east, south, east_radius * .7, south_radius * .7):
                         found.append((terrains[y * width + x], features[y * width + x]))
             self.assertGreater(len(found), 5, (table, row))

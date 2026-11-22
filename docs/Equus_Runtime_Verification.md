@@ -97,13 +97,13 @@ will equal the final playable map after all game callbacks run.
 
 ## November 8, 2026 gameplay evidence
 
-This evidence was recorded with the previous revision of the script, which
-held the Known World only. In this revision the Known World produces the same
-plot, terrain and feature arrays and the same random-number trace as that
-script in the offline harnesses ([source validation](Equus_Source_Validation.md)),
-but **neither world of this revision has been generated in Civilization IV
-yet**: every row below is NOT RUN for it, and the Expanded world has no
-runtime evidence at all.
+This evidence was recorded with the Known World only revision of the script.
+In the two-world revisions the Known World produces the same plot, terrain and
+feature arrays and the same random-number trace as that script in the offline
+harnesses ([source validation](Equus_Source_Validation.md)), but the Known
+World of those revisions has not itself been generated in Civilization IV:
+every row below is NOT RUN for it. The Expanded world's evidence follows the
+table.
 
 | Runtime check | Status | Evidence and scope |
 | --- | --- | --- |
@@ -115,6 +115,28 @@ runtime evidence at all.
 | Diagnostic callbacks and native log collection | **NOT RUN** | The installed script hash, DLL identity, diagnostic setting, and Windows Python logs were unrecorded. |
 | Same-seed diagnostics on/off comparison | **NOT RUN** | The offline equivalence results are recorded in [source validation](Equus_Source_Validation.md). |
 | Save/reload and subsequent turn | **NOT RUN** | A save, reload, and turn advance still need to be captured. |
+
+## November 22, 2026 gameplay evidence: Equestria "Expanded"
+
+Reported by the playtester for commit
+[`0ccf816`](https://github.com/SuperXANA/MLPCiv/commit/0ccf8161a782cef84f34ce18dd528e7947a2f50b),
+the first two-world revision, on a Windows test machine running the mod.
+
+| Runtime check | Status | Evidence and scope |
+| --- | --- | --- |
+| Expanded world, basic generation | **PASS (one reported run)** | The playtester reported that the Expanded configuration built successfully, and supplied a screenshot of turn 0 (4000 BC) with a selected unit, terrain, rivers, a sixteen-player scoreboard and the whole-world minimap. The screenshot is not stored in this repository. World size, wrap, variation, sea level and seed were not recorded |
+| Geography | **ONE FINDING** | The sea down the middle of the map was "extremely compacted". Measured in the offline harness for that commit, open water beside Griffonstone on a Huge map was three to seven plots across. The playtester asked for one or two more plots on each side |
+| AI auto-play | **STARTED, NO RESULT RECORDED** | The playtester started AI auto-play on the map. No outcome has been reported |
+| Everything else in the table above | **NOT RUN** | Third-option discovery in Custom Game is implied by the run but was not separately described |
+
+The next revision answers the finding with `_X_SEA_ROOM`, which parts the
+Celestial Sea's shores by `.015` of the map's width on each side: nearly two
+plots a side on Huge, and about four more plots of open water in the harness.
+**That revision has not been generated in Civilization IV yet.** When it is,
+compare the minimap with `docs/equus_expanded_preview.png`, check that
+Bermuldy and Trotaway Islands now stand in open water with a clear lane east
+of them, and that Trottingham Bridge and the Griffonstone trestle still join
+their shores.
 
 ## Runtime procedure for automated verification
 
@@ -168,7 +190,10 @@ Keep successful and failed runs with their settings and screenshots.
    default Trottingham Bridge (Equestria to Ponyland, far north) and the
    Griffonstone trestle (Ponyland to Griffonstone) are one-plot causeways that
    land units can cross; with `EXPANDED_BRIDGES_ARE_LAND = False` each is a
-   strait. With causeways the Frozen North becomes an inland sea. Expect about
+   strait. With causeways the Frozen North becomes an inland sea. The
+   Celestial Sea is deliberately wider than the picture draws it
+   (`_X_SEA_ROOM`), so Equestria's east and Griffonstone sit a plot or two
+   farther apart than in the picture. Expect a little under
    three-fifths of the map to be land, roughly twice a Fractal map's share:
    the picture leaves little room for ocean, so a given size holds more
    territory than usual.

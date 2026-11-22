@@ -22,8 +22,11 @@ stored options have no third entry is a Known World game.
 
 ![Host-harness rendering of the Expanded world at Huge](docs/equus_expanded_preview.png)
 
-The picture above is drawn by the test harness, not by the game. **The Expanded
-world has not yet been generated in Civilization IV.**
+The picture above is drawn by the test harness, not by the game. The Expanded
+world was generated in Civilization IV once, on November 22, 2026, before its
+central sea was widened; see the
+[runtime evidence](docs/Equus_Runtime_Verification.md). **The widened sea has
+not yet been seen in the game.**
 
 ## Reading and editing the atlas tables
 
@@ -45,6 +48,11 @@ map area of the larger picture, inside its ornate frame.
   that stay water, or stay walkable, at every map size. They are what keeps
   Equestria, Ponyland and Zebrica apart, and Horsetrailia attached, when the
   world is squeezed onto a Duel grid.
+* **Sea room** (`_X_SEA_ROOM`) widens a north-south sea beyond what the picture
+  draws, by moving its two shores apart and squeezing the land behind them a
+  little. Its first number is the sea added on **each** side, as a fraction of
+  the map's width: `.0085` is one plot on a Huge map, `.017` is two, and the
+  default `.015` nearly two. `0` gives the Celestial Sea exactly as drawn.
 * `EXPANDED_BRIDGES_ARE_LAND` decides what Trottingham Bridge and the
   Griffonstone rail trestle become, since Civ has no bridges: `True` (default)
   lays a one-plot causeway that armies can cross; `False` leaves a strait.
