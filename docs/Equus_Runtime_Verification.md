@@ -1,7 +1,10 @@
 # Equus installation and runtime verification
 
-Prepared November 2, 2026. This integration preserves the regional atlas in
-[`02add3513c2e5a96d3093fbd1a3b0f9696212f83`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83).
+Prepared November 2, 2026; revised November 22, 2026 for the second atlas.
+This integration preserves the regional atlas in
+[`02add3513c2e5a96d3093fbd1a3b0f9696212f83`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83)
+as Equestria "Known World", and adds Equestria "Expanded", traced from the
+"Equestria... and Beyond" world picture. One map option chooses between them.
 `PrivateMaps/Equus.py` is the installed script. The integration branch is an
 overlay for an existing MLP Civilization is Magic installation, not a complete
 mod distribution.
@@ -18,9 +21,12 @@ mod distribution.
    sparse development branch. If Equus is already present, keep its backup
    outside the game's map search directories.
 4. Restart BtS, load MLP Civilization is Magic, and open Single Player → Custom
-   Game. Select **Equus** in the map list. The expected map options remain
-   World Wrap (Flat/Cylinder/Toroid) and Atlas variation
-   (Subtle/Standard/Lively); their defaults are Flat and Standard.
+   Game. Select **Equus** in the map list. The expected map options are
+   World Wrap (Flat/Cylinder/Toroid), Atlas variation
+   (Subtle/Standard/Lively) and Alternative Universe Expansions
+   (Equestria "Known World"/Equestria "Expanded"); their defaults are Flat,
+   Standard and Equestria "Known World". The game counts a script's options
+   when it starts, so a third option appears only after BtS is restarted.
 
 The original `PyEquusMapCreation` branch and the source
 `PyEquusMapCreation-ChatGPT` branch are separate from this integration. There is
@@ -91,6 +97,14 @@ will equal the final playable map after all game callbacks run.
 
 ## November 8, 2026 gameplay evidence
 
+This evidence was recorded with the previous revision of the script, which
+held the Known World only. In this revision the Known World produces the same
+plot, terrain and feature arrays and the same random-number trace as that
+script in the offline harnesses ([source validation](Equus_Source_Validation.md)),
+but **neither world of this revision has been generated in Civilization IV
+yet**: every row below is NOT RUN for it, and the Expanded world has no
+runtime evidence at all.
+
 | Runtime check | Status | Evidence and scope |
 | --- | --- | --- |
 | Basic in-game generation | **PASS (one documented run)** | The [screenshot](https://github.com/SuperXANA/MLPCiv/blob/fa4ef9cf62814c3ef8151d99924c87aac9b89b18/docs/equus.png) shows the Civ IV map at turn 0 (4000 BC), with a selected unit, terrain, coastline, and minimap. The [gameplay commit](https://github.com/SuperXANA/MLPCiv/commit/fa4ef9cf62814c3ef8151d99924c87aac9b89b18) identifies it as a successful Equus test. |
@@ -117,13 +131,15 @@ Keep successful and failed runs with their settings and screenshots.
 
 1. **Discovery and a first generation.** Select Equus in Custom Game. Start a
    fresh Standard game with Flat wrap, Standard variation, and normal sea
-   level. Confirm that the game reaches a playable first turn. Check the logs
+   level, once for each world. Confirm that the game reaches a playable first
+   turn. Check the logs
    for entry and successful completion of the plot, terrain, and feature
    callbacks, matching dimensions and array sizes, and no Equus traceback.
    An entry without a completion identifies the stage to investigate. A menu
    listing alone is not a successful-generation result.
-2. **Geography.** Use WorldBuilder or a fully revealed diagnostic view and keep
-   an overview screenshot. Check the northern snow belt and Crystal basin;
+2. **Geography, Known World.** Use WorldBuilder or a fully revealed diagnostic
+   view and keep an overview screenshot. Check the northern snow belt and
+   Crystal basin;
    central Equestria and the Ponyville valley between the Unicorn and Foal
    ranges; the Crystal Mountain passes; western desert/Badlands belts;
    Everfree and wetter southern/eastern woods; eastern Griffonstone and Dragon
@@ -133,10 +149,36 @@ Keep successful and failed runs with their settings and screenshots.
    and that major land/water divisions survive the chosen resolution. Tiny
    details can be abstracted on small maps. Inspect starting positions and
    connections for practical playability as well as visual resemblance.
+
+   **Geography, Expanded.** Compare an overview with the world picture and
+   with `docs/equus_expanded_preview.png` (a harness rendering; the game's own
+   fractals will place forests and jungles differently). Three mainlands:
+   Equestria in the west, from the snowy Yak Range and Mt. Everhoof through
+   the Appaloosan Mountains, San Palomino, Amarezonia's jungle and the
+   Badlands to Froud Valley and the Bone Dry Desert; Ponyland, the Jewel
+   Desert, Mt. Vehoovius, the open Fields of Forever, icy Antleria and, past
+   the Sanchez Mountains and an isthmus, Horsetrailia with its outback; and
+   Griffonstone, Saddle Arabia's desert, Zebrica's jungle, Abyssinia and the
+   volcanic Dragon Lands. Between them the Celestial Sea, the Great Inland Sea
+   with its Oranma strait, Bridle Bay and the Asparus Sea. Offshore: Mount
+   Aris, Black Skull Island, the Storm King's Realm, the Galloppingos, the
+   Monkey Dancing Islands. Frozen at both ends: pack ice along the top edge;
+   Agarica, the Mysterious South and the Great Iceberg Barrier along the
+   bottom, with an ice-free lane north of the barrier. Check both bridges: by
+   default Trottingham Bridge (Equestria to Ponyland, far north) and the
+   Griffonstone trestle (Ponyland to Griffonstone) are one-plot causeways that
+   land units can cross; with `EXPANDED_BRIDGES_ARE_LAND = False` each is a
+   strait. With causeways the Frozen North becomes an inland sea. Expect about
+   three-fifths of the map to be land, roughly twice a Fractal map's share:
+   the picture leaves little room for ocean, so a given size holds more
+   territory than usual.
 3. **Map sizes.** Generate a fresh game at each available size with default
-   options. The script returns cells; the AdvCiv map path scales each axis by
-   four. Compare the logged **actual** dimensions with this table. Where the
-   installed XML has different labels, match the world-size index.
+   options, for each world. The script returns cells; the AdvCiv map path
+   scales each axis by four when a script sets its own grid (`CvMap::reset`,
+   advc.137). Compare the logged **actual** dimensions with these tables.
+   Where the installed XML has different labels, match the world-size index.
+
+   Equestria "Known World" (portrait, unchanged):
 
    | Index | Script label | Cells | Expected plots | Array entries |
    | --- | --- | --- | --- | ---: |
@@ -147,6 +189,20 @@ Keep successful and failed runs with their settings and screenshots.
    | 4 | Large | 19 × 20 | 76 × 80 | 6,080 |
    | 5 | Huge | 24 × 26 | 96 × 104 | 9,984 |
    | 6 | XXL | 30 × 31 | 120 × 124 | 14,880 |
+
+   Equestria "Expanded" (landscape; the picture is 1.5 : 1). The last column
+   is what AdvCiv 1.14's `CIV4WorldInfo.xml` gives the same size on a script
+   without a grid of its own, for comparison:
+
+   | Index | Script label | Cells | Expected plots | Array entries | XML plots |
+   | --- | --- | --- | --- | ---: | --- |
+   | 0 | Duel | 9 × 6 | 36 × 24 | 864 | 36 × 26 |
+   | 1 | Tiny | 12 × 8 | 48 × 32 | 1,536 | 46 × 34 |
+   | 2 | Small | 16 × 11 | 64 × 44 | 2,816 | 60 × 44 |
+   | 3 | Standard | 20 × 14 | 80 × 56 | 4,480 | 78 × 56 |
+   | 4 | Large | 24 × 16 | 96 × 64 | 6,144 | 94 × 68 |
+   | 5 | Huge | 30 × 21 | 120 × 84 | 10,080 | 120 × 84 |
+   | 6 | XXL | 37 × 25 | 148 × 100 | 14,800 | 146 × 102 |
 
 4. **Options and sea level.** At least on Duel, Standard, and the largest
    available size, try Subtle/Standard/Lively variation and Low/Normal/High sea
@@ -178,6 +234,7 @@ Use this evidence record for each run:
 | Item | Record |
 | --- | --- |
 | Commit / installed script hash / DLL identity | |
+| World (Known World / Expanded) and, for Expanded, the bridge setting | |
 | Size / actual width × height / options / sea level / seed if available | |
 | Equus listed and selected | PASS / FAIL / NOT RUN |
 | Generation reached playable turn | PASS / FAIL / NOT RUN |
