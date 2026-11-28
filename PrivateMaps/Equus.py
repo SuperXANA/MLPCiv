@@ -68,8 +68,8 @@ def _diagnostic_begin(stage):
         return  # The map is not necessarily allocated yet.
     m = CyMap()
     width, height = m.getGridWidth(), m.getGridHeight()
-    _diagnostic_write('grid=%dx%d plots=%d sea_level=%d' %
-                      (width, height, width * height, m.getSeaLevel()))
+    _diagnostic_write('grid=%dx%d plots=%d sea_level=%d climate=%d' %
+                      (width, height, width * height, m.getSeaLevel(), m.getClimate()))
     for index in range(len(CvMapOptions)):
         choice = _option(index)
         _diagnostic_write('option[%d] raw=%d effective=%d label=%s' %
@@ -165,7 +165,10 @@ def isAdvancedMap():
 
 
 def isClimateMap():
-    return False  # Climate is regional: the Crystal basin lies north of Ponyville.
+    # XANA 2026-11-28: the atlases now answer the Climate option. The regions
+    # stay where the picture paints them (the Crystal basin still lies north
+    # of Ponyville); a climate moves their edges. See _Climate below.
+    return True
 
 
 def isSeaLevelMap():
@@ -452,8 +455,14 @@ def generatePlotTypes():
     if _expanded():
         return _expanded_plot_types(world.getGridWidth(), world.getGridHeight(),
                                     _variation(), sea_shift)
-    return _plot_types(world.getGridWidth(), world.getGridHeight(),
-                       _variation(), sea_shift)
+    plots = _plot_types(world.getGridWidth(), world.getGridHeight(),
+                        _variation(), sea_shift)
+    climate = _Climate()
+    if climate.hills or climate.peaks:
+        _uplift(plots, world.getGridWidth(), world.getGridHeight(), climate,
+                _known_level_ground(world.getGridWidth(), world.getGridHeight()),
+                "Equus rocky uplift")
+    return plots
 
 
 # Biome ovals are (center east, center south, east radius, south radius).
@@ -527,6 +536,8 @@ def generateTerrainTypes():
     drift_y = _noise_grid(12, 12, 'Equus biome south drift')
     patches = _noise_grid(25, 25, 'Equus ground cover')
     amplitude = 0.018 * _variation()
+    climate = _Climate()
+    biomes = _Biomes(climate, _KNOWN_ASPECT, (), (), _DRY_BASINS, _WET_WOODS)
     result = []
     for y in range(height):
         south = 1.0 - (y + 0.5) / height
@@ -538,7 +549,11 @@ def generateTerrainTypes():
             east = (x + 0.5) / width
             u = east + amplitude * _noise(drift_x, east, south)
             v = south + amplitude * _noise(drift_y, east, south)
-            key = _land_terrain(u, v, _noise(patches, east, south), plot.isPeak())
+            if climate.calm:
+                key = _land_terrain(u, v, _noise(patches, east, south), plot.isPeak())
+            else:
+                key = _known_climate_terrain(u, v, _noise(patches, east, south),
+                                             plot.isPeak(), climate, biomes)
             result.append(terrain[key])
     return result
 
@@ -588,12 +603,290 @@ class EquusFeatureGenerator(CvMapGeneratorUtil.FeatureGenerator):
 def addFeatures():
     if _expanded():
         ExpandedFeatureGenerator().addFeatures()
-    else:
+    elif _Climate().calm:
         EquusFeatureGenerator().addFeatures()
+    else:
+        KnownClimateFeatureGenerator().addFeatures()
     return 0
 
 
+# XANA 2026-11-28 BEGIN: the Climate option, for both atlases.
+# A stock map slides whole latitude belts when the climate changes. An atlas
+# has no belts to slide: its deserts, jungles and snowfields are painted where
+# the picture has them. So a climate here moves the EDGE of each painted
+# region instead. The Bone Dry Desert stays where it is, and under an arid sun
+# it swells; in a cold age every frost line creeps outward and the jungles
+# draw in. Each distance below is worked out from the numbers in the game's
+# own CIV4ClimateInfo.xml, measured against its CLIMATE_TEMPERATE entry, so
+#   * Temperate is exactly the atlas as painted (all distances are zero), and
+#   * a climate added to that XML later is understood without editing this
+#     script: give it colder latitudes, more desert, and so on, as usual.
+# Distances ("reaches") are fractions of the map's HEIGHT. The stock generator
+# measures latitude from equator to pole, which is half the map, so a latitude
+# change in the XML moves a line by half that much of the map's height.
+_STOCK_TEMPERATE = (0, 5, 5, 25, 0.0, 0.0, 0.0, 0.0, 0.95, 0.25)
+_KNOWN_ASPECT = .92  # the Known World grid is a little taller than it is wide
+
+
+def _between(low, value, high):
+    return max(low, min(high, value))
+
+
+def _climate_numbers(info):
+    return (info.getDesertPercentChange(), info.getJungleLatitude(),
+            info.getHillRange(), info.getPeakPercent(),
+            info.getSnowLatitudeChange(), info.getTundraLatitudeChange(),
+            info.getDesertBottomLatitudeChange(), info.getDesertTopLatitudeChange(),
+            info.getIceLatitude(), info.getRandIceLatitude())
+
+
+class _Climate:
+    # The chosen climate as a handful of distances. With stock XML:
+    #              snow    tundra   sand    jungle   ice    hills  peaks
+    #   Temperate   0       0        0       0        0      0      0
+    #   Tropical   -.050   -.050    -.010   +.0375   -.005   0      0
+    #   Arid        0       0       +.040   -.014    -.005   0      0
+    #   Rocky      +.0125  +.025    -.005   -.006     0     +40    +30
+    #   Cold       +.050   +.075    -.020   -.023    +.050   0      0
+    def __init__(self):
+        chosen = base = _STOCK_TEMPERATE
+        info = gc.getClimateInfo(CyMap().getClimate())
+        if info is not None:
+            chosen = _climate_numbers(info)
+        info = gc.getClimateInfo(gc.getInfoTypeForString("CLIMATE_TEMPERATE"))
+        if info is not None:
+            base = _climate_numbers(info)
+        (desert, jungle, hills, peaks, snow, tundra,
+         desert_bottom, desert_top, ice, floes) = [
+            now - usual for now, usual in zip(chosen, base)]
+        # True for Temperate: every caller then takes the path it took before
+        # climates existed, which keeps the Known World exactly as verified.
+        self.calm = chosen == base
+        # Frost lines advance when the XML lowers the snow and tundra latitudes.
+        self.snow = _between(-.10, -snow / 2.0, .10)
+        self.tundra = _between(-.10, -tundra / 2.0, .12)
+        # Desert: a tenth of a percent of height for each percent of desert,
+        # plus the widening of the stock desert belt.
+        self.sand = _between(-.05, desert / 1000.0 + (desert_top - desert_bottom) / 10.0, .08)
+        # The stock jungle belt ends at latitude 1 / iJungleLatitude. Frost
+        # and sand each drive the jungle back by a quarter of their own advance.
+        belt = 1.0 / max(1, chosen[1]) - 1.0 / max(1, base[1])
+        self.jungle = _between(-.06, belt / 8.0 - max(0.0, self.tundra) / 4.0 -
+                               max(0.0, self.sand) / 4.0, .06)
+        self.ice = _between(-.05, -ice / 2.0 + floes / 10.0, .08)
+        # Percent chances for _uplift(): negative values wear the land down.
+        self.hills = _between(-60, 20 * hills, 60)
+        self.peaks = _between(-60, 3 * peaks, 60)
+        # Open ground is plains where the ground-cover noise falls below this.
+        self.plains = -0.15 + 2.0 * self.sand
+        # Trees thin out in dry climates: percentage points of forest cover.
+        self.thin = int(_between(-8, 150 * self.sand, 12))
+
+
+def _grown(ovals, reach, aspect):
+    # Move the rim of every oval outward by `reach` (inward if negative).
+    # `aspect` is the map's width over its height, so that the rim moves as
+    # many plots east-west as north-south. A named place never shrinks below
+    # half its painted size: a warm age thins Antleria's ice, it does not
+    # erase the Ice Kingdom.
+    if reach == 0.0:
+        return ovals
+    grown = []
+    for cx, cv, rx, rv in ovals:
+        grown.append((cx, cv, max(rx * .5, rx + reach / aspect),
+                      max(rv * .5, rv + reach)))
+    return tuple(grown)
+
+
+class _Biomes:
+    # One atlas's biome ovals as the climate leaves them.
+    def __init__(self, climate, aspect, snowfields, tundra, dry_basins, wet_woods):
+        self.snow = _grown(snowfields, climate.snow, aspect)
+        self.tundra = _grown(tundra, climate.tundra, aspect)
+        self.dry = _grown(dry_basins, climate.sand, aspect)
+        self.wet = _grown(wet_woods, climate.jungle, aspect)
+        # Under a harsher sun the grass around each desert scorches to plains.
+        self.scorched = ()
+        if climate.sand > 0.0:
+            self.scorched = _grown(dry_basins, 1.75 * climate.sand, aspect)
+
+
+def _known_climate_terrain(east, south, patch, peak, climate, biomes):
+    # _land_terrain() with each frost line, desert and jungle moved by the
+    # climate. With a Temperate climate it gives the same answers (checked by
+    # tests/check_equus.py), but then _land_terrain() itself is used.
+    if _in_biome(east, south, _CRYSTAL_BASIN) and not peak:
+        return 'GRASS'  # the Crystal Heart keeps its valley green in any age
+    if south < 0.077 + climate.snow or (peak and south < 0.175 + climate.snow):
+        return 'SNOW'
+    if south < 0.150 + climate.tundra:
+        return 'TUNDRA'
+    if _in_biome(east, south, biomes.dry):
+        if patch < -0.57:
+            return 'PLAINS'
+        return 'DESERT'
+    if _in_biome(east, south, biomes.wet) or _in_biome(east, south, _GRASSY_LOWLANDS):
+        return 'GRASS'
+    if _in_biome(east, south, biomes.scorched):
+        return 'PLAINS'
+    if south > 0.765 - climate.tundra and east < 0.690:
+        if patch < -0.18:
+            return 'TUNDRA'
+        return 'PLAINS'
+    if 0.399 < south < 0.469 and 0.276 < east < 0.522 and patch < 0.55:
+        return 'PLAINS'
+    if patch < climate.plains:
+        return 'PLAINS'
+    return 'GRASS'
+
+
+def _known_level_ground(width, height):
+    # Plots that _uplift() must not raise into peaks: the Known World's passes
+    # and the Crystal Empire's basin, each with a plot to spare all round.
+    level = set()
+    for y in range(height):
+        south = 1.0 - (y + 0.5) / height
+        for x in range(width):
+            east = (x + 0.5) / width
+            for cx, cv, rx, rv in _PASSES + ((.390, .132, .054, .020),):
+                if _in_oval(east, south, cx, cv, rx + 1.5 / width, rv + 1.5 / height):
+                    level.add((x, y))
+                    break
+    return level
+
+
+# A plot's eight neighbours, in order round it; the odd ones are its corners.
+_AROUND = ((1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0), (-1, -1), (0, -1), (1, -1))
+
+
+def _way_through(plots, width, height, x, y):
+    # Would a peak at (x, y) part two of its neighbours? Walk round the eight
+    # plots about it: if the walkable ones form a single unbroken run, anyone
+    # crossing (x, y) can go round instead. Two runs mean (x, y) may be the
+    # only way between them. (A unit steps diagonally past a corner, so an
+    # unwalkable corner between two walkable sides does not break a run.)
+    walkable = []
+    for dx, dy in _AROUND:
+        kind = PlotTypes.PLOT_OCEAN
+        if 0 <= x + dx < width and 0 <= y + dy < height:
+            kind = plots[(y + dy) * width + x + dx]
+        walkable.append(kind == PlotTypes.PLOT_LAND or kind == PlotTypes.PLOT_HILLS)
+    for corner in (1, 3, 5, 7):
+        if walkable[corner - 1] and walkable[(corner + 1) % 8]:
+            walkable[corner] = True
+    runs = 0
+    for index in range(8):
+        if walkable[index] and not walkable[index - 1]:
+            runs += 1
+    return runs > 1
+
+
+def _uplift(plots, width, height, climate, level, label):
+    # The Rocky climate. The atlas fixes where each range runs, so a rockier
+    # world thickens the ranges it has: flat land beside hills may rise into
+    # hills, and hills beside peaks may rise into peaks. Each plot is judged
+    # against the map as it was before any plot rose, so a range grows by one
+    # plot at most. No road is ever closed: plots in `level` (the marked
+    # passes, causeways and basins) never become peaks, and neither does any
+    # hill that is a way through (see _way_through), judged against the map
+    # as it stands at that moment. Negative chances wear the edges down.
+    dice = gc.getGame().getMapRand()
+    before = list(plots)
+    for y in range(height):
+        for x in range(width):
+            index = y * width + x
+            kind = before[index]
+            if kind != PlotTypes.PLOT_LAND and kind != PlotTypes.PLOT_HILLS:
+                continue
+            high = peaks = 0
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1),
+                           (1, 1), (1, -1), (-1, 1), (-1, -1)):
+                if 0 <= x + dx < width and 0 <= y + dy < height:
+                    other = before[index + dy * width + dx]
+                    if other == PlotTypes.PLOT_PEAK:
+                        peaks += 1
+                    if other == PlotTypes.PLOT_PEAK or other == PlotTypes.PLOT_HILLS:
+                        high += 1
+            if kind == PlotTypes.PLOT_LAND:
+                if climate.hills > 0 and high >= 1 and (x, y) not in level:
+                    if dice.get(100, label) < climate.hills:
+                        plots[index] = PlotTypes.PLOT_HILLS
+            elif climate.peaks > 0 and peaks >= 2 and (x, y) not in level:
+                if (not _way_through(plots, width, height, x, y) and
+                        dice.get(100, label) < climate.peaks):
+                    plots[index] = PlotTypes.PLOT_PEAK
+            elif climate.hills < 0 and high <= 3:
+                if dice.get(100, label) < -climate.hills:
+                    plots[index] = PlotTypes.PLOT_LAND
+    if climate.peaks < 0:
+        for index in range(len(before)):
+            if before[index] == PlotTypes.PLOT_PEAK:
+                if dice.get(100, label) < -climate.peaks:
+                    plots[index] = PlotTypes.PLOT_HILLS
+
+
+class AtlasFeatureGenerator(EquusFeatureGenerator):
+    # Forests and jungles for either atlas under any climate. A subclass says
+    # which ovals to read (self.wet, self.woods) and where on its picture a
+    # plot lies (spot); this class thins the trees in a dry climate.
+    def __init__(self):
+        EquusFeatureGenerator.__init__(self)
+        self.climate = _Climate()
+        if self.climate.thin:
+            thin = self.climate.thin
+            self.denseForest = self.forests.getHeightFromPercent(24 + thin)
+            self.openForest = self.forests.getHeightFromPercent(83 + thin)
+            self.wetJungle = self.jungles.getHeightFromPercent(41 + thin)
+
+    def spot(self, x, y, south):
+        return (x + 0.5) / self.iGridW, south
+
+    def addJunglesAtPlot(self, plot, x, y, south):
+        if plot.isWater():
+            return  # open sea needs no place on the picture looked up
+        east, south = self.spot(x, y, south)
+        if (_in_biome(east, south, self.wet) and
+                self.jungles.getHeight(x, y) >= self.wetJungle and
+                plot.canHaveFeature(self.featureJungle)):
+            plot.setFeatureType(self.featureJungle, -1)
+
+    def addForestsAtPlot(self, plot, x, y, south):
+        if not plot.canHaveFeature(self.featureForest):
+            return
+        east, south = self.spot(x, y, south)
+        threshold = self.openForest
+        if _in_biome(east, south, self.woods) or _in_biome(east, south, self.wet):
+            threshold = self.denseForest
+        if self.forests.getHeight(x, y) >= threshold:
+            plot.setFeatureType(self.featureForest, -1)
+
+
+class KnownClimateFeatureGenerator(AtlasFeatureGenerator):
+    # The Known World under any climate but Temperate, which keeps using
+    # EquusFeatureGenerator itself.
+    def __init__(self):
+        AtlasFeatureGenerator.__init__(self)
+        self.wet = _grown(_WET_WOODS, self.climate.jungle, _KNOWN_ASPECT)
+        self.woods = _WOODLANDS
+
+    def addIceAtPlot(self, plot, x, y, south):
+        # EquusFeatureGenerator's Great Iceberg Barrier, begun farther north
+        # (or south) by the climate's reach.
+        reach = self.climate.ice
+        if south < 0.9 - reach or not plot.isWater() or plot.isLake():
+            return
+        east = (x + 0.5) / self.iGridW
+        shelf = 0.995 - 0.060 * abs(2.0 * east - 1.0) - reach
+        chance = int(55 + 1750 * (south - shelf))
+        if chance > 0 and plot.canHaveFeature(self.featureIce):
+            if self.mapRand.get(100, 'Equus southern pack ice') < chance:
+                plot.setFeatureType(self.featureIce, -1)
+# XANA 2026-11-28 END: the Climate option, for both atlases.
+
+
 # XANA 2026-11-22 BEGIN: Equestria "Expanded" (Alternative Universe Expansions).
+# (2026-11-28: sea room along any line, for the Inland Sea and the two rims;
+# and the Climate option, through _Climate and _Biomes above.)
 # A second atlas, traced from the "Equestria... and Beyond" world picture and
 # chosen with the ATLAS_WORLD option. Every number below is a fraction of that
 # picture's map area (inside its ornate frame): x from the west edge and v from
@@ -990,38 +1283,50 @@ _X_CELESTIAL_SEA = (
     (.465,.165), (.455,.200), (.445,.250), (.440,.300), (.437,.360),
     (.436,.450), (.438,.520), (.430,.600), (.420,.660), (.422,.760),
     (.428,.840), (.430,.910))
+# The water that parts Ponyland from Zebrica: east along the Great Inland
+# Sea, south-east past Oranma, south between Zebrica and Horsetrailia, and out
+# into the Asparus Sea. Also both a sea lane and a line for _X_SEA_ROOM.
+_X_INLAND_SEA = (
+    (.502,.312), (.560,.311), (.600,.303), (.660,.300), (.688,.332),
+    (.705,.352), (.727,.352), (.733,.375), (.745,.398), (.760,.416),
+    (.770,.445), (.776,.500), (.772,.530), (.750,.560), (.752,.580),
+    (.745,.600), (.752,.620), (.757,.640), (.767,.660), (.780,.680),
+    (.790,.700), (.790,.760), (.780,.830))
 # Sea room. As drawn, the Celestial Sea is seven plots across on a Huge map
-# beside Griffonstone, and Bermuldy and Trotaway Islands fill half of that.
-# Each row here opens a sea that runs north-south, like parting a curtain:
-# everything west of its line moves west and everything east of it moves east,
-# with new sea between, and the land farther off is squeezed a little to make
-# the room. Nothing is cut away, so capes and isles keep their shapes.
-#   extra   sea added on EACH side, as a fraction of the map's width.
-#           .0085 is one plot on a Huge map and .017 is two; the same fraction
-#           is about one plot on Standard and half a plot on Duel.
+# beside Griffonstone, and Bermuldy and Trotaway Islands fill half of that;
+# the channel past Oranma is one plot. Each row here opens a sea along a
+# line, like parting a curtain: the shores on both sides move straight away
+# from the line, new sea fills the gap, and the land farther off is squeezed a
+# little to make the room. Nothing is cut away, so capes and isles keep their
+# shapes. The line may run any way and may bend. A line down a map edge
+# pushes the land in from that edge, which is how the two rims get their sea.
+#   extra   sea added on EACH side of the line, as a fraction of the map's
+#           width. .0085 is one plot on a Huge map and .017 is two; the same
+#           fraction is about one plot on Standard and half a plot on Duel.
 #   rigid   within this distance of the line, land moves in one piece.
 #   fade    the squeeze has died away at this distance from the line.
-#   line    the (x, v) path, north to south. The widening eases in and out
-#           over the first and last _X_SEA_ROOM_EASE of its length.
-# Set extra to 0 (or empty the table) for the sea exactly as the picture has it.
-_X_SEA_ROOM_EASE = .06
+#           (Both are fractions of the map's width, in every direction.)
+#   line    the (x, v) path. The widening eases in and out over about the
+#           first and last _X_SEA_ROOM_EASE of its length.
+# Set extra to 0 (or delete the row) for that sea exactly as the picture has
+# it; empty the table for the whole picture as drawn.
+_X_SEA_ROOM_EASE = .04
 _X_SEA_ROOM = (
-    (.015, .085, .210, _X_CELESTIAL_SEA),)
+    (.015, .085, .210, _X_CELESTIAL_SEA),                # Equestria from the east
+    (.015, .050, .150, _X_INLAND_SEA),                   # Ponyland from Zebrica
+    (.013, .040, .160, ((0.0,.100), (0.0,.920))),        # the western rim
+    (.013, .040, .160, ((1.0,.100), (1.0,.920))))        # the eastern rim
 # Sea lanes that must stay open at every map size, as (x, v) paths. Without
 # them a Duel grid would weld Equestria, Ponyland and Zebrica together, and
 # seal bays whose mouths are narrower than one plot. Pack ice never forms on
 # a lane either, so the Great Iceberg Barrier cannot close the southern route.
 _X_STRAITS = (
-    ((.004,.200), (.004,.935)),                         # North to South Luna Ocean
-    ((.996,.300), (.996,.860)),                         # Sparkling Sea, round Horsetrailia's cape
+    ((.001,.200), (.001,.935)),                         # North to South Luna Ocean
+    ((.999,.300), (.999,.860)),                         # Sparkling Sea, round Horsetrailia's cape
     _X_CELESTIAL_SEA,                                   # Celestial Sea to Crystal Sea
-    ((.502,.312), (.560,.311), (.600,.303), (.660,.300), (.688,.332),
-     (.705,.352), (.727,.352), (.733,.375), (.745,.398), (.760,.416),
-     (.770,.445), (.776,.500), (.772,.530), (.750,.560), (.752,.580),
-     (.745,.600), (.752,.620), (.757,.640), (.767,.660), (.780,.680),
-     (.790,.700), (.790,.760), (.780,.830)),            # Great Inland Sea to Asparus Sea
+    _X_INLAND_SEA,                                      # Great Inland Sea to Asparus Sea
     ((.600,.578), (.555,.575), (.515,.590), (.480,.610)),  # Tergum Sea
-    ((.004,.935), (.085,.915), (.200,.923), (.250,.935), (.330,.938), (.400,.935),
+    ((.001,.935), (.085,.915), (.200,.923), (.250,.935), (.330,.938), (.400,.935),
      (.470,.930), (.520,.925), (.560,.895), (.620,.880), (.680,.870),
      (.740,.845), (.800,.840), (.900,.840), (.990,.840)))  # north of the Great Iceberg Barrier
 # Necks of land that must stay walkable at every map size.
@@ -1294,74 +1599,150 @@ def _shore(rows, x, v, sea_shift):
     return not low_sea
 
 
-def _sea_room_at(south):
-    # The seas being opened at one latitude, as (line x, extra, rigid, fade).
-    seas = []
+def _sea_rooms():
+    # Prepare _X_SEA_ROOM for the plot loops. Everything here is measured in
+    # "ground" units, (x, v / _X_ASPECT), in which a plot is square, so that a
+    # distance means the same number of plots in every direction. Each room is
+    # (extra, rigid, fade, the two ends of its line, buckets): the buckets
+    # sort the line's segments into a coarse grid, so that a plot far from
+    # every line costs one dictionary lookup per room and a plot near one
+    # measures only the few segments around it.
+    rooms = []
     for extra, rigid, fade, line in _X_SEA_ROOM:
-        if extra <= 0.0 or south <= line[0][1] or south >= line[-1][1]:
+        if extra <= 0.0:
             continue
+        buckets = {}
+        reach = fade + .05
         for i in range(1, len(line)):
-            if south <= line[i][1]:
-                ax, av = line[i - 1]
-                bx, bv = line[i]
-                ease = min(1.0, (south - line[0][1]) / _X_SEA_ROOM_EASE,
-                           (line[-1][1] - south) / _X_SEA_ROOM_EASE)
-                seas.append((ax + (bx - ax) * (south - av) / (bv - av),
-                             extra * ease, rigid, fade))
-                break
-    return seas
+            ax, ag = line[i - 1][0], line[i - 1][1] / _X_ASPECT
+            dx, dg = line[i][0] - ax, line[i][1] / _X_ASPECT - ag
+            segment = (ax, ag, dx, dg, dx * dx + dg * dg)
+            for col in range(int((min(ax, ax + dx) - reach) * 20) - 1,
+                             int((max(ax, ax + dx) + reach) * 20) + 2):
+                for row in range(int((min(ag, ag + dg) - reach) * 20) - 1,
+                                 int((max(ag, ag + dg) + reach) * 20) + 2):
+                    buckets.setdefault((col, row), []).append(segment)
+        ends = (line[0][0], line[0][1] / _X_ASPECT, line[-1][0], line[-1][1] / _X_ASPECT)
+        rooms.append((extra, rigid, fade, ends, buckets))
+    return rooms
 
 
-def _to_atlas(east, seas):
-    # Which x of the picture shows at map position `east`? None means the
-    # plot lies in a strip of new sea. Beside the strip the map shows the
-    # picture moved over by `extra`; from `rigid` out to `fade` the move
-    # shrinks to nothing, which is where the land gets squeezed. The slope of
-    # that shrinking is far below 1, so the picture is never folded over.
-    for centre, extra, rigid, fade in seas:
-        distance = abs(east - centre)
-        if distance < extra:
+def _room_pull(room, x, g):
+    # How one room acts on a point: (distance from its line, unit direction
+    # away from the line as two numbers, sea to add here). None if the point
+    # is out of the room's reach.
+    # The direction is not simply "away from the nearest point". On the inside
+    # of a bend that would flip abruptly along the bend's bisector and tear
+    # the picture there. Every nearby segment votes instead, the nearest ones
+    # overwhelmingly, so the direction turns smoothly through a bend and is
+    # the perpendicular beside a straight stretch.
+    extra, rigid, fade, ends, buckets = room
+    segments = buckets.get((int(x * 20), int(g * 20)))
+    if segments is None:
+        return None
+    nearest, pull_x, pull_g = fade * fade, 0.0, 0.0
+    for ax, ag, dx, dg, length2 in segments:
+        t = max(0.0, min(1.0, ((x - ax) * dx + (g - ag) * dg) / length2))
+        ex, eg = x - ax - t * dx, g - ag - t * dg
+        distance2 = ex * ex + eg * eg
+        if distance2 < nearest:
+            nearest = distance2
+        weight = max(distance2, .000000000001) ** -3
+        pull_x += ex * weight
+        pull_g += eg * weight
+    if nearest >= fade * fade:
+        return None
+    distance = nearest ** .5
+    # Ease the widening in from each end of the line. A point level with an
+    # end is as far from that end as it is from the line, and gets nothing;
+    # the farther along the line it lies, the more those two distances differ.
+    from_start = ((x - ends[0]) ** 2 + (g - ends[1]) ** 2) ** .5 - distance
+    from_end = ((x - ends[2]) ** 2 + (g - ends[3]) ** 2) ** .5 - distance
+    extra = extra * max(0.0, min(1.0, from_start / _X_SEA_ROOM_EASE,
+                                 from_end / _X_SEA_ROOM_EASE))
+    size = (pull_x * pull_x + pull_g * pull_g) ** .5
+    if size == 0.0:
+        return distance, 0.0, 0.0, extra  # on the line itself
+    return distance, pull_x / size, pull_g / size, extra
+
+
+def _room_to_atlas(room, x, g):
+    # One room's step from the map to the picture: None in its strip of new
+    # sea. Beside the strip the map shows the picture moved over by `extra`;
+    # from `rigid` out to `fade` the move shrinks to nothing, which is where
+    # the land is squeezed. The slope of that shrinking is far below 1, so
+    # the picture is never folded over.
+    pull = _room_pull(room, x, g)
+    if pull is None:
+        return x, g
+    distance, away_x, away_g, extra = pull
+    if extra <= 0.0:
+        return x, g
+    if distance < extra:
+        return None
+    if distance < room[1]:
+        move = extra
+    else:
+        move = extra * (room[2] - distance) / (room[2] - room[1])
+    return x - move * away_x, g - move * away_g
+
+
+def _to_atlas(rooms, east, south):
+    # Which (x, v) of the picture shows at this map position? None means the
+    # plot lies in a strip of new sea. The rooms act one after another.
+    spot = east, south / _X_ASPECT
+    for room in rooms:
+        spot = _room_to_atlas(room, spot[0], spot[1])
+        if spot is None:
             return None
-        if distance < rigid:
-            move = extra
-        elif distance < fade:
-            move = extra * (fade - distance) / (fade - rigid)
-        else:
-            continue
-        if east > centre:
-            east = east - move
-        else:
-            east = east + move
-    return east
+    return spot[0], spot[1] * _X_ASPECT
 
 
-def _to_map(x, seas):
+def _to_map(rooms, x, v):
     # The reverse of _to_atlas(): where on the map a point of the picture is
     # drawn. Sea lanes, land links and island cores are placed with it, so
-    # that they move with the shores they belong to. A point on the line
-    # itself stays put: the line is the middle of the new sea.
-    for centre, extra, rigid, fade in seas:
-        distance = abs(x - centre)
-        if distance < .000001 or distance >= fade:
+    # that they move with the shores they belong to. The rooms are undone in
+    # reverse order. A point on a room's own line stays put, in the middle of
+    # the new sea, and points within a hair of the line (`pinch`) are spread
+    # evenly across the strip, so that a lane which wanders a little off the
+    # line it follows is still drawn in one piece.
+    g = v / _X_ASPECT
+    pinch = .004
+    for index in range(len(rooms) - 1, -1, -1):
+        room = rooms[index]
+        pull = _room_pull(room, x, g)
+        if pull is None:
             continue
-        if distance < rigid - extra:
+        distance, away_x, away_g, extra = pull
+        if extra <= 0.0:
+            continue
+        if distance < pinch:
+            move = extra * distance / pinch
+        elif distance < room[1] - extra:
             move = extra
         else:
             # Solve d - extra * (fade - d) / (fade - rigid) = distance for d.
-            slope = extra / (fade - rigid)
-            move = (distance + slope * fade) / (1.0 + slope) - distance
-        if x > centre:
-            x = x + move
-        else:
-            x = x - move
-    return x
+            slope = extra / (room[2] - room[1])
+            move = (distance + slope * room[2]) / (1.0 + slope) - distance
+        want_x, want_g = x, g
+        x, g = x + move * away_x, g + move * away_g
+        if distance >= pinch:
+            # Round a bend the direction at the new place differs slightly
+            # from the direction at the old one. A few corrections close the gap.
+            for attempt in (1, 2, 3, 4):
+                back = _room_to_atlas(room, x, g)
+                if back is None:
+                    break
+                x, g = x + want_x - back[0], g + want_g - back[1]
+    return x, g * _X_ASPECT
 
 
-def _trace(cells, path, width, height, orthogonal):
-    # Add every plot that an (x, v) path passes through to the set `cells`.
-    # A sea lane must also be continuous edge to edge. Where two of its water
-    # plots met only at a corner, land units could still step diagonally
-    # across it, so each diagonal step is squared off with a third plot.
+def _trace(cells, path, width, height, orthogonal, rooms):
+    # Add every plot that an (x, v) path passes through to the set `cells`,
+    # walking plot by plot so that the trail has no gaps even where sea room
+    # stretches it. A sea lane (`orthogonal`) must also be continuous edge to
+    # edge: where two of its water plots met only at a corner, land units
+    # could still step diagonally across it, so a lane never steps diagonally.
     last = None
     for i in range(1, len(path)):
         ax, av = path[i - 1]
@@ -1369,29 +1750,39 @@ def _trace(cells, path, width, height, orthogonal):
         steps = int(4 * max(abs(bx - ax) * width, abs(bv - av) * height)) + 1
         for step in range(steps + 1):
             t = step / float(steps)
-            v = av + (bv - av) * t
-            x = int(_to_map(ax + (bx - ax) * t, _sea_room_at(v)) * width)
-            y = int((1.0 - v) * height)
-            x, y = max(0, min(width - 1, x)), max(0, min(height - 1, y))
-            if orthogonal and last is not None and last[0] != x and last[1] != y:
-                cells.add((x, last[1]))
+            mx, mv = _to_map(rooms, ax + (bx - ax) * t, av + (bv - av) * t)
+            x = max(0, min(width - 1, int(mx * width)))
+            y = max(0, min(height - 1, int((1.0 - mv) * height)))
+            while last is not None and last != (x, y):
+                lx, ly = last
+                east_west = lx != x and (ly == y or abs(x - lx) >= abs(y - ly))
+                if lx < x and (east_west or not orthogonal):
+                    lx += 1
+                elif lx > x and (east_west or not orthogonal):
+                    lx -= 1
+                if ly < y and not (east_west and orthogonal):
+                    ly += 1
+                elif ly > y and not (east_west and orthogonal):
+                    ly -= 1
+                last = (lx, ly)
+                cells.add(last)
             cells.add((x, y))
             last = (x, y)
 
 
-def _fixed_plots(width, height):
+def _fixed_plots(width, height, rooms):
     # Plots decided before any shore table is consulted, so that the same seas
     # divide and the same necks join at every map size: (channels, causeways).
     channels, causeways = set(), set()
     for path in _X_STRAITS:
-        _trace(channels, path, width, height, True)
+        _trace(channels, path, width, height, True, rooms)
     for path in _X_LAND_LINKS:
-        _trace(causeways, path, width, height, False)
+        _trace(causeways, path, width, height, False, rooms)
     for causeway, channel in _X_BRIDGES:
         if EXPANDED_BRIDGES_ARE_LAND:
-            _trace(causeways, causeway, width, height, False)
+            _trace(causeways, causeway, width, height, False, rooms)
         else:
-            _trace(channels, channel, width, height, True)
+            _trace(channels, channel, width, height, True, rooms)
     return channels, causeways
 
 
@@ -1429,22 +1820,26 @@ def _expanded_plot_types(width, height, variation, sea_shift):
     # Each plot is decided in this order:
     #   1. causeways and sea lanes, which are the same at every map size;
     #   2. sea room: plots in a strip of new sea are water, and every other
-    #      plot learns which x of the picture it shows (`home`);
+    #      plot learns which point of the picture it shows (`home`, `here`);
     #   3. the shore tables, read at that position nudged by seeded noise, so
     #      that a whole bay or cape shifts together from game to game;
     #   4. small isles, then lakes;
-    #   5. relief: the nearest range's crest, rolling uplands, and one die.
+    #   5. relief: the nearest range's crest, rolling uplands, and one die;
+    #   6. last of all, a Rocky climate thickens the ranges (_uplift).
     warp_x = _noise_grid(30, 21, "Equus expanded coast east-west")
     warp_v = _noise_grid(31, 20, "Equus expanded coast north-south")
     uplands = _noise_grid(43, 29, "Equus expanded rolling uplands")
     dice = gc.getGame().getMapRand()
     coast = _coast_rows(_X_SHORES)
     ridges = _expanded_ridges()
-    channels, causeways = _fixed_plots(width, height)
+    rooms = _sea_rooms()
+    channels, causeways = _fixed_plots(width, height, rooms)
     cores = set()
     for cx, cv in _X_CORES + tuple([isle[:2] for isle in _X_ISLES]):
-        cores.add((int(_to_map(cx, _sea_room_at(cv)) * width),
-                   int((1.0 - cv) * height)))
+        cx, cv = _to_map(rooms, cx, cv)
+        cores.add((int(cx * width), int((1.0 - cv) * height)))
+    climate = _Climate()
+    level = set(causeways)  # ground that the Rocky climate may not raise
     # This picture holds a whole world where the Known World's holds one
     # continent, so a coast wanders about half as far across it: a little over
     # one plot on a Huge map. v moves farther in fractions to match x on the
@@ -1454,18 +1849,18 @@ def _expanded_plot_types(width, height, variation, sea_shift):
     plots = []
     for y in range(height):
         south = 1.0 - (y + 0.5) / height
-        seas = _sea_room_at(south)
         for x in range(width):
             east = (x + 0.5) / width
             if (x, y) in causeways:
                 plots.append(PlotTypes.PLOT_LAND)  # level ground: never a peak
                 continue
-            home = _to_atlas(east, seas)
-            if (x, y) in channels or home is None:
+            spot = _to_atlas(rooms, east, south)
+            if (x, y) in channels or spot is None:
                 plots.append(PlotTypes.PLOT_OCEAN)
                 continue
+            home, here = spot
             atlas_x = home + reach_x * _noise(warp_x, east, south)
-            atlas_v = south + reach_v * _noise(warp_v, east, south)
+            atlas_v = here + reach_v * _noise(warp_v, east, south)
             land = (x, y) in cores or _shore(coast, atlas_x, atlas_v, sea_shift)
             if not land:
                 # As in the Known World: small islands move half as far as
@@ -1473,7 +1868,7 @@ def _expanded_plot_types(width, height, variation, sea_shift):
                 for cx, cv, rx, rv in _X_ISLES:
                     rx = max(rx - sea_shift * .30, .75 / width)
                     rv = max(rv - sea_shift * .30 * _X_ASPECT, .75 / height)
-                    if _in_oval((home + atlas_x) * .5, (south + atlas_v) * .5, cx, cv, rx, rv):
+                    if _in_oval((home + atlas_x) * .5, (here + atlas_v) * .5, cx, cv, rx, rv):
                         land = True
                         break
             if land and (x, y) not in cores and _in_biome(atlas_x, atlas_v, _X_LAKES):
@@ -1481,12 +1876,14 @@ def _expanded_plot_types(width, height, variation, sea_shift):
             if not land:
                 plots.append(PlotTypes.PLOT_OCEAN)
                 continue
-            if _in_biome(home, south, _X_BASINS):
+            if _in_biome(home, here, _X_BASINS):
                 plots.append(PlotTypes.PLOT_LAND)
+                level.add((x, y))
                 continue
             crest = _expanded_crest(ridges, atlas_x, atlas_v)
             if _in_biome(atlas_x, atlas_v, _X_PASSES):
                 crest = min(crest, .38)
+                level.add((x, y))
             local = _noise(uplands, east, south)
             relief = crest + .22 * local + (.10 + .08 * variation) * (
                 dice.get(201, "Equus expanded relief") / 100.0 - 1.0)
@@ -1496,43 +1893,51 @@ def _expanded_plot_types(width, height, variation, sea_shift):
                 plots.append(PlotTypes.PLOT_HILLS)
             else:
                 plots.append(PlotTypes.PLOT_LAND)
+    if climate.hills or climate.peaks:
+        _uplift(plots, width, height, climate, level, "Equus expanded uplift")
     return plots
 
 
-def _expanded_land_terrain(east, south, patch, peak):
+def _expanded_land_terrain(east, south, patch, peak, climate, biomes):
+    # `climate` moves the frost lines below and `biomes` holds the ovals as
+    # that climate leaves them; under Temperate both are the picture as drawn.
     if _in_biome(east, south, _X_HAVENS) and not peak:
-        return 'GRASS'
-    cold = _in_biome(east, south, _X_TUNDRA)
+        return 'GRASS'  # the Crystal Heart keeps its valley green in any age
+    cold = _in_biome(east, south, biomes.tundra)
     # Both ends of this world are frozen: the top edge, and Agarica with its
     # ice in the far south. (Equestria's own southern cape and Mount Aris
     # reach nearly as far south, hence the eastings.)
-    if (south < .030 or (south > .885 and east > .540) or
-            (south > .940 and east > .300)):
+    if (south < .030 + climate.snow or
+            (south > .885 - climate.snow and east > .540) or
+            (south > .940 - climate.snow and east > .300)):
         if cold and not peak:
             return 'TUNDRA'  # Agarica Forest: forests cannot grow on snow
         return 'SNOW'
-    if _in_biome(east, south, _X_SNOWFIELDS):
+    if _in_biome(east, south, biomes.snow):
         return 'SNOW'
-    if cold or (south < .125 and east < .460):  # ... or the Yak Range and Mt. Everhoof
+    # ... or the Yak Range and Mt. Everhoof
+    if cold or (south < .125 + climate.tundra and east < .460):
         if peak or patch > .45:
             return 'SNOW'
         return 'TUNDRA'
-    if _in_biome(east, south, _X_DRY_BASINS):
+    if _in_biome(east, south, biomes.dry):
         if patch < -0.57:
             return 'PLAINS'
         return 'DESERT'
-    if _in_biome(east, south, _X_WET_WOODS) or _in_biome(east, south, _X_GRASSY_LOWLANDS):
+    if _in_biome(east, south, biomes.wet) or _in_biome(east, south, _X_GRASSY_LOWLANDS):
         return 'GRASS'
     if _in_biome(east, south, _X_STEPPES):
         if patch > .55:
             return 'GRASS'
         return 'PLAINS'
+    if _in_biome(east, south, biomes.scorched):
+        return 'PLAINS'
     # As in the Known World, Equestria cools again beyond the Bone Dry Desert.
-    if south > .860 and east < .260:
+    if south > .860 - climate.tundra and east < .260:
         if patch < -0.18:
             return 'TUNDRA'
         return 'PLAINS'
-    if patch < -0.15:
+    if patch < climate.plains:
         return 'PLAINS'
     return 'GRASS'
 
@@ -1547,22 +1952,26 @@ def _expanded_terrain_types():
     drift_y = _noise_grid(20, 14, 'Equus expanded biome south drift')
     patches = _noise_grid(41, 28, 'Equus expanded ground cover')
     amplitude = 0.010 * _variation()
+    rooms = _sea_rooms()
+    climate = _Climate()
+    biomes = _Biomes(climate, _X_ASPECT, _X_SNOWFIELDS, _X_TUNDRA,
+                     _X_DRY_BASINS, _X_WET_WOODS)
     result = []
     for y in range(height):
         south = 1.0 - (y + 0.5) / height
-        seas = _sea_room_at(south)
         for x in range(width):
             plot = m.plot(x, y)
             if plot.isWater():
                 result.append(plot.getTerrainType())  # Keep shallow/deep water from the DLL.
                 continue
             east = (x + 0.5) / width
-            home = _to_atlas(east, seas)
-            if home is None:
-                home = east  # a causeway laid across new sea
-            u = home + amplitude * _noise(drift_x, east, south)
-            v = south + amplitude * _X_ASPECT * _noise(drift_y, east, south)
-            key = _expanded_land_terrain(u, v, _noise(patches, east, south), plot.isPeak())
+            spot = _to_atlas(rooms, east, south)
+            if spot is None:
+                spot = east, south  # a causeway laid across new sea
+            u = spot[0] + amplitude * _noise(drift_x, east, south)
+            v = spot[1] + amplitude * _X_ASPECT * _noise(drift_y, east, south)
+            key = _expanded_land_terrain(u, v, _noise(patches, east, south),
+                                         plot.isPeak(), climate, biomes)
             result.append(terrain[key])
     return result
 
@@ -1581,49 +1990,44 @@ def _floe_line(east):
     return .845
 
 
-class ExpandedFeatureGenerator(EquusFeatureGenerator):
-    # The Known World's generator, reading the Expanded tables. Its inherited
-    # getLatitudeAtPlot() still hands each method the distance from the top.
+class ExpandedFeatureGenerator(AtlasFeatureGenerator):
+    # The Expanded tables under any climate. The inherited getLatitudeAtPlot()
+    # still hands each method the plot's distance from the top of the map.
     def __init__(self):
-        EquusFeatureGenerator.__init__(self)
-        self.lanes = _fixed_plots(self.iGridW, self.iGridH)[0]
+        AtlasFeatureGenerator.__init__(self)
+        self.rooms = _sea_rooms()
+        self.lanes = _fixed_plots(self.iGridW, self.iGridH, self.rooms)[0]
+        self.wet = _grown(_X_WET_WOODS, self.climate.jungle, _X_ASPECT)
+        self.woods = _X_WOODLANDS
+        self.asked = self.found = None
 
-    def home(self, x, south):
-        # The picture's x for this plot, as the plot and terrain passes saw it.
-        east = (x + 0.5) / self.iGridW
-        home = _to_atlas(east, _sea_room_at(south))
-        if home is None:
-            return east
-        return home
+    def spot(self, x, y, south):
+        # The point of the picture at this plot, as the plot and terrain
+        # passes saw it. The jungle and forest methods both ask about each
+        # plot, one straight after the other, so the last answer is kept.
+        if self.asked != (x, y):
+            east = (x + 0.5) / self.iGridW
+            self.asked = (x, y)
+            self.found = _to_atlas(self.rooms, east, south)
+            if self.found is None:
+                self.found = east, south
+        return self.found
 
     def addIceAtPlot(self, plot, x, y, south):
         if not plot.isWater() or plot.isLake() or (x, y) in self.lanes:
             return
-        if south < .040:
-            chance = int(90 - 2250 * south)  # the Frozen North's pack ice
+        # A cold climate brings both ice fronts toward the middle of the map
+        # by its reach; the sea lanes stay open even then.
+        reach = self.climate.ice
+        if south < .040 + reach:
+            # the Frozen North's pack ice
+            chance = min(90, int(90 - 2250 * (south - reach)))
         else:
-            line = _floe_line((x + 0.5) / self.iGridW)
+            line = _floe_line((x + 0.5) / self.iGridW) - reach
             if south < line:
                 return
             chance = int(20 + 300 * (south - line))
         if chance > 0 and plot.canHaveFeature(self.featureIce):
             if self.mapRand.get(100, 'Equus expanded pack ice') < chance:
                 plot.setFeatureType(self.featureIce, -1)
-
-    def addJunglesAtPlot(self, plot, x, y, south):
-        east = self.home(x, south)
-        if (_in_biome(east, south, _X_WET_WOODS) and
-                self.jungles.getHeight(x, y) >= self.wetJungle and
-                plot.canHaveFeature(self.featureJungle)):
-            plot.setFeatureType(self.featureJungle, -1)
-
-    def addForestsAtPlot(self, plot, x, y, south):
-        if not plot.canHaveFeature(self.featureForest):
-            return
-        east = self.home(x, south)
-        threshold = self.openForest
-        if _in_biome(east, south, _X_WOODLANDS) or _in_biome(east, south, _X_WET_WOODS):
-            threshold = self.denseForest
-        if self.forests.getHeight(x, y) >= threshold:
-            plot.setFeatureType(self.featureForest, -1)
 # XANA 2026-11-22 END: Equestria "Expanded" (Alternative Universe Expansions).

@@ -15,18 +15,45 @@ option in Custom Game chooses between them:
 | Equestria "Expanded" | The whole of "Equestria... and Beyond": Equestria with Amarezonia, Ponyland, the Fields of Forever, Antleria, Zebrica, Abyssinia, the Dragon Lands, Horsetrailia and Agarica | Landscape; Huge is the mod's own 120 x 84 |
 
 The option is the third row of the script's `CvMapOptions` table, so World Wrap
-and Atlas variation keep their positions and defaults. The Known World is
-unchanged: its tables and generation code are the same source, and the checks
-below compare its maps with the verified original draw for draw. A game whose
-stored options have no third entry is a Known World game.
+and Atlas variation keep their positions and defaults. Under the Temperate
+climate the Known World is unchanged: its tables and generation code are the
+same source, and the checks below compare its maps with the verified original
+draw for draw. A game whose stored options have no third entry is a Known World
+game.
 
 ![Host-harness rendering of the Expanded world at Huge](docs/equus_expanded_preview.png)
 
-The picture above is drawn by the test harness, not by the game. The Expanded
-world was generated in Civilization IV once, on November 22, 2026, before its
-central sea was widened; see the
-[runtime evidence](docs/Equus_Runtime_Verification.md). **The widened sea has
-not yet been seen in the game.**
+The picture above is drawn by the test harness, not by the game. In
+Civilization IV the playtester has generated and auto-played the Expanded
+world with its Celestial Sea widened (reported November 28, 2026); see the
+[runtime evidence](docs/Equus_Runtime_Verification.md). **This revision's
+additions (the Climate option in both worlds, the wider Inland Sea and the two
+rims) have not yet been seen in the game.**
+
+## Climate and sea level
+
+Both worlds answer the game's own **Climate** and **Sea Level** settings in
+Custom Game. (The Climate setting was hidden before this revision; BtS reads a
+script's settings when it starts, so restart the game after installing.)
+
+* **Sea level** moves every coast: Low bares about a plot more land along each
+  shore, High drowns about as much. It did this already.
+* **Climate** moves the edge of each painted region. An atlas has no latitude
+  belts to slide, so the Bone Dry Desert stays where the picture puts it and
+  *swells* under Arid; under Cold every frost line creeps outward, the pack
+  ice thickens and the jungles draw in; Tropical melts the snowfields to half
+  and spreads the jungles; Rocky thickens the ranges that exist, without ever
+  closing a pass. The Crystal Empire's valley stays green in every climate.
+  Coasts never move with the climate, and Temperate is the atlas exactly as
+  painted.
+
+![Both worlds under each climate](docs/equus_climates_preview.png)
+
+How far each edge moves is worked out from the game's `CIV4ClimateInfo.xml`,
+measured against its Temperate entry (AdvCiv 1.14 ships none of its own, so the
+stock BtS file applies). A climate that a mod adds to that XML therefore works
+here without touching the script. The formulas and the resulting distances are
+tabulated above `_Climate` in `Equus.py`.
 
 ## Reading and editing the atlas tables
 
@@ -48,11 +75,16 @@ map area of the larger picture, inside its ornate frame.
   that stay water, or stay walkable, at every map size. They are what keeps
   Equestria, Ponyland and Zebrica apart, and Horsetrailia attached, when the
   world is squeezed onto a Duel grid.
-* **Sea room** (`_X_SEA_ROOM`) widens a north-south sea beyond what the picture
-  draws, by moving its two shores apart and squeezing the land behind them a
-  little. Its first number is the sea added on **each** side, as a fraction of
-  the map's width: `.0085` is one plot on a Huge map, `.017` is two, and the
-  default `.015` nearly two. `0` gives the Celestial Sea exactly as drawn.
+* **Sea room** (`_X_SEA_ROOM`) widens a sea beyond what the picture draws, by
+  moving its two shores straight apart from a line and squeezing the land
+  behind them a little. The line may run any way and may bend. There are four
+  rows: the Celestial Sea; the Great Inland Sea and the channel that runs on
+  from it between Zebrica and Horsetrailia; and one down each edge of the map,
+  which pushes the land in from that rim. A row's first number is the sea
+  added on **each** side of its line, as a fraction of the map's width:
+  `.0085` is one plot on a Huge map, `.017` is two, and the defaults (`.015`,
+  `.013` at the rims) are a plot and a half to two. `0` gives that sea exactly
+  as drawn. Expanded world only.
 * `EXPANDED_BRIDGES_ARE_LAND` decides what Trottingham Bridge and the
   Griffonstone rail trestle become, since Civ has no bridges: `True` (default)
   lays a one-plot causeway that armies can cross; `False` leaves a strait.
@@ -60,8 +92,10 @@ map area of the larger picture, inside its ornate frame.
 To see an edit without launching the game:
 
 ```sh
-python3 tests/preview_equus.py --world 1 --size 5 --seed 7
+python3 tests/preview_equus.py --world 1 --size 5 --seed 7 --climate 4
 ```
+
+`--climate` takes 0 Temperate, 1 Tropical, 2 Arid, 3 Rocky or 4 Cold.
 
 ## Diagnostics
 

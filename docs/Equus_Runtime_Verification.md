@@ -1,6 +1,7 @@
 # Equus installation and runtime verification
 
-Prepared November 2, 2026; revised November 22, 2026 for the second atlas.
+Prepared November 2, 2026; revised November 22, 2026 for the second atlas and
+November 28, 2026 for climates and more sea room.
 This integration preserves the regional atlas in
 [`02add3513c2e5a96d3093fbd1a3b0f9696212f83`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83)
 as Equestria "Known World", and adds Equestria "Expanded", traced from the
@@ -25,8 +26,10 @@ mod distribution.
    World Wrap (Flat/Cylinder/Toroid), Atlas variation
    (Subtle/Standard/Lively) and Alternative Universe Expansions
    (Equestria "Known World"/Equestria "Expanded"); their defaults are Flat,
-   Standard and Equestria "Known World". The game counts a script's options
-   when it starts, so a third option appears only after BtS is restarted.
+   Standard and Equestria "Known World". The game's own **Climate** and
+   **Sea Level** settings should both be selectable for Equus. The game reads
+   a script's options when it starts, so the third option and the Climate
+   setting appear only after BtS is restarted.
 
 The original `PyEquusMapCreation` branch and the source
 `PyEquusMapCreation-ChatGPT` branch are separate from this integration. There is
@@ -129,14 +132,45 @@ the first two-world revision, on a Windows test machine running the mod.
 | AI auto-play | **STARTED, NO RESULT RECORDED** | The playtester started AI auto-play on the map. No outcome has been reported |
 | Everything else in the table above | **NOT RUN** | Third-option discovery in Custom Game is implied by the run but was not separately described |
 
-The next revision answers the finding with `_X_SEA_ROOM`, which parts the
-Celestial Sea's shores by `.015` of the map's width on each side: nearly two
-plots a side on Huge, and about four more plots of open water in the harness.
-**That revision has not been generated in Civilization IV yet.** When it is,
-compare the minimap with `docs/equus_expanded_preview.png`, check that
-Bermuldy and Trotaway Islands now stand in open water with a clear lane east
-of them, and that Trottingham Bridge and the Griffonstone trestle still join
-their shores.
+The next revision
+([`ad619b3`](https://github.com/SuperXANA/MLPCiv/commit/ad619b3d957f24d69f68f0f6a578af1a9286a389))
+answered the finding with `_X_SEA_ROOM`, which parts the Celestial Sea's
+shores by `.015` of the map's width on each side: nearly two plots a side on
+Huge.
+
+## November 28, 2026 gameplay evidence: the wider Celestial Sea
+
+Reported by the playtester for `ad619b3`, with an in-game minimap picture. The
+settings, seed, installed script hash and logs were not recorded.
+
+| Runtime check | Status | Evidence and scope |
+| --- | --- | --- |
+| Expanded world, generation with sea room | **PASS (reported)** | "The new map is working well." The minimap shows the three mainlands with open water down the middle |
+| Celestial Sea | **PASS (reported)** | "The expanded Celestial Sea is an effective waterway for naval battles" |
+| AI auto-play | **PASS (reported)** | "The autoplay AI was able to play the map effectively, with numerous leaders winning different methods from different positions." Number of games, length and settings not recorded |
+| Geography | **TWO FINDINGS** | The second and third continents (Ponyland with Horsetrailia, and Zebrica) "don't have much water separation between them"; and at mid-height the land runs to the left and right edges of the map, where one or two more water plots were wanted |
+| Options | **REQUESTED** | Support for the game's Climate setting, in both worlds |
+| Everything else in the first table | **NOT RUN** | |
+
+This revision answers both findings with three more rows of `_X_SEA_ROOM` (the
+Great Inland Sea and its channel to the Asparus Sea, and one row down each
+edge of the map) and adds the Climate setting. **It has not been generated in
+Civilization IV yet.** When it is:
+
+* Compare the minimap with `docs/equus_expanded_preview.png`. Ponyland and
+  Zebrica should be parted by a channel several plots wide from the Griffish
+  Isles round to Bridle Bay, and Zebrica from Horsetrailia likewise. At
+  mid-height, expect at least two plots of sea along both edges on a Huge map.
+* Check that Trottingham Bridge, the Griffonstone trestle and Horsetrailia's
+  isthmus still join their shores.
+* Check that Climate can be selected, in both worlds, and compare each climate
+  with `docs/equus_climates_preview.png`: Cold should bring snow and tundra
+  well south of the Crystal Empire (whose valley stays green) and thicker
+  pack ice, with the sea lanes still open; Arid should swell every desert;
+  Tropical should spread the jungles and thin the snow; Rocky should thicken
+  the ranges and leave the passes open. Coasts should not depend on the
+  climate.
+* The Known World under Temperate should be the map of November 8.
 
 ## Runtime procedure for automated verification
 
@@ -191,12 +225,13 @@ Keep successful and failed runs with their settings and screenshots.
    Griffonstone trestle (Ponyland to Griffonstone) are one-plot causeways that
    land units can cross; with `EXPANDED_BRIDGES_ARE_LAND = False` each is a
    strait. With causeways the Frozen North becomes an inland sea. The
-   Celestial Sea is deliberately wider than the picture draws it
-   (`_X_SEA_ROOM`), so Equestria's east and Griffonstone sit a plot or two
-   farther apart than in the picture. Expect a little under
-   three-fifths of the map to be land, roughly twice a Fractal map's share:
-   the picture leaves little room for ocean, so a given size holds more
-   territory than usual.
+   Celestial Sea, the Great Inland Sea and the channel on to the Asparus Sea
+   are deliberately wider than the picture draws them (`_X_SEA_ROOM`), and
+   the land stands in from the western and eastern edges, so the mainlands
+   sit a plot or two farther apart than in the picture. Expect a little over
+   half of the map to be land, well above a Fractal map's share: the picture
+   leaves little room for ocean, so a given size holds more territory than
+   usual.
 3. **Map sizes.** Generate a fresh game at each available size with default
    options, for each world. The script returns cells; the AdvCiv map path
    scales each axis by four when a script sets its own grid (`CvMap::reset`,
@@ -229,13 +264,15 @@ Keep successful and failed runs with their settings and screenshots.
    | 5 | Huge | 30 × 21 | 120 × 84 | 10,080 | 120 × 84 |
    | 6 | XXL | 37 × 25 | 148 × 100 | 14,800 | 146 × 102 |
 
-4. **Options and sea level.** At least on Duel, Standard, and the largest
+4. **Options, sea level and climate.** At least on Duel, Standard, and the largest
    available size, try Subtle/Standard/Lively variation and Low/Normal/High sea
-   level in fresh games. Exercise Flat, Cylinder, and Toroid wrap; inspect the
+   level in fresh games, and each Climate at least once in each world. Exercise Flat, Cylinder, and Toroid wrap; inspect the
    corresponding map edges and confirm the intended X/Y wrapping. Cover all
    nine wrap/variation pairs on Standard if time permits. Expect familiar
    regional structure with seeded coastline, relief, and biome variation.
-   Confirm the selected values in the logs. Changing game settings can change
+   Confirm the selected values in the logs: with diagnostics on, each stage
+   writes `sea_level=N climate=N`, the positions of the chosen entries in the
+   game's XML (stock order: Temperate 0, Tropical 1, Arid 2, Rocky 3, Cold 4). Changing game settings can change
    the RNG sequence; screenshots across unrelated seeds are a plausibility
    check, not an exact reproducibility test.
 5. **Diagnostics comparison.** If the runtime harness can reproduce the same
@@ -260,7 +297,7 @@ Use this evidence record for each run:
 | --- | --- |
 | Commit / installed script hash / DLL identity | |
 | World (Known World / Expanded) and, for Expanded, the bridge setting | |
-| Size / actual width × height / options / sea level / seed if available | |
+| Size / actual width × height / options / sea level / climate / seed if available | |
 | Equus listed and selected | PASS / FAIL / NOT RUN |
 | Generation reached playable turn | PASS / FAIL / NOT RUN |
 | Diagnostics setting / native log collection / callback completion | Setting and PASS / FAIL / NOT RUN |

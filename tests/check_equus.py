@@ -98,10 +98,45 @@ class Plot:
         self.feature = feature
 
 
+# Climates as in the stock CIV4ClimateInfo.xml, which AdvCiv 1.14 does not
+# replace: desert percent change, jungle latitude, hill range, peak percent,
+# then the snow, tundra, grass, desert bottom and desert top latitude changes,
+# ice latitude, random ice latitude. The sixth row is not in the game. It
+# stands for a climate that a mod might add, and has gentler hills than
+# Temperate so that the script's wearing-down rules are exercised too.
+TEMPERATE, TROPICAL, ARID, ROCKY, COLD, GENTLE = range(6)
+CLIMATES = (
+    ("CLIMATE_TEMPERATE", 0, 5, 5, 25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.95, 0.25),
+    ("CLIMATE_TROPICAL", -10, 2, 5, 25, 0.1, 0.1, 0.0, 0.0, 0.0, 0.95, 0.20),
+    ("CLIMATE_ARID", 20, 6, 5, 25, 0.0, 0.0, 0.0, -0.1, 0.1, 0.95, 0.20),
+    ("CLIMATE_ROCKY", 0, 5, 7, 35, -0.025, -0.05, 0.0, 0.0, -0.05, 0.95, 0.25),
+    ("CLIMATE_COLD", -10, 6, 5, 25, -0.1, -0.15, 0.0, 0.0, -0.1, 0.9, 0.5),
+    ("CLIMATE_TEST_GENTLE", -5, 4, 3, 15, 0.05, 0.05, 0.0, 0.0, 0.0, 0.97, 0.20),
+)
+CLIMATE_NAMES = ("Temperate", "Tropical", "Arid", "Rocky", "Cold", "Gentle (test)")
+
+
+class ClimateInfo:
+    def __init__(self, row):
+        self.row = row
+
+    def getDesertPercentChange(self): return self.row[1]
+    def getJungleLatitude(self): return self.row[2]
+    def getHillRange(self): return self.row[3]
+    def getPeakPercent(self): return self.row[4]
+    def getSnowLatitudeChange(self): return self.row[5]
+    def getTundraLatitudeChange(self): return self.row[6]
+    def getGrassLatitudeChange(self): return self.row[7]
+    def getDesertBottomLatitudeChange(self): return self.row[8]
+    def getDesertTopLatitudeChange(self): return self.row[9]
+    def getIceLatitude(self): return self.row[10]
+    def getRandIceLatitude(self): return self.row[11]
+
+
 class World:
-    def __init__(self, width, height, options, sea):
+    def __init__(self, width, height, options, sea, climate=TEMPERATE):
         self.width, self.height = width, height
-        self.options, self.sea = options, sea
+        self.options, self.sea, self.climate = options, sea, climate
         self.plots = [Plot() for unused in range(width * height)]
 
     def getGridWidth(self):
@@ -117,6 +152,9 @@ class World:
 
     def getSeaLevel(self):
         return self.sea
+
+    def getClimate(self):
+        return self.climate
 
     def getWorldSize(self):
         cells = (self.width // 4, self.height // 4)
@@ -171,9 +209,10 @@ class ClassicDivision(ast.NodeTransformer):
 
 
 class Environment:
-    def __init__(self, width=28, height=32, options=(0, 1), sea=0, seed=1234):
+    def __init__(self, width=28, height=32, options=(0, 1), sea=0, seed=1234,
+                 climate=TEMPERATE):
         self.integer_divisions = 0
-        self.world = World(width, height, options, sea)
+        self.world = World(width, height, options, sea, climate)
         self.rand = MapRand(seed)
         self.extensions = types.ModuleType("CvPythonExtensions")
         self.extensions.PlotTypes = PlotTypes
@@ -212,9 +251,19 @@ class Environment:
         return self.rand
 
     def getSeaLevelInfo(self, sea):
-        return SeaLevelInfo((-10, 0, 10)[sea])
+        return SeaLevelInfo((-8, 0, 6)[sea])  # AdvCiv 1.14's CIV4SeaLevelInfo.xml
+
+    def getClimateInfo(self, index):
+        if 0 <= index < len(CLIMATES):
+            return ClimateInfo(CLIMATES[index])
+        return None  # CyGlobalContext: NULL for an index it does not hold
 
     def getInfoTypeForString(self, key):
+        if key.startswith("CLIMATE_"):
+            names = [row[0] for row in CLIMATES]
+            if key in names:
+                return names.index(key)
+            return -1
         return TERRAINS[key]
 
     def getText(self, label, args):
@@ -256,9 +305,9 @@ def cells_for(world_size, options):
 
 
 def generate(path, world_size=0, options=(0, 1), sea=1, seed=1234,
-             diagnostics=False, tweak=None):
+             diagnostics=False, tweak=None, climate=TEMPERATE):
     cells = cells_for(world_size, options)
-    env = Environment(cells[0] * 4, cells[1] * 4, options, sea, seed)
+    env = Environment(cells[0] * 4, cells[1] * 4, options, sea, seed, climate)
     module = env.load(path, diagnostics)
     if tweak is not None:
         tweak(module)
@@ -324,7 +373,7 @@ STEPS = ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1))
 
 def on_map(module, place):
     """A place of the picture, moved as the script's sea room moves it."""
-    return (module._to_map(place[0], module._sea_room_at(place[1])), place[1])
+    return module._to_map(module._sea_rooms(), place[0], place[1])
 
 
 def nearest(plots, width, height, place, land):
@@ -364,7 +413,8 @@ def beside(spot, plots):
                for dx in (-1, 0, 1) for dy in (-1, 0, 1))
 
 
-def geography_problems(world_size, variation, sea, seed, bridges_are_land):
+def geography_problems(world_size, variation, sea, seed, bridges_are_land,
+                       climate=TEMPERATE):
     """Generate one Expanded world and list everything wrong with its layout."""
     loaded = []
     def tweak(module):
@@ -372,7 +422,8 @@ def geography_problems(world_size, variation, sea, seed, bridges_are_land):
         loaded.append(module)
     cells = EXPANDED_SIZES[world_size]
     width, height = cells[0] * 4, cells[1] * 4
-    result = generate(INSTALLED, world_size, (0, variation, EXPANDED), sea, seed, tweak=tweak)
+    result = generate(INSTALLED, world_size, (0, variation, EXPANDED), sea, seed, tweak=tweak,
+                      climate=climate)
     plots, features = result[0], result[2]
     problems = []
     spot, water = {}, {}
@@ -438,22 +489,29 @@ class EquusChecks(unittest.TestCase):
                          "395fa96ba5193b9483bc24cdfac8687fe4f9766d")
 
     def test_known_world_source_is_preserved(self):
-        """Every Known World definition is untouched, bar the six that had to
-        learn about a second atlas. (Their Known World results are compared
-        with the verified baseline in test_known_world_matches_baseline.)"""
+        """Every Known World definition is untouched, bar the seven that had
+        to learn about a second atlas or about climates. (Their Known World
+        results under the Temperate climate are compared with the verified
+        baseline in test_known_world_matches_baseline.)"""
         baseline = ast.parse(BASELINE.read_bytes())
         installed = ast.parse(INSTALLED.read_bytes())
         wrapped = {"getGridSize", "generatePlotTypes", "generateTerrainTypes", "addFeatures"}
-        reworked = wrapped | {"CvMapOptions", "getDescription"}
+        reworked = wrapped | {"CvMapOptions", "getDescription", "isClimateMap"}
         diagnostics = {"EQUUS_DIAGNOSTICS", "_diagnostic_write", "_diagnostic_counts",
                        "_diagnostic_begin", "_diagnostic_end", "_diagnostic_error",
                        "_diagnostic_stage"}
         expansion = {"ATLAS_WORLD", "KNOWN_WORLD", "EXPANDED_WORLD", "_GRID_SIZES",
                      "EXPANDED_BRIDGES_ARE_LAND", "_expanded", "_coast_rows", "_on_land",
-                     "_shore", "_sea_room_at", "_to_atlas", "_to_map", "_trace",
+                     "_shore", "_sea_rooms", "_room_pull", "_room_to_atlas",
+                     "_to_atlas", "_to_map", "_trace",
                      "_fixed_plots", "_expanded_ridges",
                      "_expanded_crest", "_expanded_plot_types", "_expanded_land_terrain",
                      "_expanded_terrain_types", "_floe_line", "ExpandedFeatureGenerator"}
+        climates = {"_STOCK_TEMPERATE", "_KNOWN_ASPECT", "_between", "_climate_numbers",
+                    "_Climate", "_grown", "_Biomes", "_known_climate_terrain",
+                    "_known_level_ground", "_AROUND", "_way_through", "_uplift",
+                    "AtlasFeatureGenerator",
+                    "KnownClimateFeatureGenerator"}
         def key(node):
             if isinstance(node, (ast.FunctionDef, ast.ClassDef)):
                 return node.name
@@ -472,7 +530,7 @@ class EquusChecks(unittest.TestCase):
                 self.assertEqual(ast.dump(original), ast.dump(node), name)
         added = set(current) - {key(node) for node in baseline.body}
         tables = {name for name in added if name.startswith("_X_")}
-        self.assertEqual(added - tables, diagnostics | expansion)
+        self.assertEqual(added - tables, diagnostics | expansion | climates)
         self.assertGreater(len(tables), 20)
 
     def test_install_layout(self):
@@ -533,7 +591,7 @@ class EquusChecks(unittest.TestCase):
             self.assertIn(stage + " END", enabled[5])
         cells = cells_for(size, options)
         width, height = cells[0] * 4, cells[1] * 4
-        self.assertIn("grid=%dx%d plots=%d sea_level=%d" %
+        self.assertIn("grid=%dx%d plots=%d sea_level=%d climate=0\n" %
                       (width, height, width * height, sea), enabled[5])
         for index, choice in enumerate(options):
             self.assertIn("option[%d] raw=%d effective=%d" % (index, choice, choice), enabled[5])
@@ -643,8 +701,11 @@ class EquusChecks(unittest.TestCase):
         for extra, rigid, fade, line in module._X_SEA_ROOM:
             self.assertTrue(0 <= extra < rigid < fade < .5)
             self.assertLess(extra / (fade - rigid), .5, "the squeeze must stay gentle")
-            self.assertTrue(all(first[1] < second[1] for first, second in zip(line, line[1:])),
-                            "a sea-room line runs from north to south")
+            self.assertLess(extra, module._X_SEA_ROOM_EASE)
+            for first, second in zip(line, line[1:]):
+                self.assertNotEqual(first, second, "a zero-length segment divides by zero")
+            for east, south in line:
+                self.assertTrue(0 <= east <= 1 and 0 <= south <= 1, line)
         paths = list(module._X_STRAITS) + list(module._X_LAND_LINKS)
         for causeway, channel in module._X_BRIDGES:
             paths += [causeway, channel]
@@ -654,54 +715,119 @@ class EquusChecks(unittest.TestCase):
                 self.assertTrue(0 <= east <= 1 and 0 <= south <= 1, path)
 
     def test_sea_room_parts_the_shores(self):
-        """_X_SEA_ROOM widens the Celestial Sea by twice its `extra`, moves the
-        picture without folding it, and can be switched off."""
+        """_X_SEA_ROOM widens each sea by twice its `extra`, moves the picture
+        without folding it, leaves the bridges alone and can be switched off."""
         module = Environment().load(INSTALLED)
+        rooms = module._sea_rooms()
+        self.assertEqual(len(rooms), len(module._X_SEA_ROOM))
         extra, rigid, fade, line = module._X_SEA_ROOM[0]
         self.assertIs(line, module._X_CELESTIAL_SEA)
-        self.assertIn(line, module._X_STRAITS)
-        self.assertEqual(module._sea_room_at(.10), [])    # Trottingham Bridge is left alone
-        self.assertEqual(module._sea_room_at(.95), [])
-        seas = module._sea_room_at(.45)
-        centre = seas[0][0]
-        self.assertAlmostEqual(seas[0][1], extra)
-        self.assertIsNone(module._to_atlas(centre + extra * .5, seas))
-        self.assertAlmostEqual(module._to_atlas(centre + .05, seas), centre + .05 - extra)
-        self.assertAlmostEqual(module._to_atlas(centre - .05, seas), centre - .05 + extra)
-        self.assertEqual(module._to_atlas(centre + fade + .01, seas), centre + fade + .01)
-        self.assertEqual(module._to_map(centre, seas), centre)
-        previous = None
-        for step in range(1, 1000):
-            east = step / 1000.0
-            home = module._to_atlas(east, seas)
-            if home is None or abs(home - centre) < .000001:
-                continue  # new sea: every point of it shows the line itself
-            self.assertAlmostEqual(module._to_map(home, seas), east, places=9)
-            if previous is not None:
-                self.assertGreater(home, previous)  # never folded
-            previous = home
-        def open_water(tweak):
-            cells = EXPANDED_SIZES[5]
-            width, height = cells[0] * 4, cells[1] * 4
-            plots = generate(INSTALLED, 5, (0, 1, EXPANDED), tweak=tweak)[0]
-            total = 0
-            for south in (.26, .33, .41, .45, .49, .53):
-                y = int((1 - south) * height)
-                x = west = east = int(module._sea_room_at(south)[0][0] * width)
-                self.assertEqual(plots[y * width + x], 0)
-                while west > 0 and plots[y * width + west - 1] == 0:
-                    west -= 1
-                while east < width - 1 and plots[y * width + east + 1] == 0:
-                    east += 1
-                total += east - west + 1
-            return total / 6.0
-        def as_drawn(module):
-            module._X_SEA_ROOM = ((0.0, rigid, fade, line),)
-        self.assertEqual(generate(INSTALLED, 5, (0, 1, EXPANDED), tweak=as_drawn)[0],
-                         generate(INSTALLED, 5, (0, 1, EXPANDED),
-                                  tweak=lambda module: setattr(module, "_X_SEA_ROOM", ()))[0])
-        gained = open_water(None) - open_water(as_drawn)
-        self.assertTrue(2 * extra * 120 - 1 < gained < 2 * extra * 120 + 1.5, gained)
+        self.assertIs(module._X_SEA_ROOM[1][3], module._X_INLAND_SEA)
+        self.assertIn(module._X_CELESTIAL_SEA, module._X_STRAITS)
+        self.assertIn(module._X_INLAND_SEA, module._X_STRAITS)
+        def line_at(path, south):
+            for (ax, av), (bx, bv) in zip(path, path[1:]):
+                if av <= south <= bv:
+                    return ax + (bx - ax) * (south - av) / (bv - av)
+        # Beside a straight stretch of the Celestial Sea.
+        centre = line_at(line, .40)
+        self.assertIsNone(module._to_atlas(rooms, centre + extra * .5, .40))
+        self.assertIsNone(module._to_atlas(rooms, centre - extra * .5, .40))
+        east = module._to_atlas(rooms, centre + .05, .40)
+        west = module._to_atlas(rooms, centre - .05, .40)
+        self.assertAlmostEqual(east[0], centre + .05 - extra, places=3)
+        self.assertAlmostEqual(west[0], centre - .05 + extra, places=3)
+        self.assertAlmostEqual(east[1], .40, places=2)
+        self.assertEqual(module._to_atlas(rooms, .20, .40), (.20, .40))  # out of every reach
+        # A point on a line stays in the middle of its new sea.
+        for path in (module._X_CELESTIAL_SEA, module._X_INLAND_SEA):
+            for x, v in path[1:-1]:
+                there = module._to_map(rooms[:2], x, v)
+                self.assertLess(abs(there[0] - x) + abs(there[1] - v), extra)
+        # Trottingham Bridge, north of the Celestial Sea's line, is drawn where
+        # the picture has it, to within a plot of XXL. (The Griffonstone
+        # trestle moves east with the shore it stands on.)
+        for x, v in module._X_BRIDGES[0][0]:
+            there = module._to_map(rooms, x, v)
+            self.assertLess(abs(there[0] - x) + abs(there[1] - v) / 1.5, 1 / 148.0, (x, v))
+        # The map is the picture stretched, never folded: going east across the
+        # map goes east across the picture, and going south goes south.
+        for fixed in (.15, .31, .40, .52, .66, .80):
+            previous_x = previous_v = None
+            for step in range(1, 600):
+                moving = step / 600.0
+                spot = module._to_atlas(rooms, moving, fixed)
+                if spot is not None:
+                    if previous_x is not None:
+                        self.assertGreater(spot[0], previous_x, (moving, fixed))
+                    previous_x = spot[0]
+                spot = module._to_atlas(rooms, fixed, moving)
+                if spot is not None:
+                    if previous_v is not None:
+                        self.assertGreater(spot[1], previous_v, (fixed, moving))
+                    previous_v = spot[1]
+        # _to_map() undoes _to_atlas(), to within a fifth of an XXL plot.
+        # Points within a hair of a line are spread across its new sea
+        # instead, so those may differ by up to the width of that sea.
+        checked = 0
+        for row in range(60):
+            for col in range(90):
+                east, south = (col + .5) / 90, (row + .5) / 60
+                spot = module._to_atlas(rooms, east, south)
+                if spot is None:
+                    continue
+                back = module._to_map(rooms, spot[0], spot[1])
+                error = abs(back[0] - east) + abs(back[1] - south) / 1.5
+                pulls = [module._room_pull(room, spot[0], spot[1] / 1.5) for room in rooms]
+                if any(pull is not None and pull[0] < .0045 for pull in pulls):
+                    self.assertLess(error, 2.5 * extra)
+                else:
+                    self.assertLess(error, .0014, (east, south))
+                    checked += 1
+        self.assertGreater(checked, 4500)
+        # Open water gained on a Huge map, in plots, where each sea was tight.
+        cells = EXPANDED_SIZES[5]
+        width, height = cells[0] * 4, cells[1] * 4
+        def run(plots, x, y, dx, dy):
+            self.assertEqual(plots[y * width + x], 0, (x, y))
+            count = 1
+            for sign in (1, -1):
+                xx, yy = x + sign * dx, y + sign * dy
+                while 0 <= xx < width and 0 <= yy < height and plots[yy * width + xx] == 0:
+                    count += 1
+                    xx, yy = xx + sign * dx, yy + sign * dy
+            return count
+        def open_water(plots):
+            celestial = [run(plots, int(line_at(module._X_CELESTIAL_SEA, south) * width),
+                             int((1 - south) * height), 1, 0)
+                         for south in (.26, .33, .41, .45, .49, .53)]
+            inland = [run(plots, int(east * width), int((1 - south) * height), 0, 1)
+                      for east, south in ((.56, .311), (.60, .303), (.64, .301))]
+            channel = [run(plots, int(line_at(module._X_INLAND_SEA[9:], south) * width),
+                           int((1 - south) * height), 1, 0)
+                       for south in (.43, .47, .51, .54)]
+            rims = []
+            for y in range(int(.25 * height), int(.75 * height)):
+                row = plots[y * width:(y + 1) * width]
+                rims.append(min(row.index(1) if 1 in row else width, 12) +
+                            min(row[::-1].index(1) if 1 in row else width, 12))
+            return [sum(part) / float(len(part)) for part in (celestial, inland, channel, rims)]
+        def off(module):
+            module._X_SEA_ROOM = tuple((0.0,) + row[1:] for row in module._X_SEA_ROOM)
+        roomy = generate(INSTALLED, 5, (0, 1, EXPANDED))[0]
+        drawn = generate(INSTALLED, 5, (0, 1, EXPANDED), tweak=off)[0]
+        self.assertEqual(drawn, generate(INSTALLED, 5, (0, 1, EXPANDED),
+                                         tweak=lambda module: setattr(module, "_X_SEA_ROOM", ()))[0])
+        gains = [after - before for after, before in zip(open_water(roomy), open_water(drawn))]
+        if "--sea-room" in sys.argv:
+            print("open water as drawn / with sea room:", open_water(drawn), open_water(roomy))
+        for gain in gains[:3]:
+            self.assertTrue(2 * extra * 120 - 1.5 < gain < 2 * extra * 120 + 2.5, gains)
+        self.assertTrue(2 < gains[3] < 4.5, gains)  # both rims together
+        # At mid-height the land now stands at least two plots clear of each edge.
+        for y in range(int(.25 * height), int(.75 * height)):
+            self.assertEqual(roomy[y * width:y * width + 2], [0, 0])
+            self.assertEqual(roomy[(y + 1) * width - 2:(y + 1) * width], [0, 0])
 
     def test_expanded_geography(self):
         """Seas divide and necks join alike from Duel to XXL, at every variation
@@ -715,6 +841,213 @@ class EquusChecks(unittest.TestCase):
                     self.assertEqual(
                         geography_problems(size, variation, sea, seed, bridges_are_land), [])
 
+    def test_expanded_geography_in_every_climate(self):
+        """No climate closes a pass or a sea lane: a Rocky world's thicker
+        ranges and a Cold world's wider pack ice leave the same layout."""
+        for climate in range(1, len(CLIMATES)):
+            for size, variation, sea, seed in ((0, 1, 1, 5), (2, 2, 0, 11), (3, 1, 1, 99),
+                                               (5, 1, 2, 7), (6, 0, 1, 3)):
+                for bridges_are_land in (True, False):
+                    with self.subTest(climate=CLIMATE_NAMES[climate], size=size, seed=seed,
+                                      bridges_are_land=bridges_are_land):
+                        self.assertEqual(geography_problems(
+                            size, variation, sea, seed, bridges_are_land, climate), [])
+
+    def test_climate_and_sea_level_are_offered(self):
+        module = Environment().load(INSTALLED)
+        self.assertIs(module.isClimateMap(), True)
+        self.assertIs(module.isSeaLevelMap(), True)
+
+    def test_known_world_answers_sea_level_and_climate(self):
+        """The Known World too: a low sea bares more land and a high sea
+        drowns some, at every size, and each climate repaints it."""
+        land = lambda result: sum(1 for plot in result[0] if plot)
+        for size in range(len(SIZES)):
+            low, normal, high = [generate(INSTALLED, size, (0, 1, KNOWN), sea) for sea in range(3)]
+            self.assertGreater(land(low), land(normal), size)
+            self.assertGreater(land(normal), land(high), size)
+        normal = generate(INSTALLED, 3, (0, 1, KNOWN))
+        for climate in range(1, len(CLIMATES)):
+            other = generate(INSTALLED, 3, (0, 1, KNOWN), climate=climate)
+            self.assertNotEqual(normal[1], other[1], CLIMATE_NAMES[climate])
+            self.assertEqual(other[5:], ("", ""))
+            # ... and with either sea level, and the diagnostics on.
+            for sea in (0, 2):
+                logged = generate(INSTALLED, 3, (0, 1, KNOWN), sea, climate=climate,
+                                  diagnostics=True)
+                quiet = generate(INSTALLED, 3, (0, 1, KNOWN), sea, climate=climate)
+                self.assertEqual(logged[:5], quiet[:5])
+                self.assertIn("sea_level=%d climate=%d\n" % (sea, climate), logged[5])
+                self.assertNotIn("ERROR", logged[5] + logged[6])
+
+    def test_known_world_ocean_stays_whole_in_a_cold_age(self):
+        """A Cold climate more than doubles the Known World's pack ice. Ships
+        must still round the southern cape: with every ice plot treated as a
+        wall, the open ocean is as much of one piece as under Temperate."""
+        for size in (0, 3, 6):
+            cells = SIZES[size]
+            width, height = cells[0] * 4, cells[1] * 4
+            share = []
+            for climate in (TEMPERATE, COLD):
+                plots, unused, features = generate(INSTALLED, size, (0, 1, KNOWN),
+                                                   climate=climate, seed=size + 5)[:3]
+                ice = set((i % width, i // width) for i, f in enumerate(features) if f == 30)
+                unvisited = set((i % width, i // width)
+                                for i, kind in enumerate(plots) if kind == 0) - ice
+                open_water, largest = len(unvisited), 0
+                while unvisited:
+                    body = flood(plots, width, height, min(unvisited), (0,), ice, True)
+                    unvisited -= body
+                    largest = max(largest, len(body))
+                share.append(largest / float(open_water))
+            self.assertGreater(share[0], .9)
+            self.assertGreater(share[1], share[0] - .02, size)
+
+    def test_rocky_climate_closes_no_road(self):
+        """Any two land plots that could be walked between before _uplift()
+        raised its peaks can still be walked between afterwards, unless one
+        of them became a peak itself. Checked on whole maps, both worlds."""
+        module = Environment().load(INSTALLED)
+        ring = lambda cells: module._way_through(
+            [1 if (dx, dy) in cells else 3 for dy in (-1, 0, 1) for dx in (-1, 0, 1)], 3, 3, 1, 1)
+        self.assertFalse(ring({(1, 0), (1, 1), (0, 1)}))          # one run
+        self.assertTrue(ring({(1, 0), (-1, 0)}))                  # east and west only
+        self.assertFalse(ring({(1, 0), (0, 1)}))                  # joined past the corner
+        self.assertTrue(ring({(1, 1), (-1, 1)}))                  # two corners
+        self.assertFalse(ring(set()))
+        for atlas, size, variation, sea, seed in ((EXPANDED, 4, 2, 2, 202), (EXPANDED, 2, 1, 1, 9),
+                                                  (KNOWN, 3, 1, 1, 4), (KNOWN, 5, 2, 0, 8)):
+            cells = WORLD_SIZES[atlas][size]
+            width, height = cells[0] * 4, cells[1] * 4
+            options = (0, variation, atlas)
+            before = generate(INSTALLED, size, options, sea, seed)[0]
+            after = generate(INSTALLED, size, options, sea, seed, climate=ROCKY)[0]
+            self.assertGreater(after.count(3), before.count(3))
+            def regions(plots):
+                label, found = {}, 0
+                for index, kind in enumerate(plots):
+                    spot = (index % width, index // width)
+                    if kind in (1, 2) and spot not in label:
+                        for member in flood(plots, width, height, spot, (1, 2)):
+                            label[member] = found
+                        found += 1
+                return label
+            old, new = regions(before), regions(after)
+            joined = {}
+            for spot, region in new.items():
+                joined.setdefault(old[spot], set()).add(region)
+            self.assertTrue(all(len(parts) == 1 for parts in joined.values()),
+                            (atlas, size, seed))
+
+    def test_climate_distances(self):
+        """Each stock climate becomes the distances listed above _Climate, and
+        only Temperate is calm. An index the game does not hold is Temperate."""
+        expected = {  # snow, tundra, sand, jungle, ice, hills, peaks
+            TEMPERATE: (0, 0, 0, 0, 0, 0, 0),
+            TROPICAL: (-.05, -.05, -.01, .0375, -.005, 0, 0),
+            ARID: (0, 0, .04, -.0142, -.005, 0, 0),
+            ROCKY: (.0125, .025, -.005, -.00625, 0, 40, 30),
+            COLD: (.05, .075, -.02, -.0229, .05, 0, 0)}
+        for climate, row in expected.items():
+            env = Environment(climate=climate)
+            found = env.load(INSTALLED)._Climate()
+            self.assertEqual(found.calm, climate == TEMPERATE)
+            for name, value in zip(("snow", "tundra", "sand", "jungle", "ice", "hills", "peaks"), row):
+                self.assertAlmostEqual(getattr(found, name), value, places=3,
+                                       msg=(CLIMATE_NAMES[climate], name))
+            self.assertEqual(env.rand.calls, [])
+        gentle = Environment(climate=GENTLE).load(INSTALLED)._Climate()
+        self.assertTrue(gentle.hills < 0 and gentle.peaks < 0 and not gentle.calm)
+        self.assertTrue(Environment(climate=99).load(INSTALLED)._Climate().calm)
+        module = Environment().load(INSTALLED)
+        ovals = ((.5, .5, .04, .06), (.2, .2, .01, .02))
+        self.assertIs(module._grown(ovals, 0.0, 1.5), ovals)
+        self.assertEqual(module._grown(ovals, .03, 1.5), ((.5, .5, .06, .09), (.2, .2, .03, .05)))
+        shrunk = module._grown(ovals, -.03, 1.5)
+        self.assertAlmostEqual(shrunk[0][2], .02)
+        self.assertAlmostEqual(shrunk[0][3], .03)
+        self.assertEqual(shrunk[1][2:], (.005, .01))  # never below half its painted size
+
+    def test_calm_climate_code_draws_the_painted_atlas(self):
+        """The climate code with every distance at zero paints what the
+        original code paints. The Known World normally bypasses it under
+        Temperate; here it is forced through, and must still match the
+        verified baseline."""
+        def forced(module):
+            calm = module._Climate
+            class Forced(calm):
+                def __init__(self):
+                    calm.__init__(self)
+                    self.calm = False
+            module._Climate = Forced
+        for size, variation, sea in ((0, 1, 1), (3, 2, 0), (5, 0, 2)):
+            baseline = generate(BASELINE, size, (0, variation), sea)
+            through = generate(INSTALLED, size, (0, variation, KNOWN), sea, tweak=forced)
+            self.assertEqual(baseline[:5], through[:5])
+
+    def test_climates_reshape_both_worlds(self):
+        """Cold, Arid, Tropical and Rocky each change what they should, by a
+        clear margin, and nothing else: coasts never move with the climate."""
+        for atlas in (KNOWN, EXPANDED):
+            options = (0, 1, atlas)
+            worlds = [generate(INSTALLED, 4, options, climate=climate, seed=31)
+                      for climate in range(len(CLIMATES))]
+            def count(climate, kinds=None, terrain=None, feature=None):
+                plots, terrains, features = worlds[climate][:3]
+                total = 0
+                for index, kind in enumerate(plots):
+                    if kinds is not None and kind not in kinds:
+                        continue
+                    if terrain is not None and (kind == 0 or terrains[index] not in [
+                            TERRAINS["TERRAIN_" + name] for name in terrain]):
+                        continue
+                    if feature is not None and features[index] != feature:
+                        continue
+                    total += 1
+                return total
+            frost = lambda climate: count(climate, terrain=("SNOW", "TUNDRA"))
+            sand = lambda climate: count(climate, terrain=("DESERT",))
+            jungle = lambda climate: count(climate, feature=31)
+            forest = lambda climate: count(climate, feature=32)
+            ice = lambda climate: count(climate, feature=30)
+            with self.subTest(atlas=atlas):
+                self.assertEqual(worlds[TEMPERATE][:5], generate(INSTALLED, 4, options, seed=31)[:5])
+                for climate in range(len(CLIMATES)):
+                    self.assertEqual([kind == 0 for kind in worlds[climate][0]],
+                                     [kind == 0 for kind in worlds[TEMPERATE][0]])
+                    if climate not in (ROCKY, GENTLE):
+                        self.assertEqual(worlds[climate][0], worlds[TEMPERATE][0])
+                self.assertGreater(frost(COLD), 1.3 * frost(TEMPERATE))
+                self.assertGreater(ice(COLD), 1.5 * ice(TEMPERATE))
+                self.assertLess(jungle(COLD), .8 * jungle(TEMPERATE))
+                self.assertLess(sand(COLD), sand(TEMPERATE))
+                self.assertLess(frost(TROPICAL), .85 * frost(TEMPERATE))
+                self.assertGreater(jungle(TROPICAL), 1.3 * jungle(TEMPERATE))
+                self.assertLess(sand(TROPICAL), sand(TEMPERATE))
+                self.assertGreater(sand(ARID), 1.5 * sand(TEMPERATE))
+                self.assertLess(jungle(ARID), .8 * jungle(TEMPERATE))
+                self.assertLess(forest(ARID), .9 * forest(TEMPERATE))
+                self.assertEqual(frost(ARID) > 0, True)
+                self.assertGreater(count(ROCKY, kinds=(2,)), 1.15 * count(TEMPERATE, kinds=(2,)))
+                self.assertGreater(count(ROCKY, kinds=(3,)), 1.15 * count(TEMPERATE, kinds=(3,)))
+                self.assertLess(count(GENTLE, kinds=(3,)), .9 * count(TEMPERATE, kinds=(3,)))
+                # A climate draws random numbers only to raise or wear down relief.
+                extra = lambda climate: [call[1] for call in worlds[climate][3]
+                                         if "uplift" in call[1]]
+                self.assertEqual([bool(extra(climate)) for climate in range(len(CLIMATES))],
+                                 [False, False, False, True, False, True])
+
+    def test_crystal_empire_stays_green_in_a_cold_age(self):
+        """The Crystal Heart's valley is grass under every climate, in both worlds."""
+        for atlas, place, size in ((KNOWN, (.390, .133), 5), (EXPANDED, (.283, .143), 5)):
+            cells = WORLD_SIZES[atlas][size]
+            width, height = cells[0] * 4, cells[1] * 4
+            for climate in range(len(CLIMATES)):
+                plots, terrains = generate(INSTALLED, size, (0, 1, atlas), climate=climate)[:2]
+                index = int((1 - place[1]) * height) * width + int(place[0] * width)
+                self.assertIn(plots[index], (1, 2), (atlas, climate))
+                self.assertEqual(terrains[index], TERRAINS["TERRAIN_GRASS"], (atlas, climate))
+
     def test_expanded_climate(self):
         """Each named region gets its biome on a Huge map."""
         module = Environment().load(INSTALLED)
@@ -724,13 +1057,12 @@ class EquusChecks(unittest.TestCase):
         def census(table, row):
             east, south, east_radius, south_radius = getattr(module, table)[row]
             found = []
+            rooms = module._sea_rooms()
             for y in range(height):
-                seas = module._sea_room_at(1 - (y + .5) / height)
                 for x in range(width):
-                    home = module._to_atlas((x + .5) / width, seas)
-                    if plots[y * width + x] and home is not None and module._in_oval(
-                            home, 1 - (y + .5) / height,
-                            east, south, east_radius * .7, south_radius * .7):
+                    spot = module._to_atlas(rooms, (x + .5) / width, 1 - (y + .5) / height)
+                    if plots[y * width + x] and spot is not None and module._in_oval(
+                            spot[0], spot[1], east, south, east_radius * .7, south_radius * .7):
                         found.append((terrains[y * width + x], features[y * width + x]))
             self.assertGreater(len(found), 5, (table, row))
             return found
@@ -755,7 +1087,8 @@ class EquusChecks(unittest.TestCase):
             cells = EXPANDED_SIZES[size]
             width, height = cells[0] * 4, cells[1] * 4
             env = Environment(width, height, (0, 1, EXPANDED))
-            lanes = env.load(INSTALLED)._fixed_plots(width, height)[0]
+            module = env.load(INSTALLED)
+            lanes = module._fixed_plots(width, height, module._sea_rooms())[0]
             plots, terrains, features = generate(INSTALLED, size, (0, 1, EXPANDED))[:3]
             ice = [(i % width, i // width) for i, feature in enumerate(features) if feature == 30]
             self.assertTrue(ice)
@@ -877,11 +1210,11 @@ class EquusChecks(unittest.TestCase):
         report = subprocess.run([interpreter, str(ROOT / "tests" / "check_python24.py"), "--digests"],
                                 capture_output=True, text=True, check=True).stdout
         lines = [line.split() for line in report.splitlines() if line.startswith("digest ")]
-        self.assertEqual(len(lines), 2 * len(SIZES))
-        for unused, atlas, size, wrap, variation, sea, value in lines:
+        self.assertEqual(len(lines), 2 * len(SIZES) + 2 * (len(CLIMATES) - 1))
+        for unused, atlas, size, wrap, variation, sea, climate, value in lines:
             options = (int(wrap), int(variation), int(atlas))
-            here = generate(INSTALLED, int(size), options, int(sea))
-            self.assertEqual(map_digest(here), value, (atlas, size))
+            here = generate(INSTALLED, int(size), options, int(sea), climate=int(climate))
+            self.assertEqual(map_digest(here), value, (atlas, size, climate))
 
 
 if __name__ == "__main__":

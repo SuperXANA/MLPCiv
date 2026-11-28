@@ -6,8 +6,9 @@ Civ extension objects, fractals, legality rules and feature utility are stubs.
 This checks interpreter compatibility and observational instrumentation, not
 the DLL, actual feature utility implementation, map selection or save loading.
 
-Both atlases are generated: the Known World is compared with the pinned
-baseline, the Expanded world with itself (diagnostics off and on).
+Both atlases are generated: the Known World under the Temperate climate is
+compared with the pinned baseline, the Expanded world with itself (diagnostics
+off and on), and then both worlds once under every other climate.
 With --digests the script instead prints one checksum per generated map, for
 tests/check_equus.py to compare with its own Python 3 run of the same script.
 """
@@ -21,6 +22,30 @@ KNOWN, EXPANDED = 0, 1  # choices of the "Alternative Universe Expansions" optio
 WORLD_SIZES = (((7, 8), (10, 10), (12, 13), (16, 17), (19, 20), (24, 26), (30, 31)),
                ((9, 6), (12, 8), (16, 11), (20, 14), (24, 16), (30, 21), (37, 25)))
 TERRAINS = ['GRASS', 'PLAINS', 'DESERT', 'TUNDRA', 'SNOW']
+# As in tests/check_equus.py: the stock CIV4ClimateInfo.xml, and one test row.
+CLIMATES = (
+    ("CLIMATE_TEMPERATE", 0, 5, 5, 25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.95, 0.25),
+    ("CLIMATE_TROPICAL", -10, 2, 5, 25, 0.1, 0.1, 0.0, 0.0, 0.0, 0.95, 0.20),
+    ("CLIMATE_ARID", 20, 6, 5, 25, 0.0, 0.0, 0.0, -0.1, 0.1, 0.95, 0.20),
+    ("CLIMATE_ROCKY", 0, 5, 7, 35, -0.025, -0.05, 0.0, 0.0, -0.05, 0.95, 0.25),
+    ("CLIMATE_COLD", -10, 6, 5, 25, -0.1, -0.15, 0.0, 0.0, -0.1, 0.9, 0.5),
+    ("CLIMATE_TEST_GENTLE", -5, 4, 3, 15, 0.05, 0.05, 0.0, 0.0, 0.0, 0.97, 0.20),
+)
+
+
+class ClimateInfo:
+    def __init__(self, row): self.row = row
+    def getDesertPercentChange(self): return self.row[1]
+    def getJungleLatitude(self): return self.row[2]
+    def getHillRange(self): return self.row[3]
+    def getPeakPercent(self): return self.row[4]
+    def getSnowLatitudeChange(self): return self.row[5]
+    def getTundraLatitudeChange(self): return self.row[6]
+    def getGrassLatitudeChange(self): return self.row[7]
+    def getDesertBottomLatitudeChange(self): return self.row[8]
+    def getDesertTopLatitudeChange(self): return self.row[9]
+    def getIceLatitude(self): return self.row[10]
+    def getRandIceLatitude(self): return self.row[11]
 
 
 class PlotTypes:
@@ -52,7 +77,8 @@ class Fractal:
 
 
 class Environment:
-    def __init__(self, size, options=(0, 1, KNOWN), sea=1):
+    def __init__(self, size, options=(0, 1, KNOWN), sea=1, climate=0):
+        self.climate = climate
         atlas = KNOWN
         if len(options) > 2: atlas = options[2]
         self.width, self.height = [value * 4 for value in WORLD_SIZES[atlas][size]]
@@ -69,8 +95,16 @@ class Environment:
     def getGame(self): return self
     def getMapRand(self): return self
     def getSeaLevelInfo(self, sea): return self
-    def getSeaLevelChange(self): return (-10, 0, 10)[self.sea]
+    def getSeaLevelChange(self): return (-8, 0, 6)[self.sea]  # AdvCiv 1.14 XML
+    def getClimate(self): return self.climate
+    def getClimateInfo(self, index):
+        if 0 <= index < len(CLIMATES): return ClimateInfo(CLIMATES[index])
+        return None
     def getInfoTypeForString(self, key):
+        if key.startswith('CLIMATE_'):
+            names = [row[0] for row in CLIMATES]
+            if key in names: return names.index(key)
+            return -1
         return 10 + TERRAINS.index(key[len('TERRAIN_'):])
     def getText(self, label, args): return unicode(label)
     def get(self, upper, label):
@@ -111,11 +145,11 @@ class Environment:
         return module
 
 
-def run(path, size, diagnostics, atlas=None):
+def run(path, size, diagnostics, atlas=None, climate=0):
     # atlas None: a game stored before the third option existed (two options).
     options = (size % 3, size % 3)
     if atlas is not None: options = options + (atlas,)
-    environment = Environment(size, options, size % 3)
+    environment = Environment(size, options, size % 3, climate)
     module = environment.load(path, diagnostics)
     sizes = WORLD_SIZES[atlas or KNOWN]
     output, errors = StringIO(), StringIO()
@@ -173,8 +207,8 @@ def main():
         assert quiet == '', 'Disabled logger wrote output'
         check_logs(logs)
         if digests:
-            print('digest %d %d %d %d %d %s' % (KNOWN, size, size % 3, size % 3, size % 3,
-                                               map_digest(disabled)))
+            print('digest %d %d %d %d %d 0 %s' % (KNOWN, size, size % 3, size % 3, size % 3,
+                                                 map_digest(disabled)))
     for size in xrange(len(WORLD_SIZES[EXPANDED])):
         disabled, quiet = run(installed, size, False, EXPANDED)
         enabled, logs = run(installed, size, True, EXPANDED)
@@ -189,11 +223,26 @@ def main():
         for upper, label, result in calls:
             assert 'expanded' in label or label.startswith('stub '), label
         if digests:
-            print('digest %d %d %d %d %d %s' % (EXPANDED, size, size % 3, size % 3, size % 3,
-                                               map_digest(disabled)))
+            print('digest %d %d %d %d %d 0 %s' % (EXPANDED, size, size % 3, size % 3, size % 3,
+                                                 map_digest(disabled)))
+    # Every other climate, once in each world, on a different size each time.
+    for climate in xrange(1, len(CLIMATES)):
+        for atlas in (KNOWN, EXPANDED):
+            size = (climate + atlas) % len(WORLD_SIZES[atlas])
+            temperate, unused = run(installed, size, False, atlas)
+            disabled, quiet = run(installed, size, False, atlas, climate)
+            enabled, logs = run(installed, size, True, atlas, climate)
+            assert disabled == enabled, 'Diagnostics changed a climate'
+            assert quiet == '', 'Disabled logger wrote output'
+            check_logs(logs)
+            assert disabled[1] != temperate[1], 'A climate left the terrain as it was'
+            if digests:
+                print('digest %d %d %d %d %d %d %s' % (atlas, size, size % 3, size % 3, size % 3,
+                                                       climate, map_digest(disabled)))
     if not digests:
         print('CPython %s: Known World 7 sizes x baseline/legacy/off/on, Expanded 7 sizes '
-              'x off/on, 42 generation passes OK (Civ stubs).' % sys.version.split()[0])
+              'x off/on, 5 other climates x 2 worlds x temperate/off/on, 72 generation '
+              'passes OK (Civ stubs).' % sys.version.split()[0])
 
 
 if __name__ == '__main__':
