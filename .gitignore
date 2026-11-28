@@ -1,0 +1,3 @@
+# Bytecode that the test harnesses leave behind (Python 3 and Python 2.4).
+__pycache__/
+*.pyc
