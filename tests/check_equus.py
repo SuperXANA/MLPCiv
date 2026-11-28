@@ -297,6 +297,25 @@ class Environment:
         return module
 
 
+def land_bridge(module):
+    """A tweak for generate(): the Known World as it was before the Trottingham
+    strait, which is the map that the pinned baseline draws."""
+    module._TROTTINGHAM_STRAIT = ()
+
+
+def nearest_land(plots, width, height, place, land=True, reach=3):
+    """The plot of the wanted kind nearest an atlas point, within a few plots:
+    a named point may fall in a lake or, for water, on an islet."""
+    x0 = min(width - 1, int(place[0] * width))
+    y0 = min(height - 1, int((1 - place[1]) * height))
+    for unused, x, y in sorted((abs(dx) + abs(dy), x0 + dx, y0 + dy)
+                               for dx in range(-reach, reach + 1)
+                               for dy in range(-reach, reach + 1)):
+        if 0 <= x < width and 0 <= y < height and (plots[y * width + x] != 0) == land:
+            return (x, y)
+    return None
+
+
 def cells_for(world_size, options):
     atlas = KNOWN
     if len(options) > 2 and options[2] == EXPANDED:
@@ -490,9 +509,11 @@ class EquusChecks(unittest.TestCase):
 
     def test_known_world_source_is_preserved(self):
         """Every Known World definition is untouched, bar the seven that had
-        to learn about a second atlas or about climates. (Their Known World
-        results under the Temperate climate are compared with the verified
-        baseline in test_known_world_matches_baseline.)"""
+        to learn about a second atlas, about climates or about the strait.
+        _plot_types and every Known World table are among the untouched. (The
+        Known World's results under the Temperate climate are compared with
+        the verified baseline in test_known_world_matches_baseline and
+        test_strait_changes_only_the_strait.)"""
         baseline = ast.parse(BASELINE.read_bytes())
         installed = ast.parse(INSTALLED.read_bytes())
         wrapped = {"getGridSize", "generatePlotTypes", "generateTerrainTypes", "addFeatures"}
@@ -512,6 +533,8 @@ class EquusChecks(unittest.TestCase):
                     "_known_level_ground", "_AROUND", "_way_through", "_uplift",
                     "AtlasFeatureGenerator",
                     "KnownClimateFeatureGenerator"}
+        strait = {"_TROTTINGHAM_STRAIT", "_TROTTINGHAM_LANES", "KNOWN_BRIDGE_IS_LAND",
+                  "_TROTTINGHAM_BRIDGE", "_GRIFFISH_ISLES", "_known_strait"}
         def key(node):
             if isinstance(node, (ast.FunctionDef, ast.ClassDef)):
                 return node.name
@@ -530,7 +553,7 @@ class EquusChecks(unittest.TestCase):
                 self.assertEqual(ast.dump(original), ast.dump(node), name)
         added = set(current) - {key(node) for node in baseline.body}
         tables = {name for name in added if name.startswith("_X_")}
-        self.assertEqual(added - tables, diagnostics | expansion | climates)
+        self.assertEqual(added - tables, diagnostics | expansion | climates | strait)
         self.assertGreater(len(tables), 20)
 
     def test_install_layout(self):
@@ -616,7 +639,9 @@ class EquusChecks(unittest.TestCase):
         self.assertEqual(enabled[4], 0)
 
     def test_known_world_matches_baseline(self):
-        """The default world is still, draw for draw, the map verified in Civ."""
+        """With the Trottingham strait's table emptied, the Known World is
+        still, draw for draw, the map verified in Civ. (What the strait
+        changes is pinned down in test_strait_changes_only_the_strait.)"""
         cases = {(size, 0, 1, 1) for size in range(len(SIZES))}
         cases.update((0, wrap, variation, 1)
                      for wrap, variation in itertools.product(range(3), repeat=2))
@@ -626,15 +651,281 @@ class EquusChecks(unittest.TestCase):
             with self.subTest(size=size, wrap=wrap, variation=variation, sea=sea):
                 options = (wrap, variation, KNOWN)
                 baseline = generate(BASELINE, size, (wrap, variation), sea)
-                disabled = generate(INSTALLED, size, options, sea, diagnostics=False)
-                enabled = generate(INSTALLED, size, options, sea, diagnostics=True)
-                legacy = generate(INSTALLED, size, (wrap, variation), sea)
+                disabled = generate(INSTALLED, size, options, sea, diagnostics=False,
+                                    tweak=land_bridge)
+                enabled = generate(INSTALLED, size, options, sea, diagnostics=True,
+                                   tweak=land_bridge)
+                legacy = generate(INSTALLED, size, (wrap, variation), sea, tweak=land_bridge)
                 self.assertEqual(baseline[:5], disabled[:5])
                 self.assertEqual(baseline[:5], enabled[:5])
                 self.assertEqual(baseline[:5], legacy[:5])
                 self.assertEqual(disabled[5:], ("", ""))
                 self.assertFalse(any("expanded" in call[1] for call in disabled[3]))
                 self.check_logs(size, options, sea, enabled)
+
+    def test_strait_changes_only_the_strait(self):
+        """The default Known World, with the strait: the script draws exactly
+        the baseline's random numbers, and every plot is either what the
+        baseline has there (plot type, terrain and feature) or belongs to the
+        sets that _known_strait() returns. Those are ocean without a feature,
+        or the flat land of the causeway when that is switched on."""
+        cases = {(size, 1, 1) for size in range(len(SIZES))}
+        cases.update((size, variation, sea) for size in (0, 3, 6)
+                     for variation, sea in itertools.product(range(3), repeat=2))
+        for bridge_is_land in (False, True):
+            loaded = []
+            def tweak(module):
+                module.KNOWN_BRIDGE_IS_LAND = bridge_is_land
+                loaded.append(module)
+            for size, variation, sea in sorted(cases):
+                with self.subTest(size=size, variation=variation, sea=sea,
+                                  bridge_is_land=bridge_is_land):
+                    cells = SIZES[size]
+                    width, height = cells[0] * 4, cells[1] * 4
+                    baseline = generate(BASELINE, size, (0, variation), sea)
+                    quiet = generate(INSTALLED, size, (0, variation, KNOWN), sea, tweak=tweak)
+                    logged = generate(INSTALLED, size, (0, variation, KNOWN), sea, tweak=tweak,
+                                      diagnostics=True)
+                    self.assertEqual(quiet[:5], logged[:5])
+                    self.assertEqual(quiet[5:], ("", ""))
+                    self.check_logs(size, (0, variation, KNOWN), sea, logged)
+                    self.assertEqual(quiet[3], baseline[3])  # the complete RNG trace
+                    shift = (-.008, 0.0, .006)[sea]
+                    water, causeway = loaded[-1]._known_strait(width, height, shift)
+                    self.assertTrue(water)
+                    self.assertEqual(bool(causeway), bridge_is_land)
+                    self.assertFalse(water & causeway)
+                    changed = 0
+                    for index in range(width * height):
+                        spot = (index % width, index // width)
+                        now = (quiet[0][index], quiet[1][index], quiet[2][index])
+                        if spot in water:
+                            self.assertEqual(now, (0, 20, -1), spot)
+                        elif spot in causeway:
+                            self.assertEqual(now[0], 1, spot)
+                        else:
+                            self.assertEqual(now, (baseline[0][index], baseline[1][index],
+                                                   baseline[2][index]), spot)
+                        changed += now[0] != baseline[0][index]
+                    self.assertGreater(changed, 3)
+
+    def test_strait_tables_and_sea_level(self):
+        """The strait's tables are well formed and lie where the picture has
+        the water; its lanes are present whatever the sea level; a higher sea
+        never narrows it; the shipped lanes keep off the Griffish Isles'
+        core; and an emptied table switches all of it off."""
+        module = Environment().load(INSTALLED)
+        table = module._TROTTINGHAM_STRAIT
+        self.assertLess(table[0][0], 0)
+        self.assertTrue(.19 < table[-1][0] < .215)  # it stops at the Griffish Isles' north tip
+        for index, (south, west, east) in enumerate(table):
+            self.assertTrue(0 < west < east < 1, table[index])
+            if index:
+                self.assertGreater(south, table[index - 1][0])
+        # The banks against the channel as it was traced from the official
+        # picture, twice and independently (by eye and by pixel colour): west
+        # and east edge of the painted water with its pale rim. A mistyped
+        # bank is caught here. (v .14 is left out: a dead-end lobe there makes
+        # "the west bank" a matter of choice.)
+        def banks(south):
+            for (av, aw, ae), (bv, bw, be) in zip(table, table[1:]):
+                if av <= south <= bv:
+                    t = (south - av) / (bv - av)
+                    return aw + (bw - aw) * t, ae + (be - ae) * t
+        tracing = ((.075, .542, .777), (.090, .712, .748), (.100, .729, .779),
+                   (.110, .760, .809), (.120, .758, .815), (.130, .776, .834),
+                   (.150, .823, .851), (.160, .826, .850), (.170, .828, .847),
+                   (.176, .830, .840), (.190, .818, .847), (.200, .807, .856))
+        for south, west, east in tracing:
+            found = banks(south)
+            self.assertLess(abs(found[0] - west), .012, (south, found))
+            self.assertLess(abs(found[1] - east), .012, (south, found))
+        for south, west, east in table:
+            if south < .07:  # painted nowhere: the sea north of the picture's horizon
+                self.assertTrue(.53 <= west < east <= .79, (south, west, east))
+        for path in module._TROTTINGHAM_LANES + (module._TROTTINGHAM_BRIDGE,):
+            for (ax, av), (bx, bv) in zip(path, path[1:]):
+                self.assertNotEqual((ax, av), (bx, bv))
+            for east, south in path:
+                self.assertTrue(0 <= east <= 1 and 0 <= south <= 1)
+        self.assertEqual(module._TROTTINGHAM_LANES[0][0][1], 0)       # from the top edge ...
+        self.assertEqual(module._TROTTINGHAM_LANES[0][-1], (.800, .290))  # ... to open sea
+        self.assertIs(module._GRIFFISH_ISLES, module._ISLES[2])
+        self.assertIs(module.KNOWN_BRIDGE_IS_LAND, False)
+        for size in range(len(SIZES)):
+            cells = SIZES[size]
+            width, height = cells[0] * 4, cells[1] * 4
+            low, normal, high = [module._known_strait(width, height, shift)[0]
+                                 for shift in (-.008, 0.0, .006)]
+            self.assertTrue(low <= normal <= high, size)
+            self.assertLess(len(low), len(high), size)
+            # All of it in the north-east, and of a sensible size.
+            for water in (low, normal, high):
+                for x, y in water:
+                    east, south = (x + .5) / width, 1 - (y + .5) / height
+                    self.assertTrue(.50 < east < .89 and south < .31, (size, x, y))
+                self.assertTrue(.015 < len(water) / float(width * height) < .055, size)
+            core = (int(.810 * width), int((1 - .225) * height))
+            lanes = set()
+            for path in module._TROTTINGHAM_LANES:
+                traced = set()
+                module._trace(traced, path, width, height, True, ())
+                self.assertNotIn(core, traced, size)  # as shipped, no lane needs the safeguard
+                lanes |= traced
+            for water in (low, normal, high):
+                self.assertTrue(lanes <= water, size)
+                self.assertNotIn(core, water)
+            # The first lane alone is a chain from the top row with no diagonal step.
+            first = set()
+            module._trace(first, module._TROTTINGHAM_LANES[0], width, height, True, ())
+            self.assertNotIn(core, first)
+            self.assertTrue(any(y == height - 1 for x, y in first))
+            start = [spot for spot in first if spot[1] == height - 1][0]
+            seen, queue = {start}, [start]
+            while queue:
+                x, y = queue.pop()
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    if (x + dx, y + dy) in first and (x + dx, y + dy) not in seen:
+                        seen.add((x + dx, y + dy))
+                        queue.append((x + dx, y + dy))
+            self.assertEqual(seen, first, size)
+        off = Environment().load(INSTALLED)
+        off._TROTTINGHAM_STRAIT = ()
+        off.KNOWN_BRIDGE_IS_LAND = True
+        self.assertEqual(off._known_strait(96, 104, 0.0), (set(), set()))
+
+    def test_strait_edits_that_the_comments_invite(self):
+        """Deleting the second lane's two lines from the source, as its
+        comment says one may, leaves a script that loads and still parts the
+        continents. And the two safeguards for redrawn tables work: a lane
+        drawn straight through the Griffish Isles does not sink the isle's
+        core, and a table carried south over the isle keeps off its oval."""
+        import tempfile
+        lines = INSTALLED.read_text(encoding="ascii").split("\n")
+        first = [index for index, line in enumerate(lines)
+                 if line.startswith("    ((.837,.190),")]
+        self.assertEqual(len(first), 1)
+        self.assertEqual(lines[first[0] + 1].strip(), "(.800,.290)),")
+        self.assertEqual(lines[first[0] + 2], ")")
+        edited = lines[:first[0]] + lines[first[0] + 2:]
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "Equus.py"
+            path.write_text("\n".join(edited), encoding="ascii")
+            for size, sea in ((0, 0), (3, 0), (5, 1)):
+                cells = SIZES[size]
+                width, height = cells[0] * 4, cells[1] * 4
+                loaded = []
+                plots = generate(path, size, (0, 2, KNOWN), sea, 13, tweak=loaded.append)[0]
+                self.assertEqual(len(loaded[0]._TROTTINGHAM_LANES), 1)
+                west = flood(plots, width, height, nearest_land(plots, width, height, (.40, .32)),
+                             (1, 2, 3))
+                self.assertNotIn(nearest_land(plots, width, height, (.93, .33)), west)
+        for size in range(len(SIZES)):
+            cells = SIZES[size]
+            width, height = cells[0] * 4, cells[1] * 4
+            core = (int(.810 * width), int((1 - .225) * height))
+            module = Environment().load(INSTALLED)
+            module._TROTTINGHAM_LANES = (((.810, .180), (.810, .270)),)
+            traced = set()
+            module._trace(traced, module._TROTTINGHAM_LANES[0], width, height, True, ())
+            self.assertIn(core, traced)              # the lane does run over the core ...
+            self.assertNotIn(core, module._known_strait(width, height, 0.0)[0])  # ... which stays
+            module._TROTTINGHAM_LANES = ()
+            module._TROTTINGHAM_STRAIT = module._TROTTINGHAM_STRAIT + ((.260, .780, .860),)
+            cx, cv, rx, rv = module._GRIFFISH_ISLES
+            rx, rv = max(rx, .75 / width), max(rv, .75 / height)
+            water = module._known_strait(width, height, 0.0)[0]
+            self.assertTrue(any(1 - (y + .5) / height > .215 for x, y in water), size)
+            for x, y in water:
+                self.assertFalse(module._in_oval((x + .5) / width, 1 - (y + .5) / height,
+                                                 cx, cv, rx, rv), (size, x, y))
+            def redrawn(module):
+                module._TROTTINGHAM_LANES = (((.810, .180), (.810, .270)),)
+                module._TROTTINGHAM_STRAIT = module._TROTTINGHAM_STRAIT + ((.260, .780, .860),)
+            plots = generate(INSTALLED, size, (0, 1, KNOWN), tweak=redrawn)[0]
+            self.assertNotEqual(plots[core[1] * width + core[0]], 0, size)
+
+    def test_known_world_has_three_continents(self):
+        """Equestria, Griffonstone and the Dragon lands are three land areas
+        at every size, variation and sea level, a ship can sail from the
+        Celestial Sea through the strait to the top edge of the map, and
+        Trottingham is an island. With the causeway switched on, the first
+        two are joined and can be walked between without crossing a peak, no
+        ship passes, the two seas do not touch even at a corner, the causeway
+        is flat land (under Rocky too) and Trottingham is still an island.
+        Before the strait (table emptied) they were one land area."""
+        def survey(size, variation, sea, seed, tweak, climate=TEMPERATE):
+            cells = SIZES[size]
+            width, height = cells[0] * 4, cells[1] * 4
+            loaded = []
+            def both(module):
+                if tweak is not None:
+                    tweak(module)
+                loaded.append(module)
+            plots = generate(INSTALLED, size, (0, variation, KNOWN), sea, seed, tweak=both,
+                             climate=climate)[0]
+            near = lambda place, land: nearest_land(plots, width, height, place, land)
+            equestria, griffonstone, dragons = [near(place, True) for place in
+                                                ((.40, .32), (.93, .33), (.93, .62))]
+            area = flood(plots, width, height, equestria, (1, 2, 3))
+            east = flood(plots, width, height, griffonstone, (1, 2, 3))
+            celestial = near((.78, .30), False)
+            ships = flood(plots, width, height, celestial, (0,), (), True)
+            core = (int(.810 * width), int((1 - .225) * height))
+            shift = (-.008, 0.0, .006)[sea]
+            causeway_plots = loaded[0]._known_strait(width, height, shift)[1]
+            # On foot (no peaks) from Equestria: does the walk reach the far
+            # side of the strait, anywhere on Griffonstone's part of the map?
+            on_foot = flood(plots, width, height, equestria, (1, 2))
+            return {"joined": griffonstone in area,
+                    "walkable": any(x >= int(.88 * width) and y >= int(.55 * height)
+                                    for x, y in on_foot),
+                    "dragons apart": dragons not in area and dragons not in east,
+                    "ships reach the top": any((x, height - 1) in ships for x in range(width)),
+                    # Water north of the strait's narrows and the Celestial
+                    # Sea: one body even by the loosest rule (touching at a
+                    # corner), or two.
+                    "one sea": near((.70, .03), False) in flood(plots, width, height,
+                                                                celestial, (0,)),
+                    "causeway is flat": all(plots[y * width + x] == 1
+                                            for x, y in causeway_plots),
+                    "isle": plots[core[1] * width + core[0]] != 0 and core not in area
+                            and core not in east}
+        def causeway(module):
+            module.KNOWN_BRIDGE_IS_LAND = True
+        cases = set(itertools.product(range(len(SIZES)), range(3), range(3), (11,)))
+        cases.update(itertools.product(range(len(SIZES)), (2,), (0,), (12, 13, 14)))  # Lively, low sea
+        for size, variation, sea, seed in sorted(cases):
+            with self.subTest(size=size, variation=variation, sea=sea, seed=seed):
+                self.assertEqual(survey(size, variation, sea, seed, None),
+                                 {"joined": False, "walkable": False, "dragons apart": True,
+                                  "ships reach the top": True, "one sea": True,
+                                  "causeway is flat": True, "isle": True})
+        # The causeway. Small maps get more seeds: an earlier causeway ended
+        # against peaks in about one Duel world in a hundred, and on Tiny
+        # maps it landed on the Griffish Isles.
+        bridged = set(itertools.product(range(len(SIZES)), (0, 2), (0, 2), (21,)))
+        bridged.update(itertools.product((0, 1), range(3), (0, 2),
+                                         (203, 212, 9550471, 31, 32, 33, 34, 35)))
+        for size, variation, sea, seed in sorted(bridged):
+            for climate in (TEMPERATE, ROCKY):
+                if climate == ROCKY and seed not in (21, 203, 212):
+                    continue
+                with self.subTest(size=size, variation=variation, sea=sea, seed=seed,
+                                  causeway=True, climate=CLIMATE_NAMES[climate]):
+                    self.assertEqual(survey(size, variation, sea, seed, causeway, climate),
+                                     {"joined": True, "walkable": True, "dragons apart": True,
+                                      "ships reach the top": False, "one sea": False,
+                                      "causeway is flat": True, "isle": True})
+        for size, variation, sea, seed in sorted(itertools.product(
+                range(len(SIZES)), (0, 2), (0, 2), (21,))):
+            with self.subTest(size=size, variation=variation, sea=sea, before=True):
+                found = survey(size, variation, sea, seed, land_bridge)
+                self.assertEqual((found["joined"], found["dragons apart"],
+                                  found["ships reach the top"]), (True, True, False))
+        for size in (0, 3, 6):  # a Rocky climate does not close the strait
+            self.assertFalse(survey(size, 1, 1, 31, None, ROCKY)["joined"])
+            self.assertTrue(survey(size, 1, 1, 31, None, ROCKY)["ships reach the top"])
 
     def test_expanded_world_generation(self):
         cases = {(size, 0, 1, 1) for size in range(len(EXPANDED_SIZES))}
@@ -974,6 +1265,7 @@ class EquusChecks(unittest.TestCase):
         Temperate; here it is forced through, and must still match the
         verified baseline."""
         def forced(module):
+            land_bridge(module)
             calm = module._Climate
             class Forced(calm):
                 def __init__(self):
@@ -1210,11 +1502,17 @@ class EquusChecks(unittest.TestCase):
         report = subprocess.run([interpreter, str(ROOT / "tests" / "check_python24.py"), "--digests"],
                                 capture_output=True, text=True, check=True).stdout
         lines = [line.split() for line in report.splitlines() if line.startswith("digest ")]
-        self.assertEqual(len(lines), 2 * len(SIZES) + 2 * (len(CLIMATES) - 1))
-        for unused, atlas, size, wrap, variation, sea, climate, value in lines:
+        self.assertEqual(len(lines), 3 * len(SIZES) + 2 * (len(CLIMATES) - 1) + 1)
+        def causeway(module):
+            module.KNOWN_BRIDGE_IS_LAND = True
+        bridges = 0
+        for unused, atlas, size, wrap, variation, sea, climate, bridge, value in lines:
             options = (int(wrap), int(variation), int(atlas))
-            here = generate(INSTALLED, int(size), options, int(sea), climate=int(climate))
-            self.assertEqual(map_digest(here), value, (atlas, size, climate))
+            here = generate(INSTALLED, int(size), options, int(sea), climate=int(climate),
+                            tweak=(None, causeway)[int(bridge)])
+            self.assertEqual(map_digest(here), value, (atlas, size, climate, bridge))
+            bridges += int(bridge)
+        self.assertEqual(bridges, len(SIZES) + 1)  # the causeway at every size, and once under Rocky
 
 
 if __name__ == "__main__":

@@ -11,24 +11,58 @@ option in Custom Game chooses between them:
 
 | Choice | World | Grid |
 | --- | --- | --- |
-| Equestria "Known World" (default) | The regional atlas of Equestria, Griffonstone, the Dragon Coast and the Storm Realm from [`02add351`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83) | Portrait, as before |
+| Equestria "Known World" (default) | The regional atlas of Equestria, Griffonstone, the Dragon Coast and the Storm Realm from [`02add351`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83), now with the Trottingham strait that makes them three continents | Portrait, as before |
 | Equestria "Expanded" | The whole of "Equestria... and Beyond": Equestria with Amarezonia, Ponyland, the Fields of Forever, Antleria, Zebrica, Abyssinia, the Dragon Lands, Horsetrailia and Agarica | Landscape; Huge is the mod's own 120 x 84 |
 
 The option is the third row of the script's `CvMapOptions` table, so World Wrap
-and Atlas variation keep their positions and defaults. Under the Temperate
-climate the Known World is unchanged: its tables and generation code are the
-same source, and the checks below compare its maps with the verified original
-draw for draw. A game whose stored options have no third entry is a Known World
-game.
+and Atlas variation keep their positions and defaults. A game whose stored
+options have no third entry is a Known World game.
+
+## The Known World's three continents
+
+The original script ran land across the whole top of the map, so Equestria and
+Griffonstone were one continent. The official map has water there, and this
+revision follows it: a sea lies behind the Yaket Range, between Mount Everhoof
+and Bug Bear Territory, where the picture has its horizon, a rim of far peaks
+and then sky; and from it the **Trottingham strait** runs south past Bug Bear
+Territory, under the railway bridge, into the bay at Trottingham. Equestria, Griffonstone (with Bug
+Bear Territory) and the Dragon lands are now three continents, of about 79%,
+12% and 7% of the land. The Griffish Isles, in the strait's mouth, are an
+island as the picture draws them.
+
+![Host-harness rendering of the Known World at Huge](docs/equus_known_preview.png)
+
+* The strait is a table of **water** in the usual triples,
+  `_TROTTINGHAM_STRAIT`: `(distance south, west bank, east bank)`. It is as
+  narrow as the picture paints it: one plot at the bridge at low and normal
+  sea level. `_TROTTINGHAM_LANES` keeps a one-plot lane open through it at
+  every map size and sea level.
+* Its plots are turned to ocean after the original plot pass has run, and no
+  random number is drawn for it. Everywhere else the script lays out the same
+  plot types and terrain as the map that was verified in the game. (In the
+  game itself, rivers, forests, resources and starting positions will still
+  differ from before for a given seed: the game places those afterwards, and
+  it is now working with three continents.) The banks therefore do not wander
+  with Atlas variation; they do follow the sea level.
+* `KNOWN_BRIDGE_IS_LAND = True` lays a one-plot causeway of flat land along
+  the railway, as the Expanded world does by default: armies can cross, ships
+  cannot pass, and the sea north of it is closed to ships from the Celestial
+  Sea.
+* Emptying `_TROTTINGHAM_STRAIT` gives the map exactly as it was, land bridge
+  and all. The checks below compare that with the verified original draw for
+  draw.
+* With the Cylinder or Toroid wrap, the west and east edges of a regional map
+  meet, and Equestria touches Griffonstone again across that seam. Three
+  continents is a property of the default Flat wrap.
 
 ![Host-harness rendering of the Expanded world at Huge](docs/equus_expanded_preview.png)
 
 The picture above is drawn by the test harness, not by the game. In
 Civilization IV the playtester has generated and auto-played the Expanded
 world with its Celestial Sea widened (reported November 28, 2026); see the
-[runtime evidence](docs/Equus_Runtime_Verification.md). **This revision's
-additions (the Climate option in both worlds, the wider Inland Sea and the two
-rims) have not yet been seen in the game.**
+[runtime evidence](docs/Equus_Runtime_Verification.md). **The later additions (the Climate option in both worlds, the wider Inland Sea
+and the two rims, and the Known World's Trottingham strait) have not yet been
+seen in the game.**
 
 ## Climate and sea level
 

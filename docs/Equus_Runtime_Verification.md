@@ -1,7 +1,7 @@
 # Equus installation and runtime verification
 
 Prepared November 2, 2026; revised November 22, 2026 for the second atlas and
-November 28, 2026 for climates and more sea room.
+November 28, 2026 for climates, more sea room and the Known World's strait.
 This integration preserves the regional atlas in
 [`02add3513c2e5a96d3093fbd1a3b0f9696212f83`](https://github.com/SuperXANA/MLPCiv/commit/02add3513c2e5a96d3093fbd1a3b0f9696212f83)
 as Equestria "Known World", and adds Equestria "Expanded", traced from the
@@ -100,12 +100,15 @@ will equal the final playable map after all game callbacks run.
 
 ## November 8, 2026 gameplay evidence
 
-This evidence was recorded with the Known World only revision of the script.
-In the two-world revisions the Known World produces the same plot, terrain and
-feature arrays and the same random-number trace as that script in the offline
-harnesses ([source validation](Equus_Source_Validation.md)), but the Known
-World of those revisions has not itself been generated in Civilization IV:
-every row below is NOT RUN for it. The Expanded world's evidence follows the
+This evidence was recorded with the Known World only revision of the script,
+whose map joined Equestria and Griffonstone by land across the north. The
+current Known World has the Trottingham strait there instead. With that
+strait's table emptied it produces the same plot, terrain and feature arrays
+and the same random-number trace as that script in the offline harnesses
+([source validation](Equus_Source_Validation.md)), and with the strait it
+differs only in the strait's plots. But no Known World later than that
+revision has been generated in Civilization IV: every row below is NOT RUN for
+it. The Expanded world's evidence follows the
 table.
 
 | Runtime check | Status | Evidence and scope |
@@ -170,7 +173,23 @@ Civilization IV yet.** When it is:
   Tropical should spread the jungles and thin the snow; Rocky should thicken
   the ranges and leave the passes open. Coasts should not depend on the
   climate.
-* The Known World under Temperate should be the map of November 8.
+* The Known World under Temperate should be the map of November 8 with the
+  Trottingham strait cut through it (see the next list). For a given seed its
+  rivers, forests, resources and starting positions will not be those of an
+  older game: the game places them after the script, on three continents now.
+
+For the Known World's strait, also not yet generated in the game:
+
+* Compare the minimap with `docs/equus_known_preview.png`. Expect a sea
+  behind the Yaket Range in the middle of the top edge, and a narrow strait
+  from it down to the bay at Trottingham, one plot wide at its narrowest.
+* Equestria and Griffonstone should be separate continents: no land unit can
+  walk between them, and a ship can sail from the Celestial Sea to the top
+  edge. The Griffish Isles should be an island in the strait's mouth.
+* Look at where the game starts civilizations: Griffonstone is now a
+  continent of about an eighth of the land, reachable only by ship.
+* With `KNOWN_BRIDGE_IS_LAND = True`, a one-plot causeway should cross the
+  strait at the railway bridge, and the water north of it should be cut off.
 
 ## Runtime procedure for automated verification
 
@@ -199,8 +218,9 @@ Keep successful and failed runs with their settings and screenshots.
    central Equestria and the Ponyville valley between the Unicorn and Foal
    ranges; the Crystal Mountain passes; western desert/Badlands belts;
    Everfree and wetter southern/eastern woods; eastern Griffonstone and Dragon
-   Coast; their separating strait; southern Storm Realm; and offshore Mount
-   Aris and small islands. Check that the atlas is not vertically reversed,
+   Coast; their separating strait; the sea behind the Yaket Range and the
+   Trottingham strait that parts Equestria from Griffonstone; southern Storm
+   Realm; and offshore Mount Aris and small islands. Check that the atlas is not vertically reversed,
    that the southern sea ice and cooler Basalt Beach region are plausible,
    and that major land/water divisions survive the chosen resolution. Tiny
    details can be abstracted on small maps. Inspect starting positions and
@@ -296,7 +316,7 @@ Use this evidence record for each run:
 | Item | Record |
 | --- | --- |
 | Commit / installed script hash / DLL identity | |
-| World (Known World / Expanded) and, for Expanded, the bridge setting | |
+| World (Known World / Expanded) and its bridge setting | |
 | Size / actual width × height / options / sea level / climate / seed if available | |
 | Equus listed and selected | PASS / FAIL / NOT RUN |
 | Generation reached playable turn | PASS / FAIL / NOT RUN |

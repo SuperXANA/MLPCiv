@@ -145,12 +145,17 @@ class Environment:
         return module
 
 
-def run(path, size, diagnostics, atlas=None, climate=0):
+def run(path, size, diagnostics, atlas=None, climate=0, strait=True, bridge=False):
     # atlas None: a game stored before the third option existed (two options).
+    # strait False: empty the Known World's Trottingham strait table, which
+    # gives the land bridge of the pinned baseline.
+    # bridge True: lay the Known World's causeway across the strait.
     options = (size % 3, size % 3)
     if atlas is not None: options = options + (atlas,)
     environment = Environment(size, options, size % 3, climate)
     module = environment.load(path, diagnostics)
+    if not strait: module._TROTTINGHAM_STRAIT = ()
+    if bridge: module.KNOWN_BRIDGE_IS_LAND = True
     sizes = WORLD_SIZES[atlas or KNOWN]
     output, errors = StringIO(), StringIO()
     oldout, olderr = sys.stdout, sys.stderr
@@ -200,15 +205,44 @@ def main():
     digests = '--digests' in sys.argv[1:]
     for size in xrange(len(WORLD_SIZES[KNOWN])):
         expected, unused = run(baseline, size, False)
-        legacy, unused = run(installed, size, False)
+        legacy, unused = run(installed, size, False, strait=False)
+        bridged, unused = run(installed, size, False, KNOWN, strait=False)
+        logged, unused = run(installed, size, True, KNOWN, strait=False)
+        assert expected == legacy == bridged == logged, 'Output or RNG trace changed'
+        # The default map: the same random draws, and plots that differ from the
+        # baseline only by becoming ocean (the Trottingham strait).
         disabled, quiet = run(installed, size, False, KNOWN)
         enabled, logs = run(installed, size, True, KNOWN)
-        assert expected == legacy == disabled == enabled, 'Output or RNG trace changed'
+        assert disabled == enabled, 'Diagnostics changed the Known World'
         assert quiet == '', 'Disabled logger wrote output'
         check_logs(logs)
+        assert disabled[3] == expected[3], 'The strait changed the RNG trace'
+        opened = 0
+        for index in xrange(len(expected[0])):
+            if disabled[0][index] != expected[0][index]:
+                opened += 1
+                assert disabled[0][index] == PlotTypes.PLOT_OCEAN and disabled[2][index] == -1
+            elif disabled[0][index] != PlotTypes.PLOT_OCEAN:
+                # land that the strait left alone keeps its terrain and feature
+                assert disabled[1][index] == expected[1][index], 'Terrain changed'
+                assert disabled[2][index] == expected[2][index], 'Feature changed'
+        assert opened > 3, 'No strait'
+        # The causeway: the same draws again, and flat land across the strait.
+        crossed, quiet = run(installed, size, False, KNOWN, bridge=True)
+        logged, logs = run(installed, size, True, KNOWN, bridge=True)
+        assert crossed == logged, 'Diagnostics changed the causeway'
+        check_logs(logs)
+        assert crossed[3] == expected[3], 'The causeway changed the RNG trace'
+        laid = [index for index in xrange(len(expected[0]))
+                if crossed[0][index] != disabled[0][index]]
+        assert laid, 'No causeway'
+        for index in laid:
+            assert crossed[0][index] == PlotTypes.PLOT_LAND
         if digests:
-            print('digest %d %d %d %d %d 0 %s' % (KNOWN, size, size % 3, size % 3, size % 3,
-                                                 map_digest(disabled)))
+            print('digest %d %d %d %d %d 0 0 %s' % (KNOWN, size, size % 3, size % 3, size % 3,
+                                                   map_digest(disabled)))
+            print('digest %d %d %d %d %d 0 1 %s' % (KNOWN, size, size % 3, size % 3, size % 3,
+                                                   map_digest(crossed)))
     for size in xrange(len(WORLD_SIZES[EXPANDED])):
         disabled, quiet = run(installed, size, False, EXPANDED)
         enabled, logs = run(installed, size, True, EXPANDED)
@@ -223,8 +257,8 @@ def main():
         for upper, label, result in calls:
             assert 'expanded' in label or label.startswith('stub '), label
         if digests:
-            print('digest %d %d %d %d %d 0 %s' % (EXPANDED, size, size % 3, size % 3, size % 3,
-                                                 map_digest(disabled)))
+            print('digest %d %d %d %d %d 0 0 %s' % (EXPANDED, size, size % 3, size % 3, size % 3,
+                                                   map_digest(disabled)))
     # Every other climate, once in each world, on a different size each time.
     for climate in xrange(1, len(CLIMATES)):
         for atlas in (KNOWN, EXPANDED):
@@ -237,12 +271,19 @@ def main():
             check_logs(logs)
             assert disabled[1] != temperate[1], 'A climate left the terrain as it was'
             if digests:
-                print('digest %d %d %d %d %d %d %s' % (atlas, size, size % 3, size % 3, size % 3,
-                                                       climate, map_digest(disabled)))
+                print('digest %d %d %d %d %d %d 0 %s' % (atlas, size, size % 3, size % 3,
+                                                         size % 3, climate, map_digest(disabled)))
+    # The causeway under the Rocky climate, whose relief pass must leave it flat.
+    rocky, unused = run(installed, 2, False, KNOWN, 3, bridge=True)
+    plain, unused = run(installed, 2, False, KNOWN, 3)
+    assert rocky[0] != plain[0], 'No causeway under Rocky'
+    if digests:
+        print('digest %d 2 2 2 2 3 1 %s' % (KNOWN, map_digest(rocky)))
     if not digests:
-        print('CPython %s: Known World 7 sizes x baseline/legacy/off/on, Expanded 7 sizes '
-              'x off/on, 5 other climates x 2 worlds x temperate/off/on, 72 generation '
-              'passes OK (Civ stubs).' % sys.version.split()[0])
+        print('CPython %s: Known World 7 sizes x baseline, three with the strait table emptied, '
+              'strait off/on, causeway off/on; Expanded 7 sizes x off/on; 5 other climates x '
+              '2 worlds x temperate/off/on; the causeway under Rocky: 102 generation passes '
+              'OK (Civ stubs).' % sys.version.split()[0])
 
 
 if __name__ == '__main__':

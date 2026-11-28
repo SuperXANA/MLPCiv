@@ -447,21 +447,134 @@ def _plot_types(width, height, variation, sea_shift):
     return plots
 
 
+# XANA 2026-11-28 BEGIN: the Trottingham strait (Known World).
+# The shore tables above run land right across the top of the map, which made
+# Equestria and Griffonstone a single continent. The official map has open
+# water there: a strait runs north from the bay at Trottingham, under the
+# railway bridge and past Bug Bear Territory, to a sea that lies along the
+# horizon behind the Yaket Range. North of that sea the picture has only a
+# thin band of far-off snow peaks and icebergs, and then sky; here the sea runs
+# on through both to the top edge of the map, so that the strait has somewhere
+# to flow. With it the Known World has its three continents: Equestria,
+# Griffonstone with Bug Bear Territory, and the Dragon lands.
+# Unlike the shore tables, this table describes WATER. Each triple is
+# (distance south, west bank, east bank), measured on the picture as always.
+# Its plots are turned into ocean after _plot_types() has run. That function,
+# its tables and every random number it draws are therefore untouched, and
+# outside the strait the script still lays out, plot for plot, the map that
+# was verified in the game. The price is that these banks do not wander with
+# the "Atlas variation" noise, which is private to _plot_types(). They do
+# follow the sea level.
+# Empty this table for the map as it was before, land bridge and all.
+_TROTTINGHAM_STRAIT = (
+    # The sea beyond the Yaket Range. The picture paints none of it north of
+    # its horizon, so these three rows only give it the outline of a bay,
+    # narrowing toward the top edge, instead of a box with ruled sides.
+    (-.10, .600, .752), (.000, .600, .752), (.030, .560, .772),
+    (.055, .543, .781),
+    (.070, .540, .780),  # the picture's horizon: Mount Everhoof to Bug Bear Territory
+    (.080, .554, .771),  # the sea's southern shore, the crest of the Yaket Range
+    (.085, .710, .751),  # the mouth of the strait
+    (.090, .712, .748), (.100, .735, .772), (.110, .762, .800),
+    (.120, .762, .812), (.130, .778, .830), (.140, .822, .842),
+    (.150, .824, .848), (.160, .827, .847), (.170, .829, .844),
+    (.176, .830, .840),  # under the railway bridge, its narrowest point
+    (.185, .827, .841),
+    (.190, .818, .847),  # the head of the bay at Trottingham
+    (.200, .807, .856), (.205, .800, .855))
+# Sea lanes: (x, v) paths that are water one plot wide at every map size and
+# sea level, stepping only north-south or east-west so that nothing can walk
+# across them diagonally. The strait is a single plot wide at the bridge on a
+# Huge map and narrower than a plot on smaller ones; the first lane is what
+# keeps it open. It runs on south, east of the Griffish Isles, until it is in
+# water that no coast noise or low sea can close: without that the isle can
+# join the two shores again.
+_TROTTINGHAM_LANES = (
+    ((.745,.000), (.745,.076), (.730,.088), (.753,.100), (.779,.110),
+     (.788,.120), (.803,.130), (.832,.141), (.836,.152), (.837,.176),
+     (.840,.200), (.842,.235), (.835,.255), (.800,.290)),
+    # Round the west of the Griffish Isles, which the picture draws as an
+    # island. The painted channel there is too close to the isle to survive
+    # on a small grid, so this lane runs a little west of it, through about
+    # four plots of the painted Trottingham headland on a Huge map. Delete
+    # the next two lines to leave the isle leaning on Equestria's shore, as
+    # it used to; the continents stay apart either way.
+    ((.837,.190), (.800,.196), (.776,.206), (.772,.245), (.780,.275),
+     (.800,.290)),
+)
+# Civ has no bridges, so choose: False (the default) leaves the strait open
+# and the continents separate, so that Griffonstone is reached by ship. True
+# lays a causeway of flat land one plot wide along the railway, which armies
+# can cross and ships cannot pass. The sea north of it (about 25 plots on a
+# Duel map, some 360 on XXL) is then closed to ships from the Celestial Sea.
+# The causeway starts in the massif at the end of the Crystal Mountains, where
+# the painted railway comes out of it, so that no peak can close the western
+# bridgehead. It crosses the water a little north of the painted bridge
+# (v .168, not .176): on a Tiny map the painted line would land on the
+# Griffish Isles.
+KNOWN_BRIDGE_IS_LAND = False
+_TROTTINGHAM_BRIDGE = ((.740,.168), (.860,.168))
+_GRIFFISH_ISLES = _ISLES[2]
+
+
+def _known_strait(width, height, sea_shift):
+    # The plots that the tables above decide, as two sets of (x, y):
+    # (plots that become ocean, plots of the causeway). No random number is
+    # drawn, so the same sets come out for every seed.
+    water, causeway = set(), set()
+    if not _TROTTINGHAM_STRAIT:
+        return water, causeway
+    # The Griffish Isles stand in the strait's mouth. Two safeguards for
+    # anyone who redraws the tables (as shipped, neither is ever needed): the
+    # banks keep off the isle's oval, with the radii that _plot_types() gives
+    # it, and no table or lane sinks the isle's guaranteed core plot.
+    cx, cv, rx, rv = _GRIFFISH_ISLES
+    rx = max(rx - sea_shift * .30, .75 / width)
+    rv = max(rv - sea_shift * .30, .75 / height)
+    for y in range(height):
+        south = 1.0 - (y + 0.5) / height
+        for x in range(width):
+            east = (x + 0.5) / width
+            # _inside_shore() moves both shores inward by a positive inset. A
+            # high sea (a positive shift) must move these banks OUTWARD, so
+            # that the strait widens as every other sea does: hence the minus.
+            if (_inside_shore(_TROTTINGHAM_STRAIT, east, south, -sea_shift) and
+                    not _in_oval(east, south, cx, cv, rx, rv)):
+                water.add((x, y))
+    for path in _TROTTINGHAM_LANES:
+        _trace(water, path, width, height, True, ())  # () = no sea room here
+    water.discard((int(cx * width), int((1.0 - cv) * height)))
+    if KNOWN_BRIDGE_IS_LAND:
+        # Traced like a lane, without a diagonal step, so that the waters
+        # north and south of it never touch even at a corner.
+        _trace(causeway, _TROTTINGHAM_BRIDGE, width, height, True, ())
+        water.difference_update(causeway)
+    return water, causeway
+# XANA 2026-11-28 END: the Trottingham strait (Known World).
+
+
 @_diagnostic_stage
 def generatePlotTypes():
     world = CyMap()
     change = gc.getSeaLevelInfo(world.getSeaLevel()).getSeaLevelChange()
     sea_shift = max(-0.008, min(0.008, change * 0.001))
+    width, height = world.getGridWidth(), world.getGridHeight()
     if _expanded():
-        return _expanded_plot_types(world.getGridWidth(), world.getGridHeight(),
-                                    _variation(), sea_shift)
-    plots = _plot_types(world.getGridWidth(), world.getGridHeight(),
-                        _variation(), sea_shift)
+        return _expanded_plot_types(width, height, _variation(), sea_shift)
+    plots = _plot_types(width, height, _variation(), sea_shift)
+    if not plots or len(plots) != width * height:
+        return plots  # for the diagnostics to report; nothing below could use it
+    # The strait first, so that a Rocky climate judges the finished coast.
+    strait, causeway = _known_strait(width, height, sea_shift)
+    for x, y in strait:
+        plots[y * width + x] = PlotTypes.PLOT_OCEAN
+    for x, y in causeway:
+        plots[y * width + x] = PlotTypes.PLOT_LAND
     climate = _Climate()
     if climate.hills or climate.peaks:
-        _uplift(plots, world.getGridWidth(), world.getGridHeight(), climate,
-                _known_level_ground(world.getGridWidth(), world.getGridHeight()),
-                "Equus rocky uplift")
+        level = _known_level_ground(width, height)
+        level.update(causeway)  # a causeway stays flat, like a pass
+        _uplift(plots, width, height, climate, level, "Equus rocky uplift")
     return plots
 
 
